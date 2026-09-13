@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-09-13T10:18:28.614253+00:00",
+  "timestamp_utc": "2026-09-13T10:59:04.049635+00:00",
   "ground_truth_source": "data/dev/dev_human_labels_50.json",
   "total_eval_examples": 50,
   "random_seed": 2026,
@@ -24,19 +24,19 @@
     "replies_generated_count": 50
   },
   "task_3_escalation_decision": {
-    "accuracy": 0.98,
-    "accuracy_pct": 98.0,
+    "accuracy": 0.94,
+    "accuracy_pct": 94.0,
     "confusion_matrix": {
-      "tp": 11,
+      "tp": 9,
       "fp": 1,
       "tn": 38,
-      "fn": 0
+      "fn": 2
     },
-    "precision": 0.9167,
-    "recall": 1.0,
-    "f1_score": 0.9565,
-    "escalation_rate": 0.24,
-    "false_negative_count": 0,
+    "precision": 0.9,
+    "recall": 0.8182,
+    "f1_score": 0.8572,
+    "escalation_rate": 0.2,
+    "false_negative_count": 2,
     "policy_description": "Deterministic High-Risk Rule-Based Escalation Engine"
   },
   "per_example_evaluation": [
@@ -143,7 +143,7 @@
       "agent_predictions": {
         "primary_intent": "Promotions_GiftCards_And_Pricing",
         "confidence": 0.108,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Promotions GiftCards And Pricing. Based on our historical resolution procedure: [USER] Your twitter handle is eligible for Amazon contests. Not to worry. ^HR",
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Promotions GiftCards And Pricing. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
         "escalate": false,
         "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.108 < 0.15)."
       },
@@ -173,7 +173,7 @@
       "agent_predictions": {
         "primary_intent": "Damaged_Defective_Or_Wrong_Item",
         "confidence": 0.1128,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Please get in touch with us here:  ^CD",
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Damaged Defective Or Wrong Item. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
         "escalate": false,
         "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1128 < 0.15)."
       },
@@ -235,7 +235,7 @@
         "confidence": 0.1477,
         "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm so sorry for the wait! Do the orders have the same carrier in common? If so, who is it? ^MH\n\nCustomer:  They do not have the same Carrier. It’s happened occasionally throughout the years but it’s happening all the time now.\n\nAmazonHelp: [USER] I'm sorry for the troubles! Have you discussed these issues with the carriers directly? ^TK\n\nCustomer:  Yes. They said they’ll deliver when they can. I live about an hour north of your biggest hub and can’t get packages delivered timely!\n\nAmazonHelp: [USER] We'd like to look into these issues with you via phone, here: Please keep us posted! ^LB\n\nCustomer:  I want you to see the tracking information. This is ridiculous!\n\nAmazonHelp: [USER] I'm sorry for this poor experience! Please reach us directly by choosing \"phone\" here: ^HS\n\nCustomer:  Still no package. Reached out to lasership and they said this morning. You should overnight my order so I have it tomorrow.\n\nCustomer:  Going out of town on Sunday and needed items by then. Very upset with they way you are delivering now. Prime no longer worth the cost.\n\nAmazonHelp: [USER] What options did you receive when you contacted us using the link previously provided? ^DA",
         "escalate": true,
-        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+        "escalation_reason": "Mandatory Risk Rule: Severe operational loss or repeated service breakdown."
       },
       "retrieval_evidence": {
         "retrieved_historical_id": "EXT_1447950",
@@ -323,7 +323,7 @@
       "agent_predictions": {
         "primary_intent": "Other_Unclassified_Inquiry",
         "confidence": 0.1263,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] Hey Trish. Have you tried choosing \" I'm not interested in this author \" ? If so, does the add still appear? ^TP\n\nCustomer:  I will try that. It just makes me sad as Terry Pratchett is one of my favourite authors, and I know there won't be any new releases 😞",
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Other Unclassified Inquiry. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
         "escalate": false,
         "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1263 < 0.15)."
       },
@@ -625,7 +625,7 @@
         "confidence": 0.1059,
         "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm very sorry for this wait for your order. Were the items shipped and sold by Amazon or a Third-Party seller: ^DO\n\nAmazonHelp: [USER] I'm sorry for all the trouble this has caused. We don't expect this type of behavior from our drivers. I would like one of our Social Media specialists to look into this with you. Please provide the information that is requested here: ^ZW\n\nCustomer: [USER] No, but I wonder how sellers on your site can meet your shipping time estimates, but you, don't ever seem to.\n\nAmazonHelp: [USER] I'm sorry if any of your items have arrived later than expected. Just to confirm, are we missing the delivery dates listed in your order confirmation e-mails? ^RA\n\nCustomer: [USER] [USER] At least yours got put in your door, i just heard a loud thud outside &amp; look out &amp; theres my package! They like to throw mine at the porch&amp; run off back to the truck! Good thing I sit in front of window &amp;heard the noise so i could go &amp; get it off the steps, not even porch!\n\nAmazonHelp: [USER] I'm sorry your order was delivered like this! Was everything inside okay? If anything was damaged, return/replacement options can be found here: ^MB\n\nCustomer: [USER] I’d like to change my order; is it too late?\n\nAmazonHelp: [USER] Hi there, Thomas! That depends greatly on when the order was placed! Things can move pretty quickly here on the internet. Depending on what you need to do, follow this link and see what changes you can make! Let us know if it works! ^JD\n\nCustomer: [USER] I wonder what happened to my package.\n\nAmazonHelp: [USER] Hi there, Philipp! Did your order arrive damaged? If so, please take a look here for return or replacement options: Let us know if you need further assistancce! We're here to help. ^SM\n\nCustomer:  Hey there, thank you for your prompt reply. I have not tested it yet. but i think the packaging was not enough. it all fell apart.\n\nCustomer: [USER] Too bad you can fulfill my order when you said it would be here!\n\nAmazonHelp: [USER] What was the delivery date provided in your order confirmation email? That information can be found here: ^QJ\n\nCustomer:  You are so helpful!!!!! What is your excuse that is not list in your excuses in the link you sent me?\n\nCustomer:  I have no idea why I even order from amazon anymore!\n\nCustomer:  Won’t be renewing prime next year, a waste of money!!!!!\n\nCustomer:  Did you look at the picture I tweeted you?\n\nAmazonHelp: [USER] Philipp, when you do, please keep us posted. In the meantime, please providing your feedback regarding the packaging here: we'd love to hear from you! ^SY\n\nAmazonHelp: [USER] Hi Bradley. Thank you very much for providing the screenshot. The confirmation e-mail will have the most up-to-update expected delivery date. When you have a moment, please let us know what that date reflects using the link provided by ^QJ so we may assist. ^KL\n\nCustomer:  From a third-party seller in China\n\nAmazonHelp: [USER] Have you been in touch with the seller about this order: If they're unable to assist or do not respond within two business days, please file an A-to-z Guarantee claim so we can assist: ^VS\n\nCustomer:  I haven’t yet, but I will soon. Thanks 😊\n\nCustomer:  Friday, why does it say Wednesday then when I place the order it says Friday?\n\nCustomer:  Why can’t you fix that, it even gives you a count down clock, order by this time get by Wednesday.\n\nCustomer:  Is that bait and switch you are trying to pull off?\n\nCustomer:  I finally got an order today that was meant for last wednesday, ordered a week before that. I mentioned it to a friend last week, who said,\"yeah. They have tight rules for their vendors, but orders directly from Amazon? often late.\" You guys should work on that.\n\nCustomer: [USER] Based on my late packages you’re not actually shipping things....\n\nAmazonHelp: [USER] Great question, Bradley! All delivery times are estimations until you check out, as that is when you select the address for the order to be delivered. The website uses alternate information to provide those estimates, but checkout is the official date. ^JD\n\nAmazonHelp: [USER] Sorry your parcels aren't arriving as expected. Has the tracking updated to reflect this? ^RR\n\nCustomer:  That is ridiculous, why do you do that?\n\nCustomer:  I guess you shouldn’t put a receive by date if you can’t honestly honor that date! It is deceiving to customer!!!!!!! Get that deceiving!!!!!\n\nCustomer:  The system knows who I am you can’t tell me it doesn’t know where I live and adjust the receive date accordingly!\n\nCustomer:  Supposed to have arrived today has not even shipped. “It should be there in a few days” is not acceptable.\n\nAmazonHelp: [USER] That's odd! Have we missed the estimated delivery date in the confirmation e-mail? ^HM\n\nCustomer:  Yes, email and original order said today by 8 pm.\n\nCustomer: \n\nCustomer: \n\nAmazonHelp: [USER] Thank you for included the images. Have you called us so we can reach out to USPS on your behalf? If not, please use this page to get started: ^BH\n\nCustomer: [USER]  Why would you do that? I️ don’t know anyone whose ever actually received the item that they ordered from China.\n\nCustomer: [USER]  I'm looking for work but from what I've heard about the treatment of your workers,at 56yrs old there would be a 50/50 chance of me making it out after my shift...Slave drivers who treat people like robots...\n\nCustomer:  Everything inside was ok, thank you for asking. Only problem is, its every single time a package is delivered its thrown up to my porch and i hear it hit the porch thats how I know its been delivered. Not once has anyone ever knocked on the door &amp; actually handed me a box.\n\nAmazonHelp: [USER] Oh my goodness! Do you know who the carrier is that delivers? Is it the same carrier every time? You can check for the name of the carrier on your orders, here: If it's the same carrier every time, let us know! ^SP\n\nCustomer: [USER] Maybe that's why two packages from before CM got lost prior to delivery - they were on the endless loop. 2 in 1 week, 12 or so in 6 months now - that's a rather poor record for on-time delivery, with CSRs who don't care...\n\nAmazonHelp: [USER] I'm so sorry for the continued issues! Do you notice more errors with one carrier in particular? ^JO\n\nCustomer:  No; problems are not with carriers but in getting packages TO the carriers in all cases. Amz states shipped, but carrier has not received from Amz till days later in some cases.\n\nCustomer: [USER] Ever wondered what happens when you DON’T get your #cybermonday pkg on time? THEN the .[USER] csr through chat cancels your prime out of spite?\n\nAmazonHelp: [USER] I'm so sorry for the poor experience! Did you have a recent order that's missed the estimated delivery date provided at checkout? This is the date we aim to meet. ^JO\n\nCustomer: [USER] Maybe my orders are spinning around in there searching for the exit. Both of my orders, ordered before Cyber Monday, this week have been delayed. What good is free “2 day shipping” if the app tells you your package is coming all day only to send you a delay alert after 8PM?\n\nAmazonHelp: [USER] Oh no! Without giving account details, please tell us more about these delayed orders! Who was the carrier of these? Please check here: ^BE\n\nCustomer:  Order 1 has 4 items sold by: Outman, LLC, MYLIFEUNIT, and LLC. Order 2 has 2 items sold by: LLC.\n\nAmazonHelp: [USER] I'm sorry for the delay in your orders! Have we missed the delivery date shown here: Have we been able to provide you with a new delivery date? Keep us posted! We want to make sure your orders are received! ^BN\n\nCustomer:  The new dates just appeared. 1 was supposed to arrive yesterday. The other was supposed to arrive today. The delivery dates updated after saying all day today that the packages would be here by 8pm today. It’s aggravating, when I ordered these items the PRIME icon was there.\n\nAmazonHelp: [USER] Our intent is to deliver orders on the original date given, I'm sorry this wasn't the case. Please let us know if you don't receive them by 8 PM on the new delivery date. ^LI\n\nCustomer:  Label created 11/27 5:30 pm but not given to UPS till 3:05 pm 11/28 when it was supposed to be delivered by 11/28...\n\nCustomer: [USER] Orders late...again....\n\nAmazonHelp: [USER] I'm sorry for the wait! Just to confirm, did we miss the delivery date in the confirmation e-mail? You can check here: ^BH\n\nCustomer:  Unless it gets here by 8 tonight. But it's not even out for delivery.\n\nCustomer:  I stopped seeking help over the phone after twice the response was, that's not our problem.\n\nCustomer: \n\nAmazonHelp: [USER] I certainly understand your concern! Since the order is on the way, it's still possible you can receive your order today by 8pm. If you don't receive it in this time frame, please let us know so we can investigate this further. ^HC\n\nCustomer:  Thanks.\n\nCustomer: \n\nCustomer:  His two most wanted and they are late, last time this happened my orders never arrived....\n\nAmazonHelp: [USER] I'm so sorry your order didn't arrive today! We want to make sure this package reaches you. Please keep us updated on its arrivals. ^DG\n\nCustomer: [USER]  Yep, pretty regular tactic specially on one day delivery items, pay extra still get them on 2 days\n\nCustomer:  [USER] Hahahahahahahahahahahahahahaha!!!! Big time bait and switch!!!\n\nCustomer: [USER]  They promise me today to have a refund of the one day shipping cost, that’s was 6hrs ago and I was told it would take 2hrs...nothing on my account for a refund. And I took the offer to get it as a gift card...it was faster 🙄🙄\n\nAmazonHelp: [USER] I'm sorry to hear you haven't received your refund yet! Gift card refunds are usually available within 2 hours, but can take up to 48 hours. Have you received any e-mails about your refund yet? ^JS\n\nCustomer:  Just like the one day shipping right??? It can take up to 2 days",
         "escalate": true,
-        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+        "escalation_reason": "Mandatory Risk Rule: Severe operational loss or repeated service breakdown."
       },
       "retrieval_evidence": {
         "retrieved_historical_id": "EXT_461241",
@@ -954,8 +954,8 @@
         "primary_intent": "Damaged_Defective_Or_Wrong_Item",
         "confidence": 0.1177,
         "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Brady???  If you say so! I would pick someone else but they did not ask me. :)  ^TL",
-        "escalate": true,
-        "escalation_reason": "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1177 < 0.15)."
       },
       "retrieval_evidence": {
         "retrieved_historical_id": "2970594_AmazonHelp",
@@ -1015,7 +1015,7 @@
         "confidence": 0.1397,
         "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] Hey Paul, don't worry we do deliver up to 8pm! Does your tracking say out for delivery? You can find that information here: ^LS\n\nCustomer:  That's great! But I wish there was a way to specify an address as a business address that can't receive deliveries past a certain time.\n\nAmazonHelp: [USER] We'd be happy to look into options with you here: via phone or chat, Paul! ^MT\n\nCustomer:  I've contacted  twice via chat. Both times they promised delivery before the office closed but still no package. Now going on 3rd day after guaranteed delivery date.\n\nAmazonHelp: [USER] So sorry about that! Can you provide us with the carrier? You can find that here: ^LS\n\nCustomer:  The carrier is AMZCA\n\nAmazonHelp: [USER] We'd like to have a member of our team look into this for you. Please provide your order and contact info here: ^AG\n\nCustomer:  Thanks for your help but I chatted with customer service and had the order cancelled and refunded. Seems like it may have been lossed by the carrier.\n\nAmazonHelp: [USER] I am sorry to hear this order got lost but I am happy to hear you have been issued with a refund. You have a lovely week ahead Paul.^GA",
         "escalate": true,
-        "escalation_reason": "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery."
+        "escalation_reason": "Mandatory Risk Rule: Package marked delivered but not received / suspected theft."
       },
       "retrieval_evidence": {
         "retrieved_historical_id": "EXT_2957038",
@@ -1403,9 +1403,9 @@
       "agent_predictions": {
         "primary_intent": "Other_Unclassified_Inquiry",
         "confidence": 0.1396,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] You can find and apply for available jobs here: ^CO\n\nCustomer:  Thank you",
-        "escalate": true,
-        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Other Unclassified Inquiry. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1396 < 0.15)."
       },
       "retrieval_evidence": {
         "retrieved_historical_id": "EXT_2967720",
@@ -1433,7 +1433,7 @@
       "agent_predictions": {
         "primary_intent": "Other_Unclassified_Inquiry",
         "confidence": 0.1358,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] You can find and apply for available jobs here: ^CO\n\nCustomer:  Thank you",
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Other Unclassified Inquiry. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
         "escalate": false,
         "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1358 < 0.15)."
       },
@@ -1493,7 +1493,7 @@
       "agent_predictions": {
         "primary_intent": "Delivery_Tracking_And_Delays",
         "confidence": 0.1162,
-        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm very sorry for the inconvenience! Did we give a reason for the delay? Let us know, we'd be happy to help! ^SK\n\nCustomer:  I️ don’t believe a reason was provided; I️ haven’t been able to find one. All I️ can see is that the delivery date has changed\n\nAmazonHelp: [USER] Thanks for letting us know! Please keep us posted if you haven't received your order by the new delivery date specified. ^KJ",
+        "draft_reply": "Hello! Thank you for contacting AmazonHelp regarding Delivery Tracking And Delays. Please send us a Direct Message with your order details so our support team can investigate and assist you.",
         "escalate": false,
         "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1162 < 0.15)."
       },

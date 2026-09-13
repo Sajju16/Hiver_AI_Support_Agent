@@ -68,7 +68,7 @@ flowchart TD
 ---
 
 ## 6. Classification Engine
-- **Features**: Combined Word TF-IDF ($1, 2$ n-grams) + Character TF-IDF ($3, 5$ n-grams).
+- **Features**: Word-level TF-IDF ($1, 2$ n-grams).
 - **Model**: Multinomial Logistic Regression (`C=1.0`, `solver='lbfgs'`, `class_weight='balanced'`).
 - **Training**: Trained on 237 genuine human-labelled reference examples (`187` external + `50` DEV).
 - **Execution**: Evaluated on 150-example AI-assisted provisional benchmark.
@@ -76,17 +76,17 @@ flowchart TD
 ---
 
 ## 7. Retrieval & Reply Synthesis (RAG)
-- **Retriever**: TF-IDF Cosine Similarity index over 352 historical resolution procedures.
-- **Synthesis Engine**: Template-bounded resolution synthesizer that injects verified resolution steps without introducing ungrounded hallucinations.
+- **Retriever**: TF-IDF Cosine Similarity index over 347 historical resolution procedures with a minimum similarity confidence guardrail threshold of `0.15`.
+- **Synthesis Engine**: Template-bounded resolution synthesizer that injects verified resolution steps for queries above threshold, while producing safe bounded fallbacks for low-similarity or ungrounded matches.
 
 ---
 
 ## 8. Deterministic Escalation Policy Engine
-Operating independently from classifier probability, the **Deterministic Escalation Policy Engine** enforces strict risk rules:
-1. **Marked Delivered Not Received / Theft**: Instant escalation for missing delivered items.
-2. **Fraud & Scams**: Unauthorized billing charges, gift card scams, impersonation reports.
+Operating independently from predicted intent classification, the **Deterministic Escalation Policy Engine** evaluates customer text signals directly to enforce strict risk management rules:
+1. **Marked Delivered Not Received / Theft**: Instant escalation for text matching delivered status combined with missing parcel signals.
+2. **Fraud, Scams & Unrecognized Charges**: Unauthorized billing charges, gift card scams, impersonation reports.
 3. **Account Security**: Hacked accounts, compromised credentials, locked accounts.
-4. **Legal & Court Threats**: Lawyer mentions, lawsuits, regulatory reports.
+4. **Legal, Court & Regulatory Threats**: Lawyer mentions, lawsuits, regulatory agency reports.
 
 ---
 
@@ -104,8 +104,25 @@ From the sealed 200 candidate pool (`golden_candidates_200.json`), a stratified 
 
 ---
 
-## 10. Evaluation Methodology & Integrity Disclaimer
-> **The 150-example evaluation set was constructed using deterministic sampling and AI-assisted annotation. Due to time constraints, the labels were not independently hand-verified. Therefore these labels are treated as provisional evaluation evidence rather than human ground truth.**
+## 10. Evaluation Methodology, Baselines & Integrity Disclaimers
+
+> **Evaluation Set Disclaimer**: The 150-example evaluation set was constructed using deterministic sampling and AI-assisted annotation. Due to time constraints, the labels were not independently hand-verified. Therefore these labels are treated as provisional evaluation evidence rather than human ground truth.
+
+> **Judge-Human Agreement Disclaimer**: Human judge-agreement evidence was not available for the AI-assisted Golden evaluation set. Genuine human labels in the repository (`dev_human_labels_50.json` and `external_human_examples_187.json`) were strictly isolated for training and baseline validation to preserve evaluation integrity.
+
+### Baseline Comparison
+The system was evaluated against two mandatory baseline models on the 50-example genuine human-labelled DEV set (`dev_human_labels_50.json`, 5-fold cross-validation):
+
+| System / Model | Evaluation Dataset | Accuracy | Macro Precision | Macro Recall | Macro F1 | Weighted F1 | Notes |
+|---|---|---|---|---|---|---|---|
+| **1. Majority-Class Baseline** | DEV 50 | 28.0% | 0.0255 | 0.0909 | 0.0398 | 0.1225 | Trivial baseline; always predicts `Delivery_Tracking_And_Delays`. |
+| **2. Simple TF-IDF + Logistic Regression** | DEV 50 (5-Fold CV) | 26.0% | 0.1318 | 0.1288 | 0.1178 | 0.2238 | Simple baseline; trained strictly on DEV 50 examples. |
+| **3. External-Augmented Model (Final Classifier)** | DEV 50 (5-Fold CV) | 30.0% | 0.1564 | 0.1961 | 0.1649 | 0.2811 | Trained on 187 External + DEV 50 examples (N=237). |
+| **4. Final Agent Model on Provisional Golden Benchmark** | Provisional Golden 150 | **60.00%** | **0.3524** | **0.5040** | **0.3805** | **0.5899** | Full production pipeline evaluated on 150-example Golden benchmark. |
+
+- **Trivial Baseline**: Always predicts the majority class (`Delivery_Tracking_And_Delays`).
+- **Simple Baseline**: Standard TF-IDF + Logistic Regression trained on the small 50 DEV dataset alone.
+- **Model Comparison**: The external-augmented model improves over the simple baseline on the DEV cross-validation benchmark (30.0% vs 26.0% accuracy, 0.1649 vs 0.1178 Macro F1). The final agent achieves 60.0% accuracy on the separate provisional Golden-150 benchmark; this is not an apples-to-apples comparison with DEV performance.
 
 ---
 
@@ -115,26 +132,28 @@ From the sealed 200 candidate pool (`golden_candidates_200.json`), a stratified 
 | Model | Accuracy | Macro Precision | Macro Recall | Macro F1 | Weighted F1 |
 |---|---|---|---|---|---|
 | **Majority Class Baseline** | 38.67% | 0.0352 | 0.0909 | 0.0558 | 0.2152 |
-| **TF-IDF + LogReg Agent (Ours)** | **60.00%** | **0.4215** | **0.4180** | **0.3805** | **0.5890** |
+| **TF-IDF + LogReg Agent (Ours)** | **60.00%** | **0.3524** | **0.5040** | **0.3805** | **0.5899** |
 
 ### B. Deterministic Escalation Engine
 | Metric | Value |
 |---|---|
-| **Escalation Accuracy** | **88.67%** |
-| **Escalation Precision** | **83.33%** |
-| **Escalation Recall** | **93.75%** |
-| **Escalation F1 Score** | **0.8824** |
-| **Confusion Matrix** | TP: 15, FP: 3, TN: 118, FN: 1 |
+| **Escalation Accuracy** | **96.67%** |
+| **Escalation Precision** | **82.35%** |
+| **Escalation Recall** | **87.50%** |
+| **Escalation F1 Score** | **0.8485** |
+| **Confusion Matrix** | TP: 14, FP: 3, TN: 131, FN: 2 |
+| **Escalation Rate** | 11.33% (17 / 150) |
 
-### C. RAG Reply Quality & LLM-as-Judge Rubric
-| Rubric Dimension | Score (Out of 5.0) |
-|---|---|
-| **Intent Alignment Score** | 3.40 / 5.0 |
-| **Escalation Safety Score** | 4.88 / 5.0 |
-| **Groundedness Score** | 4.12 / 5.0 |
-| **Hallucination-Free Score** | 5.00 / 5.0 |
-| **Tone & Professionalism Score** | 5.00 / 5.0 |
-| **OVERALL AGENT SCORE** | **4.48 / 5.0** |
+### C. RAG Reply Quality & Deterministic Rubric Proxy
+| Rubric Dimension | Score (Out of 5.0) | Description / Criteria |
+|---|---|---|
+| **Intent Alignment Score** | 3.40 / 5.0 | Alignment between predicted intent and customer request. |
+| **Escalation Safety Score** | 4.92 / 5.0 | Prevention of unescalated high-risk customer safety incidents. |
+| **Groundedness Score** | 4.31 / 5.0 | Proportion of reply content directly derived from historical evidence. |
+| **Hallucination-Free Score** | 4.73 / 5.0 | Absence of ungrounded policies, fake contact details, or false promises. |
+| **Tone & Professionalism Score** | 5.00 / 5.0 | Adherence to empathetic, brand-compliant support tone. |
+| **OVERALL AGENT SCORE** | **4.47 / 5.0** | Weighted combination across all 5 rubric evaluation dimensions. |
+
 
 ---
 
@@ -173,7 +192,7 @@ From the sealed 200 candidate pool (`golden_candidates_200.json`), a stratified 
 ---
 
 ## 13. Mandatory Section: "What is Misleading About My Headline Number?"
-While our overall agent score is **4.48 / 5.0** and escalation F1 is **0.8824**, headline numbers can be misleading:
+While our overall agent score is **4.47 / 5.0** and escalation F1 is **0.8485**, headline numbers can be misleading:
 1. **AI-Assisted Provisional Evaluation Labels**: The 150-example evaluation set was constructed using deterministic sampling and AI-assisted nearest-neighbour voting rather than independent human hand-labelling. Therefore, reported metrics measure agreement with the AI-assisted pipeline rather than absolute human ground truth.
 2. **Headline Accuracy (60.0%) vs Macro F1 (0.3805)**: Accuracy is inflated by dominant core classes (`Delivery_Tracking_And_Delays` and `Refund_Status_And_Billing_Disputes`). Rare classes have lower recall.
 3. **Offline Static Benchmark**: Evaluation uses static Twitter turn data; real-world live chat includes dynamic multi-turn clarifying questions.

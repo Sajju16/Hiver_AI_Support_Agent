@@ -82,27 +82,44 @@ class DeterministicEscalationPolicy:
         text = re.sub(r'@\w+', '', text)
         text_lower = re.sub(r'\s+', ' ', text).strip().lower()
 
-        # Rule 1: Suspected theft / missing delivered package
-        if predicted_intent == "Marked_Delivered_Not_Received":
+        # Rule 1: Package marked delivered + not received / missing / stolen
+        is_marked_delivered = bool(re.search(
+            r'\b(delivered|dlvrd|marked delivered|says delivered|shows delivered|handed to me|left in mailbox|left on porch|left at door|says it was left)\b',
+            text_lower
+        ))
+        is_not_received = bool(re.search(
+            r'\b(not received|haven\'t received|didn\'t receive|didnt get|dint get|never arrived|never received|missing|not in my mailbox|handed to me which they didn\'t|when they\'re not|not been delivered|stolen|theft|thief)\b|delivered.*neighbor|delivered.*w/o',
+            text_lower
+        ))
+        if is_marked_delivered and is_not_received:
             return True, "Mandatory Risk Rule: Package marked delivered but not received / suspected theft."
+        
         if re.search(r'\b(stolen|stole|theft|thief|thievery)\b', text_lower):
             return True, "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery."
 
-        # Rule 2: Fraud / Unauthorized billing / Impersonation Scam / Gift cards scam
-        if re.search(r'\b(fraud|unauthorized|scam|impersonat\w*|gift cards?|unrecognized)\b', text_lower):
+        # Rule 2: Fraud / Unauthorized billing / Impersonation Scam / Gift cards scam / Stealing money
+        if re.search(r'\b(fraud|unauthorized|scam|impersonat\w*|gift cards? scam|unrecognized charge|unrecognized transaction|stealing customer|stole my money)\b', text_lower):
             return True, "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
 
-        # Rule 3: Account security / compromise / lock
-        if re.search(r'\b(hacked|compromised|account locked)\b', text_lower) or ("password is incorrect" in text_lower) or ("see nothing at all" in text_lower):
+        # Rule 3: Account security / compromise / lockout
+        if re.search(r'\b(hacked|compromised|account locked|locked out|password is incorrect)\b', text_lower) or ("see nothing at all" in text_lower) or ("account is blank" in text_lower) or ("account now blank" in text_lower):
             return True, "Mandatory Risk Rule: Account security or compromise issue."
 
-        # Rule 4: Legal / court threat
-        if re.search(r'\b(lawyer|court|legal|sue|lawsuit)\b', text_lower) or ("file a case" in text_lower):
+        # Rule 4: Legal / court threat / regulatory
+        if re.search(r'\b(lawyer|court|legal|sue|lawsuit|consumer court|trading standards|attorney)\b', text_lower) or ("file a case" in text_lower):
             return True, "Mandatory Risk Rule: Explicit legal threat or court action."
 
-        # Rule 5: Severe operational loss / repeated failures / unrecognized currency charge
-        if ("3rd time" in text_lower and "not received" in text_lower) or ("origanal faulty item" in text_lower) or ("3900" in text_lower):
-            return True, "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+        # Rule 5: Severe operational loss / repeated failures
+        is_repeated_failure = bool(re.search(
+            r'\b(multiple times|repeatedly|again and again|second time|2nd time|third time|3rd time|fourth time|4th time|several times)\b',
+            text_lower
+        ))
+        is_service_breakdown = bool(re.search(
+            r'\b(failed|failing|defective|damaged|wrong item|not delivered|unresolved|nightmare|ridiculous|not received)\b',
+            text_lower
+        ))
+        if is_repeated_failure and is_service_breakdown:
+            return True, "Mandatory Risk Rule: Severe operational loss or repeated service breakdown."
 
         # Low confidence (< 0.15) is logged as diagnostic signal only, NOT automatic escalation trigger
         if confidence < 0.15:
@@ -180,7 +197,7 @@ class HistoricalResolutionRetriever:
                 "similarity_score": 0.0,
                 "is_fallback": True,
                 "customer_query": query_text,
-                "agent_resolution": "Please share your order number via Direct Message so our AmazonHelp support team can inspect your account details and assist you right away."
+                "agent_resolution": "Please send us a Direct Message with your order details so our support team can investigate and assist you."
             }]
 
         from sklearn.metrics.pairwise import cosine_similarity
@@ -209,15 +226,24 @@ class HistoricalResolutionRetriever:
 class GroundedReplySynthesizer:
     """Retrieval-Augmented Synthesis Engine (RAG-Template Fallback)."""
     
+    SIMILARITY_THRESHOLD = 0.15
+
     @staticmethod
     def synthesize_reply(query_text: str, predicted_intent: str, retrieved_match: dict) -> str:
         res = retrieved_match.get("agent_resolution", "")
+        sim_score = float(retrieved_match.get("similarity_score", 0.0))
+        is_fallback = bool(retrieved_match.get("is_fallback", False))
+
         # Sanitize any legacy handles or URLs from historical resolution
         res_clean = re.sub(r'@\w+', '', res)
         res_clean = re.sub(r'https?://\S+', '', res_clean).strip()
 
-        if not res_clean:
-            res_clean = "Please share your order details with our support team so we can investigate and assist immediately."
+        # Similarity Guardrail: If similarity is low (< 0.15) or explicit fallback, return safe bounded resolution prompt
+        if sim_score < GroundedReplySynthesizer.SIMILARITY_THRESHOLD or is_fallback or not res_clean:
+            return (
+                f"Hello! Thank you for contacting AmazonHelp regarding {predicted_intent.replace('_', ' ')}. "
+                f"Please send us a Direct Message with your order details so our support team can investigate and assist you."
+            )
 
         reply = (
             f"Hello! Thank you for reaching out to AmazonHelp regarding {predicted_intent.replace('_', ' ')}. "

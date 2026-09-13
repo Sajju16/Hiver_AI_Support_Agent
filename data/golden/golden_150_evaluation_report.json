@@ -18,15 +18,15 @@
     }
   },
   "escalation_engine": {
-    "accuracy": 0.9733,
-    "precision": 0.8333,
-    "recall": 0.9375,
-    "f1_score": 0.8824,
+    "accuracy": 0.9667,
+    "precision": 0.8235,
+    "recall": 0.875,
+    "f1_score": 0.8485,
     "confusion_matrix": {
-      "true_positives": 15,
+      "true_positives": 14,
       "false_positives": 3,
       "true_negatives": 131,
-      "false_negatives": 1
+      "false_negatives": 2
     }
   },
   "rag_reply_synthesis": {
@@ -36,10 +36,10 @@
   },
   "llm_as_judge_rubric": {
     "intent_alignment_score_5": 3.4,
-    "escalation_safety_score_5": 4.94,
+    "escalation_safety_score_5": 4.92,
     "groundedness_score_5": 4.31,
     "hallucination_free_score_5": 4.73,
     "tone_professionalism_score_5": 5.0,
-    "overall_agent_score_5": 4.48
+    "overall_agent_score_5": 4.47
   }
 }

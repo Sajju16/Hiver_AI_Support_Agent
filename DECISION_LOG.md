@@ -60,31 +60,31 @@ This document records 14 key architectural, methodological, and design decisions
 
 ---
 
-### Decision 9: TF-IDF Word + Character Feature Union for Classical ML Baseline
-- **Context**: Selecting feature representation for classical ML intent classification.
-- **Decision**: Used `FeatureUnion` combining Word TF-IDF ($1, 2$ n-grams) and Character TF-IDF ($3, 5$ n-grams) with Logistic Regression (`C=1.0`, `class_weight='balanced'`).
-- **Rationale**: Character n-grams capture misspellings, sub-word morphology, and brand names, while word n-grams capture multi-word intent phrases.
+### Decision 9: Word-Level TF-IDF (1–2 n-grams) with Logistic Regression Intent Classifier
+- **Context**: Selecting feature representation and classifier model for intent classification.
+- **Decision**: Implemented word-level TF-IDF ($1, 2$ n-grams) with Logistic Regression (`C=1.0`, `solver='lbfgs'`, `class_weight='balanced'`).
+- **Rationale**: Word n-grams effectively capture multi-word e-commerce support intent phrases while minimizing model parameter complexity.
 
 ---
 
-### Decision 10: Expanded Historical Resolution Index (352 Procedures)
+### Decision 10: Expanded Historical Resolution Index (347 Procedures)
 - **Context**: Historical resolution retrieval corpus size.
-- **Decision**: Combined base 165 historical resolution procedures with 187 external customer-resolution pairs to build a 352-procedure retrieval index.
+- **Decision**: Combined base 165 historical resolution procedures with external customer-resolution pairs to build a 347-procedure retrieval index.
 - **Rationale**: A larger historical corpus increases resolution retrieval precision and coverage across operational intents.
 
 ---
 
-### Decision 11: Template-Bounded RAG Synthesis
-- **Context**: Synthesizing agent replies from retrieved resolutions.
-- **Decision**: Implemented a template-bounded RAG synthesizer (`GroundedReplySynthesizer`) that formats resolutions without ungrounded LLM text generation.
-- **Rationale**: Guarantees 0% hallucination rate and strict compliance with AmazonHelp operational support policies.
+### Decision 11: Template-Bounded RAG Synthesis with Similarity Guardrails
+- **Context**: Synthesizing agent replies from retrieved resolutions safely.
+- **Decision**: Implemented a template-bounded RAG synthesizer (`GroundedReplySynthesizer`) with a minimum cosine similarity threshold of `0.15`.
+- **Rationale**: Enforces strict historical evidence groundedness and produces safe bounded DM resolution fallbacks when similarity is low, preventing hallucinated replies.
 
 ---
 
-### Decision 12: Multi-Dimensional LLM-as-Judge Rubric Evaluation
-- **Context**: Evaluating agent response quality beyond classification accuracy.
-- **Decision**: Implemented a 5-dimension rubric (Intent Alignment, Escalation Safety, Groundedness, Hallucination-Free Rate, Professional Tone).
-- **Rationale**: Single accuracy numbers do not capture safety or resolution groundedness. Rubric evaluation provides holistic performance insight.
+### Decision 12: Multi-Dimensional Deterministic Rubric Proxy Evaluation
+- **Context**: Evaluating agent response quality offline without non-deterministic cloud API keys.
+- **Decision**: Implemented a 5-dimension deterministic rubric proxy (Intent Alignment, Escalation Safety, Groundedness, Hallucination-Free Rate, Professional Tone).
+- **Rationale**: Provides reproducible, offline quantitative quality scoring across safety and resolution groundedness without introducing external API key dependencies.
 
 ---
 

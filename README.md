@@ -15,7 +15,7 @@ python --version
 pip install -r requirements.txt
 ```
 
-### 2. Run Full Unit Test Suite (60 Automated Tests)
+### 2. Run Full Unit Test Suite (54 Automated Tests)
 ```bash
 py -m pytest tests/ -v --tb=short
 ```
@@ -28,10 +28,34 @@ py scripts/evaluate_golden_150_benchmark.py
 *Expected output*:
 - **Intent Classification Accuracy**: `60.00%` (vs Majority Baseline: `38.67%`)
 - **Intent Macro F1**: `0.3805` (vs Majority Baseline: `0.0558`)
-- **Escalation Engine Precision**: `83.33%`
-- **Escalation Engine Recall**: `93.75%`
-- **Escalation Engine F1**: `0.8824`
-- **Overall Agent Rubric Score**: `4.48 / 5.0`
+- **Escalation Engine Precision**: `82.35%`
+- **Escalation Engine Recall**: `87.50%`
+- **Escalation Engine F1**: `0.8485`
+- **Overall Agent Rubric Score**: `4.47 / 5.0`
+
+---
+
+## 🎮 Quick Interactive Demo
+
+Test the end-to-end production AI agent interactively with custom customer messages:
+
+```bash
+py scripts/run_agent.py
+```
+
+*Example Output*:
+```text
+==================================================
+INTERACTIVE AGENT DEMO
+==================================================
+Customer Message        : My package was marked delivered but I never received it!
+Predicted Intent        : Marked_Delivered_Not_Received (Confidence: 0.82)
+Escalate to Human       : YES
+Escalation Reason       : Mandatory risk trigger matched: marked delivered but missing item
+Similarity Score        : 0.450
+Historical Evidence     : Ref: AmazonHelp_Intent_10
+Draft Agent Response    : I understand your parcel was marked delivered but has not arrived...
+```
 
 ---
 
@@ -43,7 +67,7 @@ py scripts/evaluate_golden_150_benchmark.py
 │   │   └── dev_human_labels_50.json         # Genuine Human DEV Labels (50 examples)
 │   ├── processed/
 │   │   ├── external_human_examples_187.json # Genuine Human External Reference Data (187 examples)
-│   │   └── amazon_intent_examples.json      # Historical Resolution Corpus (352 procedures)
+│   │   └── amazon_intent_examples.json      # Historical Resolution Corpus (347 procedures)
 │   └── golden/
 │       ├── golden_candidates_200.json       # Sealed 200 Candidate Pool (SHA-256 Sealed)
 │       ├── golden_official_candidates_150.json # Stratified 150 Official Subset
@@ -54,6 +78,7 @@ py scripts/evaluate_golden_150_benchmark.py
 │   └── ai/
 │       └── agent_pipeline.py               # Core Agent Pipeline (Classifier, Retrieval, Escalation)
 ├── scripts/
+│   ├── run_agent.py                         # Quick Interactive CLI Agent Demo
 │   ├── build_golden_ai_assisted_150.py      # Build AI-assisted provisional 150 set
 │   ├── evaluate_golden_150_benchmark.py     # Run full benchmark evaluation
 │   ├── review_golden_150.py                 # Interactive Human Reviewer CLI
@@ -71,3 +96,4 @@ py scripts/evaluate_golden_150_benchmark.py
 > **Evaluation Disclaimer**: The 150-example evaluation set (`golden_ai_assisted_150.json`) was constructed using deterministic stratified sampling and AI-assisted nearest-neighbour annotation. Due to assignment time constraints, the labels were not independently hand-verified. Therefore, these labels are treated as **provisional evaluation evidence** rather than human ground truth.
 >
 > The sealed candidate pool (`golden_candidates_200.json`) remains 100% untouched (`SHA-256: 57682c611278ede6a89cadb5c7b1887498049689d2520952865a361c5a59adda`).
+
