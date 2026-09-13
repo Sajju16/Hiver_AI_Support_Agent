@@ -1,0 +1,122 @@
+{
+  "AmazonHelp": {
+    "total_conversations": 81413,
+    "multi_turn_3plus": 52198,
+    "multi_turn_3plus_pct": 64.12,
+    "multi_turn_5plus": 27986,
+    "multi_turn_5plus_pct": 34.38,
+    "total_brand_responses": 163368,
+    "dm_handoff_count": 1062,
+    "dm_handoff_pct": 0.65,
+    "inline_action_count": 90478,
+    "inline_action_pct": 55.38
+  },
+  "AppleSupport": {
+    "total_conversations": 78008,
+    "multi_turn_3plus": 30757,
+    "multi_turn_3plus_pct": 39.43,
+    "multi_turn_5plus": 13525,
+    "multi_turn_5plus_pct": 17.34,
+    "total_brand_responses": 104274,
+    "dm_handoff_count": 54736,
+    "dm_handoff_pct": 52.49,
+    "inline_action_count": 33262,
+    "inline_action_pct": 31.9
+  },
+  "Uber_Support": {
+    "total_conversations": 41131,
+    "multi_turn_3plus": 17420,
+    "multi_turn_3plus_pct": 42.35,
+    "multi_turn_5plus": 8338,
+    "multi_turn_5plus_pct": 20.27,
+    "total_brand_responses": 54976,
+    "dm_handoff_count": 19697,
+    "dm_handoff_pct": 35.83,
+    "inline_action_count": 28364,
+    "inline_action_pct": 51.59
+  },
+  "SpotifyCares": {
+    "total_conversations": 28442,
+    "multi_turn_3plus": 12501,
+    "multi_turn_3plus_pct": 43.95,
+    "multi_turn_5plus": 6420,
+    "multi_turn_5plus_pct": 22.57,
+    "total_brand_responses": 42074,
+    "dm_handoff_count": 13014,
+    "dm_handoff_pct": 30.93,
+    "inline_action_count": 14656,
+    "inline_action_pct": 34.83
+  },
+  "AmericanAir": {
+    "total_conversations": 26356,
+    "multi_turn_3plus": 12946,
+    "multi_turn_3plus_pct": 49.12,
+    "multi_turn_5plus": 6302,
+    "multi_turn_5plus_pct": 23.91,
+    "total_brand_responses": 35711,
+    "dm_handoff_count": 5960,
+    "dm_handoff_pct": 16.69,
+    "inline_action_count": 7578,
+    "inline_action_pct": 21.22
+  },
+  "Delta": {
+    "total_conversations": 26115,
+    "multi_turn_3plus": 12814,
+    "multi_turn_3plus_pct": 49.07,
+    "multi_turn_5plus": 6541,
+    "multi_turn_5plus_pct": 25.05,
+    "total_brand_responses": 41143,
+    "dm_handoff_count": 6801,
+    "dm_handoff_pct": 16.53,
+    "inline_action_count": 7739,
+    "inline_action_pct": 18.81
+  },
+  "comcastcares": {
+    "total_conversations": 23668,
+    "multi_turn_3plus": 10348,
+    "multi_turn_3plus_pct": 43.72,
+    "multi_turn_5plus": 4681,
+    "multi_turn_5plus_pct": 19.78,
+    "total_brand_responses": 32246,
+    "dm_handoff_count": 23136,
+    "dm_handoff_pct": 71.75,
+    "inline_action_count": 1400,
+    "inline_action_pct": 4.34
+  },
+  "Tesco": {
+    "total_conversations": 17033,
+    "multi_turn_3plus": 12253,
+    "multi_turn_3plus_pct": 71.94,
+    "multi_turn_5plus": 6526,
+    "multi_turn_5plus_pct": 38.31,
+    "total_brand_responses": 37569,
+    "dm_handoff_count": 10125,
+    "dm_handoff_pct": 26.95,
+    "inline_action_count": 5735,
+    "inline_action_pct": 15.27
+  },
+  "VirginTrains": {
+    "total_conversations": 15408,
+    "multi_turn_3plus": 9834,
+    "multi_turn_3plus_pct": 63.82,
+    "multi_turn_5plus": 5228,
+    "multi_turn_5plus_pct": 33.93,
+    "total_brand_responses": 26801,
+    "dm_handoff_count": 696,
+    "dm_handoff_pct": 2.6,
+    "inline_action_count": 4361,
+    "inline_action_pct": 16.27
+  },
+  "XboxSupport": {
+    "total_conversations": 13557,
+    "multi_turn_3plus": 8920,
+    "multi_turn_3plus_pct": 65.8,
+    "multi_turn_5plus": 4479,
+    "multi_turn_5plus_pct": 33.04,
+    "total_brand_responses": 23755,
+    "dm_handoff_count": 5034,
+    "dm_handoff_pct": 21.19,
+    "inline_action_count": 9850,
+    "inline_action_pct": 41.46
+  }
+}

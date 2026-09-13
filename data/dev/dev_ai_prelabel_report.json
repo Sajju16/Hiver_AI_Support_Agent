@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "total_examples_processed": 50,
+    "valid_predictions_count": 50,
+    "invalid_or_missing_predictions": 0,
+    "escalation_count": 7,
+    "escalation_rate_pct": 14.0,
+    "ambiguity_count": 2,
+    "ambiguity_rate_pct": 4.0,
+    "non_english_count": 2,
+    "non_english_rate_pct": 4.0
+  },
+  "model_configuration": {
+    "model_name": "zero_shot_classifier_v1",
+    "prompt_version": "v1.0.0",
+    "prompt_hash_sha256": "b068b0c8d7e3c0e4c84e8d0e1815dbcadb01827721f2355a841826c774df1ee4",
+    "unbiased_input_fields": [
+      "raw_text",
+      "thread_context"
+    ],
+    "excluded_metadata_fields": [
+      "candidate_bucket",
+      "candidate_intent_hint",
+      "sampling_reason"
+    ]
+  },
+  "predicted_intent_distribution": {
+    "Delivery_Tracking_And_Delays": 6,
+    "General_Service_Complaint_Escalation": 3,
+    "Technical_App_And_Website_Issues": 4,
+    "Prime_Subscription_And_Digital_Media": 5,
+    "Other_Unclassified_Inquiry": 16,
+    "Return_Exchange_And_Pickup": 5,
+    "Order_Cancellation_And_Address_Change": 3,
+    "Damaged_Defective_Or_Wrong_Item": 5,
+    "Promotions_GiftCards_And_Pricing": 2,
+    "Refund_Status_And_Billing_Disputes": 1
+  },
+  "golden_checksum_verification": {
+    "golden_filepath": "D:\\Sajju clg files\\Projects\\Hiver\\data\\golden\\golden_candidates_200.json",
+    "expected_sha256": "57682c611278ede6a89cadb5c7b1887498049689d2520952865a361c5a59adda",
+    "computed_sha256": "57682c611278ede6a89cadb5c7b1887498049689d2520952865a361c5a59adda",
+    "verification_status": "MATCH_CONFIRMED"
+  }
+}

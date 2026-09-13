@@ -1,0 +1,667 @@
+{
+  "task_a_language_spot_check": {
+    "seed": 777,
+    "target_languages": [
+      "ES",
+      "DE",
+      "FR",
+      "IT",
+      "JP"
+    ],
+    "rows_count": 75,
+    "rows": [
+      {
+        "language": "ES",
+        "conversation_id": "2862004_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Oigan mis queridos @AmazonHelp ayudenme a descubrir como veo @123813 en esta TV que compr\u00e9 https://t.co/BcSz7fOFZ0"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2913211_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "El anuncio de @116928 me ha recordado una cosa: De peque\u00f1o mi padre me compr\u00f3 unas tijeras para zurdos que a finales de los 80 no eran tan f\u00e1ciles de conseguir. Pues bien: Lo \u00fanico que yo hago con la derecha es recortar."
+      },
+      {
+        "language": "ES",
+        "conversation_id": "197859_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "No pod\u00e9is enviar sillas en este estado @116928 Estaba usada, rota y sucia... Ya van dos que he tenido que devolver. https://t.co/I0QMZUzLMY"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "1004544_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Quando si parla di #socialcustomercare che funziona: @AmazonHelp coccola i suoi clienti anche su #Twitter! #lostatefacendobene \ud83d\ude0a\ud83d\udc4d\ud83c\udffb\ud83d\udc4d\ud83c\udffb\ud83d\udc4d\ud83c\udffb https://t.co/LnqCT09tl4"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2681984_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@117086 assinei o kindle unlimited e no site diz que ta tudo certo, mas recebi um e-mail dizendo que teve problema com o cart\u00e3o, e agora o que eu fa\u00e7o?"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "1045558_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@AmazonHelp Ciao,ho acquistato uno smartphone su Amazon.fr, come posso ottenere supporto tecnico in inglese o in italiano?"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "1059298_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@116875 hola, \u00bftienen disponible @145869 para la p\u00e1gina de M\u00e9xico?"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2859914_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Por cierto, @116875, hace rato ped\u00ed que me llamaran cuando fueran a hacer mi entrega. Ya me lleg\u00f3 el mail diciendo que no hab\u00eda nadie"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "1748107_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@116316 Was ist bei euch los? 302-2130956-1093911\n1 Bestellt &gt; Versp\u00e4tung &gt; Erstattung\n2 Bestellt &gt; Versp\u00e4tung\nNichtmal ne Email dazu!? :( https://t.co/cXc602PxxK"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "1605636_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@116928 Jennifer del chat de atenci\u00f3n al cliente ha sido super maja pero no he podido dec\u00edrselo porque se me ha cerrado sin querer!!"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "177381_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Comprei hoje e o pedido j\u00e1 foi enviado. \u00c9 por isso que te amo, @117086"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2418112_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@116928 c\u00f3mo gestion\u00f3 la garant\u00eda de uno de sus productos?? De forma directa en la web no puedo hacer nada..."
+      },
+      {
+        "language": "ES",
+        "conversation_id": "984183_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Hola @AmazonHelp, no s\u00e9 que habr\u00e1 hecho @135806 con el regalo de cumple de mi madre, pero dijeron que pasaban ayer y est\u00e1n missing"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2797109_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "Incre\u00edble que no puedan hacer una, una simple entrega @116875 Estoy altamente decepcionado! Su departamento de log\u00edstica opera sin control alguno ni el m\u00e1s m\u00ednimo respeto por el cliente final! Quiero mi pedido ya! #ToodoMal"
+      },
+      {
+        "language": "ES",
+        "conversation_id": "2830717_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "ES",
+        "text": "@AmazonHelp he comprado un paquete y seg\u00fan aparece entregado pero no llego y no s\u00e9 d\u00f3nde est\u00e1 por favor requiero de su ayuda para resolver este inconveniente"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "585797_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp Bin voll im @132976 Hype! Was gibt es sonst noch f\u00fcr Serien oder Filme \u00fcber Autos, am besten in Prime enthalten. Finde n\u00e4mlich keine Unterkategorie."
+      },
+      {
+        "language": "DE",
+        "conversation_id": "2384178_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@116316 Ist denn in Sachen Fake-Bewertungen \u00fcberhaupt irgendetwas passiert? Gef\u00fchlt/gelesen wird's immer schlimmer. \ud83d\ude33"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1340734_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp gibt es auf den FireTV stick Studi Rabatt? Ich habe keinen Rabatt code eingegeben, aber der Preis ist 4\u20ac weniger"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "2601537_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Dritter Versuch. Jetzt versucht auch @AmazonHelp den PIN von @124285 f\u00fcr mich zu bekommen. Die Packstation ist wohl Schrott und/oder \u00fcberlastet. 3 Pakete: 1 verloren, eins ging zur\u00fcck und das dritte liegt da und wartet ohne PIN \ud83d\ude48\ud83e\udd14"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "814246_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Erste Bestellung mit neuem Konto machen wollen, direkt gesperrt werden. @116316 @AmazonHelp"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "758408_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp Wenn ich ein Technischen Fehler mit mein Echo habe, an wenn muss ich mich wenden?"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "780628_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp das ist eigentlich der 3l Preis, in der Beschreibung steht auch 3l nur oben 0,7l. https://t.co/Cfbvy6FrZ2"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1746983_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp __email__ geh\u00f6rt die Mail euch ?"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "2603182_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp Irgendwie steckt hier der Wurm drin... und dies nicht zum ersten Mal.... https://t.co/dddcSwXKaY"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "332746_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Mail an @116316: Ware wurde nicht geliefert\n\n1h sp\u00e4ter: Amazon \u00e4ndert Status auf \u201eWare zugestellt\u201c. Fall erledigt.\n\nDanke f\u00fcr nichts!"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1578558_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Toll und @116316 hat meine beiden Pakete an \u201eSsrs\u201c zugestellt. Das war nicht ich und im Kasten war auch kein Zettel. Top."
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1647829_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "@AmazonHelp wielange kann es ungef\u00e4hr dauern bis ich eine Antwort auf meine email bekomme? Hab mal was bis zu 6Stunden gelesen, stimmt das?"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1159017_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Hi @115825 , ich hab grad 6,99 in die Tonne gekloppt, weil der originale Blade Runner bei euch keine englische Tonspur enth\u00e4lt. Sad!"
+      },
+      {
+        "language": "DE",
+        "conversation_id": "1343563_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Ich bin so verz\u00fcckt \u00fcber @AmazonHelp ... #MADEMYDAY Danke an S. f\u00fcr die R\u00fcckmeldung..."
+      },
+      {
+        "language": "DE",
+        "conversation_id": "2285718_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "DE",
+        "text": "Es tut mir leid @116316 , aber diese Titel sind keine Animes \ud83d\ude05 die geh\u00f6ren eher in dir kategorie Zeichentrick \ud83d\ude48 https://t.co/x7bbUBSeXi"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "2615097_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@AmazonHelp c'est quoi le but de permettre des pr\u00e9commandes en promettant une livraison le jour-j pour au final annoncer une rupture de stock? Je me retrouve \u00e0 attendre sans aucune info et sans mon colis..."
+      },
+      {
+        "language": "FR",
+        "conversation_id": "247499_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@120533  \u00e0 quoi bon nous \"permettre\" de mettre un commentaire si de toute fa\u00e7on vous ne comptez pas r\u00e9pondre! #foutagedegueule https://t.co/n5seUM8CG0"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "492233_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Winners of one plus 5t competition? @115850"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "386211_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Livrer \u00e0 13h30 au lieu de 14h30 et super si\u00e8ge ! Merci \u00e0 @120533 pour la livraison expresse \ud83d\udc4c\ud83c\udffb https://t.co/GbgXCgNmpQ"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "1282276_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@AmazonHelp Yo j'ai pr\u00e9co Mario en version demat', j'aurai mon code \u00e0 00:01 ou c'est pas la peine que je veille ?"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "2906615_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Quand la @111520 te d\u00e9fonce un colis et s'excuse par une banderole sur la boite, le service client - au top - d'@120533 est toujours \u00e0 la rescousse! https://t.co/6QPTK9WD2p"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "2853653_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@120533 bonjour je souhaite avoir plus d'infos sur ce produit car le titre me para\u00eet bizarre et certaine chose ne colle pas. https://t.co/5Hl6jdoLAV\u00c5M\u00c5Z\u00d5\u00d1&amp;qid=1511812838&amp;sr=8-2&amp;pi=AC_SX236_SY340_QL65&amp;keywords=heart+of+gamer&amp;dpPl=1&amp;dpID=41qMnikumLL&amp;ref=plSrch"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "294943_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "People. Don\u2019t download the latest @AppleSupport iOS update. Since updating 3 days ago my iPhone 7 Plus has frozen and crashed a number of times"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "727635_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@120533 je m'a inform\u00e9 d'attendre encore plus  .. Comment peu professionnel ... D\u00e9lai de livraison garanti \u00e9tait HIER!! #Nice06 https://t.co/dFAUdxB3jU"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "1387105_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "One Plus 5T an Amazon Exclusive. Available for Prime Members on 21st Nov, 4:30 PM. https://t.co/tdMAPmgQbo"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "832907_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Amazon mercredi : Vous inquietez pas le transporteur est inform\u00e9 vous l'aurez samedi. \nAmazon jeudi : vous l'aurez bien lundi comme pr\u00e9vu."
+      },
+      {
+        "language": "FR",
+        "conversation_id": "1129412_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "@48426 Vous recommandez Amazon pour vos kits. Mais @120533 lui ne vous aime pas trop (colis trop grand arriv\u00e9 ouvert ET \u00e9cras\u00e9)."
+      },
+      {
+        "language": "FR",
+        "conversation_id": "1318295_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Aujourd'hui sort Super Mario Odyssey... Mais je l'aurai pas avant lundi parce que @120533 a buggu\u00e9 sur ma CB \ud83d\ude2d"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "1458025_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Dites @120533 vous faites des \u00e9conomies de carton ? C\u2019est quoi cet envoi ?!?! Merci la discr\u00e9tion \ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f\ud83d\ude11 https://t.co/fqFWr5JRP1"
+      },
+      {
+        "language": "FR",
+        "conversation_id": "951861_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "FR",
+        "text": "Les livreurs d' @115821 qui scan les colis avant 22h alors qu'ils n'ont rien livr\u00e9 pendez-vous"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "525585_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@AmazonHelp I have an order with the expected delivery date of Thursday, November 30th. It did not come. I have contacted live chat and they told me that it would come Friday, December 1st. It did not come as well. Now I'm being told to wait until December 2nd? Not helpful."
+      },
+      {
+        "language": "IT",
+        "conversation_id": "1462551_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@115830 How come I'm sitting at home and logistics driver puts package into safe place rather than ringing the bell?!  Not amused!"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2642025_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@AmazonHelp what is the point of having Amazon Prime when your next day shipping package gets rescheduled to come later?"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "5877_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "Extremely limited tickets still available on StubHub for tonight's game! Come support #ThisTeam: https://t.co/IK1wnkhhcw  #WorldSeries https://t.co/mXWirnvdmP"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2609288_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@AmazonHelp battlefront 2 pre order expected today but now says might not come til 21st. If that\u2019s the case you owe me a prime refund. Shocking service."
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2799348_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "My microphone that I ordered before my condenser still hasn't come in.  My condenser was in yesterday.  Amazon Prime, back at it again."
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2954322_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "I love how I pay for @115821 prime and NONE of my packages ever come on time."
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2267171_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@115821 my order should have come 13/10/17 &amp; delayed until today &amp; still not here! Not good! Where is my package? Order 203-5037573-3213904"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "135127_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "Hey @115821 you can't even cancel Prime? Pay first and they cancel? Really? -Come on. @115851 I know a couple of good process management engineers that can sort you out. https://t.co/84I32sgqbj"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2971975_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@AmazonHelp prime entails 2 day shipping. Why is this scheduled to come on 12/7? What am I paying for my prime membership for? https://t.co/bM3E4feIVN"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "1539922_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@AmazonHelp I received only \u20b9119.9 cashback for my order of Reebok sandals but as per the terms and conditions, it should be \u20b9127.9\n(1/3)"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "512431_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "What a shock! My @116090 order that was supposed to be delivered yesterday to my office is still MIA. #intelcom is like the best freaking delivery company out there. NOT! \ud83e\udd28"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "38168_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "@120540 Avrei bisogno di un aiuto"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "2669947_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "And no way Am i paying \u00a3250 per ticket on Viagogo \ud83d\udd95\ud83c\udffb\ud83d\udd95\ud83c\udffb\ud83d\udd95\ud83c\udffb fuck you ticketmaster for being so shit"
+      },
+      {
+        "language": "IT",
+        "conversation_id": "1469183_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "IT",
+        "text": "Dear @115821 how come my order \"qualifies for free shipping\" and yet, the option for free shipping doesn't appear now? https://t.co/FciB8vFr7e"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1820599_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon\n\u767b\u9332\u3057\u3066\u306a\u3044\u306e\u306b\n\u767b\u9332\u3057\u3066\u307e\u3059\u3063\u3066(\uffe3\u25bd\uffe3)\n\u90f5\u4fbf\u756a\u53f7\u3068\u304b\u5165\u529b\u3057\u3066\u3082\n\u9055\u3044\u307e\u3059\u3063\u3066\u306a\u308b\u3057\u2025\n\u79c1\u306e\u30a2\u30c9\u30ec\u30b9\n\u8ab0\u304b\u4f7f\u3063\u3066\u308b\u306e\ud83d\ude36\n\u8b0e(\u00b0_\u00b0)"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1204951_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "@AmazonHelp \niPad\u306eKindle\u30a2\u30d7\u30ea\u304c\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u3066\u304b\u3089\u6a2a\u753b\u9762\u3067\u306e\u8d77\u52d5\u3057\u305f\u3068\u304d\u306b\u8868\u793a\u304c\u304a\u304b\u3057\u3044\u3053\u3068\u304c\u3042\u308b\n1\u679a\u76ee \u304a\u304b\u3057\u3044\u8868\u793a\n2\u679a\u76ee \u6b63\u3057\u3044\u8868\u793a https://t.co/DCLBmvtlCG"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1550787_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon\u6b74\u306f10\u5e74\u4ee5\u4e0a\u3002\n(\u6bce\u67081\uff5e5\u56de\u6ce8\u6587)\n\u30d7\u30e9\u30a4\u30e0\u4f1a\u54e1\u6b74\u306f\u7d042\u5e74\u3002\n\u304a\u6025\u304e\u4fbf\u4ee5\u5916\u306b\u3082\n\u8d85\u304a\u5f97\u306a\u7279\u5178\u304c\u3042\u3063\u305f\u306e\u304b\u3068\n\u3084\u3084\u5f8c\u6094\u3057\u306a\u304c\u3089\u582a\u80fd\u4e2dw\n(\u3042\u308b\u306e\u306f\u77e5\u3063\u3066\u305f\u3051\u3069\u2026)"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "915966_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon fire TV stick \n\n\u753b\u9762\u304c\u62e1\u5927\u3055\u308c\u3066\u3057\u307e\u3063\u3066\u76f4\u305b\u307e\u305b\u3093\u3002\n\n@116313"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1560868_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u30cd\u30c3\u30c8\u3067\u8cb7\u3044\u7269\u3063\u3066\n\u307b\u3068\u3093\u3069\u3057\u305f\u3053\u3068\u306a\u3044\u3002\n\u3044\u307e\u30a2\u30de\u30be\u30f3\u4f7f\u3063\u305f\u3089\n\u3042\u308c\u3088\u3042\u308c\u3088\u3068\u9032\u3093\u3067\n\u3042\u3063\u3068\u3044\u3046\u9593\u306b\u6ce8\u6587\u78ba\u5b9a\u3002\n\u672c\u5f53\u306b\u5c4a\u304f\uff1f\u5927\u4e08\u592b\uff1f\u2190\n(\u79c1\u30a2\u30de\u30be\u30f3\u3067\u8cb7\u3044\u7269\u3057\u305f\u3053\u3068\n\u3042\u308b\uff1f\u3063\u3066\u601d\u3044\u306a\u304c\u3089\u8a66\u3057\u306b\n\u30ed\u30b0\u30a4\u30f3\u3057\u305f\u3089\u666e\u901a\u306b\n\u79c1\u306e\u540d\u524d\u51fa\u3066\u304d\u305f\u6016\u3044)\n\u81ea\u5206\u30a2\u30ca\u30ed\u30b0\u4eba\u9593\u3059\u304e\u3066\ud83d\ude07"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2049095_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u300e\u5b87\u5b99\u6226\u8266\u30e4\u30de\u30c82202 \u611b\u306e\u6226\u58eb\u305f\u3061 3\u300f\u306ehttps://t.co/xsBnfqfbUf\u9650\u5b9a\u7279\u5178\u30c9\u30e9\u30deCD\u300cW\u30a2\u30ca\u30e9\u30a4\u30b6\u30fc\u306e\u300e\u30bf\u30f3\u30b1\u30f3 \u30dc\u30af\u30ce\u30d5\u30cd\u300f\u300d\u8a66\u8074\u52d5\u753b\u304c\u516c\u958b!\u21d2 https://t.co/Gh6LxkoA0W #\u5b87\u5b99\u6226\u8266\u30e4\u30de\u30c82202 https://t.co/JZLL5jqZgt"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1730171_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u3010#\u30c6\u30cb\u30b9 NEXT GEN ATP\u30d5\u30a1\u30a4\u30ca\u30eb\u30ba \u30e9\u30a4\u30d6\u914d\u4fe1\u3011\n\u672c\u65e522\u6642\u3088\u308a\u751f\u4e2d\u7d99\ud83d\udce2\u6b21\u4e16\u4ee3\u3092\u62c5\u304621\u6b73\u4ee5\u4e0b\u306e\u7537\u5b50\u30b7\u30f3\u30b0\u30eb\u30b9\u306e\u9078\u624b\u3092\u96c6\u3081\u305f\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8\u306e\u751f\u4e2d\u7d99\u306f #Amazon\u30d7\u30e9\u30a4\u30e0\u30d3\u30c7\u30aa \u3060\u3051\uff01\n\n\u8a73\u3057\u3044\u914d\u4fe1\u65e5\u7a0b\u306f\u3053\u3061\u3089\u21d2https://t.co/qIbndG7NBf https://t.co/UbHgR28im8"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "1611019_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u30a2\u30de\u30be\u30f3\u914d\u9054 \u914d\u9001\u4e8b\u6545\n\n\u3055\u3066 \u4e8c\u9031\u9593\u5c4a\u3044\u3066\u306a\u3044\u305eww"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2373355_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "@116313 \u8ab0\u306e\u5199\u771f\u96c6\u304b\u6559\u3048\u3066\u307b\u3057\u3044\n\u5199\u771f\u96c6 \u300e \u30bf\u30a4\u30c8\u30eb\u672a\u5b9a \u300f https://t.co/O44E28FU0t"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "605199_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u30a2\u30de\u30be\u30f3\u304b\u3089\u6ce8\u6587\u3057\u3066\u306a\u3044\u3082\u306e\u304c\u5c4a\u304d\u300c\u4f55\u3053\u308c\uff1f\u300d\u3063\u3066\u8abf\u3079\u305f\u3089\n1000\u5186\u3082\u3059\u308b\u97d3\u56fd\u306e\u30e9\u30fc\u30e1\u30f3\uff01\u3042\u3068\u30ae\u30d5\u30c8\u5238\u3082\u8cfc\u5165\u3057\u3066\u308b\u6a21\u69d8\u3002\n\u52dd\u624b\u306b\u4f55\u304b\u306e\u30ec\u30d3\u30e5\u30fc\u3057\u3066\u308b\u3057\u3001\u3053\u308c\u306a\u3093\u306a\u306e\uff1f\n\u3057\u304b\u3082\u30a2\u30de\u30be\u30f3\u306b\u554f\u3044\u5408\u308f\u305b\u305f\u3044\u306e\u306b\u3069\u3053\u306b\u9023\u7d61\u3059\u308c\u3070\u3044\u3044\u306e\u304b\u308f\u304b\u3089\u306a\u3044\u3002\n\u8d85\u6016\u3044\uff01\u30d1\u30cb\u30c3\u30af\uff01"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2952278_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u5bc6\u6797\u3055\u3093\u4eca\u65e5\u306f\u306a\u3093\u304b\u9069\u5f53\u306a\u68b1\u5305\u3060\u306a\u3002\n\u3044\u3084\u666e\u901a\u306a\u306e\u304b\u306a\uff1f\n\u3044\u3064\u3082\u904e\u5270\u7de9\u885d\u6750\uff06\u904e\u5270\u5305\u88c5\u3060\u304b\u3089\u3055\u3063\u3071\u308a\u3057\u3066\u898b\u3048\u308b\u3002\n\n\u305d\u3057\u3066\u3053\u308c\uff08\u5b9a\u671f\u8cfc\u5165\uff09\uff11\u3064\u306b\u5bfe\u3057\u3066\n\u3053\u308c\u4ee5\u4e0a\u5c0f\u3055\u3044\u30c0\u30f3\u30dc\u30fc\u30eb\u3084\u7d19\u888b\u3092\u4f7f\u308f\u306a\u3044\u306e\u304c\u5bc6\u6797\u306e\u30dd\u30ea\u30b7\u30fc\u3002 https://t.co/LrHyapJDjp"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "609442_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon\u304b\u3089\u5c4a\u3044\u305f\uff01\n\u65e9\u901f\u8074\u3044\u305f\u3051\u3069\u795e\u30a2\u30eb\u30d0\u30e0\u3067\u3057\u305f\uff08 ;  ; \uff09\n\u30ce\u30a8\u30eb\u6700\u9ad8\uff01 https://t.co/761qvqWJ9L"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2462162_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon\u3067\u5546\u54c1\u8cb7\u3063\u305f\u3082\u306e\u306e\u8aac\u660e\u66f8\u901a\u308a\u3084\u3063\u3066\u3082\u96fb\u6e90\u306f\u4e00\u5411\u306b\u5165\u3089\u306a\u3044\ud83d\ude29\ud83d\ude2d\n\u4f55\u304c\u539f\u56e0\u306a\u306e\u304b\u3082\u5206\u304b\u3089\u306a\u3044\n\u4ffa\u306e\u4e2d\u3067\u4e0d\u826f\u54c1\u8aac\u6fc3\u539a\ud83e\udd14\n\u52dd\u624b\u306b\u4e0d\u826f\u54c1\u3068\u6c7a\u3081\u3064\u3051\u308b\u306e\u306f\u826f\u304f\u306a\u3044\u3051\u3069\u306d"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2806601_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "Amazon\u306e\u540d\u3092\u8a9e\u308b\uff1f\u3053\u3093\u306a\u30b7\u30e7\u30fc\u30c8\u30e1\u30fc\u30eb\u6765\u305f\u3002\n\u300c\u6709\u6599\u52d5\u753b\u30b5\u30a4\u30c8\u3078\u767b\u9332\u5c65\u6b74\u304c\u3042\u308a\u3001\u672a\u7d0d\u6599\u91d1\u304c\u767a\u751f\u3057\u3066\u307e\u3059\u3002\u672c\u65e5\u4e2d\u306b\u3054\u9023\u7d61\u306a\u3044\u5834\u5408\u306f\u6cd5\u7684\u624b\u7d9a\u304d\u306b\u79fb\u884c\u3057\u307e\u3059\u300203-4334-0842\u3000\u3231\u30a2\u30de\u30be\u30f3\u300d\u4f7f\u3063\u305f\u4e8b\u306a\u3044\u3057\u7121\u8996\u3057\u3088( \u00b4_\u309d`)"
+      },
+      {
+        "language": "JP",
+        "conversation_id": "2313738_AmazonHelp",
+        "turn_index": 1,
+        "detected_label": "JP",
+        "text": "\u3046\u3061\u306e\u732b\u304c\u307e\u305f\u5909\u306a\u3053\u3068\u3057\u3066\u308b\u3002 (\u30b3\u30df\u30c3\u30af\u30a8\u30c3\u30bb\u30a4)   \u5375\u5c71 \u7389\u5b50 https://t.co/oxihGw4atG @116313\u3055\u3093\u304b\u3089"
+      }
+    ]
+  },
+  "task_b_directed_at_brand_check": {
+    "seed": 888,
+    "rows_count": 20,
+    "rows": [
+      {
+        "conversation_id": "729371_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "Hi, @115850. I wanted to cancel an order I places yesterday, but cant find the REQUEST CANCELLATION link anywhere in the website. #help"
+      },
+      {
+        "conversation_id": "251622_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "How hard can it be to book a train ticket? Between a website that won't take and 22 minutes &amp; counting on the phone @VirginTrains are truly shocking."
+      },
+      {
+        "conversation_id": "2518064_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Delivery_Tracking_And_Delays",
+        "text": "@117634 When will the iOS app supports the iPhone X? It\u2019s been weeks and you just have a major update."
+      },
+      {
+        "conversation_id": "222607_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Return_Exchange_And_Pickup",
+        "text": "Want to buy 10 or E with exchange but exchange is not available in my PIN code is there is other way @AmazonHelp I really want this"
+      },
+      {
+        "conversation_id": "115906_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Refund_Status_And_Billing_Disputes",
+        "text": "@115830 disgusting service by myHermes. No delivery on wed, then pretended to delivery 40mins ago no card left and someone in all day. Can\u2019t even contact them to complain!"
+      },
+      {
+        "conversation_id": "182501_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "@AmazonHelp Trying to purchase Star Wars Battlefront II for PC and getting this error. https://t.co/QZVlJJRwFy Any help?"
+      },
+      {
+        "conversation_id": "266527_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "@115858 @AppleSupport updated to ios11 and I\u2019ve had the loading symbol on the left side since."
+      },
+      {
+        "conversation_id": "320647_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Refund_Status_And_Billing_Disputes",
+        "text": "@115850 Hey! Your customer care executive is asking for my credit card details in order to change the address. Please assist immediately!"
+      },
+      {
+        "conversation_id": "122081_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Promotions_GiftCards_And_Pricing",
+        "text": "@117804 vai ter aquela promo\u00e7\u00e3o marota?"
+      },
+      {
+        "conversation_id": "622782_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Order_Cancellation_And_Address_Change",
+        "text": "@AmazonHelp I'm trying to cancel an order, but there is not option to edit order also I didn't receive a email regarding the order"
+      },
+      {
+        "conversation_id": "2418745_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Return_Exchange_And_Pickup",
+        "text": "@115850 Struggling to oder OnePlus5 128GB as exchange option is not showing up. Couple hrs back it was there. Exchange offer is mentioned in Special Offers section. Kindly suggest."
+      },
+      {
+        "conversation_id": "2213209_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "@115830 waited in all day for this to be delivered and it arrived damaged , not a happy @215630 fan https://t.co/pWyC8KH5zM"
+      },
+      {
+        "conversation_id": "1755052_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Account_Security_And_Login",
+        "text": "@115821 WHY AM I STUCK IN A CIRCULAR HELL OF PASSWORD RESET AND ENTERING MY EMAIL AND THEN THE CODE RINSE, REPEAT? OMG I AM DYING OF FRUSTRATION. I just want to change my password. What the fuck. Seriously."
+      },
+      {
+        "conversation_id": "135021_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "@115830 Amazon coins aren't working, I have the coins but when I try to use them in app they aren't working."
+      },
+      {
+        "conversation_id": "2904965_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Marked_Delivered_Not_Received",
+        "text": "@AmazonHelp hi, order says delivered but order has not been delivered - so where is it??"
+      },
+      {
+        "conversation_id": "2320841_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Return_Exchange_And_Pickup",
+        "text": "@116439 what is amazonfiretv an can you pick up Nascar on it"
+      },
+      {
+        "conversation_id": "257092_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Refund_Status_And_Billing_Disputes",
+        "text": "@131742 hey you guys offering 0% on credit card processing? If so let me know so I can stop hanging up on the 5 calls a day I get about it.Thx"
+      },
+      {
+        "conversation_id": "2798324_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Delivery_Tracking_And_Delays",
+        "text": "@AmazonHelp I ordered something a week ago and it still hasnt shipped. I'm a prime member. Why are my orders grouped together instead of singularly shipped if there are delays?"
+      },
+      {
+        "conversation_id": "1303749_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Delivery_Tracking_And_Delays",
+        "text": "Amazon Logistics Tracking @115830 #whybother https://t.co/WDeglwSJlV"
+      },
+      {
+        "conversation_id": "199016_AmazonHelp",
+        "turn_index": 1,
+        "detected_label/intent_source": "Technical_App_And_Website_Issues",
+        "text": "@hulu_support Apple TV app asked to reset location? I have questions..."
+      }
+    ]
+  },
+  "japanese_observation": "Japanese has an unusually high suitability-filter exclusion rate; the cause is not established by this audit."
+}

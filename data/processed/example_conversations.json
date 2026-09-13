@@ -1,0 +1,200 @@
+[
+  {
+    "conversation_number": 1,
+    "message_count": 4,
+    "messages": [
+      {
+        "tweet_id": "37007",
+        "author_id": "124103",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Wed Nov 22 18:41:20 +0000 2017",
+        "text": "@115714 thanks for making it easy to get information on your website and live chat https://t.co/dKBQMJq0hd"
+      },
+      {
+        "tweet_id": "37005",
+        "author_id": "sprintcare",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Wed Nov 22 18:51:58 +0000 2017",
+        "text": "@124103 Do you need any type of assistance? -JM"
+      },
+      {
+        "tweet_id": "37004",
+        "author_id": "124103",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Wed Nov 22 19:00:13 +0000 2017",
+        "text": "@sprintcare I did. But if your chat can't help me to be one a customer I have little to NO faith of ever getting help when I become a customer."
+      },
+      {
+        "tweet_id": "37003",
+        "author_id": "sprintcare",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Wed Nov 22 19:02:54 +0000 2017",
+        "text": "@124103 Please don't feel this way, What can we do for you? -JM"
+      }
+    ]
+  },
+  {
+    "conversation_number": 2,
+    "message_count": 3,
+    "messages": [
+      {
+        "tweet_id": "38347",
+        "author_id": "115913",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Wed Nov 01 14:33:51 +0000 2017",
+        "text": "My next robot #LegereDog? \ud83d\ude09 https://t.co/qaQLfq0dsN"
+      },
+      {
+        "tweet_id": "38346",
+        "author_id": "124341",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Wed Nov 01 14:40:38 +0000 2017",
+        "text": "@115913 I am loving my phone  but not the service  T-Mobile has problems Dm me for input."
+      },
+      {
+        "tweet_id": "38345",
+        "author_id": "TMobileHelp",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Wed Nov 01 14:41:29 +0000 2017",
+        "text": "@124341 @115913 We're here for you and want to help. Please DM us what's going on: https://t.co/cuEwtd2epS *DanKing"
+      }
+    ]
+  },
+  {
+    "conversation_number": 3,
+    "message_count": 4,
+    "messages": [
+      {
+        "tweet_id": "11212",
+        "author_id": "118132",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Wed Nov 01 00:35:48 +0000 2017",
+        "text": "@ChipotleTweets You need to redo the queso. Horrible powder blah!!! Look on the back of a velveta box there is a recipe there for cheese dip"
+      },
+      {
+        "tweet_id": "11210",
+        "author_id": "ChipotleTweets",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Wed Nov 01 00:56:00 +0000 2017",
+        "text": "@118132 We use real ingredients, and we're working with our Menu Development team. We  hope you give it another shot soon. -Becky"
+      },
+      {
+        "tweet_id": "11211",
+        "author_id": "118132",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Thu Nov 09 01:41:53 +0000 2017",
+        "text": "@ChipotleTweets That's hard to believe because that queso does not taste real. It's taste like powdered cheese packet that you add water to and heat up. \ud83e\udd22"
+      },
+      {
+        "tweet_id": "11213",
+        "author_id": "ChipotleTweets",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Thu Nov 09 02:09:56 +0000 2017",
+        "text": "@118132 Feel free to check out https://t.co/wuOkuymwhc for a full ingredient list. -James"
+      }
+    ]
+  },
+  {
+    "conversation_number": 4,
+    "message_count": 5,
+    "messages": [
+      {
+        "tweet_id": "617",
+        "author_id": "115820",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Tue Oct 31 22:16:32 +0000 2017",
+        "text": "Way to drop the ball on customer service @115821 so pissed right now!"
+      },
+      {
+        "tweet_id": "615",
+        "author_id": "AmazonHelp",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Tue Oct 31 22:29:00 +0000 2017",
+        "text": "@115820 I'm sorry we've let you down! Without providing any personal information, will you describe the issue? We'd love to help. ^TN"
+      },
+      {
+        "tweet_id": "616",
+        "author_id": "115820",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Tue Oct 31 23:22:08 +0000 2017",
+        "text": "@AmazonHelp 3 different people have given 3 different answers and I still don't have my order. Says delivered Saturday, was not, I was home all day"
+      },
+      {
+        "tweet_id": "618",
+        "author_id": "AmazonHelp",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Tue Oct 31 23:28:00 +0000 2017",
+        "text": "@115820 We'd like to take a further look into this with you! Please reach us by phone or chat here: https://t.co/hApLpMlfHN ^AG"
+      },
+      {
+        "tweet_id": "619",
+        "author_id": "115820",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Tue Oct 31 23:32:26 +0000 2017",
+        "text": "@AmazonHelp I frankly don't have the patience for another chat with your \"customer service\" people today."
+      }
+    ]
+  },
+  {
+    "conversation_number": 5,
+    "message_count": 5,
+    "messages": [
+      {
+        "tweet_id": "4302",
+        "author_id": "116714",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Sat Oct 28 04:19:33 +0000 2017",
+        "text": "@hulu_support l\u2019m watching episodes of Lost in Space and they are not complete. I compared them with ones on YouTube and parts are missing."
+      },
+      {
+        "tweet_id": "4301",
+        "author_id": "hulu_support",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Sun Oct 29 23:33:34 +0000 2017",
+        "text": "@116714 Hi, Mike! We post content as received by the provider. If you let us know ep #'s and more details, we'd be happy to investigate."
+      },
+      {
+        "tweet_id": "4300",
+        "author_id": "116714",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Mon Oct 30 01:36:20 +0000 2017",
+        "text": "@hulu_support It was the last episode of season one. The final scene is incorrect. It\u2019s from another episode."
+      },
+      {
+        "tweet_id": "4298",
+        "author_id": "hulu_support",
+        "inbound": false,
+        "direction": "brand",
+        "created_at": "Tue Oct 31 23:04:48 +0000 2017",
+        "text": "@116714 This is the version we're able to offer from the content provider, but we'll be sure to share your feedback!"
+      },
+      {
+        "tweet_id": "4299",
+        "author_id": "116714",
+        "inbound": true,
+        "direction": "customer",
+        "created_at": "Tue Oct 31 23:05:59 +0000 2017",
+        "text": "@hulu_support Ok thanks."
+      }
+    ]
+  }
+]

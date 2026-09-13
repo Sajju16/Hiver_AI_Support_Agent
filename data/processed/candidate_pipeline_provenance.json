@@ -1,0 +1,52 @@
+{
+  "investigation_type": "TRACE_ONLY_PROVENANCE_AUDIT",
+  "dataset_brand": "AmazonHelp",
+  "question_1_intent_source_provenance": {
+    "file": "scripts/run_final_verification_pass.py",
+    "function": "classify_b1_intent(text)",
+    "lines": "176-198",
+    "rule_type": "Substring keyword matching on text.lower()",
+    "input_artifact": "c['customer_initial_query'] (opening customer tweet extracted from thread BFS)",
+    "output_artifact": "data/processed/final_verification_pass.json",
+    "taxonomy_origin": "Older 12-category discovery taxonomy defined in scripts/discover_amazon_intents.py",
+    "account_security_label_status": "Legacy label from early discovery phase. Not present in frozen 10-intent taxonomy.",
+    "text_scope": "Single opening customer tweet only (customer_initial_query)."
+  },
+  "question_2_brand_association_provenance": {
+    "file": "scripts/run_final_verification_pass.py",
+    "function": "load_amazon_convos()",
+    "lines": "86-102",
+    "brand_association_logic": "CHOICE_B (Conversation containing an AmazonHelp reply somewhere in the connected thread graph)",
+    "filtering_condition": "has_amazon = any(tweet_author.get(t) == 'AmazonHelp' for t in thread_tids)",
+    "flaw_description": "Collects all connected tweets in a tree graph component. If AmazonHelp appears anywhere in the thread, has_amazon is True for the entire graph component. customer_initial_query is assigned to the root tweet of the entire thread component. If root tweet was addressed to @AppleSupport or @hulu_support, it is incorrectly attributed to AmazonHelp."
+  },
+  "question_3_contamination_root_cause": {
+    "primary_cause": "Issue 2 (Overly broad brand filter in load_amazon_convos) & Issue 3 (Candidate selection without handle targeting filter)",
+    "traced_example_applesupport": {
+      "root_tweet_id": "294943",
+      "root_author": "186241",
+      "root_text": "People. Don’t download the latest @AppleSupport iOS update...",
+      "thread_size": 24,
+      "amazon_reply_in_thread": "Tweet 2949409 authored by AmazonHelp to Spanish user 814532",
+      "failure_mechanism": "has_amazon evaluated True for 24-tweet graph component. cust_msgs[0] selected root tweet 294943 addressed to @AppleSupport."
+    },
+    "traced_example_hulu": {
+      "root_tweet_id": "256026",
+      "root_text": "@hulu_support hi Is Hulu available in UAE/Dubai",
+      "failure_mechanism": "Selected as root of thread where Hulu replied, attributed to AmazonHelp via graph component association."
+    }
+  },
+  "question_4_taxonomy_drift": {
+    "label": "Account_Security_And_Login",
+    "defined_in": "scripts/discover_amazon_intents.py (Line 156)",
+    "assigned_in": "scripts/run_final_verification_pass.py (Line 197)",
+    "status": "Taxonomy version drift between candidate extraction helper scripts and frozen taxonomy JSON."
+  },
+  "question_5_root_cause_summary": {
+    "phase1_reconstruction_issue": "Likely / Secondary (Multi-brand thread graph component aggregation in twcs.csv)",
+    "brand_filter_issue": "CONFIRMED (Primary root cause: load_amazon_convos checks AmazonHelp anywhere in thread graph without checking @AmazonHelp handle targeting)",
+    "intent_generation_issue": "CONFIRMED (Unvalidated keyword matching on opening tweet)",
+    "taxonomy_version_drift": "CONFIRMED (Helper scripts contained legacy labels from early discovery code)",
+    "candidate_pool_trustworthiness": "UNTRUSTWORTHY for Golden Set sampling in current state without brand handle targeting fix."
+  }
+}

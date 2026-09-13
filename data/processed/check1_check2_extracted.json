@@ -1,0 +1,771 @@
+{
+  "check1": [
+    {
+      "sample_id": 1,
+      "conversation_id": "530746_AmazonHelp",
+      "customer_text": "So thanks to @24123 and @115830 I'm spending another weekend on the phone (mostly on hold) trying to find out what's going on with my order and why it hasn't been delivered. It's been A MONTH since I placed the order #CustomerServiceSucks",
+      "all_authors": [
+        "AmazonHelp",
+        "215812"
+      ]
+    },
+    {
+      "sample_id": 2,
+      "conversation_id": "353274_AmazonHelp",
+      "customer_text": "@AmazonHelp I ordered something and it never arrived. Was supposed to be here Sept. 21 and now it’s Oct. 8.",
+      "all_authors": [
+        "AmazonHelp",
+        "199982"
+      ]
+    },
+    {
+      "sample_id": 3,
+      "conversation_id": "468839_AmazonHelp",
+      "customer_text": "I finally gt #WishinAndHopinMovie on @116618 so I can be enjoying it around #ChristmasTime 🤗👼🏾🎄",
+      "all_authors": [
+        "AmazonHelp",
+        "226628"
+      ]
+    },
+    {
+      "sample_id": 4,
+      "conversation_id": "1258942_AmazonHelp",
+      "customer_text": "Thank you @115850 \nYour customer service guy (Shubham) was extremely helpful &amp; had my product delivered just as and when I wanted.",
+      "all_authors": [
+        "AmazonHelp",
+        "394181"
+      ]
+    },
+    {
+      "sample_id": 5,
+      "conversation_id": "280628_AmazonHelp",
+      "customer_text": "He comprado en @116928 y @130709 dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x reclamarles.",
+      "all_authors": [
+        "SpotifyCares",
+        "AmericanAir",
+        "782620",
+        "AmazonHelp",
+        "241090",
+        "TMobileHelp",
+        "782653",
+        "182854",
+        "comcastcares",
+        "782652",
+        "782676",
+        "782680",
+        "782621",
+        "475431",
+        "245035",
+        "782658",
+        "AirAsiaSupport",
+        "ChipotleTweets",
+        "Delta",
+        "782682"
+      ]
+    },
+    {
+      "sample_id": 6,
+      "conversation_id": "1095914_AmazonHelp",
+      "customer_text": "@115850 you are drunk! 😁#AmazonGreatIndianFestival https://t.co/ah9s8N9kDK",
+      "all_authors": [
+        "AmazonHelp",
+        "378616"
+      ]
+    },
+    {
+      "sample_id": 7,
+      "conversation_id": "46505_AmazonHelp",
+      "customer_text": "@Ask_WellsFargo i was forced to change my password when i tried to log in, did that twice using a text code, and it’s still asking me to change once again when i log in? How do i fix this?",
+      "all_authors": [
+        "126324",
+        "AirAsiaSupport",
+        "AmazonHelp",
+        "225359",
+        "AskLyft",
+        "Ask_WellsFargo",
+        "225612"
+      ]
+    },
+    {
+      "sample_id": 8,
+      "conversation_id": "2072931_AmazonHelp",
+      "customer_text": "@117795 why is it taking 4 days for a package to come when I ordered it Monday morning. WTF",
+      "all_authors": [
+        "613115",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 9,
+      "conversation_id": "169594_AmazonHelp",
+      "customer_text": "#BlackFriday @116928 https://t.co/X4dGVZi0vK",
+      "all_authors": [
+        "AskPlayStation",
+        "AmazonHelp",
+        "AmericanAir",
+        "155493"
+      ]
+    },
+    {
+      "sample_id": 10,
+      "conversation_id": "350476_AmazonHelp",
+      "customer_text": "@120533 Bonjour, impossible de faire une demande de SAV sur mon compte pour un article qui a moins d'un an. Pouvez vous m'aider?",
+      "all_authors": [
+        "AmazonHelp",
+        "199379"
+      ]
+    },
+    {
+      "sample_id": 11,
+      "conversation_id": "2903546_AmazonHelp",
+      "customer_text": "@116875 En su página no dice nada sobre facturación, podrían aclararme este punto?",
+      "all_authors": [
+        "AmazonHelp",
+        "804144"
+      ]
+    },
+    {
+      "sample_id": 12,
+      "conversation_id": "97679_AmazonHelp",
+      "customer_text": "@SpotifyCares I have a problem with Spotify premium. Am I able to change which account has it because I bought it on the wrong account",
+      "all_authors": [
+        "SpotifyCares",
+        "351670",
+        "AmazonHelp",
+        "351668",
+        "Uber_Support",
+        "137387"
+      ]
+    },
+    {
+      "sample_id": 13,
+      "conversation_id": "2901051_AmazonHelp",
+      "customer_text": "Personally I think that the @115830 driver just couldn't be arsed to deliver as not expected 'til Thursday, someone was in and no card left https://t.co/KQDyMWSgQE",
+      "all_authors": [
+        "AmazonHelp",
+        "384707"
+      ]
+    },
+    {
+      "sample_id": 14,
+      "conversation_id": "704345_AmazonHelp",
+      "customer_text": "@115850 hey amazon swines.. where is your reply ?? you cheat..... you fraud......you BC..you MC...you Bh...ke ;;;lau....give me compensation...",
+      "all_authors": [
+        "141432",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 15,
+      "conversation_id": "2531745_AmazonHelp",
+      "customer_text": "@118919 order # 406-5156059-3794748 not yet recd. Fed up of waiting",
+      "all_authors": [
+        "720568",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 16,
+      "conversation_id": "429957_AmazonHelp",
+      "customer_text": "@AmazonHelp So your driver delivers next doors parcel down the side of OUR house and pulls the gate off the wall!!! It’s locked for a reason https://t.co/5qRSVH15Su",
+      "all_authors": [
+        "217252",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 17,
+      "conversation_id": "2285056_AmazonHelp",
+      "customer_text": "Amazon India\nPurchased  BAJAJ IMMERSION ROD ORDER NO 171 5505723 9172339 DTD 6.11.2017 RECIVED STONES DELIVERY ON 11.11.2017. REALLY AMAZON IS GRATE https://t.co/85b17qPjHi",
+      "all_authors": [
+        "664007",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 18,
+      "conversation_id": "2894649_AmazonHelp",
+      "customer_text": "I had to go help my grandma order some things off @115821 this morning, &amp; I ended up leaving with 2 big ass bags of food 😂",
+      "all_authors": [
+        "AmazonHelp",
+        "802203"
+      ]
+    },
+    {
+      "sample_id": 19,
+      "conversation_id": "1422339_AmazonHelp",
+      "customer_text": "@115850  #Pathetic, order original estimation was 27th oct and Expected is 31st Oct but today is 2nd Nov but still order is not delivered. https://t.co/8dvSZibnXm",
+      "all_authors": [
+        "AmazonHelp",
+        "450552"
+      ]
+    },
+    {
+      "sample_id": 20,
+      "conversation_id": "58139_AmazonHelp",
+      "customer_text": "Kann man sich auf @116316  eigentlich einen Alarm einstellen der einen informiert wenn bestimmte Sachen eingestellt werden?",
+      "all_authors": [
+        "AmazonHelp",
+        "British_Airways",
+        "129197",
+        "257011"
+      ]
+    },
+    {
+      "sample_id": 21,
+      "conversation_id": "1616373_AmazonHelp",
+      "customer_text": "Lets see if they deliver today... Impressive though @115850 https://t.co/k86EKyerqs",
+      "all_authors": [
+        "AmazonHelp",
+        "495690"
+      ]
+    },
+    {
+      "sample_id": 22,
+      "conversation_id": "1449109_AmazonHelp",
+      "customer_text": "Got some new hair clippers from @115830  hope it was worth the wait took @115830  9 days to deliver  them not very impressed!!!! https://t.co/TXPMShAN1h",
+      "all_authors": [
+        "AmazonHelp",
+        "456253"
+      ]
+    },
+    {
+      "sample_id": 23,
+      "conversation_id": "2300033_AmazonHelp",
+      "customer_text": "@119625 can u please release the telugu version of #KaatruVeliyidai in telugu #Cheliyaa",
+      "all_authors": [
+        "AmazonHelp",
+        "667566"
+      ]
+    },
+    {
+      "sample_id": 24,
+      "conversation_id": "1707046_AmazonHelp",
+      "customer_text": "@AmazonHelp none of this is true. Who writes these notes? I did not refuse delivery. It is not a holiday. https://t.co/mSnyEyDygj",
+      "all_authors": [
+        "AmazonHelp",
+        "517329"
+      ]
+    },
+    {
+      "sample_id": 25,
+      "conversation_id": "515318_AmazonHelp",
+      "customer_text": "@AmazonHelp my order was estimated to come today but still has not shipped. The order is fulfilled my amazon.",
+      "all_authors": [
+        "238700",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 26,
+      "conversation_id": "910632_AmazonHelp",
+      "customer_text": "@115851 please look this first receiving date is 17/10/2017 and is 20/10/2017\nIt's really pathetic services with amazone team @115850 https://t.co/9NBxITD3oS",
+      "all_authors": [
+        "AmazonHelp",
+        "336286"
+      ]
+    },
+    {
+      "sample_id": 27,
+      "conversation_id": "2521804_AmazonHelp",
+      "customer_text": "Obrigado e parabéns @117086, nunca ninguém entregou algo tão rápido.",
+      "all_authors": [
+        "718245",
+        "AmazonHelp"
+      ]
+    },
+    {
+      "sample_id": 28,
+      "conversation_id": "2835729_AmazonHelp",
+      "customer_text": "The #amazon delivery guy has just been... I don't think he knew his arse from his elbow... I bet it was his first day... it could quite possibly be his last too #cockup",
+      "all_authors": [
+        "AmazonHelp",
+        "789310"
+      ]
+    },
+    {
+      "sample_id": 29,
+      "conversation_id": "531684_AmazonHelp",
+      "customer_text": "@AmazonHelp had an item gift arrive like this (attempted to peel label off). No outer packaging and clearly been opened (had another label saying checked). How do I give this as a Christmas gift? Looks awful and used! https://t.co/ZmvlFLAfST",
+      "all_authors": [
+        "AmazonHelp",
+        "243167"
+      ]
+    },
+    {
+      "sample_id": 30,
+      "conversation_id": "2538135_AmazonHelp",
+      "customer_text": "@116928 vuestro repartidor estaba muy muy motivado para dejar el paquete dentro del buzón. https://t.co/NhdfFZeTig",
+      "all_authors": [
+        "AmazonHelp",
+        "604268"
+      ]
+    }
+  ],
+  "check2": [
+    {
+      "sample_id": 1,
+      "conversation_id": "181094_AmazonHelp",
+      "customer_text": "@AmericanAir Turks and Caicos is still recovering. Flight delayed 58 minutes and you r still are charging me cancellation fee over 2 min",
+      "all_authors": [
+        "544081",
+        "AmazonHelp",
+        "158532",
+        "AmericanAir"
+      ],
+      "handles_in_text": [
+        "AmericanAir"
+      ],
+      "direct_child_authors": [
+        "AmericanAir"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 2,
+      "conversation_id": "154454_AmazonHelp",
+      "customer_text": "@AppleSupport latest iOS update is supposed to fix freezing issues for iPhone X. What do you do if your iPhone X freezes and won’t download iOS?! 🤷🏼‍♀️",
+      "all_authors": [
+        "AmazonHelp",
+        "AppleSupport",
+        "478414",
+        "151396"
+      ],
+      "handles_in_text": [
+        "AppleSupport"
+      ],
+      "direct_child_authors": [
+        "AppleSupport",
+        "478414"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 3,
+      "conversation_id": "1148706_AmazonHelp",
+      "customer_text": "@120169 tracking number is 43352465284 should be delivered on 17th Oct but u guys make mess of it today 23rd still not received\nGod bless u https://t.co/F09h9WBZ93",
+      "all_authors": [
+        "133929",
+        "AmazonHelp",
+        "390328"
+      ],
+      "handles_in_text": [
+        "120169"
+      ],
+      "direct_child_authors": [
+        "133929"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 4,
+      "conversation_id": "282555_AmazonHelp",
+      "customer_text": "@TMobileHelp I paid $12 for overnight shipping yesterday afternoon why 16 hours laters it’s still being processed? \n\nWe got beef???",
+      "all_authors": [
+        "AmazonHelp",
+        "TMobileHelp",
+        "787136",
+        "183313"
+      ],
+      "handles_in_text": [
+        "TMobileHelp"
+      ],
+      "direct_child_authors": [
+        "TMobileHelp",
+        "787136"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 5,
+      "conversation_id": "214451_AmazonHelp",
+      "customer_text": "If I use part of my voucher am I able to use the rest later or is it a one time voucher? @SouthwestAir",
+      "all_authors": [
+        "630059",
+        "SouthwestAir",
+        "AmazonHelp",
+        "LondonMidland",
+        "143430",
+        "630494"
+      ],
+      "handles_in_text": [
+        "SouthwestAir"
+      ],
+      "direct_child_authors": [
+        "SouthwestAir",
+        "630494"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 6,
+      "conversation_id": "97235_AmazonHelp",
+      "customer_text": "@115817 with a FOURTEEN minute hold time? Just trying to get updated tracking info, since the website doesn’t show up-to-date info. What can Brown do for me? Provide TRUE live tracking &amp; hire more agents.",
+      "all_authors": [
+        "350644",
+        "AskTarget",
+        "Tesco",
+        "AmazonHelp",
+        "350647",
+        "UPSHelp",
+        "350646",
+        "137237"
+      ],
+      "handles_in_text": [
+        "115817"
+      ],
+      "direct_child_authors": [
+        "UPSHelp",
+        "350646",
+        "Tesco"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 7,
+      "conversation_id": "4024_AmazonHelp",
+      "customer_text": "@British_Airways  where is my missing bag ? On br airways flight to bfast hrow kuwait, delayed flightput on K airlines mon anoon  veryupset",
+      "all_authors": [
+        "116668",
+        "AskTarget",
+        "211096",
+        "CenturyLinkHelp",
+        "211095",
+        "AmazonHelp",
+        "British_Airways",
+        "Delta",
+        "124808",
+        "McDonalds",
+        "Ask_WellsFargo",
+        "MicrosoftHelps",
+        "211133"
+      ],
+      "handles_in_text": [
+        "British_Airways"
+      ],
+      "direct_child_authors": [
+        "British_Airways"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 8,
+      "conversation_id": "108519_AmazonHelp",
+      "customer_text": "Expensive ticket, late for he thid time this week, can't get out of the Preston station car park. Just love travelling with @VirginTrains",
+      "all_authors": [
+        "SpotifyCares",
+        "140083",
+        "375969",
+        "AmazonHelp",
+        "VirginTrains",
+        "375975"
+      ],
+      "handles_in_text": [
+        "VirginTrains"
+      ],
+      "direct_child_authors": [
+        "VirginTrains",
+        "375975"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 9,
+      "conversation_id": "131898_AmazonHelp",
+      "customer_text": "@115817 @UPSHelp Tracking Number - 1Z01351W0491055897. Totally disappointed. India customer care is useless. Repeated followups, no response. When can I get my shipment?",
+      "all_authors": [
+        "AmazonHelp",
+        "UPSHelp",
+        "145738",
+        "428019"
+      ],
+      "handles_in_text": [
+        "115817",
+        "UPSHelp"
+      ],
+      "direct_child_authors": [
+        "UPSHelp",
+        "428019"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 10,
+      "conversation_id": "168185_AmazonHelp",
+      "customer_text": "@VirginTrains my 19.10 from Birmingham New St to London Euston will be getting into London around 40mins late due to an issue on a train ahead of it outside Coventry. I'm I covered by Automatic Delay Replay?",
+      "all_authors": [
+        "511305",
+        "140026",
+        "AmazonHelp",
+        "Ask_Spectrum",
+        "VirginTrains",
+        "511314",
+        "Uber_Support",
+        "155128"
+      ],
+      "handles_in_text": [
+        "VirginTrains"
+      ],
+      "direct_child_authors": [
+        "VirginTrains",
+        "Uber_Support"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 11,
+      "conversation_id": "98963_AmazonHelp",
+      "customer_text": "@AskLyft I'm a driver and I lost my debit card the other day that I use for instant payments and just got my replacement card. I changed it in my app will their be a delay in me being able to get express payments?",
+      "all_authors": [
+        "354437",
+        "AmazonHelp",
+        "137669",
+        "AskLyft",
+        "AppleSupport"
+      ],
+      "handles_in_text": [
+        "AskLyft"
+      ],
+      "direct_child_authors": [
+        "AskLyft",
+        "AppleSupport"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 12,
+      "conversation_id": "57904_AmazonHelp",
+      "customer_text": "@115725 40 mins and 1 hr 2 mins across 8 representative later, still no resolution on something that is not ideally supposed to be my prob! https://t.co/3UjukWobTx",
+      "all_authors": [
+        "VerizonSupport",
+        "AmazonHelp",
+        "129136",
+        "256340"
+      ],
+      "handles_in_text": [
+        "115725"
+      ],
+      "direct_child_authors": [
+        "VerizonSupport",
+        "256340"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 13,
+      "conversation_id": "42083_AmazonHelp",
+      "customer_text": "@marksandspencer Just checking definitely not doing White Chocolate bomb for Christmas ordering or in store?",
+      "all_authors": [
+        "AmazonHelp",
+        "British_Airways",
+        "Safaricom_Care",
+        "125285",
+        "marksandspencer",
+        "AzureSupport",
+        "215310"
+      ],
+      "handles_in_text": [
+        "marksandspencer"
+      ],
+      "direct_child_authors": [
+        "marksandspencer",
+        "British_Airways"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 14,
+      "conversation_id": "254177_AmazonHelp",
+      "customer_text": "Another delay 🙃🙃🙃\nWhyyy @Delta",
+      "all_authors": [
+        "722701",
+        "AmazonHelp",
+        "143805",
+        "722707",
+        "Delta"
+      ],
+      "handles_in_text": [
+        "Delta"
+      ],
+      "direct_child_authors": [
+        "Delta"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 15,
+      "conversation_id": "160073_AmazonHelp",
+      "customer_text": "@GWRHelp why is the 18.05 PAD-TWY delayed? Sob sob! Why are there sooooo many delays?! Grrrrrr",
+      "all_authors": [
+        "491473",
+        "140810",
+        "352189",
+        "AmazonHelp",
+        "152880",
+        "GloCare",
+        "491439",
+        "VerizonSupport",
+        "hulu_support",
+        "GWRHelp",
+        "152883",
+        "AskPlayStation",
+        "491471",
+        "DropboxSupport"
+      ],
+      "handles_in_text": [
+        "GWRHelp"
+      ],
+      "direct_child_authors": [
+        "140810",
+        "491473"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 16,
+      "conversation_id": "5705_AmazonHelp",
+      "customer_text": "@ArgosHelpers what’s the point in fast track when it’s really slow",
+      "all_authors": [
+        "ArgosHelpers",
+        "253909",
+        "TwitterSupport",
+        "128919",
+        "XboxSupport",
+        "253813",
+        "128915",
+        "AmazonHelp",
+        "Uber_Support",
+        "ATT",
+        "128918",
+        "117051",
+        "253816",
+        "128924",
+        "253871",
+        "253908",
+        "Walmart"
+      ],
+      "handles_in_text": [
+        "ArgosHelpers"
+      ],
+      "direct_child_authors": [
+        "117051"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 17,
+      "conversation_id": "10348_AmazonHelp",
+      "customer_text": "My packages keep getting delayed because of “operating conditions”. I don’t understand because y’all just toss people packages &amp; go anyway @115817 @UPSHelp",
+      "all_authors": [
+        "SpotifyCares",
+        "364768",
+        "AmazonHelp",
+        "UPSHelp",
+        "117878"
+      ],
+      "handles_in_text": [
+        "115817",
+        "UPSHelp"
+      ],
+      "direct_child_authors": [
+        "UPSHelp",
+        "UPSHelp"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    },
+    {
+      "sample_id": 18,
+      "conversation_id": "145084_AmazonHelp",
+      "customer_text": "@SCsupport One of our tracks comes up with ‘loading error, tap to try again’. No issues with WiFi as other tracks play immediately?",
+      "all_authors": [
+        "SCsupport",
+        "456669",
+        "456476",
+        "AmazonHelp",
+        "148859",
+        "456672",
+        "456677"
+      ],
+      "handles_in_text": [
+        "SCsupport"
+      ],
+      "direct_child_authors": [
+        "SCsupport",
+        "456672"
+      ],
+      "filter_drop_reasons": [
+        "No direct child reply from AmazonHelp",
+        "No explicit Amazon handle or mapped numeric ID in opening tweet",
+        "No explicit Amazon brand keyword in opening text"
+      ]
+    }
+  ]
+}

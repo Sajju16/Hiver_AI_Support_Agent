@@ -1,0 +1,2170 @@
+[
+  {
+    "example_id": "GOLDEN_007",
+    "conversation_id": "42558_AmazonHelp",
+    "turn_index": 4,
+    "raw_text": "@AmazonHelp In one case it was the same, in another it wasn't. I just don't understand in general why preordered items take so long to be dispatched?",
+    "thread_context": [
+      {
+        "author": "125402",
+        "text": "@amazonhelp so frustrated with your customer service. Out for delivery/resched then told packing slip torn, then package damaged.No solution",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@125402 Just to clarify, was the package returned because it was damaged or did you receive a damaged order? ^VS",
+        "is_customer": false
+      },
+      {
+        "author": "125402",
+        "text": "@AmazonHelp I did not receive my order. I missed original delivery, cust service called me and I opted for later delivery.No delivery arrived.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@125402 Did we replace the order? When you spoke with us regarding your order, what options did we provide? ^CO",
+        "is_customer": false
+      },
+      {
+        "author": "216206",
+        "text": "@AmazonHelp the regular one. I don't mind that it's not there yet,it's just annoying to always have to wait an extra couple of days till it's dispatched",
+        "is_customer": true
+      },
+      {
+        "author": "216206",
+        "text": "@AmazonHelp After all, the preordered items can be bought at the shops on time of their release, so why's Amazon always taking even longer?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@216206 What exact delivery date was advised when you placed the pre order? Was it the same as the release date? ^PK",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.21), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_133",
+      "EXT_187_034",
+      "EXT_187_015"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.21,
+      0.1943,
+      0.1931
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Prime_Subscription_And_Digital_Media": 1,
+      "General_Service_Complaint_Escalation": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2014,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "similarity_score": 0.2426,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_008",
+    "conversation_id": "2875664_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Yes, six different items experienced carrier delays.",
+    "thread_context": [
+      {
+        "author": "798322",
+        "text": "You know, it is kinda pointless having @117795 @115821 if it is not delivered within two days of ship date... Why am I paying for this?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@798322 Hello, Miguel. Thanks for reaching out to us today. Have we missed the delivery date on one of your current orders? ^FJ",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.2059), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_131",
+      "EXT_187_082",
+      "EXT_187_134"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.2059,
+      0.1799,
+      0.1742
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Prime_Subscription_And_Digital_Media": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2159,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "similarity_score": 0.2926,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_009",
+    "conversation_id": "364048_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp I've sent a DM with the amazon tracking numbers.. both deliveries just state they're out for delivery.",
+    "thread_context": [
+      {
+        "author": "202277",
+        "text": "Bit disappointed .. been waiting all day for a couple of packages to be delivered from @115830 but as yet they're still not here.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@202277 I'm sorry for the wait! What's the most up to date tracking say for the orders here: https://t.co/Y5jpI9gRhE? ^MH",
+        "is_customer": false
+      },
+      {
+        "author": "202277",
+        "text": "@AmazonHelp I would be great to have GPS tracking for us to check your drivers locations like other couriers have.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@202277 Sorry about the incorrect link, please let us know what the tracking shows here: https://t.co/aaDyEz1VgE ^NC",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.2007), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_025",
+      "EXT_187_028",
+      "DEV_012"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.2007,
+      0.1969,
+      0.1963
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Marked_Delivered_Not_Received": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.228,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "similarity_score": 0.2857,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_014",
+    "conversation_id": "450743_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Sorry guys. Do your job as \"Guaranteed\". It shouldn't involve any appeal on my part to receive your \"Guarantee\". @115821 @amazonHelp @115851 @115817",
+    "thread_context": [
+      {
+        "author": "221868",
+        "text": "@115817 @115821 Your prime delivery is BS. You had me pay $35 for guaranteed delivery tomorrow, and once the package gets into UPS's system, they change the delivery date to Monday. Serously $AMZN. Why would I pay you $35 for guaranteed delivery and then you don't keep your promise?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@221868 I'm so sorry for the frustration! We'd like to take a closer look at your order. Please reach out to us directly via phone/chat here: https://t.co/hApLpMlfHN ^TN",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1851), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_049",
+      "EXT_187_132",
+      "EXT_187_008"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1851,
+      0.1821,
+      0.1781
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Delivery_Tracking_And_Delays": 4
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2593,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Technical_App_And_Website_Issues",
+      "similarity_score": 0.1805,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_015",
+    "conversation_id": "483041_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "We just received this item from @116090 .... I think there may have been a packaging error😂 Silly Kitty sister! #dogsoftwitter #cats #Amazon https://t.co/k783ZcSaR2",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1476 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1347), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "DEV_026",
+      "EXT_187_145",
+      "EXT_187_053"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Delivery_Tracking_And_Delays",
+      "Damaged_Defective_Or_Wrong_Item"
+    ],
+    "top_3_similarity_scores": [
+      0.1347,
+      0.1293,
+      0.1169
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 2,
+      "Delivery_Tracking_And_Delays": 3
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "probability": 0.1476,
+      "agrees_with_nn": false
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "similarity_score": 0.1495,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_017",
+    "conversation_id": "192654_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@573351 I'M FUMING, SAM. Apparently there's nothing they can do until MONDAY. MONDAY IS NOT A GOOD DAY FOR GAMES, @115830",
+    "thread_context": [
+      {
+        "author": "161260",
+        "text": "@116593 Your shopping cart is busted. Keeps dumping off the promo code when I go to checkout. Logged out/in. Emptied shopping cart. Turned it off and on again ;). No dice.",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1262 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.138), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "DEV_036",
+      "DEV_009",
+      "EXT_187_103"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.138,
+      0.1172,
+      0.1172
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Technical_App_And_Website_Issues": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1262,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Technical_App_And_Website_Issues",
+      "similarity_score": 0.1823,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_018",
+    "conversation_id": "43733_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Was supposed to be delivered today by 8pm, but it was apparently given to USPS and we’ve already received our mail today so it’s definitely not coming, nor is it tomorrow since it’s Sunday. 😞",
+    "thread_context": [
+      {
+        "author": "125705",
+        "text": "Ugh @115821 this is my third prime order in 2 weeks that will be delivered late. What’s the deal? #nothappy @AmazonHelp",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@125705 I'm sorry for the delivery experiences! We don't want to let you down! What was the delivery date given on your most recent order? Did we miss the delivery date given in your confirmation e-mail? ^MO",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2331), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_082",
+      "EXT_187_133",
+      "EXT_187_094"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays",
+      "Marked_Delivered_Not_Received"
+    ],
+    "top_3_similarity_scores": [
+      0.2331,
+      0.2198,
+      0.2052
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Delivery_Tracking_And_Delays": 3,
+      "Marked_Delivered_Not_Received": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2502,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "similarity_score": 0.1854,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_019",
+    "conversation_id": "171016_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp My opinion: happy birthday on her birthday should be a standard prompt like \"good morning\"&amp; \"thank you\" it should elicit a response from her",
+    "thread_context": [
+      {
+        "author": "155886",
+        "text": "Waiting for a package from amazon to show up and the delivery truck drives up the other side of my divided street. https://t.co/7rz7jxd5G1",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@155886 I completely understand the anticipation-factor! Just to confirm, have we missed the delivery date provided at checkout: https://t.co/PyACxvY8Qo? ^ST",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1677), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_133",
+      "EXT_187_015",
+      "EXT_187_131"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1677,
+      0.1495,
+      0.1399
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Marked_Delivered_Not_Received": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1948,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Technical_App_And_Website_Issues",
+      "similarity_score": 0.1821,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_023",
+    "conversation_id": "2571324_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp hi i haven’t received my amazon prime one day deliveries that were supposed to be here today.  there are 8 items and it’s 5:27pm",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1895), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_050",
+      "DEV_009",
+      "EXT_187_133"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1895,
+      0.1752,
+      0.1547
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 2,
+      "Delivery_Tracking_And_Delays": 3
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1834,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Prime_Subscription_And_Digital_Media",
+      "similarity_score": 0.2933,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_024",
+    "conversation_id": "188326_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@115821 WHAT’S THE POINT OF PRIME IF YOU CAN’T GET IT HERE ON TIME?!\n\nThis is a pair of shoelaces for Christ’s sake!\n\nWhat’s the deal @115821?? https://t.co/WWuHlII8Lk",
+    "thread_context": [
+      {
+        "author": "160190",
+        "text": "@AppleSupport iPhone 5S refuses to upgrade from 11.0.1 to 11.0.2. Hit “download and install,” it asks for pin, circles, then      stops. https://t.co/nHIssucZxj",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1346 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1511), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_057",
+      "EXT_187_082",
+      "EXT_187_132"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1511,
+      0.1282,
+      0.1041
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Refund_Status_And_Billing_Disputes": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1346,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Prime_Subscription_And_Digital_Media",
+      "similarity_score": 0.3012,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_026",
+    "conversation_id": "63951_AmazonHelp",
+    "turn_index": 3,
+    "raw_text": "@AmazonHelp This conversation is phenomenal. Honestly. There was no shipping cost. I have Prime.",
+    "thread_context": [
+      {
+        "author": "AmazonHelp",
+        "text": "@130690 If there isn't an update there then please reach out to us directly so that we can look into this for your. You can do this by clicking on the following link:  https://t.co/JzP7hlA23B ^KI",
+        "is_customer": false
+      },
+      {
+        "author": "130690",
+        "text": "@AmazonHelp I have done TWICE palmed off once no reply other",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@130690 I'm sorry about the poor experience. As the refund was processed for you the investigation with the carrier would have been internal, you may not receive any update from that. If you contact us at the link provided we can check if any info was provided. ^MI",
+        "is_customer": false
+      },
+      {
+        "author": "130690",
+        "text": "@AmazonHelp I’ve done that too but still await a reply",
+        "is_customer": true
+      },
+      {
+        "author": "271702",
+        "text": "@AmazonHelp You have missed the entire point. I have received my items. The issue is I did not receive them by the guaranteed date. Which is frustrating. Why use that word? It’s misleading.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@271702 Oops! I understand now. We always aim to meet our guaranteed delivery dates. In the instance that they fail to meet that date, we are happy to refund the shipping costs. ^DY",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2264), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_133",
+      "EXT_187_029",
+      "EXT_187_080"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Other_Unclassified_Inquiry"
+    ],
+    "top_3_similarity_scores": [
+      0.2264,
+      0.2127,
+      0.203
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Other_Unclassified_Inquiry": 1,
+      "Prime_Subscription_And_Digital_Media": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1641,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Prime_Subscription_And_Digital_Media",
+      "similarity_score": 0.2062,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_028",
+    "conversation_id": "2211811_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp how is it that with Amazon prime I won't get deliveries until next Wednesday??",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1527), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_135",
+      "EXT_187_091",
+      "EXT_187_172"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Marked_Delivered_Not_Received",
+      "Prime_Subscription_And_Digital_Media"
+    ],
+    "top_3_similarity_scores": [
+      0.1527,
+      0.1478,
+      0.1301
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Marked_Delivered_Not_Received": 1,
+      "Prime_Subscription_And_Digital_Media": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1583,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Prime_Subscription_And_Digital_Media",
+      "similarity_score": 0.2223,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_029",
+    "conversation_id": "84218_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Yes, my prime 2-day delivery date was yesterday, the 19th.",
+    "thread_context": [
+      {
+        "author": "134523",
+        "text": "Also shoutout to @115858 for this stupid iPhone glitch. How you gonna fuck up the letter i when it’s in the name of all your products and the operating system 🤦🏿‍♂️",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@320321 I'm sorry your item hasn't arrived. Can you tell us more about what's going on? Have we missed your confirmed delivery date? ^RA",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1708), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_082",
+      "EXT_187_095",
+      "EXT_187_133"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1708,
+      0.1623,
+      0.1567
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Delivery_Tracking_And_Delays": 4
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2208,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Service_Complaint_And_Escalation",
+      "similarity_score": 0.1856,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_033",
+    "conversation_id": "380422_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp why have both me and my mum got GBP1 amazon transactions pending in our bank accounts when we haven't ordered anything ?!",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1405 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1451), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "DEV_021",
+      "EXT_187_165",
+      "EXT_187_079"
+    ],
+    "top_3_reference_human_intents": [
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.1451,
+      0.1263,
+      0.1258
+    ],
+    "vote_distribution": {
+      "Refund_Status_And_Billing_Disputes": 4,
+      "Technical_App_And_Website_Issues": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1405,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.1769,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_035",
+    "conversation_id": "127613_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp are you people giving me threat? What this mail means? You charged me illegally and without my authorization. https://t.co/6ctg0Uj2AY",
+    "thread_context": [
+      {
+        "author": "144672",
+        "text": "@118197 how do I enable the HDMI port on my studio XPS 8100 https://t.co/fPbPpMDtRI",
+        "is_customer": true
+      },
+      {
+        "author": "418720",
+        "text": "@AmazonHelp still no reply and i didn't received my money. Let me know if i need to go ahead with next step",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@418720 here: https://t.co/GIJyeYqKE0 and we'll get back to you with an update. (2/2)^SQ",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1677), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "EXT_187_150",
+      "EXT_187_024",
+      "EXT_187_021"
+    ],
+    "top_3_reference_human_intents": [
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.1677,
+      0.1607,
+      0.156
+    ],
+    "vote_distribution": {
+      "Refund_Status_And_Billing_Disputes": 4,
+      "Other_Unclassified_Inquiry": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1992,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.2491,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_036",
+    "conversation_id": "990158_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Provide me refund ASAP. i dont believe you you guys..",
+    "thread_context": [
+      {
+        "author": "354547",
+        "text": "Shame on you @115850 https://t.co/PKIePoCMgO",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@354547 I'm sorry for the trouble. Please reach out to us at: https://t.co/vlvfJr4nN9 and we'll check it for you. ^AU",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1485 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.175), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "DEV_042",
+      "EXT_187_023",
+      "EXT_187_058"
+    ],
+    "top_3_reference_human_intents": [
+      "Refund_Status_And_Billing_Disputes",
+      "Order_Cancellation_And_Address_Change",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.175,
+      0.1602,
+      0.1555
+    ],
+    "vote_distribution": {
+      "Refund_Status_And_Billing_Disputes": 4,
+      "Order_Cancellation_And_Address_Change": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1485,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.1685,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_037",
+    "conversation_id": "766179_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@161687 @115821 Amazon has been known to give people money back on things like CPU's and not even ask for them back. They're silly.",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1297), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "DEV_026",
+      "EXT_187_009",
+      "EXT_187_021"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.1297,
+      0.1292,
+      0.1255
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 1,
+      "Refund_Status_And_Billing_Disputes": 4
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1661,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.2322,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_038",
+    "conversation_id": "364660_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115830 Anyone with Amazon account, check your bank acc. Someone ordered a £90 book on my acc, blocked emails and changed my password.",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Technical_App_And_Website_Issues",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1811), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Technical_App_And_Website_Issues",
+    "top_3_reference_example_ids": [
+      "EXT_187_149",
+      "EXT_187_163",
+      "EXT_187_176"
+    ],
+    "top_3_reference_human_intents": [
+      "Technical_App_And_Website_Issues",
+      "Refund_Status_And_Billing_Disputes",
+      "Technical_App_And_Website_Issues"
+    ],
+    "top_3_similarity_scores": [
+      0.1811,
+      0.1614,
+      0.1574
+    ],
+    "vote_distribution": {
+      "Technical_App_And_Website_Issues": 3,
+      "Refund_Status_And_Billing_Disputes": 2
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Technical_App_And_Website_Issues",
+      "probability": 0.2312,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Account_Access_And_Security",
+      "similarity_score": 0.2456,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_039",
+    "conversation_id": "527626_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Nope you took it I have the transaction ID . Even the bank told me . If you won't fix this to bad you lost a customer you guys are highway robbers",
+    "thread_context": [
+      {
+        "author": "242139",
+        "text": "@AmazonHelp  Im really getting mad. Im out $30 . first you say you cant send my package because of payment even tho u took it and i have proof . you you cancel my Prime membership that i also have proof. why are you stealing my money",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@242139 We only charge for items once they have been confirmed as dispatched. The pending amounts you are seeing are known as authorisations, which are held by the bank. More info can be found here: https://t.co/izgVLqBJiQ.^SM",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1849), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "EXT_187_185",
+      "EXT_187_150",
+      "EXT_187_012"
+    ],
+    "top_3_reference_human_intents": [
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.1849,
+      0.1801,
+      0.1716
+    ],
+    "vote_distribution": {
+      "Refund_Status_And_Billing_Disputes": 4,
+      "Technical_App_And_Website_Issues": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1871,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.2085,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_040",
+    "conversation_id": "2889329_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp While I was tweeting this. They gave me no solution, said they didn’t see money taken out and told me to call my bank. 30 minutes on the phone with y’all and no solution. 5 minutes on the phone with @116827 and it’s been resolved.",
+    "thread_context": [
+      {
+        "author": "506484",
+        "text": "Back dealing with @AmazonHelp customer service and it still sucks. Not even worth buying from them.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@506484 So sorry to hear about the poor experience! Can you let us know a little more about what happened? ^GS",
+        "is_customer": false
+      },
+      {
+        "author": "506484",
+        "text": "@AmazonHelp You charged me 5x for an item I did monthly installments on (now I could get two items for that ammount) and it seems no one knows what to do but keeps forwarding my call around.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@506484 I'm sorry about inconvenience! When did you speak with Customer Service regarding this payment issue, and was there any solution given? ^GP",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2014), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "EXT_187_051",
+      "EXT_187_179",
+      "DEV_022"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Refund_Status_And_Billing_Disputes",
+      "Order_Cancellation_And_Address_Change"
+    ],
+    "top_3_similarity_scores": [
+      0.2014,
+      0.1991,
+      0.1919
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Refund_Status_And_Billing_Disputes": 3,
+      "Order_Cancellation_And_Address_Change": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1531,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.224,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_041",
+    "conversation_id": "776042_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Every time I click on it, it only shows shipping details. No return/replace package.",
+    "thread_context": [
+      {
+        "author": "305430",
+        "text": "@305431 @115821 🙁🙁🙁 it looks like my package got wet or something before it was delivered. https://t.co/tOjTtyw4Ni",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@305430 I'm sorry for the condition this arrived in. Have you looked into additional information here: https://t.co/Y5jpI9gRhE ^RR",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1953), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_053",
+      "EXT_187_170",
+      "EXT_187_133"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Damaged_Defective_Or_Wrong_Item",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1953,
+      0.1575,
+      0.1482
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 2,
+      "Delivery_Tracking_And_Delays": 3
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.159,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Return_Exchange_And_Pickup",
+      "similarity_score": 0.2134,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_043",
+    "conversation_id": "22616_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Please get in touch with ATS for priority delivery. It's a replacement and needed urgently.",
+    "thread_context": [
+      {
+        "author": "120939",
+        "text": "@DropboxSupport Borre un enlace compartido (es de un vídeo) hace menos de un año y no me sale ni en events, por favor necesito urge el vídeo, aquí os dejo el link del enlace que necesito:\nhttps://t.co/ucXS2DmD7p",
+        "is_customer": true
+      },
+      {
+        "author": "DropboxSupport",
+        "text": "@120939 Hola ¿Nos puedes escribir a https://t.co/y7rSTLsgY2? Desde allí, veremos cómo te podemos ayudar. ¡Gracias!",
+        "is_customer": false
+      },
+      {
+        "author": "169995",
+        "text": "@AmazonHelp Enrolled in prime, ordered thru prime but replacement order shipped via standard speed. What assurance?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@169995 I get your concern. I'll be sure to forward your feedback internally for further improvements. ^PS",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": "Other_Unclassified_Inquiry",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2105), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Other_Unclassified_Inquiry",
+    "top_3_reference_example_ids": [
+      "EXT_187_073",
+      "EXT_187_117",
+      "EXT_187_099"
+    ],
+    "top_3_reference_human_intents": [
+      "Other_Unclassified_Inquiry",
+      "Other_Unclassified_Inquiry",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.2105,
+      0.1692,
+      0.1203
+    ],
+    "vote_distribution": {
+      "Other_Unclassified_Inquiry": 3,
+      "Refund_Status_And_Billing_Disputes": 1,
+      "Order_Cancellation_And_Address_Change": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "probability": 0.1765,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "similarity_score": 0.2524,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_052",
+    "conversation_id": "2300055_AmazonHelp",
+    "turn_index": 3,
+    "raw_text": "@AmazonHelp .@115850 canceled the order of @3977 Mi 2 Air Purifier after 6 days; not good, considering the #DelhiSmog What I can expect from @AmazonHelp here. Did not like the practice for the first time, that's a #shame. Looking back to @118702 now.",
+    "thread_context": [
+      {
+        "author": "667571",
+        "text": ".@115850 ordered Mi 2 air Purifier 5 Days back looking at #DelhiSmog conditions. No update on shipment yet.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@667571 Apologies for no update in your shipment. Kindly reach out to our support team here: https://t.co/vlvfJr4nN9 and we'll get this checked for you. ^PB",
+        "is_customer": false
+      },
+      {
+        "author": "667571",
+        "text": "@AmazonHelp Yeah, Looking at the current state of Delhi’s  air quality this was supposed to be a quick delivery but that’s not the case right now. This is need of this hour.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@667571 Delivery of the orders will be mapped on the basis of the estimated delivery dates. Could you please confirm if we have missed the estimates? ^RI",
+        "is_customer": false
+      },
+      {
+        "author": "667571",
+        "text": "@AmazonHelp Not sure, what’s the meaning of a range of estimates. It’s tricky to say delivery by 13-15 November. Tomorrow is 13th, product not shipped yet. You guys asking unnecessary questions.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@667571 We aim to deliver as per the estimated delivery date assigned to packages. I would request you to wait till the estimates and you shall have your order. ^KH",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Order_Cancellation_And_Address_Change",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2147), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_133",
+      "EXT_187_080",
+      "EXT_187_010"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Other_Unclassified_Inquiry",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.2147,
+      0.2057,
+      0.2007
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Other_Unclassified_Inquiry": 1,
+      "General_Service_Complaint_Escalation": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1965,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Order_Cancellation_And_Address_Change",
+      "similarity_score": 0.1676,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_058",
+    "conversation_id": "1263387_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Ya lo resolví. Cancelé pedido y volví a realizarlo porque me confundí en un dato de la dirección.",
+    "thread_context": [
+      {
+        "author": "415885",
+        "text": "@116928 Puedo realizar una pregunta MD",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@415885 Hola, sin compartir datos de tu cuenta como el número del pedido, ¿cómo te podemos ayudar? ^VL",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Order_Cancellation_And_Address_Change",
+    "primary_intent": "Other_Unclassified_Inquiry",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.2517), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Other_Unclassified_Inquiry",
+    "top_3_reference_example_ids": [
+      "EXT_187_073",
+      "EXT_187_117",
+      "EXT_187_119"
+    ],
+    "top_3_reference_human_intents": [
+      "Other_Unclassified_Inquiry",
+      "Other_Unclassified_Inquiry",
+      "Other_Unclassified_Inquiry"
+    ],
+    "top_3_similarity_scores": [
+      0.2517,
+      0.1898,
+      0.0832
+    ],
+    "vote_distribution": {
+      "Other_Unclassified_Inquiry": 4,
+      "Delivery_Tracking_And_Delays": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "probability": 0.2494,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "similarity_score": 0.3056,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_064",
+    "conversation_id": "1018084_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Email from Daniel M. - he wud call me 2day @ 3 PM to discuss.  No call.  Another broken promise. What gives @115851?",
+    "thread_context": [
+      {
+        "author": "360889",
+        "text": "@115851 2 diff orders NOT dlvrd by AMZL SF this wkd. 2day's not on truck; drvr said maybe tmr? WTF?? PLS FIX AMZL!!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@360889 I'm so sorry about this Michael, we'd like to look into this, please give us some information here: https://t.co/5dlBgw6fJw ^BE",
+        "is_customer": false
+      },
+      {
+        "author": "360889",
+        "text": "@AmazonHelp Done.  3 orders (7 items) w/ AMZL SF delivery on Sat &amp; Sun.  None arrived. @115821 went 0-3.  @115851 w/n be happy.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@360889 Thank you! We'll be in touch as soon as possible. ^ST",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1457), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_127",
+      "EXT_187_133",
+      "EXT_187_166"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Technical_App_And_Website_Issues"
+    ],
+    "top_3_similarity_scores": [
+      0.1457,
+      0.145,
+      0.142
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Technical_App_And_Website_Issues": 1,
+      "Damaged_Defective_Or_Wrong_Item": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1631,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "similarity_score": 0.2173,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_065",
+    "conversation_id": "1343602_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@amazonhelp The same driver that reversed into my fence, delivered a damaged package with liquid pouring out of it &amp; said I just deliver it",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1564), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_148",
+      "EXT_187_154",
+      "EXT_187_020"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Damaged_Defective_Or_Wrong_Item",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1564,
+      0.1535,
+      0.1441
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Damaged_Defective_Or_Wrong_Item": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2148,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "similarity_score": 1.0,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_066",
+    "conversation_id": "327867_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "I ordered the sims 4 game yesterday and it arrived today and the case was broken @116062",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1616), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+    "top_3_reference_example_ids": [
+      "DEV_026",
+      "EXT_187_007",
+      "EXT_187_108"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Delivery_Tracking_And_Delays",
+      "Damaged_Defective_Or_Wrong_Item"
+    ],
+    "top_3_similarity_scores": [
+      0.1616,
+      0.1195,
+      0.1169
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 3,
+      "Delivery_Tracking_And_Delays": 2
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "probability": 0.2031,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "similarity_score": 0.2695,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_067",
+    "conversation_id": "1035489_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115830 gutted to get home and find my order “safe” in a bin and broken 👎🏼 away to spend more money to make sure I get the gift on time 😞",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1305 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1317), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+    "top_3_reference_example_ids": [
+      "DEV_026",
+      "DEV_019",
+      "EXT_187_186"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Delivery_Tracking_And_Delays",
+      "Promotions_GiftCards_And_Pricing"
+    ],
+    "top_3_similarity_scores": [
+      0.1317,
+      0.1105,
+      0.1088
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 3,
+      "Delivery_Tracking_And_Delays": 1,
+      "Promotions_GiftCards_And_Pricing": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "probability": 0.1305,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "similarity_score": 0.2053,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_068",
+    "conversation_id": "422990_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp Order No 408-7356679-2151563 dt-6/10/17 Received broken wall clock.",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.203), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+    "top_3_reference_example_ids": [
+      "DEV_026",
+      "DEV_025",
+      "EXT_187_171"
+    ],
+    "top_3_reference_human_intents": [
+      "Damaged_Defective_Or_Wrong_Item",
+      "Damaged_Defective_Or_Wrong_Item",
+      "Return_Exchange_And_Pickup"
+    ],
+    "top_3_similarity_scores": [
+      0.203,
+      0.0976,
+      0.0873
+    ],
+    "vote_distribution": {
+      "Damaged_Defective_Or_Wrong_Item": 3,
+      "Return_Exchange_And_Pickup": 2
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "probability": 0.1831,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Damaged_Defective_Or_Wrong_Item",
+      "similarity_score": 0.2639,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_072",
+    "conversation_id": "1653419_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp this is the worst online shopping experience i have ever faced.",
+    "thread_context": [
+      {
+        "author": "AmazonHelp",
+        "text": "@504622 Orders are delivered by the estimates provided. Could you please let us know if we happened to miss the estimates provided? ^VH",
+        "is_customer": false
+      },
+      {
+        "author": "504622",
+        "text": "@AmazonHelp estimated delivery is of today https://t.co/sDmNZNgN4O",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@504622 not delivered today, please reach us &amp; we'll assist you further. 2/2 ^RS",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "General_Service_Complaint_Escalation",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.2133), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_010",
+      "EXT_187_182",
+      "EXT_187_133"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.2133,
+      0.186,
+      0.1796
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 3,
+      "Prime_Subscription_And_Digital_Media": 1,
+      "General_Service_Complaint_Escalation": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2174,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "General_Service_Complaint_Escalation",
+      "similarity_score": 0.1893,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_081",
+    "conversation_id": "2756067_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 what’s the purpose of offering 1 day delivery if it’s never gonna show up. Literally, I was the last delivery in the que and it said “sorry! Let us know if you don’t get it by Thursday!” Wtf.",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1282), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "DEV_009",
+      "EXT_187_106",
+      "EXT_187_002"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1282,
+      0.1222,
+      0.1216
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Prime_Subscription_And_Digital_Media": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.2021,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Promotions_GiftCards_And_Pricing",
+      "similarity_score": 0.1796,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_086",
+    "conversation_id": "2471011_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Hello ! I want to ship from Amazon. Is there a discount code?",
+    "thread_context": [
+      {
+        "author": "154663",
+        "text": "Me tienen hasta las pelotas los envíos premium de Amazon. @116928 echa la culpa a @4496 y estos dicen que es culpa de Amazon. \nEl retraso lo tienen ambos y no precisamente de tiempo. #FelizMiercoles",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@154663 Hola Sergio, lamentamos el inconveniente. ¿Actualmente tienes algún pedido pendiente?¿ cuál era la fecha de entrega? ^MB",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": "Other_Unclassified_Inquiry",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.251), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Other_Unclassified_Inquiry",
+    "top_3_reference_example_ids": [
+      "EXT_187_073",
+      "EXT_187_117",
+      "EXT_187_119"
+    ],
+    "top_3_reference_human_intents": [
+      "Other_Unclassified_Inquiry",
+      "Other_Unclassified_Inquiry",
+      "Other_Unclassified_Inquiry"
+    ],
+    "top_3_similarity_scores": [
+      0.251,
+      0.2063,
+      0.0905
+    ],
+    "vote_distribution": {
+      "Other_Unclassified_Inquiry": 4,
+      "Promotions_GiftCards_And_Pricing": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "probability": 0.2285,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Other_Unclassified_Inquiry",
+      "similarity_score": 0.2612,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_089",
+    "conversation_id": "2836934_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp @115850\nI am from India. Do you have any offers running on first Amazon Pay money load?",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1287), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "EXT_187_151",
+      "EXT_187_186",
+      "EXT_187_021"
+    ],
+    "top_3_reference_human_intents": [
+      "Refund_Status_And_Billing_Disputes",
+      "Promotions_GiftCards_And_Pricing",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.1287,
+      0.1073,
+      0.1049
+    ],
+    "vote_distribution": {
+      "Refund_Status_And_Billing_Disputes": 3,
+      "Promotions_GiftCards_And_Pricing": 2
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.1595,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Promotions_GiftCards_And_Pricing",
+      "similarity_score": 0.2265,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_091",
+    "conversation_id": "685609_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp It was royal mail. Says delivered about 10.30 but no one knocked nor was it left in my \"safe place\"",
+    "thread_context": [
+      {
+        "author": "AmazonHelp",
+        "text": "@283664 So sorry to hear about the issue with your shipment! Can you let us know who the carrier was for this shipment?  https://t.co/Y5jpI9gRhE ^GS",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1457 < 0.15).",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.1748), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_105",
+      "EXT_187_025",
+      "EXT_187_010"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1748,
+      0.1493,
+      0.1357
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 4,
+      "Order_Cancellation_And_Address_Change": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1457,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Status_Marked_Delivered_Not_Received",
+      "similarity_score": 0.2233,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_092",
+    "conversation_id": "2663032_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@4774 @115821 Has stolen my money for over 60 days not to mention the 562 units they destroyed!!! This has got to STOP! 😡",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": "Refund_Status_And_Billing_Disputes",
+    "secondary_intent": null,
+    "escalate": true,
+    "escalation_reason": "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.163), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Refund_Status_And_Billing_Disputes",
+    "top_3_reference_example_ids": [
+      "DEV_035",
+      "EXT_187_184",
+      "DEV_027"
+    ],
+    "top_3_reference_human_intents": [
+      "Delivery_Tracking_And_Delays",
+      "Refund_Status_And_Billing_Disputes",
+      "Refund_Status_And_Billing_Disputes"
+    ],
+    "top_3_similarity_scores": [
+      0.163,
+      0.1068,
+      0.1047
+    ],
+    "vote_distribution": {
+      "Delivery_Tracking_And_Delays": 1,
+      "Refund_Status_And_Billing_Disputes": 3,
+      "Marked_Delivered_Not_Received": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "probability": 0.13,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Refund_Status_And_Billing_Disputes",
+      "similarity_score": 0.2013,
+      "agrees_with_nn": true
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_093",
+    "conversation_id": "2216493_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "I am soo over @116062 online delivery service! I told myself I would NEVER order online again but gave in! How are you going to send me an email saying my packages were delivered but they WE RE NOT!!!????",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": "Delivery_Tracking_And_Delays",
+    "secondary_intent": null,
+    "escalate": false,
+    "escalation_reason": "Auto-handled: Default operational support workflow.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (3/5 votes, top sim 0.1465), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Delivery_Tracking_And_Delays",
+    "top_3_reference_example_ids": [
+      "EXT_187_051",
+      "DEV_039",
+      "DEV_035"
+    ],
+    "top_3_reference_human_intents": [
+      "Prime_Subscription_And_Digital_Media",
+      "Refund_Status_And_Billing_Disputes",
+      "Delivery_Tracking_And_Delays"
+    ],
+    "top_3_similarity_scores": [
+      0.1465,
+      0.1409,
+      0.1359
+    ],
+    "vote_distribution": {
+      "Prime_Subscription_And_Digital_Media": 1,
+      "Refund_Status_And_Billing_Disputes": 1,
+      "Delivery_Tracking_And_Delays": 3
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Delivery_Tracking_And_Delays",
+      "probability": 0.1626,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Status_Marked_Delivered_Not_Received",
+      "similarity_score": 0.2109,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  },
+  {
+    "example_id": "GOLDEN_098",
+    "conversation_id": "1110746_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp I have a package that says delivered but it's not in my mailbox. It says it was left there",
+    "thread_context": [],
+    "candidate_bucket": "B1_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": "Marked_Delivered_Not_Received",
+    "secondary_intent": null,
+    "escalate": true,
+    "escalation_reason": "Mandatory Risk Rule: Package marked delivered but not received / suspected theft.",
+    "language_flag": false,
+    "ambiguity_flag": false,
+    "annotation_source": "AI_ASSISTED_PROVISIONAL",
+    "confidence_status": "HIGH_CONFIDENCE",
+    "decision_reason": "ACCEPTED_HIGH_CONFIDENCE: Top human neighbours strongly agree (4/5 votes, top sim 0.16), classifier/retrieval agrees, bucket B1_core, no escalation ambiguity.",
+    "predicted_intent": "Marked_Delivered_Not_Received",
+    "top_3_reference_example_ids": [
+      "DEV_033",
+      "EXT_187_092",
+      "EXT_187_091"
+    ],
+    "top_3_reference_human_intents": [
+      "Marked_Delivered_Not_Received",
+      "Delivery_Tracking_And_Delays",
+      "Marked_Delivered_Not_Received"
+    ],
+    "top_3_similarity_scores": [
+      0.16,
+      0.1594,
+      0.1515
+    ],
+    "vote_distribution": {
+      "Marked_Delivered_Not_Received": 4,
+      "Delivery_Tracking_And_Delays": 1
+    },
+    "classifier_prediction": {
+      "predicted_intent": "Marked_Delivered_Not_Received",
+      "probability": 0.2238,
+      "agrees_with_nn": true
+    },
+    "retrieval_prediction": {
+      "predicted_intent": "Delivery_Status_Marked_Delivered_Not_Received",
+      "similarity_score": 0.5276,
+      "agrees_with_nn": false
+    },
+    "escalation_ambiguity": false
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "total_conversations": 81413,
+  "other_breakdown": {
+    "Subgroup: Unactionable Emotional Rant / Brand Complaint": {
+      "count": 2120,
+      "percentage": 3.69
+    },
+    "Subgroup: Unstructured Misc Order Inquiry": {
+      "count": 23953,
+      "percentage": 41.65
+    },
+    "Subgroup: Extremely Short / Single @Mention Chatter": {
+      "count": 835,
+      "percentage": 1.45
+    },
+    "Subgroup: Seller Feedback & Product Review Policy": {
+      "count": 904,
+      "percentage": 1.57
+    },
+    "Subgroup: Website/App Technical Glitch & Cart Issues": {
+      "count": 6548,
+      "percentage": 11.39
+    },
+    "Subgroup: Foreign Language / Regional Handle": {
+      "count": 10218,
+      "percentage": 17.77
+    },
+    "Subgroup: Link / Media Only Post Without Text Detail": {
+      "count": 10034,
+      "percentage": 17.45
+    },
+    "Subgroup: Praise & General Social Banter": {
+      "count": 2902,
+      "percentage": 5.05
+    }
+  },
+  "foreign_count": 10218,
+  "foreign_breakdown": {
+    "Foreign: General Regional Inquiry": {
+      "count": 8817,
+      "percentage": 86.29
+    },
+    "Foreign: Shipping / Delivery": {
+      "count": 1355,
+      "percentage": 13.26
+    },
+    "Foreign: Cancellation": {
+      "count": 19,
+      "percentage": 0.19
+    },
+    "Foreign: Return / Refund": {
+      "count": 27,
+      "percentage": 0.26
+    }
+  }
+}

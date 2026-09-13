@@ -1,0 +1,187 @@
+[
+  {
+    "conversation_id": "3740_AmazonHelp",
+    "root_tweet_id": "3740",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp na ultima atualização da entrega do meu pedido, consta que não foi possível localizar o meu endereço, poderia ajudar?",
+    "tweet_id": "3740",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "409_AmazonHelp",
+    "root_tweet_id": "409",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Excelente servicio! Recibí mis paquetes hace un par de minutos!",
+    "tweet_id": "4946",
+    "prior_context": [
+      {
+        "author": "McDonalds",
+        "text": "So what’ll it be this #Halloween: a trick or a treat? Let us know below. #TrickorTweet https://t.co/xwjAZp0C2v",
+        "is_customer": false
+      },
+      {
+        "author": "754926",
+        "text": "@McDonalds Trick!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@116874 Quirino al ingresar al correo de confirmación de compra te aparecerá un enlace en el cual esta el número de guía de tu pedido. También puedes utilizar la siguiente información para contactar con el transportista:  https://t.co/mEKBC5rf63 ^PC",
+        "is_customer": false
+      },
+      {
+        "author": "116874",
+        "text": "@AmazonHelp Solo dice “en reparto” pero no tiene un número de contacto con el repartidor que es de Amazon Services 😩",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@116874 Gracias por la información, Quirino.\nPor favor, contacta con nuestros colegas de Servicio al Cliente para una atención personalizada y puedan darte información precisa sobre tu paquete.\nLo puedes hacer a través del siguiente enlace: https://t.co/beR78zMMYB\n^LC",
+        "is_customer": false
+      }
+    ]
+  },
+  {
+    "conversation_id": "4952_AmazonHelp",
+    "root_tweet_id": "4952",
+    "turn_index": 0,
+    "raw_text": "@116875 ¿como puedo trackear si esta próximo a ser entregado un paquete que tiene fecha de hoy? Gracias",
+    "tweet_id": "4952",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "5296_AmazonHelp",
+    "root_tweet_id": "5296",
+    "turn_index": 0,
+    "raw_text": "Jamas volvere a comprar en @116875 :'v",
+    "tweet_id": "5296",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "5779_AmazonHelp",
+    "root_tweet_id": "5779",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp https://t.co/ohEeuAt7A6 estais de coña no?el reembolso lo quiero ya, era para un regalo para hoy y tenia que llegar ayer.",
+    "tweet_id": "5779",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "8516_AmazonHelp",
+    "root_tweet_id": "8516",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Hecho el procedimiento, lo que me interesa y exijo es que sea devuelto mi dinero puesto que jamás he adquirido algún articulo por este medio",
+    "tweet_id": "8515",
+    "prior_context": [
+      {
+        "author": "117495",
+        "text": "@116875 Exijo mi reembolso inmediato ya que yo en ningún momento solicité dicha membresía \"prime\", hubo algún error.\nSolución inmediata",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@117495 Hola Mary. Para más detalles sobre como cancelar tu membresía de Amazon Prime, ingresa a: https://t.co/RPYF5xdYCl  ^HC",
+        "is_customer": false
+      }
+    ]
+  },
+  {
+    "conversation_id": "8516_AmazonHelp",
+    "root_tweet_id": "8516",
+    "turn_index": 0,
+    "raw_text": "@116875 Exijo mi reembolso inmediato ya que yo en ningún momento solicité dicha membresía \"prime\", hubo algún error.\nSolución inmediata",
+    "tweet_id": "8516",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "8519_AmazonHelp",
+    "root_tweet_id": "8519",
+    "turn_index": 0,
+    "raw_text": "@116875 Cancelación de  membresía Amazon Prime y reembolso ya!",
+    "tweet_id": "8519",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "8522_AmazonHelp",
+    "root_tweet_id": "8522",
+    "turn_index": 1,
+    "raw_text": "@115821 Hasta que al fin llegó #BrBa https://t.co/7y2HKQlA2R",
+    "tweet_id": "8521",
+    "prior_context": [
+      {
+        "author": "117496",
+        "text": "Hasta que al fin pude comprar algo en @115821 😌",
+        "is_customer": true
+      }
+    ]
+  },
+  {
+    "conversation_id": "13905_AmazonHelp",
+    "root_tweet_id": "13905",
+    "turn_index": 0,
+    "raw_text": "@116875 @118923 Uno de mis envíos acaba de ser devuelto, ( llevaba dos semanas en las instalaciones de mi ciudad.) ¿Qué pasa?",
+    "tweet_id": "13905",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "21109_AmazonHelp",
+    "root_tweet_id": "21109",
+    "turn_index": 0,
+    "raw_text": "@117086 Chegaram rapidinho (menos de 48h depois de eu ter feito o pedido), ainda embalados no plastico e paguei mais barato do que em outras livrarias virtuais famosas. Agora só compro livro na amazon. https://t.co/7Mg2yoVjWe",
+    "tweet_id": "21109",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "24969_AmazonHelp",
+    "root_tweet_id": "24969",
+    "turn_index": 0,
+    "raw_text": "@116928 necesito ayuda ya que estoy recibiendo paquetes que no he comprado y me dijeron en atc que son regalos. Pero... De quien??",
+    "tweet_id": "24969",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "25313_AmazonHelp",
+    "root_tweet_id": "25313",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp gracias no sabia. tengo una mala experiencia con Amazon o el transporte, soy la única perjudicada y me cobraron",
+    "tweet_id": "25312",
+    "prior_context": [
+      {
+        "author": "121474",
+        "text": "@116928 estoy intentado devolver un paquete que nunca me llegó. Cómo hago? PEDIDO N.º 405-6814859-9697141. Gracias",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@121474 2/2 público, por tu seguridad no publiques información sensitiva como tu número depedido. ^JD",
+        "is_customer": false
+      }
+    ]
+  },
+  {
+    "conversation_id": "25313_AmazonHelp",
+    "root_tweet_id": "25313",
+    "turn_index": 0,
+    "raw_text": "@116928 estoy intentado devolver un paquete que nunca me llegó. Cómo hago? PEDIDO N.º 405-6814859-9697141. Gracias",
+    "tweet_id": "25313",
+    "prior_context": []
+  },
+  {
+    "conversation_id": "25313_AmazonHelp",
+    "root_tweet_id": "25313",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp gracias, pero ya no sé que mas hacer, desde el 6/10/17 he enviado a todos lados que me ayuden ya que el transporte nunca se comunicó.",
+    "tweet_id": "25315",
+    "prior_context": [
+      {
+        "author": "121474",
+        "text": "@116928 estoy intentado devolver un paquete que nunca me llegó. Cómo hago? PEDIDO N.º 405-6814859-9697141. Gracias",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@121474 Hola Ada, por favor contáctanos para ayudarte con el proceso: https://t.co/3VUNgKvI9r Recuerda que este es un medio1/2^JD",
+        "is_customer": false
+      }
+    ]
+  }
+]

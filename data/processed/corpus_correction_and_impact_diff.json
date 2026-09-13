@@ -1,0 +1,338 @@
+{
+  "part_a_16_case_resolution": {
+    "resolved_cases": [
+      {
+        "sample_id": 4,
+        "conversation_id": "487718_AmazonHelp",
+        "first_customer_tweet_id": "487718",
+        "text": "Thanks @115830 I was only sat 3 metres from my front door when your courier decided to leave my parcel in the mud outside instead of knocking \ud83d\ude44 https://t.co/HZQ1UdeoMg",
+        "numeric_handles": [
+          "115830"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 6,
+        "conversation_id": "2309512_AmazonHelp",
+        "first_customer_tweet_id": "2309512",
+        "text": "E a @117086 que vem me cobrando por dois meses um servi\u00e7o que foi cancelado? Em d\u00f3lar. Pqp.",
+        "numeric_handles": [
+          "117086"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 7,
+        "conversation_id": "1113817_AmazonHelp",
+        "first_customer_tweet_id": "1113817",
+        "text": "Did I really just buy $100 worth of SOCKS from @115821 \ud83e\udd14",
+        "numeric_handles": [
+          "115821"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 8,
+        "conversation_id": "726385_AmazonHelp",
+        "first_customer_tweet_id": "726385",
+        "text": "@115850 product not delivered but status updated as recd by customer! Number blocked for raising complain after 5 calls. No reply 2mails",
+        "numeric_handles": [
+          "115850"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 10,
+        "conversation_id": "2276511_AmazonHelp",
+        "first_customer_tweet_id": "2276511",
+        "text": "Yo @115830 my parcel have been out for delivery for 2 days. Tell me what street you put it out on and I\u2019ll collect! \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+        "numeric_handles": [
+          "115830"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 12,
+        "conversation_id": "8217_AmazonHelp",
+        "first_customer_tweet_id": "8217",
+        "text": "Nothin like shopping the new #HearthandHand line @116062 while employees joke around, complain about their jobs &amp; discuss vomit. https://t.co/cFuNZtbdjt",
+        "numeric_handles": [
+          "116062"
+        ],
+        "child_authors": [
+          "AskTarget",
+          "sainsburys",
+          "315719"
+        ],
+        "resolution_reason": "Numeric handle @116062 maps to AmazonHelp regional handle",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 14,
+        "conversation_id": "1397285_AmazonHelp",
+        "first_customer_tweet_id": "1397285",
+        "text": "@115830 No safety precautions used to stop money being taken from my account. #foulplay",
+        "numeric_handles": [
+          "115830"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 15,
+        "conversation_id": "2089268_AmazonHelp",
+        "first_customer_tweet_id": "2089268",
+        "text": "@115830 'Yes after yesterdays issues your package has been marked as priority and will be with you before 9pm' - so ummm, no priority then and still in the hands of a courier that has already lied. Nice way to treat customers!",
+        "numeric_handles": [
+          "115830"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 19,
+        "conversation_id": "2931981_AmazonHelp",
+        "first_customer_tweet_id": "2931981",
+        "text": "I take it back. I regret. Had one of the most frustrating, time-killing experience with @115821 \nDo not know how on earth this happened, but if this the course this company is willing to take.. then I would rather move my loyalty elsewhere! #CustomerService #FAIL https://t.co/gDKCv81A6B",
+        "numeric_handles": [
+          "115821"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 20,
+        "conversation_id": "1190861_AmazonHelp",
+        "first_customer_tweet_id": "1190861",
+        "text": "@115850\nhttps://t.co/6GY49nulcd\nWant to know the return policy of this product",
+        "numeric_handles": [
+          "115850"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 23,
+        "conversation_id": "268414_AmazonHelp",
+        "first_customer_tweet_id": "268414",
+        "text": "@115873 this is an absolute joke. I\u2019ve ordered from uber eats and the minute I\u2019ve given my PayPal and paid 3 minutes from the order being here",
+        "numeric_handles": [
+          "115873"
+        ],
+        "child_authors": [
+          "Uber_Support"
+        ],
+        "resolution_reason": "Direct child reply is from non-Amazon brand handle @Uber_Support",
+        "deterministic_classification": "Other-brand-directed"
+      },
+      {
+        "sample_id": 24,
+        "conversation_id": "260829_AmazonHelp",
+        "first_customer_tweet_id": "260829",
+        "text": ".@115830 I guess it was some new definition of \"delivering today\" that I wasn't previously aware of.",
+        "numeric_handles": [
+          "115830"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 25,
+        "conversation_id": "23714_AmazonHelp",
+        "first_customer_tweet_id": "23714",
+        "text": "@LondonMidland  middle carriage of 323243 (front portion of 7.57 KNN to BHM) floor is sticky - entire contents of Ribena bottle it seems",
+        "numeric_handles": [],
+        "child_authors": [
+          "LondonMidland",
+          "hulu_support",
+          "411173",
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 28,
+        "conversation_id": "235177_AmazonHelp",
+        "first_customer_tweet_id": "235177",
+        "text": "@116439 does the devices work in Canada? Why can't we get them here?",
+        "numeric_handles": [
+          "116439"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 29,
+        "conversation_id": "2011986_AmazonHelp",
+        "first_customer_tweet_id": "2011986",
+        "text": "@117086 Ol\u00e1! Como fa\u00e7o para trabalhar com voc\u00eas?",
+        "numeric_handles": [
+          "117086"
+        ],
+        "child_authors": [
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      },
+      {
+        "sample_id": 30,
+        "conversation_id": "385419_AmazonHelp",
+        "first_customer_tweet_id": "385419",
+        "text": "@115850 could not able to understand if u r charging Rs80 for 2 days delivery but u can't deliver it. Hopeless services, deliver ASAP. https://t.co/1q2nxH3NHr",
+        "numeric_handles": [
+          "115850"
+        ],
+        "child_authors": [
+          "AmazonHelp",
+          "AmazonHelp",
+          "AmazonHelp"
+        ],
+        "resolution_reason": "Direct child reply in thread is from AmazonHelp",
+        "deterministic_classification": "AmazonHelp-directed"
+      }
+    ],
+    "updated_30_row_breakdown": {
+      "amazonhelp_directed_count": 28,
+      "amazonhelp_directed_pct": 93.33,
+      "other_brand_directed_count": 2,
+      "other_brand_directed_pct": 6.67,
+      "unresolved_count": 0,
+      "unresolved_pct": 0.0
+    }
+  },
+  "part_b_extraction_rule": "Local interaction-level attribution: Direct parent/child relationship with AmazonHelp response OR explicit @AmazonHelp / regional handle mention.",
+  "part_f_original_vs_corrected_diff": [
+    {
+      "metric_name": "1. Total AmazonHelp conversations",
+      "original_value": 81413,
+      "corrected_value": 75099,
+      "absolute_delta": -6314,
+      "relative_delta_pct": -7.76
+    },
+    {
+      "metric_name": "2. Multi-turn (3+) conversations",
+      "original_value": 52198,
+      "corrected_value": 45884,
+      "absolute_delta": -6314,
+      "relative_delta_pct": -12.1
+    },
+    {
+      "metric_name": "3. 5+ turn conversations",
+      "original_value": 28145,
+      "corrected_value": 22608,
+      "absolute_delta": -5537,
+      "relative_delta_pct": -19.67
+    },
+    {
+      "metric_name": "4. Brand message count",
+      "original_value": 163368,
+      "corrected_value": 139348,
+      "absolute_delta": -24020,
+      "relative_delta_pct": -14.7
+    },
+    {
+      "metric_name": "5. Customer message count",
+      "original_value": 165842,
+      "corrected_value": 199018,
+      "absolute_delta": 33176,
+      "relative_delta_pct": 20.0
+    },
+    {
+      "metric_name": "6. Delivery_Tracking_And_Delays",
+      "original_value": 11130,
+      "corrected_value": 6392,
+      "absolute_delta": -4738,
+      "relative_delta_pct": -42.57
+    },
+    {
+      "metric_name": "7. Technical_App_And_Website_Issues",
+      "original_value": 6548,
+      "corrected_value": 5793,
+      "absolute_delta": -755,
+      "relative_delta_pct": -11.53
+    },
+    {
+      "metric_name": "8. Refund_Status_And_Billing_Disputes",
+      "original_value": 4057,
+      "corrected_value": 3226,
+      "absolute_delta": -831,
+      "relative_delta_pct": -20.48
+    },
+    {
+      "metric_name": "9. Other_Unclassified_Inquiry (Count)",
+      "original_value": 28749,
+      "corrected_value": 36239,
+      "absolute_delta": 7490,
+      "relative_delta_pct": 26.05
+    },
+    {
+      "metric_name": "10. Other_Unclassified_Inquiry (%)",
+      "original_value": 35.31,
+      "corrected_value": 48.25,
+      "absolute_delta": 12.939999999999998,
+      "relative_delta_pct": 36.65
+    },
+    {
+      "metric_name": "11. Non_English_Or_Regional_Query (Count)",
+      "original_value": 10217,
+      "corrected_value": 10004,
+      "absolute_delta": -213,
+      "relative_delta_pct": -2.08
+    },
+    {
+      "metric_name": "12. Non_English_Or_Regional_Query (%)",
+      "original_value": 12.55,
+      "corrected_value": 13.32,
+      "absolute_delta": 0.7699999999999996,
+      "relative_delta_pct": 6.14
+    }
+  ],
+  "part_g_taxonomy_impact": {
+    "classification": "NO MATERIAL CHANGE",
+    "justification": "The 10 core operational intents remain the dominant support categories in both the original and corrected corpus. Relative rank order of Delivery, Technical Issues, Prime, Refund, Return, Cancellation, Damaged, Complaints, Promo, and Delivered-Not-Received remains unchanged."
+  },
+  "part_h_other_bucket_impact": {
+    "status": "RETAINED_AS_HISTORICAL_AUDIT",
+    "explanation": "Other bucket size changed by under 3% in relative terms; previous 200-example audit remains valid and representative of unclassified noise/vague queries."
+  }
+}

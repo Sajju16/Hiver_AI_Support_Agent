@@ -1,0 +1,1544 @@
+{
+  "timestamp_utc": "2026-09-13T10:18:28.614253+00:00",
+  "ground_truth_source": "data/dev/dev_human_labels_50.json",
+  "total_eval_examples": 50,
+  "random_seed": 2026,
+  "provenance_summary": {
+    "llm_api_used": false,
+    "ai_claim_status": "Grounded Retrieval-Augmented Classical ML Support Agent (Zero LLM API Hallucination)"
+  },
+  "task_1_intent_classification": {
+    "accuracy": 0.3,
+    "accuracy_pct": 30.0,
+    "model_description": "Calibrated TF-IDF + Logistic Regression (5-Fold Stratified CV)"
+  },
+  "task_2_historical_retrieval_reply": {
+    "retriever_type": "TF-IDF Cosine Similarity Retriever",
+    "corpus_size": 347,
+    "successful_retrieval_count": 50,
+    "fallback_count": 0,
+    "avg_similarity_score": 0.207,
+    "min_similarity": 0.1,
+    "max_similarity": 0.3253,
+    "std_similarity": 0.0538,
+    "replies_generated_count": 50
+  },
+  "task_3_escalation_decision": {
+    "accuracy": 0.98,
+    "accuracy_pct": 98.0,
+    "confusion_matrix": {
+      "tp": 11,
+      "fp": 1,
+      "tn": 38,
+      "fn": 0
+    },
+    "precision": 0.9167,
+    "recall": 1.0,
+    "f1_score": 0.9565,
+    "escalation_rate": 0.24,
+    "false_negative_count": 0,
+    "policy_description": "Deterministic High-Risk Rule-Based Escalation Engine"
+  },
+  "per_example_evaluation": [
+    {
+      "example_id": "DEV_001",
+      "raw_text": "@AmazonHelp hi when will Wwe2k18 deluxe edition be available again ?",
+      "ground_truth": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1491,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: the latest movies and TV shows we have available. (2/2)^AU",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1491 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "1489417_AmazonHelp",
+        "similarity_score": 0.3106,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@465940 the latest movies and TV shows we have available. (2/2)^AU"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_002",
+      "raw_text": "@AmazonHelp A late delivery and general poor customer service. It’s a rubbish experience and nobody seems to be able to answer my questions. I keep getting default email responses that tell me absolutely nothing!",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.112,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm sorry for the wait, André! We wanr to help! What does the latest courier tracking scan show here: ^NS\n\nCustomer:  I'm not sure how you can help... I've talked to your customer service multiple times and nothing has happened. The delivery company has refused to release my package and told me to call you guys.\n\nAmazonHelp: [USER] When you contacted customer service, what options or insights did they provide? ^CH\n\nCustomer:  They promised my package would come next day...3 times... Nothing came. They game me another month of prime but still no package\n\nAmazonHelp: [USER] Did anyone you spoke with attempt to contact the courier on your behalf? ^NC\n\nCustomer:  Yes they did, but the products haven't come\n\nCustomer:  Can. I cancel my order? I'll just buy it in store\n\nAmazonHelp: [USER] I'm sorry for the inconvenience! We don't have access to your account via Twitter. We'd like to help if we could. Please reach out to us here so we can look into this together: ^MO",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.112 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_156666",
+        "similarity_score": 0.1846,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm sorry for the wait, André! We wanr to help! What does the latest courier tracking scan show here: ^NS\n\nCustom"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_003",
+      "raw_text": "@AmazonHelp FMV wrongly calculated by FBA. I am befooled by customer as well as FBA.",
+      "ground_truth": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1664,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] I get your concern. May I know if you've reached out to our support team through the link provided earlier? ^EM\n\nCustomer:  Well to b honest support team no more than a callcentre agents wid no powers. More waste of time lukin around for info if not found readily.\n\nAmazonHelp: [USER] Please provide your details here: &amp; we'll assist you in your concern right away. ^SF\n\nCustomer:  My friend, am just suggesting to provide \"made in\" in the tech.specs. Thats all,if i want to purchase sumthing, i must kno where its made in\n\nAmazonHelp: [USER] I understand your concern. I'll pass this on to the concerned team internally so that they can have a look into this. ^AU\n\nCustomer:  Can u plz tell me where its made in?? Panasonic Single Line 2.4 KX-TG3411SX Digital Cordless Phone (Black)\n\nAmazonHelp: [USER] Kindly fill in your details with the link provided earlier. Once you do so, we'll connect with our fulfillment centre ^PB (1/2)\n\nAmazonHelp: [USER] for the info and we'll contact you directly via email in turn. I'll also be certain to pass this on as a feedback. ^PB (2/2)",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1250676",
+        "similarity_score": 0.28,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I get your concern. May I know if you've reached out to our support team through the link provided earlier? ^EM\n\n"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_004",
+      "raw_text": "💔😐My amazon order is late😐💔 https://t.co/Ij8y17ZHq7",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "confidence": 0.108,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Promotions GiftCards And Pricing. Based on our historical resolution procedure: [USER] Your twitter handle is eligible for Amazon contests. Not to worry. ^HR",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.108 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1593590",
+        "similarity_score": 0.1461,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Your twitter handle is eligible for Amazon contests. Not to worry. ^HR"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_005",
+      "raw_text": "@AmazonHelp The email didn’t say. This was the response I got, and the link just sends me to a customer service/issues page https://t.co/C06KSBmKIv",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1128,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Please get in touch with us here:  ^CD",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1128 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "729862_AmazonHelp",
+        "similarity_score": 0.1388,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@294817 Please get in touch with us here: https://t.co/zYVX1Qi29G ^CD"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_006",
+      "raw_text": "Lol @AmazonHelp got email saying my parcel Collected from locker. Asked me to do a survey.. Link takes me to a page not found",
+      "ground_truth": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1117,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] Thank you so much for taking the time to do that, Charlotte! ^JZ",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1117 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1456329",
+        "similarity_score": 0.2765,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Thank you so much for taking the time to do that, Charlotte! ^JZ"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_007",
+      "raw_text": "@AmazonHelp @115821 3) Apparently the @15436 service is utter BULLSHIT because this is the 3rd time in the row I have not received the product in time",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": true,
+        "escalate_reason": "Repeated delivery failures despite paid/guaranteed 1-day delivery, combined with customer-service failures.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1477,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm so sorry for the wait! Do the orders have the same carrier in common? If so, who is it? ^MH\n\nCustomer:  They do not have the same Carrier. It’s happened occasionally throughout the years but it’s happening all the time now.\n\nAmazonHelp: [USER] I'm sorry for the troubles! Have you discussed these issues with the carriers directly? ^TK\n\nCustomer:  Yes. They said they’ll deliver when they can. I live about an hour north of your biggest hub and can’t get packages delivered timely!\n\nAmazonHelp: [USER] We'd like to look into these issues with you via phone, here: Please keep us posted! ^LB\n\nCustomer:  I want you to see the tracking information. This is ridiculous!\n\nAmazonHelp: [USER] I'm sorry for this poor experience! Please reach us directly by choosing \"phone\" here: ^HS\n\nCustomer:  Still no package. Reached out to lasership and they said this morning. You should overnight my order so I have it tomorrow.\n\nCustomer:  Going out of town on Sunday and needed items by then. Very upset with they way you are delivering now. Prime no longer worth the cost.\n\nAmazonHelp: [USER] What options did you receive when you contacted us using the link previously provided? ^DA",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1447950",
+        "similarity_score": 0.3023,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm so sorry for the wait! Do the orders have the same carrier in common? If so, who is it? ^MH\n\nCustomer: @Amazo"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_008",
+      "raw_text": "@AmazonHelp Hi, is there any other escalation path given that I have a tv and professional services appointment that needs to be revised with the correct address? The only message I get when I try to log in is “password is incorrect” which is very different from an account lockout.",
+      "ground_truth": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "escalate": true,
+        "escalate_reason": "Account appears compromised/locked.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.1769,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] Hi Ema- Can you ask your husband to contact us via this link: he won't be required to sign in. Thanks. ^NV",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Account security or compromise issue."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2534495",
+        "similarity_score": 0.2151,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hi Ema- Can you ask your husband to contact us via this link: he won't be required to sign in. Thanks. ^NV"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_009",
+      "raw_text": "@AmazonHelp one day delivery but it’s being delivered on Monday??? Why do I pay for prime? 🤔🤔 https://t.co/4rK7rK9WNm",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Prime_Subscription_And_Digital_Media",
+        "confidence": 0.1636,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Prime Subscription And Digital Media. Based on our historical resolution procedure: I'm sorry for the troubling experience; have we missed the delivery date with a recent order? ^WM",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2863433_AmazonHelp",
+        "similarity_score": 0.2496,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@795383 I'm sorry for the troubling experience; have we missed the delivery date with a recent order? ^WM"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_010",
+      "raw_text": "@119625 please upload 26/11 mumbai pai dhaadi movie",
+      "ground_truth": {
+        "primary_intent": "Prime_Subscription_And_Digital_Media",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1263,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] Hey Trish. Have you tried choosing \" I'm not interested in this author \" ? If so, does the add still appear? ^TP\n\nCustomer:  I will try that. It just makes me sad as Terry Pratchett is one of my favourite authors, and I know there won't be any new releases 😞",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1263 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_693818",
+        "similarity_score": 0.1449,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hey Trish. Have you tried choosing \" I'm not interested in this author \" ? If so, does the add still appear? ^TP\n"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_011",
+      "raw_text": "@AmazonHelp I'm in a chat right now, and the rep is telling me I have prime and show orders placed. When I log in, I see nothing at all.",
+      "ground_truth": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "escalate": true,
+        "escalate_reason": "Locked/blank account combined with inconsistent Prime/order information.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.173,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] Thank you for reaching out! You can reach us via e-mail by selecting the e-mail option here: Hope it helps! ^NN\n\nCustomer:  Could you please tell me where is this option in app? I can see only two options in contact us. Call us and Chat with us.\n\nAmazonHelp: [USER] After you have entered your order inquiry, you should be prompted to select your preferred method of contacting our support team at the bottom. ^WM\n\nCustomer:  Yaa they then there are two options : enter number to call or i cant talk right now. On clicking I can’t talk right now, they say fine come back later when you can talk. Wth?\n\nCustomer:  Where?\n\nAmazonHelp: [USER] Sorry to see the Messaging Assistant is trying to push you towards a call back when it is not an appropriate time. This may be due to the particular issue you are messaging us about or there may be no chat agents available right now. Can you try again? ^MI\n\nCustomer:  I tried for 3 hours yesterday! Same issue, no way to chat. Your app forces you to type contact number so they can call. I am not okay with this. I tried again, just now. Same thing. No way to chat or email the issue. Please DM, I have an issue with a product I bought.\n\nAmazonHelp: [USER] Hello, June! Unfortunately, I am not able to initiate a direct message. Please initiate this on your end. We definitely want to help! ^RO\n\nCustomer:  Done",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Account security or compromise issue."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_105309",
+        "similarity_score": 0.1736,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Thank you for reaching out! You can reach us via e-mail by selecting the e-mail option here: Hope it helps! ^NN\n\n"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_012",
+      "raw_text": "@AmazonHelp Been watching the boots all day. Just changed from arriving today to expected 11/4-11/7. Ordered from u bc of the prime 2 day shipping.",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.173,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] Oh my! Deliveries are made until 8 PM. Keep us updated, Barb! ^AB\n\nCustomer:  How is there already a delivery delay at 4pm when it's 11:20? Is that the eta?",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1398888",
+        "similarity_score": 0.2174,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Oh my! Deliveries are made until 8 PM. Keep us updated, Barb! ^AB\n\nCustomer: @AmazonHelp How is there already a d"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_013",
+      "raw_text": "@AmazonHelp “amazon basics” charger not working 20 days after purchase ??",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "confidence": 0.1507,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Promotions GiftCards And Pricing. Based on our historical resolution procedure: [USER] Hi, sorry. Please contact us on the number found via this link: so an agent can look into this. ^JJ",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1212272",
+        "similarity_score": 0.3253,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hi, sorry. Please contact us on the number found via this link: so an agent can look into this. ^JJ"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_014",
+      "raw_text": "@116618 Now y'all just took $107.14 out of my account. Why are y'all fukking up my streaming????!!!  Ain't had a problem until a payment was collected . Dont start the bs🙄👀🤔",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.1342,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] I'm sorry for the technical difficulties! Please connect with Kindle Direct Publishing here: The availability is 6 a.m. to 5 p.m. Pacific time, Monday - Friday. ^SH",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1342 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2981837",
+        "similarity_score": 0.2235,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm sorry for the technical difficulties! Please connect with Kindle Direct Publishing here: The availability is "
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_015",
+      "raw_text": "@AmazonHelp Sorry I was otbof country. The tablet still won't charge and now that it's dead I can't turn it on. Please advise. :)",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.1042,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] We're here to help if we can! Are you receiving an error message when you try to sign in? ^TR\n\nCustomer:  The first message I got was about checking my inbox for an email from Amazon - by the time I was able to check the code I receive had already expired. I still proceeded to with the two-step verification, double checked my account email and password and still won't work",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1042 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2864692",
+        "similarity_score": 0.1841,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] We're here to help if we can! Are you receiving an error message when you try to sign in? ^TR\n\nCustomer: @AmazonH"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_016",
+      "raw_text": "@14045  Hi  the no EMI option on credit cards on amazon India is real or fake ? during festival season",
+      "ground_truth": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.1149,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: We have already responded to your query here:  Kindly proceed further to get this sorted. ^SC",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1149 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "69821_AmazonHelp",
+        "similarity_score": 0.2022,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@131812 We have already responded to your query here: https://t.co/SqHpT4ssCu. Kindly proceed further to get this sorted"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_017",
+      "raw_text": "@115821 I had a courier call me to arrange to pick up my pkg from him since I wasn't home. That's creepy and also inconvenient.",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.1131,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] Thank you for reaching out! You can reach us via e-mail by selecting the e-mail option here: Hope it helps! ^NN\n\nCustomer:  Could you please tell me where is this option in app? I can see only two options in contact us. Call us and Chat with us.\n\nAmazonHelp: [USER] After you have entered your order inquiry, you should be prompted to select your preferred method of contacting our support team at the bottom. ^WM\n\nCustomer:  Yaa they then there are two options : enter number to call or i cant talk right now. On clicking I can’t talk right now, they say fine come back later when you can talk. Wth?\n\nCustomer:  Where?\n\nAmazonHelp: [USER] Sorry to see the Messaging Assistant is trying to push you towards a call back when it is not an appropriate time. This may be due to the particular issue you are messaging us about or there may be no chat agents available right now. Can you try again? ^MI\n\nCustomer:  I tried for 3 hours yesterday! Same issue, no way to chat. Your app forces you to type contact number so they can call. I am not okay with this. I tried again, just now. Same thing. No way to chat or email the issue. Please DM, I have an issue with a product I bought.\n\nAmazonHelp: [USER] Hello, June! Unfortunately, I am not able to initiate a direct message. Please initiate this on your end. We definitely want to help! ^RO\n\nCustomer:  Done",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1131 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_105309",
+        "similarity_score": 0.2265,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Thank you for reaching out! You can reach us via e-mail by selecting the e-mail option here: Hope it helps! ^NN\n\n"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_018",
+      "raw_text": "@115850 @123288\nTypical Reply by CC  \"Sorry for inconvenience plz return that item , Your return ll be issued once item return\" https://t.co/NQvNN71aak",
+      "ground_truth": {
+        "primary_intent": "Return_Exchange_And_Pickup",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1562,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Apologies for the experience you had with this order. Please share your details here:  and we'll contact you soon.​ ^JS",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "1125002_AmazonHelp",
+        "similarity_score": 0.1779,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@385272 Apologies for the experience you had with this order. Please share your details here: https://t.co/beaaDm0muc an"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_019",
+      "raw_text": "@AmazonHelp Now i'm unable to contact ur customer care bcz the order return date had been expired now nd sti i did not get my order.",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1258,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] Did you happen to report regarding your cash back to our support team? If no, please contact us here: so we can assist you.^PJ\n\nCustomer:  This was cash back\n\nAmazonHelp: [USER] I understand that you are concerned about the cash back. However, I request you to please report this to our support team on the link shared earlier so that we can assist you accordingly. ^BV",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1258 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1688830",
+        "similarity_score": 0.1937,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Did you happen to report regarding your cash back to our support team? If no, please contact us here: so we can a"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_020",
+      "raw_text": "@AmazonHelp And multiple times failing to deal with a faulty item. Today I received a replacement that was actually the origanal faulty item!",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": true,
+        "escalate_reason": "Multiple failures and incorrect replacement handling.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1059,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm very sorry for this wait for your order. Were the items shipped and sold by Amazon or a Third-Party seller: ^DO\n\nAmazonHelp: [USER] I'm sorry for all the trouble this has caused. We don't expect this type of behavior from our drivers. I would like one of our Social Media specialists to look into this with you. Please provide the information that is requested here: ^ZW\n\nCustomer: [USER] No, but I wonder how sellers on your site can meet your shipping time estimates, but you, don't ever seem to.\n\nAmazonHelp: [USER] I'm sorry if any of your items have arrived later than expected. Just to confirm, are we missing the delivery dates listed in your order confirmation e-mails? ^RA\n\nCustomer: [USER] [USER] At least yours got put in your door, i just heard a loud thud outside &amp; look out &amp; theres my package! They like to throw mine at the porch&amp; run off back to the truck! Good thing I sit in front of window &amp;heard the noise so i could go &amp; get it off the steps, not even porch!\n\nAmazonHelp: [USER] I'm sorry your order was delivered like this! Was everything inside okay? If anything was damaged, return/replacement options can be found here: ^MB\n\nCustomer: [USER] I’d like to change my order; is it too late?\n\nAmazonHelp: [USER] Hi there, Thomas! That depends greatly on when the order was placed! Things can move pretty quickly here on the internet. Depending on what you need to do, follow this link and see what changes you can make! Let us know if it works! ^JD\n\nCustomer: [USER] I wonder what happened to my package.\n\nAmazonHelp: [USER] Hi there, Philipp! Did your order arrive damaged? If so, please take a look here for return or replacement options: Let us know if you need further assistancce! We're here to help. ^SM\n\nCustomer:  Hey there, thank you for your prompt reply. I have not tested it yet. but i think the packaging was not enough. it all fell apart.\n\nCustomer: [USER] Too bad you can fulfill my order when you said it would be here!\n\nAmazonHelp: [USER] What was the delivery date provided in your order confirmation email? That information can be found here: ^QJ\n\nCustomer:  You are so helpful!!!!! What is your excuse that is not list in your excuses in the link you sent me?\n\nCustomer:  I have no idea why I even order from amazon anymore!\n\nCustomer:  Won’t be renewing prime next year, a waste of money!!!!!\n\nCustomer:  Did you look at the picture I tweeted you?\n\nAmazonHelp: [USER] Philipp, when you do, please keep us posted. In the meantime, please providing your feedback regarding the packaging here: we'd love to hear from you! ^SY\n\nAmazonHelp: [USER] Hi Bradley. Thank you very much for providing the screenshot. The confirmation e-mail will have the most up-to-update expected delivery date. When you have a moment, please let us know what that date reflects using the link provided by ^QJ so we may assist. ^KL\n\nCustomer:  From a third-party seller in China\n\nAmazonHelp: [USER] Have you been in touch with the seller about this order: If they're unable to assist or do not respond within two business days, please file an A-to-z Guarantee claim so we can assist: ^VS\n\nCustomer:  I haven’t yet, but I will soon. Thanks 😊\n\nCustomer:  Friday, why does it say Wednesday then when I place the order it says Friday?\n\nCustomer:  Why can’t you fix that, it even gives you a count down clock, order by this time get by Wednesday.\n\nCustomer:  Is that bait and switch you are trying to pull off?\n\nCustomer:  I finally got an order today that was meant for last wednesday, ordered a week before that. I mentioned it to a friend last week, who said,\"yeah. They have tight rules for their vendors, but orders directly from Amazon? often late.\" You guys should work on that.\n\nCustomer: [USER] Based on my late packages you’re not actually shipping things....\n\nAmazonHelp: [USER] Great question, Bradley! All delivery times are estimations until you check out, as that is when you select the address for the order to be delivered. The website uses alternate information to provide those estimates, but checkout is the official date. ^JD\n\nAmazonHelp: [USER] Sorry your parcels aren't arriving as expected. Has the tracking updated to reflect this? ^RR\n\nCustomer:  That is ridiculous, why do you do that?\n\nCustomer:  I guess you shouldn’t put a receive by date if you can’t honestly honor that date! It is deceiving to customer!!!!!!! Get that deceiving!!!!!\n\nCustomer:  The system knows who I am you can’t tell me it doesn’t know where I live and adjust the receive date accordingly!\n\nCustomer:  Supposed to have arrived today has not even shipped. “It should be there in a few days” is not acceptable.\n\nAmazonHelp: [USER] That's odd! Have we missed the estimated delivery date in the confirmation e-mail? ^HM\n\nCustomer:  Yes, email and original order said today by 8 pm.\n\nCustomer: \n\nCustomer: \n\nAmazonHelp: [USER] Thank you for included the images. Have you called us so we can reach out to USPS on your behalf? If not, please use this page to get started: ^BH\n\nCustomer: [USER]  Why would you do that? I️ don’t know anyone whose ever actually received the item that they ordered from China.\n\nCustomer: [USER]  I'm looking for work but from what I've heard about the treatment of your workers,at 56yrs old there would be a 50/50 chance of me making it out after my shift...Slave drivers who treat people like robots...\n\nCustomer:  Everything inside was ok, thank you for asking. Only problem is, its every single time a package is delivered its thrown up to my porch and i hear it hit the porch thats how I know its been delivered. Not once has anyone ever knocked on the door &amp; actually handed me a box.\n\nAmazonHelp: [USER] Oh my goodness! Do you know who the carrier is that delivers? Is it the same carrier every time? You can check for the name of the carrier on your orders, here: If it's the same carrier every time, let us know! ^SP\n\nCustomer: [USER] Maybe that's why two packages from before CM got lost prior to delivery - they were on the endless loop. 2 in 1 week, 12 or so in 6 months now - that's a rather poor record for on-time delivery, with CSRs who don't care...\n\nAmazonHelp: [USER] I'm so sorry for the continued issues! Do you notice more errors with one carrier in particular? ^JO\n\nCustomer:  No; problems are not with carriers but in getting packages TO the carriers in all cases. Amz states shipped, but carrier has not received from Amz till days later in some cases.\n\nCustomer: [USER] Ever wondered what happens when you DON’T get your #cybermonday pkg on time? THEN the .[USER] csr through chat cancels your prime out of spite?\n\nAmazonHelp: [USER] I'm so sorry for the poor experience! Did you have a recent order that's missed the estimated delivery date provided at checkout? This is the date we aim to meet. ^JO\n\nCustomer: [USER] Maybe my orders are spinning around in there searching for the exit. Both of my orders, ordered before Cyber Monday, this week have been delayed. What good is free “2 day shipping” if the app tells you your package is coming all day only to send you a delay alert after 8PM?\n\nAmazonHelp: [USER] Oh no! Without giving account details, please tell us more about these delayed orders! Who was the carrier of these? Please check here: ^BE\n\nCustomer:  Order 1 has 4 items sold by: Outman, LLC, MYLIFEUNIT, and LLC. Order 2 has 2 items sold by: LLC.\n\nAmazonHelp: [USER] I'm sorry for the delay in your orders! Have we missed the delivery date shown here: Have we been able to provide you with a new delivery date? Keep us posted! We want to make sure your orders are received! ^BN\n\nCustomer:  The new dates just appeared. 1 was supposed to arrive yesterday. The other was supposed to arrive today. The delivery dates updated after saying all day today that the packages would be here by 8pm today. It’s aggravating, when I ordered these items the PRIME icon was there.\n\nAmazonHelp: [USER] Our intent is to deliver orders on the original date given, I'm sorry this wasn't the case. Please let us know if you don't receive them by 8 PM on the new delivery date. ^LI\n\nCustomer:  Label created 11/27 5:30 pm but not given to UPS till 3:05 pm 11/28 when it was supposed to be delivered by 11/28...\n\nCustomer: [USER] Orders late...again....\n\nAmazonHelp: [USER] I'm sorry for the wait! Just to confirm, did we miss the delivery date in the confirmation e-mail? You can check here: ^BH\n\nCustomer:  Unless it gets here by 8 tonight. But it's not even out for delivery.\n\nCustomer:  I stopped seeking help over the phone after twice the response was, that's not our problem.\n\nCustomer: \n\nAmazonHelp: [USER] I certainly understand your concern! Since the order is on the way, it's still possible you can receive your order today by 8pm. If you don't receive it in this time frame, please let us know so we can investigate this further. ^HC\n\nCustomer:  Thanks.\n\nCustomer: \n\nCustomer:  His two most wanted and they are late, last time this happened my orders never arrived....\n\nAmazonHelp: [USER] I'm so sorry your order didn't arrive today! We want to make sure this package reaches you. Please keep us updated on its arrivals. ^DG\n\nCustomer: [USER]  Yep, pretty regular tactic specially on one day delivery items, pay extra still get them on 2 days\n\nCustomer:  [USER] Hahahahahahahahahahahahahahaha!!!! Big time bait and switch!!!\n\nCustomer: [USER]  They promise me today to have a refund of the one day shipping cost, that’s was 6hrs ago and I was told it would take 2hrs...nothing on my account for a refund. And I took the offer to get it as a gift card...it was faster 🙄🙄\n\nAmazonHelp: [USER] I'm sorry to hear you haven't received your refund yet! Gift card refunds are usually available within 2 hours, but can take up to 48 hours. Have you received any e-mails about your refund yet? ^JS\n\nCustomer:  Just like the one day shipping right??? It can take up to 2 days",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_461241",
+        "similarity_score": 0.159,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm very sorry for this wait for your order. Were the items shipped and sold by Amazon or a Third-Party seller: ^"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_021",
+      "raw_text": "@AmazonHelp I reordered the items I cancelled (minus a 6 dollar headband) but how long will it take for the 40 dollars that never should have been taken out to be put back in??",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1696,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] Did you manage to establish which Amazon (.com / .co.uk / .de / etc) the charge was on ? ^TD\n\nCustomer:  Amazon Local UK it was on. Never made any purchase thru this website but yet we are short £90. Spent 30 minutes on the phone and nothing\n\nCustomer:  I guess you've just gone quiet, same as your phone advisor, due to lack of care. Awful job [USER] , not impressed. #poorcustomerservice\n\nAmazonHelp: [USER] Hey, when in touch with Amazon Local what was advised? Were they able to locate the charge? ^TP\n\nCustomer:  Was told they would look into it, kept me on hold for 20 odd minutes (45p charge per min) and were meant to follow up with email. 3 days ago\n\nAmazonHelp: [USER] How much was your wife charged? ^PK\n\nCustomer:  £89.95 - strange as we have never used this service. Can you look into it please?\n\nAmazonHelp: [USER] Was it you or your wife contacted us about this? Do you know whose a/c they checked? ^PK\n\nCustomer:  It was my wife as it came out of her c/card. She spoke to someone on Sunday 05/11. They checked both hers and my accounts. No outcome.\n\nAmazonHelp: [USER] Has she reached out to the bank to check this? ^KM\n\nCustomer:  Yes. They advised her to speak to [USER] and find out more details about this transaction. Hence the phone call and twitter debacle.\n\nAmazonHelp: [USER] When Customer Service couldn't locate the charge what did they advise for the next steps? ^MI\n\nCustomer:  That they would email us with the finds so far and keep looking into it. Doesn't seem like they have as no contact been made since.\n\nAmazonHelp: [USER] Apologies, please contact us once more here: to see if there's an update. ^JJ\n\nCustomer:  But this \"order\" does not show in her history, that's what makes it look fraudulent. Amazon were meant to track the transaction to an order placed via Amazon Local that we did not authorise.\n\nAmazonHelp: [USER] As we wont be able to check the account over social media, please ask your wife contact us on the link provided.^KK\n\nCustomer:  Can't use this link - I already said we haven't placed an order for this amount therefore I cannot \"tell you about my issue\". This is so frustrating [USER]  - we are going round in circles and no one is helping us!\n\nAmazonHelp: [USER] You can still contact us using the link sent to you by JJ even if you don't see an order. Step 2 will offer the option \"Incorrect or unknown charge\" which will lead you to Step 3. Once you see Step 3, you can select E-mail, Phone or Chat. ^DD\n\nCustomer:  Right [USER] , this is ridiculous. Can't believe such a massive company with the most advanced trchnology can't pin point who used our credit card and why there was a lapse in security!? Am so angry!!! Your previous tips didn't help at all!!!!",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2104994",
+        "similarity_score": 0.2466,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Did you manage to establish which Amazon (.com / .co.uk / .de / etc) the charge was on ? ^TD\n\nCustomer: @AmazonHe"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_022",
+      "raw_text": "@AmazonHelp Not sure how 16 items? They said part of the order was cancelled but not all of it.",
+      "ground_truth": {
+        "primary_intent": "Order_Cancellation_And_Address_Change",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1436,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] Hi, have you had a chance to request a refund or replacement for your order?^PJ\n\nCustomer:  not yet, would a replacement still be of the same amount if one of the items was a part of a lightning deal?\n\nAmazonHelp: [USER] Great question! Please reach out to us here: so we can look into this together. ^SC\n\nCustomer:  ok but this is a link to the UK site and i live in the US\n\nAmazonHelp: [USER] Apologies for the incorrect link, Hannah. You can get in touch here: ^TI",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1436 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_77496",
+        "similarity_score": 0.2221,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hi, have you had a chance to request a refund or replacement for your order?^PJ\n\nCustomer: @AmazonHelp not yet, w"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_023",
+      "raw_text": "@AmazonHelp I dont have any information why canceled.",
+      "ground_truth": {
+        "primary_intent": "Order_Cancellation_And_Address_Change",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1102,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] Thank you for bringing this to our attention; could you provide us with the link to this promotional code you're trying to use? We'd like to review this on your behalf. ^WM\n\nCustomer:  Thanks. It's on the website...\n\nCustomer:  Is this working yet? Thanks\n\nAmazonHelp: [USER] The promotion is working here for me when I select it. Can you confirm that all the items in your order qualify for the promotion? You can find information on the terms towards the bottom of this page: ^MI\n\nCustomer:  Yes, all Amazon Pantry items and subtotal is £35.93. Just tried it again but getting the same error message.\n\nCustomer:  It's okay - just realised wine isn't included\n\nAmazonHelp: [USER] It appears that you've included chardonnay in your order. Wine and spirits are not eligible for this offer. ^RA\n\nAmazonHelp: [USER] Thank you for the update! Please let us know if you have further questions or concerns. We're here to help! ^TG",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1102 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2850744",
+        "similarity_score": 0.2421,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Thank you for bringing this to our attention; could you provide us with the link to this promotional code you're "
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_024",
+      "raw_text": "So @115821 had 3 tries to deliver this in a box and not an envelope so it wouldn't get damaged and failed 3 times. https://t.co/YKMezZ7kvJ",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1638,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: I'm so sorry your item arrived damaged! Please check here for any convenient return options:  ^HS",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "652141_AmazonHelp",
+        "similarity_score": 0.175,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@275073 I'm so sorry your item arrived damaged! Please check here for any convenient return options: https://t.co/I2BPiO"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_025",
+      "raw_text": "Hey, @AmazonHelp? My cat's been staring at the Dot for hours on end and I think he's broken now? How do I troubleshoot this? https://t.co/a4J3PxutXR",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1142,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: Kindly contact us here  and our team will assist you right way. ^RD",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1142 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2418_AmazonHelp",
+        "similarity_score": 0.1618,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@694386 Kindly contact us here https://t.co/00q4Sqj9zL and our team will assist you right way. ^RD"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_026",
+      "raw_text": "@116062 just received my new dishes, they're broken 🤗 https://t.co/dZUd9fvhLH",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1198,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: We weren't \"remotely\" worried! LOL! 😁 So glad you are now back in business now! ^FR",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1198 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "46564_AmazonHelp",
+        "similarity_score": 0.1501,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@126342 We weren't \"remotely\" worried! LOL! 😁 So glad you are now back in business now! ^FR"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_027",
+      "raw_text": "@AmazonHelp Contacted the worst customer service and they made me wait for 10 days. You wanna steal my money, tell me but do not make me wait LOL.",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1365,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] I'm sorry for the unexpected charge to your account. We don't have access to account information via Twitter, please reach out to us here: ^MH",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1365 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_487843",
+        "similarity_score": 0.2268,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm sorry for the unexpected charge to your account. We don't have access to account information via Twitter, ple"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_028",
+      "raw_text": "@115821 worst customer service. Been waiting 1 month 19 days for an item 2 b sent 2 now be told its out of stock Was in stock when I ordered",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1167,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: We'd like to help if possible! Without posting any personal information can you tell us what's going on? ^EP",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1167 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "515251_AmazonHelp",
+        "similarity_score": 0.1735,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@238679 We'd like to help if possible! Without posting any personal information can you tell us what's going on? ^EP"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_029",
+      "raw_text": "Why companies not caring about their customers knowing they are everything for any company!! Register complaints @121294 @118919",
+      "ground_truth": {
+        "primary_intent": "General_Service_Complaint_Escalation",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1266,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] Thank you for bringing this to our attention; could you provide us with the link to this promotional code you're trying to use? We'd like to review this on your behalf. ^WM\n\nCustomer:  Thanks. It's on the website...\n\nCustomer:  Is this working yet? Thanks\n\nAmazonHelp: [USER] The promotion is working here for me when I select it. Can you confirm that all the items in your order qualify for the promotion? You can find information on the terms towards the bottom of this page: ^MI\n\nCustomer:  Yes, all Amazon Pantry items and subtotal is £35.93. Just tried it again but getting the same error message.\n\nCustomer:  It's okay - just realised wine isn't included\n\nAmazonHelp: [USER] It appears that you've included chardonnay in your order. Wine and spirits are not eligible for this offer. ^RA\n\nAmazonHelp: [USER] Thank you for the update! Please let us know if you have further questions or concerns. We're here to help! ^TG",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1266 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2850744",
+        "similarity_score": 0.2112,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Thank you for bringing this to our attention; could you provide us with the link to this promotional code you're "
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_030",
+      "raw_text": "@115850 Well, if charging a higher price than MRP is best, then they're doing a great job at it. https://t.co/lLGEopB8GQ",
+      "ground_truth": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1287,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: The prices on our website are set by individual sellers, it may result in fluctuations in our prices over time. \n\nPlease don’t provide your order details as we consider them to be personal information. Our page is visible to the public.^SC",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1287 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2760294_AmazonHelp",
+        "similarity_score": 0.2721,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@772339 The prices on our website are set by individual sellers, it may result in fluctuations in our prices over time. "
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_031",
+      "raw_text": "OK SO THE PEOPLE TOLD MY MAMAW THAT THEY WERE ME AND TO NOT TELL ANYONE AND TO GO TO @116062 AND GET $2000 IN GIFT CARDS AND SEND THEM THE NUMBERS AND SHE DID IT BC SHES OLD AND INNOCENT AND THEY FUCKING SPENT IT IN THE STORES IN WASHINGTON AND HOUSTON ALREADY WTF TARGET",
+      "ground_truth": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "escalate": true,
+        "escalate_reason": "Impersonation scam involving approximately $2000 in gift cards.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1177,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Brady???  If you say so! I would pick someone else but they did not ask me. :)  ^TL",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2970594_AmazonHelp",
+        "similarity_score": 0.2222,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@819378 Brady???  If you say so! I would pick someone else but they did not ask me. :)  ^TL"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_032",
+      "raw_text": "@116062 20 minutes in line, 1 cashier, 0 selection and 1 Starbucks = I'm going to Walmart, and I hate Walmart. At least there I can price match your ad and get the things you don't have in store. #byetarget #hellowalmart",
+      "ground_truth": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1165,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: Hi Natalie, please  try and keep the power button pressed for 40 seconds to reset. Let us know if it helped. ^AT",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1165 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "318848_AmazonHelp",
+        "similarity_score": 0.1573,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@192067 Hi Natalie, please  try and keep the power button pressed for 40 seconds to reset. Let us know if it helped. ^AT"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_033",
+      "raw_text": "@AmazonHelp @118706 But they are marked delivered Saturday. USPS has no interest in helping. I think it’s safe to assume a USPS employee stole my items.",
+      "ground_truth": {
+        "primary_intent": "Marked_Delivered_Not_Received",
+        "escalate": true,
+        "escalate_reason": "Customer suspects the package was stolen.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1397,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] Hey Paul, don't worry we do deliver up to 8pm! Does your tracking say out for delivery? You can find that information here: ^LS\n\nCustomer:  That's great! But I wish there was a way to specify an address as a business address that can't receive deliveries past a certain time.\n\nAmazonHelp: [USER] We'd be happy to look into options with you here: via phone or chat, Paul! ^MT\n\nCustomer:  I've contacted  twice via chat. Both times they promised delivery before the office closed but still no package. Now going on 3rd day after guaranteed delivery date.\n\nAmazonHelp: [USER] So sorry about that! Can you provide us with the carrier? You can find that here: ^LS\n\nCustomer:  The carrier is AMZCA\n\nAmazonHelp: [USER] We'd like to have a member of our team look into this for you. Please provide your order and contact info here: ^AG\n\nCustomer:  Thanks for your help but I chatted with customer service and had the order cancelled and refunded. Seems like it may have been lossed by the carrier.\n\nAmazonHelp: [USER] I am sorry to hear this order got lost but I am happy to hear you have been issued with a refund. You have a lovely week ahead Paul.^GA",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2957038",
+        "similarity_score": 0.2027,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hey Paul, don't worry we do deliver up to 8pm! Does your tracking say out for delivery? You can find that informa"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_034",
+      "raw_text": "@115821 Hi! My husband and I registered for @95179 months ago, but never received that welcome box we've heard about.  Any tips? :)",
+      "ground_truth": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1171,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: I'm sorry you're unable to find your parcel. It's possible that this was a mis-scan. Also, here's some tips for locating a missing parcel:  ^AN",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1171 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2298179_AmazonHelp",
+        "similarity_score": 0.1953,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@667120 I'm sorry you're unable to find your parcel. It's possible that this was a mis-scan. Also, here's some tips for "
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_035",
+      "raw_text": "@AmazonHelp so I like to know when they deliver so I can make sure the packages don't get stolen or driven over.",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1815,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm sorry they haven't been delivered. Please contact us here: so we can look into this for you. ^AF\n\nCustomer:  I have now been lied to again with yet another so-called attempted delivery to a shop that has been open from 7am. Please contact me instead\n\nAmazonHelp: [USER] We can't access account/order details via Twitter. Please contact us via the link AF provided so we can look into it. ^WJ",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1437384",
+        "similarity_score": 0.1907,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm sorry they haven't been delivered. Please contact us here: so we can look into this for you. ^AF\n\nCustomer: @"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_036",
+      "raw_text": "@115821 really slipping with Prime. Apparently a week = 2 days in their world. Good thing I ordered early and not rely on “2 day” shipping https://t.co/NJEs96FxjL",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Prime_Subscription_And_Digital_Media",
+        "confidence": 0.1371,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Prime Subscription And Digital Media. Based on our historical resolution procedure: [USER] I'm so sorry! Some items take a little longer to process. We aim to deliver by the delivery date given in your order confirmation e-mail. Do you have an active order that's missed that date? ^TK\n\nCustomer:  But 1 is getting delivered today and 4 tomorrow in 2 separate packages and different times even though it’s the same item.\n\nAmazonHelp: [USER] I can understand your frustration with this! If the item you're ordering is out of stock or unavailable to ship immediately, you may not receive the item in two business days. Also, the shipping method time starts when the item ships. I hope this helps! ^GP\n\nCustomer:  Well that’s fucking stupid. It can take you 3 days to get the order ready then, the shipping part is only 2 days. Sounds like false advertising to me. Because they way it’s been told to me over and over is get your product in 2 days. Not wait 5 but it only took 2 to ship.",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1371 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_447192",
+        "similarity_score": 0.2686,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm so sorry! Some items take a little longer to process. We aim to deliver by the delivery date given in your or"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_037",
+      "raw_text": "@AmazonHelp @152011 DEAR AMAZONE FIND THE ORDER NO.-403-79045985510732 WHAT IS ISSUE ABOUT PARCEL RETURN TO UR END AND CONTAIN MOBILE IS REC AT UR LOACTION . IN YOUR WAREHOUSE TOTALLY THIEF AND LYING STAFF.WHERE IS MY MOBILE???HOW MANY DAYS MY MOBILE GET IT BACK ON ARGENT BASIS.",
+      "ground_truth": {
+        "primary_intent": "Return_Exchange_And_Pickup",
+        "escalate": true,
+        "escalate_reason": "Missing high-value mobile parcel / alleged warehouse theft.",
+        "language_flag": true,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "confidence": 0.1444,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Promotions GiftCards And Pricing. Based on our historical resolution procedure: [USER] Tiffany, I'm sorry to hear you haven't received your package. Please check out this checklist to confirm non-receipt: Please keep us posted. ^SY\n\nCustomer:  Checked everywhere and with neighbors, still didn't see anything.\n\nAmazonHelp: [USER] So sorry about this, Tiffany! Just to confirm, has it been 36 hours since the package was scanned as delivered? ^JY\n\nCustomer:  Hi, it hasn't been 36 hours, however my leasing manager checked the entrance cameras for the delivery and the package wasn't delivered. So I am very certain it was delivered to the wrong address completely.\n\nAmazonHelp: [USER] We don't have access to your account via Twitter. We'd like to look into available options with you. Please reach us via phone or chat here: ^KP",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Suspected parcel theft or warehouse thievery."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2872478",
+        "similarity_score": 0.1648,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Tiffany, I'm sorry to hear you haven't received your package. Please check out this checklist to confirm non-rece"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_038",
+      "raw_text": "@115821 Box was evidently tossed by your driver into my mother’s front yard, for the second time in 2 weeks a delivery was in the middle of the front yard 25 feet from the front door and in no way “in a secure location”. Broken in half and now I have to take time to return it.",
+      "ground_truth": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1137,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm sorry for the poor experience. Without including any account details, can you tell us more about what's happened? ^ZW",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1137 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_1457256",
+        "similarity_score": 0.23,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm sorry for the poor experience. Without including any account details, can you tell us more about what's happe"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_039",
+      "raw_text": "@115830 disgraceful, pay for 3 items 2 get delivered one not. Eventually after chasing Told damaged and refund issued but no replacement. Even though told would be replaced. Told I can order myself but cost now some £17 more to rectify their mistake #Amazon",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Damaged_Defective_Or_Wrong_Item",
+        "confidence": 0.1206,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Damaged Defective Or Wrong Item. Based on our historical resolution procedure: I'm sorry for the troubles with our Fresh site. Have you tried clearing cache/cookies and restarting your device? ^VS",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1206 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2681329_AmazonHelp",
+        "similarity_score": 0.1648,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@754316 I'm sorry for the troubles with our Fresh site. Have you tried clearing cache/cookies and restarting your device"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_040",
+      "raw_text": "Hello @AmazonHelp I getting the amazon echo dot soon but the Alexa app is not available in my country (Dominican Republic). So how I do set up my echo dot ?",
+      "ground_truth": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1286,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: Der eine ist klein, der andere ist groß! Und es gibt noch weitere Unterschiede. Schau mal hier weiter unten:  Liebe Grüße ^TA",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1286 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2847354_AmazonHelp",
+        "similarity_score": 0.239,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@791900 Der eine ist klein, der andere ist groß! Und es gibt noch weitere Unterschiede. Schau mal hier weiter unten: htt"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_041",
+      "raw_text": "@AmazonHelp I know it is and that's a fact,the last three orders I placed(__email__) there is one issue or the other. #irresponsible",
+      "ground_truth": {
+        "primary_intent": "General_Service_Complaint_Escalation",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1077,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] It's not uncommon for items to ship the same day they're delivered. However, if you haven't received your items by 8:00PM tonight, please contact us by phone or chat here: ^AC\n\nCustomer:  Always helpful! This is why I continue to shop with you guys.\n\nCustomer: [USER]  I had my stream deck saying delivery by 8pm. And then I had to wait on the phone forever but they ended up sending it over via Amazon now. And I got it around 10 pm but they did their best 👏\n\nCustomer: [USER]  Oh they dropped the ball hard on my streamdeck. It was shipped, then it wasn’t, then it shipped and got pushed back a day, then I got a call that my delivery was early and I needed to be there since they can’t leave it in my gated entry way lol\n\nAmazonHelp: [USER] I'm sorry for the trouble with your order! Please reach out to us through the link ^AC provided so we can see look into this with you. ^MB\n\nCustomer: [USER]  Yeah I had to cancel, order, and then cancel again the lady was as helpful as she could be but would have all been avoided if it was delivered the normal day and time they promised.",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1077 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_107240",
+        "similarity_score": 0.2063,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] It's not uncommon for items to ship the same day they're delivered. However, if you haven't received your items b"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_042",
+      "raw_text": "CALL ME @AmazonHelp ! \nI'm EXTREMELY PISSED OFF with all this. I'll file a case in court if I don't get it solved by today! #fraud #scam",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": true,
+        "escalate_reason": "Weeks-long missing refund combined with legal/court threat.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.14,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] The M.R.P. displayed for products on our website represents the full retail price listed on the product itself as shared by Manufacturers, Distributors or Sellers. While we attempt to ensure that this information is accurate, there may be cases where M.R.P.(1/2) ^SD\n\nAmazonHelp: [USER] of the product delivered is different from the M.R.P. given on the website due to various reasons including time lag in updating prices post changes in M.R.P., product belonging to different M.R.P.s being used by manufacturers in different regions. (2/2) ^SD\n\nCustomer:  As per the law, product can't be sold more than the MRP. Ur ans is not justifiable. I've enough evidence to proof in consumer court for making customer fool. Can't trust anymore on amazon",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2787772",
+        "similarity_score": 0.1871,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] The M.R.P. displayed for products on our website represents the full retail price listed on the product itself as"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_043",
+      "raw_text": "@115821 well done amazon! I’ve just identified a fraud on my account &amp; your advisor was reassuring &amp; sorted it all out! Great customer service 👍🏻",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": true,
+        "escalate_reason": "Fraud/account-security issue.",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Technical_App_And_Website_Issues",
+        "confidence": 0.158,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Technical App And Website Issues. Based on our historical resolution procedure: [USER] I'm so sorry for the ongoing trouble with your account, Travis! I'd like to have a member of our team look into this on your behalf. Please \"skip sign in\" and send us the details here: ^FR\n\nCustomer:  Thank you thank you thank you thank you!! I just submitted the info and I really appreciate your help! I just want to log into my account, use prime services, stream video, etc.!!!\n\nAmazonHelp: [USER] You're very welcome, Travis! ^BL\n\nCustomer:  HELP ME!!!!! 💁🏼‍♂️",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2909256",
+        "similarity_score": 0.3108,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm so sorry for the ongoing trouble with your account, Travis! I'd like to have a member of our team look into t"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_044",
+      "raw_text": "Well done @115850  for  fraud and stealing customer's money. I paid in advance for my order now you guys are saying no refund/replace. https://t.co/1EBgEwVt9E",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": true,
+        "escalate_reason": "Advance-paid order with no refund/replacement and fraud allegation.",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "confidence": 0.1387,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Refund Status And Billing Disputes. Based on our historical resolution procedure: [USER] Sorry to hear that you have not received your refund. Please call us here: &amp; we'll get this sorted. ^SF\n\nCustomer:  [USER] Dono Y this guys wait for call to refund.. Maybe they don't want to put their employees idle",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Unauthorized billing, fraud allegation, or scam report."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2758209",
+        "similarity_score": 0.2039,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Sorry to hear that you have not received your refund. Please call us here: &amp; we'll get this sorted. ^SF\n\nCust"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_045",
+      "raw_text": "@AmazonHelp Same issue for me",
+      "ground_truth": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Prime_Subscription_And_Digital_Media",
+        "confidence": 0.1145,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Prime Subscription And Digital Media. Based on our historical resolution procedure: I'm sorry to hear that Susie- did the associate call you back? ^MA",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1145 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "2230335_AmazonHelp",
+        "similarity_score": 0.1679,
+        "is_fallback": false,
+        "historical_resolution_snippet": "@650857 I'm sorry to hear that Susie- did the associate call you back? ^MA"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_046",
+      "raw_text": "ここ最近amazonで買い物してないのにクレジットの今月の支払い見てたら10月27日に3900円amazonで買い物してることになってんだけど、さすがにクレカ会社に電話した方がええかな…",
+      "ground_truth": {
+        "primary_intent": "Refund_Status_And_Billing_Disputes",
+        "escalate": true,
+        "escalate_reason": "Unrecognized 3900-yen credit-card transaction.",
+        "language_flag": true,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1396,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] You can find and apply for available jobs here: ^CO\n\nCustomer:  Thank you",
+        "escalate": true,
+        "escalation_reason": "Mandatory Risk Rule: Severe operational loss, repeated failure, or unrecognized transaction allegation."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2967720",
+        "similarity_score": 0.1,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] You can find and apply for available jobs here: ^CO\n\nCustomer: @AmazonHelp Thank you"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_047",
+      "raw_text": "【KEISUKE HONDA CAFE SURVIVE 独占配信開始📢】\n#サッカー日本代表 として #W杯 出場経験もある #本田圭佑 初の対談番組が\n #Amazonプライムビデオ に登場👏各界の超一流たちと語り尽くす✨  https://t.co/e97P0g9rjI https://t.co/jYcB9x4ymk",
+      "ground_truth": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": true,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.1358,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] You can find and apply for available jobs here: ^CO\n\nCustomer:  Thank you",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1358 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2967720",
+        "similarity_score": 0.1,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] You can find and apply for available jobs here: ^CO\n\nCustomer: @AmazonHelp Thank you"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_048",
+      "raw_text": "@AmazonHelp Je sens que je vais encore être déçu par la fiabilité de @AmazonHelp quand je suis coincé et dans l'urgence. 12 minutes.",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": true,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Other_Unclassified_Inquiry",
+        "confidence": 0.2955,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Other Unclassified Inquiry. Based on our historical resolution procedure: [USER] Hola León, lamento el inconveniente. Agradecemos por informarnos lo sucedido, y te aseguramos que la compartiremos con nuestro equipo encargado. ¡Saludos! ^AZ",
+        "escalate": false,
+        "escalation_reason": "Auto-handled: Default operational support workflow."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2226499",
+        "similarity_score": 0.2623,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] Hola León, lamento el inconveniente. Agradecemos por informarnos lo sucedido, y te aseguramos que la compartiremo"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_049",
+      "raw_text": "@AmazonHelp @171133 https://t.co/CLA5dWEqlt",
+      "ground_truth": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": false
+      },
+      "agent_predictions": {
+        "primary_intent": "Delivery_Tracking_And_Delays",
+        "confidence": 0.1162,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Delivery Tracking And Delays. Based on our historical resolution procedure: [USER] I'm very sorry for the inconvenience! Did we give a reason for the delay? Let us know, we'd be happy to help! ^SK\n\nCustomer:  I️ don’t believe a reason was provided; I️ haven’t been able to find one. All I️ can see is that the delivery date has changed\n\nAmazonHelp: [USER] Thanks for letting us know! Please keep us posted if you haven't received your order by the new delivery date specified. ^KJ",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1162 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2686757",
+        "similarity_score": 0.1,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm very sorry for the inconvenience! Did we give a reason for the delay? Let us know, we'd be happy to help! ^SK"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    },
+    {
+      "example_id": "DEV_050",
+      "raw_text": "@AmazonHelp can I change the address to delivery company?",
+      "ground_truth": {
+        "primary_intent": "Order_Cancellation_And_Address_Change",
+        "escalate": false,
+        "escalate_reason": "",
+        "language_flag": false,
+        "ambiguity_flag": true
+      },
+      "agent_predictions": {
+        "primary_intent": "Promotions_GiftCards_And_Pricing",
+        "confidence": 0.1138,
+        "draft_reply": "Hello! Thank you for reaching out to AmazonHelp regarding Promotions GiftCards And Pricing. Based on our historical resolution procedure: [USER] I'm afraid that invoices generated once cannot be changed. However, please reach out to our support team here: for further assistance. Dheeraj | Amazon Customer Service\n\nCustomer:  We are also in business. GST returns not filled invoice can be modified and when I ordered immediately mailed in few hours about this prob not after delivery.sad to know this kind of response\n\nAmazonHelp: [USER] I understand your concern. Please fill in your details here: and we’ll contact you soon. ^MN\n\nCustomer:  No response on the return of the product yet\n\nAmazonHelp: [USER] As you have filled in the details, you will receive an email communication here: ^RW\n\nCustomer:  Pick up was due on 13th nov but no response from the retune team\n\nAmazonHelp: [USER] I'm afraid we haven't received your details. Please sign in to your account, and send us the details using the link provided by 'MN' here: and I will look into the issue right away.^SF\n\nCustomer:  What details return pick up was scheduled for 13th nov but no one came to pick up\n\nAmazonHelp: [USER] I get your concern however, since Twitter is a social media platform, we'd not be able to check/access your account. Kindly share your details through the link provided earlier &amp; we'll look into it right away. Appreciate your understanding. ^EM\n\nCustomer:  710404392068 pick up id\n\nAmazonHelp: [USER] As mentioned earlier, we can't gain access to your account details via Twitter. Kindly share your details in the link provided above by ^MN and we'll have the issue checked for you. (1/2) ^KA\n\nAmazonHelp: [USER] Please don't provide your return tracking details, we consider it to be personal info. Our page is visible to the public. (2/2) ^KA",
+        "escalate": false,
+        "escalation_reason": "Auto-handled (Diagnostic Flag: Low confidence 0.1138 < 0.15)."
+      },
+      "retrieval_evidence": {
+        "retrieved_historical_id": "EXT_2378505",
+        "similarity_score": 0.2627,
+        "is_fallback": false,
+        "historical_resolution_snippet": "[USER] I'm afraid that invoices generated once cannot be changed. However, please reach out to our support team here: fo"
+      },
+      "provenance_metadata": {
+        "llm_api_used": false,
+        "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
+        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1108 @@
+{
+  "AmazonHelp": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 1082,
+        "percentage": 54.1,
+        "examples": [
+          "@AmazonHelp ありがとうございます。\n今、電話で主人が対応していただいてます。",
+          "@AmazonHelp 電話で対応してもらいましたが改良されませんでした。\n保証期間も過ぎてるので買い直しになるんでしょうね。",
+          "@AmazonHelp こちらこそありがとうございました。"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 478,
+        "percentage": 23.9,
+        "examples": [
+          "@AmazonHelp 3 different people have given 3 different answers and I still don't have my order. Says delivered Saturday, was not, I was home all day",
+          "@AmazonHelp @115826 Yeah this is crazy we’re less than a week away and still no Shipping Information on something that we Pre-ordered back in August",
+          "@115821 @AmazonHelp why is my order at my local courier for the last 6 days and still hasn’t been delivered to me?? Over 1 week late 😡"
+        ]
+      },
+      "billing_charge": {
+        "count": 161,
+        "percentage": 8.1,
+        "examples": [
+          "@AmazonHelp delivery I paid for today,didn’t arrive.why not?i paid enough for it.where is it??I’m unhappy.refund the delivery charge",
+          "@AmazonHelp I just said it's been sorted! I've been refunded! I'm just not impressed with the service any more.",
+          "@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?"
+        ]
+      },
+      "positive_feedback": {
+        "count": 145,
+        "percentage": 7.2,
+        "examples": [
+          "@AmazonHelp Thanks for quick response. Pic attached. https://t.co/yNhYE638YS",
+          "@AmazonHelp My package just got here. All good, thank you!",
+          "@AmazonHelp Star Wars Battlefront 2 Elite Trooper Deluxe Edition Playstation 4 https://t.co/6K7WdDcY2P preorder info is in description. Thanks for help"
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 62,
+        "percentage": 3.1,
+        "examples": [
+          "@AmazonHelp That page is useless - doesn’t allow me to state it hasn’t been delivered; only tells me it has! How can you sort this out?",
+          "@AmazonHelp Already have and the assistance I received was absolutely useless and rude.",
+          "@AmazonHelp I got it sorted out, after multiple phone calls and failed chat sessions (those were horrible btw)"
+        ]
+      },
+      "flight_travel": {
+        "count": 62,
+        "percentage": 3.1,
+        "examples": [
+          "@116096 Truly. This is the strangest vampire book I’ve ever received. 😜 cc @43760 @AmazonHelp #misship https://t.co/Zad7Az14Zg",
+          "@AmazonHelp I allowed it well past 8 PM. I was never notified about any other delays",
+          "@AmazonHelp Mac book pro, with Chrome"
+        ]
+      },
+      "speed_performance": {
+        "count": 53,
+        "percentage": 2.6,
+        "examples": [
+          "@AmazonHelp I need to change the language of my account to be able to get support, which I don't have the time to do, there's any other way to contact?",
+          "@AmazonHelp That just takes me to the log in page (I can't log in as I can see from my Audible acct that my log in has been changed to a yopmail acct)",
+          "@AmazonHelp It looks as though someone has changed the email address linked to my acct &amp; I can no longer log in. Help!"
+        ]
+      },
+      "app_update": {
+        "count": 49,
+        "percentage": 2.5,
+        "examples": [
+          "@AmazonHelp It’s not allowing me to update it to register my new amazon account. I read I’d have to do so manually. Thx 4 response.",
+          "@AmazonHelp The last update was on 22nd Oct saying it’s out for delivery.....you can’t tell me it take a over two weeks to deliver https://t.co/iB2HaSBOqk",
+          "@AmazonHelp How do I disable notifications indicated by the bell icon in upper left corner of iOS Kindle app?"
+        ]
+      },
+      "cancellation": {
+        "count": 41,
+        "percentage": 2.1,
+        "examples": [
+          "@AmazonHelp but I can’t find the options to cancel or re-order?",
+          "@AmazonHelp I have tried. It’s not allowing me to access my account to cancel my membership, I haven’t even used prime in almost 3 months.",
+          "@AmazonHelp I’ve cancelled my order and gone to Best Buy. Thank you."
+        ]
+      },
+      "service_outage": {
+        "count": 35,
+        "percentage": 1.8,
+        "examples": [
+          "@AmazonHelp Is it possible to prevent AMZL from delivering my packages moving forward? Stuff is either lost/stolen/broken EVERY time.",
+          "@AmazonHelp Still not working.  They sent me a link to reset the password, try and sign in with new password and still locked out.",
+          "@AmazonHelp live chat down in the UK and as a prime member I cannot t get any items delivered before Tuesday whats going on?"
+        ]
+      },
+      "account_access": {
+        "count": 24,
+        "percentage": 1.2,
+        "examples": [
+          "@AmazonHelp i reset my password 3 times and it still says incorrect you gotta be shitting me",
+          "@AmazonHelp I can’t log in because it’s locked.",
+          "@AmazonHelp um, my account was locked as soon as I tried to login on desktop. I still haven’t received an email on how to get it unlocked..."
+        ]
+      },
+      "device_hardware": {
+        "count": 22,
+        "percentage": 1.1,
+        "examples": [
+          "@AmazonHelp  Ordered a camera; Shortly after received call from 206-508-4014. I didn't answer.. I immediately received an email from...",
+          "@AmazonHelp Please find attached screenshot https://t.co/uivHzbY3JE",
+          "@AmazonHelp Afternoon only I have replied. I have screenshot also. Till now I didn't received any update. After doing regular follow-up also no action"
+        ]
+      },
+      "connectivity": {
+        "count": 15,
+        "percentage": 0.8,
+        "examples": [
+          "@AmazonHelp ありがとうございます！\nテレビにstickを接続しているのですが、WiFi接続がすぐに切れてしまい、数分しか見ることができません。",
+          "@AmazonHelp Ur customer care is disconnecting my call by saying that we would not be able to give you any further I sight over this issue.Please explain",
+          "@AmazonHelp why is Videos option missing in the skills for Alexa in India? Not able to connect my fire TV."
+        ]
+      },
+      "transfer_dm": {
+        "count": 7,
+        "percentage": 0.4,
+        "examples": [
+          "@AmazonHelp I tried that and ended up On page to provide package feedback too difficult and I did not have the time to search for your customer service number so if you follow me we can direct Message",
+          "@AmazonHelp Please simply answer my question.  I am not an AmazonFresh customer, just a condominium unit owner inconvenienced by UR customers  &amp;trying 2 figure out how we can all accommodate one a",
+          "@AmazonHelp Kindly send me a direct message so that I can revert back with my phone number and expect a call SOON! (2/2)"
+        ]
+      },
+      "data_plan": {
+        "count": 6,
+        "percentage": 0.3,
+        "examples": [
+          "@AmazonHelp Really?  I pay annual Prime membership for you to tell me that an international publisher will have the answers to why YOU have the book in Home &amp; Kitchen, YOU are sending people to Th",
+          "@AmazonHelp Kindergarten Unlimited website will not return any ebooks. Tried returning all 10 but keeps sayjng I have 10 out. Have closed out of browser on pc and reinstalled android app. Nothing help",
+          "@AmazonHelp I have Prime.... I have a trial of Music Unlimited that came with Alexa, is that what you mean?"
+        ]
+      }
+    }
+  },
+  "AppleSupport": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 890,
+        "percentage": 44.5,
+        "examples": [
+          "@AppleSupport  https://t.co/NV0yucs0lB",
+          "@AppleSupport This is what it looks like https://t.co/XCQU2l4xUB",
+          "@AppleSupport I️ have an iPhone 7 Plus and yes I️ do"
+        ]
+      },
+      "app_update": {
+        "count": 591,
+        "percentage": 29.5,
+        "examples": [
+          "@AppleSupport The newest update. I️ made sure to download it yesterday.",
+          "Hey @AppleSupport and anyone else who upgraded to ios11.1, are y’all having issues with capital “I️” in the Mail app? As it puts in “A”?",
+          "@115861 @115862 @AppleSupport I️ upgraded. I️t didn’t work."
+        ]
+      },
+      "device_hardware": {
+        "count": 256,
+        "percentage": 12.8,
+        "examples": [
+          "@AppleSupport I’ve got a screenshot saying my #iPhoneX is reserved for the 3rd then an email saying it’s the 18th... what happened?",
+          "@AppleSupport I need the software update urgently. The battery lasts literally half a day 🙍🏼🙁@AppleSupport",
+          "@AppleSupport The app is still there. But no longer able to control it from the lockscreen."
+        ]
+      },
+      "service_outage": {
+        "count": 185,
+        "percentage": 9.2,
+        "examples": [
+          "@AppleSupport The newest update. I️ made sure to download it yesterday.",
+          "@AppleSupport why is my home sharing not working and how do i fix it",
+          "@AppleSupport I just get a white screen and nothing loads. After a short time, it just closes/crashes. Thanks for the reply."
+        ]
+      },
+      "positive_feedback": {
+        "count": 171,
+        "percentage": 8.6,
+        "examples": [
+          "Thank you @AppleSupport I updated my phone and now it is even slower and barely works. Thank you for ruining my phone.😤",
+          "@AppleSupport Okey. Thank you! 🤗",
+          "@AppleSupport Hi! What is going on? Has Youtube lost it? What can be done about it? Thanks for the support! https://t.co/T8ZZp4IH6t"
+        ]
+      },
+      "speed_performance": {
+        "count": 147,
+        "percentage": 7.3,
+        "examples": [
+          "@AppleSupport why are my I️’s changing not showing up correctly on any of my social media platforms? https://t.co/GyRvpyVnkE",
+          "Thank you @AppleSupport I updated my phone and now it is even slower and barely works. Thank you for ruining my phone.😤",
+          "Why is “I️” keep changing to this and how do I️ stop it🤦🏽‍♀️ @115858 @AppleSupport #anybody https://t.co/urzAfSZL5z"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 95,
+        "percentage": 4.8,
+        "examples": [
+          "@AppleSupport iPhone 6 and yes it’s got the latest software update",
+          "@AppleSupport I've updated to iOS 11.1 just now. I shall check out these WiFi hotspots tomorrow and later in the week.",
+          "@AppleSupport Cool, just did. Seems every update is just purposefully adding new stuff that is optimized for the latest iPhone. Need update provisioning."
+        ]
+      },
+      "connectivity": {
+        "count": 84,
+        "percentage": 4.2,
+        "examples": [
+          "@AppleSupport See how it says searching at the top instead of giving me signal?.....I’ve been dealing with that for 2 weeks and sprint did everything https://t.co/iB0NsSeL1G",
+          "@AppleSupport I can’t download songs. Progress icon keeps spinning. On both data + WiFi. Stream works though. Can’t add songs to playlists. https://t.co/x7uUxSqO9u",
+          "@AppleSupport I've updated to iOS 11.1 just now. I shall check out these WiFi hotspots tomorrow and later in the week."
+        ]
+      },
+      "account_access": {
+        "count": 66,
+        "percentage": 3.3,
+        "examples": [
+          "@AppleSupport Tried resetting my settings .. restarting my phone .. all that",
+          "@AppleSupport Any idea why icons show up like this? I did force reset to no avail. After initial notification display, they show up. https://t.co/qBFIAlpGyD",
+          "@AppleSupport whenever I try to see the photos that I’ve just taken my #iphone6 shows me this. I’ve reset it, I’ve restored it... help? https://t.co/8tQy27WvMe"
+        ]
+      },
+      "billing_charge": {
+        "count": 45,
+        "percentage": 2.2,
+        "examples": [
+          "@AppleSupport Thanks, thing is I still have like 81 cents in credit and won't let me do that until I have zero credit",
+          "@AppleSupport $100 billion says that solves my problem? I’m on 11.0.3 currently. Hold please.",
+          "@AppleSupport Hi, I plugged an adapter straight into the transformer and it still didn't charger. The charger LED does not light up either."
+        ]
+      },
+      "flight_travel": {
+        "count": 36,
+        "percentage": 1.8,
+        "examples": [
+          "@AppleSupport hi, I have a problem with my macbook pro, it won't turn on, I think it might be the charger but not sure. Is there a...",
+          "@115858 @AppleSupport iOS 11.1 should never been released. So many bugs. The statusbar randomly disappears in Facebook app",
+          "@AppleSupport My backup was stored to my MacBook Pro which battery died 2 months ago."
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 27,
+        "percentage": 1.4,
+        "examples": [
+          "@AppleSupport @116102 Battery life just got worst.",
+          "@AppleSupport watchOs4 made my watch pointless Browsing music on my phone via the watch was 80% reason for buying it now it’s useless.",
+          "@AppleSupport The only keyboard I️ have is whatever my iPhone came with. It’s occurring in everything: messages, social media, emailing ect."
+        ]
+      },
+      "transfer_dm": {
+        "count": 5,
+        "percentage": 0.2,
+        "examples": [
+          "Hey @AppleSupport! Why message button doesn’t work when I click it from contacts to send message? On iOS 10 it worked fine.. I have iPhone7.",
+          "@AppleSupport could you please reply back to my private message",
+          "@AppleSupport why since my 7s was updated am I having trouble sending picture messages? It freezes when I try to select person to send to."
+        ]
+      },
+      "cancellation": {
+        "count": 4,
+        "percentage": 0.2,
+        "examples": [
+          "@AppleSupport how can I unsubscribe to an auto renewing app in my iPhone?",
+          "@AppleSupport Pt. 7 after an hour on the phone with support I was told to wait for UPS or Fedex to ship my phone to the wrong address or cancel my order",
+          "@AppleSupport Also it said I need to sign in on that page it sends me to and I have until November 2 to cancel it. Does that make sense?"
+        ]
+      },
+      "data_plan": {
+        "count": 1,
+        "percentage": 0.1,
+        "examples": [
+          "@115858 @115858 @AppleSupport If your reps are going to be calling from international numbers you better be ready tonpay those international tolls"
+        ]
+      }
+    }
+  },
+  "SpotifyCares": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 1013,
+        "percentage": 50.6,
+        "examples": [
+          "@SpotifyCares doesn’t work and i even tried deleting the app",
+          "@SpotifyCares 2/2... and there is no way to manage Albums (recently added e.g.) in the App. It's a mess 😲 https://t.co/RlWuqllt8S",
+          "@SpotifyCares ok thx"
+        ]
+      },
+      "positive_feedback": {
+        "count": 322,
+        "percentage": 16.1,
+        "examples": [
+          "@SpotifyCares You actually are amazing 😘😘😘",
+          "@SpotifyCares Thanks for the quick reply! I got it to work after un/reinstalling a few times, but I’m on MacOS High Sierra. Looks like version 1.0.68.407.g6864aaaf? I’m not sure what the initial probl",
+          "@116381 Hey hey! Thanks for reaching out! @SpotifyCares, could you help out with Pascal's payment update?"
+        ]
+      },
+      "app_update": {
+        "count": 236,
+        "percentage": 11.8,
+        "examples": [
+          "@SpotifyCares iphone 7+ and i have the most recent update for spotify",
+          "@SpotifyCares @115890 Groove Music quits &amp; redirect to Spotify. But the W10M App is a bugfest.. Any further Updates possible?",
+          "@SpotifyCares using a MacBook Pro with OS X El Capitan and the latest Spotify update, and an iPhone 6S with the latest software/Spotify updates!"
+        ]
+      },
+      "service_outage": {
+        "count": 148,
+        "percentage": 7.4,
+        "examples": [
+          "@SpotifyCares Desktop app still not working, but I got to see the cool thing (Easter egg) so I’m ecstatic! 😊😊",
+          "@SpotifyCares No it didn't crash. I was cooking dinner and heard about 3 songs. Each song is about 2-3 mins. After the third song the ad played.",
+          "@SpotifyCares is there an email i can message? Ive been trying to buy premuim for a few days but i keep getting the card bad day error."
+        ]
+      },
+      "billing_charge": {
+        "count": 118,
+        "percentage": 5.9,
+        "examples": [
+          "@116381 Hey hey! Thanks for reaching out! @SpotifyCares, could you help out with Pascal's payment update?",
+          "@SpotifyCares I feel like my idea has similar keywords as the one I was told to go to – that's closed and can no longer be voted on.",
+          "@SpotifyCares @116885 I can't fathom why you'd get rid of such an unique, useful feature. us heavy-users feel truly alienated/betrayed. please make this right!"
+        ]
+      },
+      "speed_performance": {
+        "count": 113,
+        "percentage": 5.7,
+        "examples": [
+          "@SpotifyCares Yes, multiple times. No changes. I am Premium User an when @115890  send us users to Spotify there should be a bugfree running App 🤨",
+          "@SpotifyCares Montreal, where the ad itself says I’m not allowed to get the deal.\n\nWe had another tweet exchange a few days ago when you emailed me the same offer.",
+          "@SpotifyCares Hi. My @115888 playlists idea's status got changed + can't receive any votes. They sent me a link to a \"similar idea\", but it's closed."
+        ]
+      },
+      "account_access": {
+        "count": 83,
+        "percentage": 4.2,
+        "examples": [
+          "@SpotifyCares I can't log into my account as it's saying my password is incorrect but it's the same one I've used for years! I updated my email address but it's saying I don't have an account register",
+          "Will changing my password stop this person from using my @SpotifyCares? https://t.co/VHJyWGO25j",
+          "@SpotifyCares  your customer service is poor.... today I was advised to change the password on my hacked account ... might be a challenge don’t you think ?!"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 72,
+        "percentage": 3.6,
+        "examples": [
+          "@SpotifyCares Premium &amp; when i️ have it on shuffle it turns off when the song is done and just plays in order and the repeat lights up but doesn’t repeat",
+          "@SpotifyCares using a MacBook Pro with OS X El Capitan and the latest Spotify update, and an iPhone 6S with the latest software/Spotify updates!",
+          "So @115888 @3493 @SpotifyCares: three days later you’re still advertising a sale to me for which I’m geographically  ineligible, this time on Facebook. You know you can choose where you want your ads "
+        ]
+      },
+      "connectivity": {
+        "count": 67,
+        "percentage": 3.4,
+        "examples": [
+          "@SpotifyCares Over all connection, I get this notification from the phone as for loving in and out I did a fresh install, no luck!",
+          "@SpotifyCares They're back now. I was on my phone's 4g earlier. I don't know what happened but when I connected to my wifi it returned. Thank you though.",
+          "@SpotifyCares I have now tried a different computer on a different network with a different browser (Edge) &amp; still can't push play."
+        ]
+      },
+      "flight_travel": {
+        "count": 57,
+        "percentage": 2.9,
+        "examples": [
+          "@SpotifyCares using a MacBook Pro with OS X El Capitan and the latest Spotify update, and an iPhone 6S with the latest software/Spotify updates!",
+          "So @115888 @3493 @SpotifyCares: three days later you’re still advertising a sale to me for which I’m geographically  ineligible, this time on Facebook. You know you can choose where you want your ads ",
+          "@SpotifyCares I'm using my facebook account as a method to log in."
+        ]
+      },
+      "device_hardware": {
+        "count": 35,
+        "percentage": 1.8,
+        "examples": [
+          "@SpotifyCares The buttons on my headphones don’t pause my music anymore. Is this a Spotify or an iOS 11 issue?",
+          "@SpotifyCares Doesn’t show in lock screen. Can’t adjust volume of phone isn’t unlocked also.",
+          "@SpotifyCares Yes the music works fine no problem. Just the lock screen functionality has completely disappeared"
+        ]
+      },
+      "cancellation": {
+        "count": 28,
+        "percentage": 1.4,
+        "examples": [
+          "@SpotifyCares BTW I have a confirmation email to say my email address was updated, then got an email to say my subscription had been cancelled?",
+          "@SpotifyCares.  Set up family premium. put wrong address. canceled. now can't set up new account w my email address. U make me pay? Help!",
+          "@SpotifyCares i subscribed as premium user in Oct 25, but today I cant use spotify because I must unsubscribe it first. It just a week!!"
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 15,
+        "percentage": 0.8,
+        "examples": [
+          "@SpotifyCares please fix ASAP I hate Apple Music I don’t want to use them 😩",
+          "@SpotifyCares Hate to burst ur bubble @SpotifyCares but https://t.co/A8WeUwU4kt",
+          "Hey @115888 @SpotifyCares, I would love to be able to hide the “Browse” page, so I see just my music when I open Spotify, not ads for shitty bands I hate and “funny” texts. I’ll gladly pay double."
+        ]
+      },
+      "data_plan": {
+        "count": 4,
+        "percentage": 0.2,
+        "examples": [
+          "@SpotifyCares Why's there a 10K limit on songs in My Library? Why not unlimited? I just switched to Spotify from another and feel duped.",
+          "@SpotifyCares Why have I had an email welcoming me to \"Premium for Family\"? Is this marketing, or is my account compromised? I was on the old Unlimited plan.",
+          "@SpotifyCares but, it already has unlimited votes"
+        ]
+      },
+      "transfer_dm": {
+        "count": 2,
+        "percentage": 0.1,
+        "examples": [
+          "@SpotifyCares I've private messaged you because I've been charged twice ? Spotify I love you but you're killing me 🙄",
+          "@SpotifyCares Roughly how long does it take to get a response to a private message? Just sent one and I'm wondering. Cheers."
+        ]
+      }
+    }
+  },
+  "Uber_Support": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 1119,
+        "percentage": 56.0,
+        "examples": [
+          "@Uber_Support Already did that was told we requested to dropped off somewhere different which is completely false.",
+          "@Uber_Support I’m not getting your texts. https://t.co/GhefNjQTfg",
+          "@Uber_Support @115879 wouldn't do this to me 😔"
+        ]
+      },
+      "billing_charge": {
+        "count": 374,
+        "percentage": 18.7,
+        "examples": [
+          ".@Uber_Support My driver broke down. Any tips on getting a refund?",
+          "@Uber_Support I submitted an online request and expect a cancellation credit to my account as I would of had to pay. Thank you!",
+          "@Uber_Support The thing is, it’s the exact same reliability and speed as @154... so why would I pay $15 more for the same product or wait for later when I can just give them my money? Which is what I "
+        ]
+      },
+      "positive_feedback": {
+        "count": 170,
+        "percentage": 8.5,
+        "examples": [
+          "@Uber_Support Thanks! I appreciate it. Not sure what happened.",
+          "@Uber_Support I submitted an online request and expect a cancellation credit to my account as I would of had to pay. Thank you!",
+          "@Uber_Support Thank you for your response. Put in a request and am waiting for reply!"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 139,
+        "percentage": 7.0,
+        "examples": [
+          "@Uber_Support Welp... I guess that's one bibimbap order I'm never gonna receive. Good thing I used a first time order promotion. Not a good first impression though.",
+          "@Uber_Support The thing is, it’s the exact same reliability and speed as @154... so why would I pay $15 more for the same product or wait for later when I can just give them my money? Which is what I ",
+          "@Uber_Support i’m 4 months away from being 21 and have driving experience including delivery. i feel i should be able to drive now instead of waiting to be 21"
+        ]
+      },
+      "cancellation": {
+        "count": 128,
+        "percentage": 6.4,
+        "examples": [
+          "@Uber_Support I submitted an online request and expect a cancellation credit to my account as I would of had to pay. Thank you!",
+          "Hi @Uber_Support I have a problem with a cancellation fee I was charged but the case fits none of the options. How can I report i this?",
+          "@Uber_Support it's fucking cold and we have to wait 15 min. I want to cancel my taxi. It doesn't work. Pls help. There are taxis inf front"
+        ]
+      },
+      "flight_travel": {
+        "count": 83,
+        "percentage": 4.2,
+        "examples": [
+          "@Uber_Support Nah, I don't want in-app support you people are lying, get my app up and running NOW, I've been waiting for 5 days, you guys are lying, and closed my app cuz I reported another driver wi",
+          "@Uber_Support I booked a trip with you tonight, and after I paid for the trip the driver never came and the drive was completed in the app, what can we do to get our money back?",
+          "@Uber_Support @115877 you haven’t “reached out”. Please refund the cost of the inedible food without delay"
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 65,
+        "percentage": 3.2,
+        "examples": [
+          "@Uber_Support do you also support ubereats singapore? im reaching out here bec the support there is useless. any chance you could help?",
+          "@Uber_Support It's not you guys. It's @117115 @McDonalds only! They have terrible #customerservice and I am tired of it. #sadface #iloveuber",
+          "Hey @AskLyft and @Uber_Support your drivers are absolutely terrible around cyclists and pedestrians - plz provide training! #vulnerable"
+        ]
+      },
+      "service_outage": {
+        "count": 61,
+        "percentage": 3.0,
+        "examples": [
+          ".@Uber_Support My driver broke down. Any tips on getting a refund?",
+          "@Uber_Support Well paypal payment not working since the start of the week.",
+          "@Uber_Support my driver crashed and I hit my head happy Halloween"
+        ]
+      },
+      "speed_performance": {
+        "count": 49,
+        "percentage": 2.5,
+        "examples": [
+          "@Uber_Support The thing is, it’s the exact same reliability and speed as @154... so why would I pay $15 more for the same product or wait for later when I can just give them my money? Which is what I ",
+          "@Uber_Support i change my number i need to update and i'm having problems cause in the app don't let me do that even in the site help!!",
+          "@Uber_Support and so your team member did connect with me and suggested I change city in my email subscription settings on my profile page and I sent him a screenshot of my profile page to show how I "
+        ]
+      },
+      "app_update": {
+        "count": 41,
+        "percentage": 2.1,
+        "examples": [
+          "kya khassi support hai yaar @Uber_Support. i am an uber rider not driver. they are telling me to take docs to nearby uber office for verification and all i was asked was to update my cellphone number ",
+          "@Uber_Support i change my number i need to update and i'm having problems cause in the app don't let me do that even in the site help!!",
+          "@Uber_Support when will you update your in app location services for Edmonton, Alberta, Canada? Uber drivers never find our area Maple Crest"
+        ]
+      },
+      "account_access": {
+        "count": 31,
+        "percentage": 1.6,
+        "examples": [
+          "@Uber_Support got this message few hours back. then hour later asked me if my account was working. I said no then the  blocked me. https://t.co/uGQtHhWKGi",
+          "@Uber_Support need to recover my account whose password I've lost. I've not added any email address.",
+          "@Uber_Support is the link broken? i can't sign in.."
+        ]
+      },
+      "device_hardware": {
+        "count": 26,
+        "percentage": 1.3,
+        "examples": [
+          "@Uber_Support and so your team member did connect with me and suggested I change city in my email subscription settings on my profile page and I sent him a screenshot of my profile page to show how I ",
+          "@Uber_Support None of those work, they just take me to a login screen and I cant go further",
+          "@115873 @Uber_Support am trying to  explaining the issue with customer service along with the screenshot but they seem to not get it. Pls help"
+        ]
+      },
+      "connectivity": {
+        "count": 17,
+        "percentage": 0.9,
+        "examples": [
+          "@Uber_Support and so your team member did connect with me and suggested I change city in my email subscription settings on my profile page and I sent him a screenshot of my profile page to show how I ",
+          "@1285 what happen today not able to connect with uber network. @115873 @Uber_Support https://t.co/JeVHKfKRqV",
+          "@Uber_Support @115873 @116276 \nI'm sorry to say this but unfortunately there hasn't been anyone frm ur side connecting wt me fr the issue. Disgusting"
+        ]
+      },
+      "transfer_dm": {
+        "count": 11,
+        "percentage": 0.5,
+        "examples": [
+          "@Uber_Support check direct message asap please",
+          "@Uber_Support Yes, you let me know that I can go fuck myself via direct message. Well done.",
+          "@Uber_Support This reply doesn't help. I can't send a message to the team because I can't log in."
+        ]
+      },
+      "data_plan": {
+        "count": 1,
+        "percentage": 0.1,
+        "examples": [
+          "@Uber_Support how many times Uma. Day will you play with a customer one more driver who did not end the trip and roaming as per his wish driver name prem kumar mobile number:7013889798"
+        ]
+      }
+    }
+  },
+  "TMobileHelp": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 1201,
+        "percentage": 60.1,
+        "examples": [
+          "@TMobileHelp  https://t.co/tznFggbx3Y",
+          "@TMobileHelp @115918 OK maybe my problem too let me try that resizing.",
+          "@TMobileHelp @115913 John why I am having so much trouble coming back"
+        ]
+      },
+      "positive_feedback": {
+        "count": 250,
+        "percentage": 12.5,
+        "examples": [
+          "@TMobileHelp Got it. One of them resized to 4x4. So instead of alerting me it just wouldn't take the coupon code. I resized it and it worked. Thanks.",
+          "@TMobileHelp @115913 Thanks!",
+          "@TMobileHelp @115913 John, I am finally am back on T-Mobile. your team was great in helping me port back! Please note Zach R, Mariah D and Jason Y were great in helping me!"
+        ]
+      },
+      "billing_charge": {
+        "count": 173,
+        "percentage": 8.6,
+        "examples": [
+          "@TMobileHelp Got it. One of them resized to 4x4. So instead of alerting me it just wouldn't take the coupon code. I resized it and it worked. Thanks.",
+          "@TMobileHelp @115913 @116154 So you @115913 know! been trying to chat but your team is asking for a pin or password I don’t have. Making me feel like you don’t want me back",
+          "@115913 @TMobileHelp deny clients to pay off bill 2 take advantage of #BlackFriday #3 Strikes @115911 #"
+        ]
+      },
+      "connectivity": {
+        "count": 106,
+        "percentage": 5.3,
+        "examples": [
+          "@TMobileHelp That was a terrible 2 hr customer service experience, was transferred internally to an expired #, 6 transfers 2 dropped calls.",
+          ".@TMobileHelp can you help me out? Having some connection issues on my route to/from work. DM me, please! https://t.co/iVVzF3mcn5 https://t.co/NGjcNq35O2",
+          "@TMobileHelp my porn won’t load i’ve been waiting for an hour i’m already soft what’s wrong with your wifi ."
+        ]
+      },
+      "delivery_shipping": {
+        "count": 106,
+        "percentage": 5.3,
+        "examples": [
+          "@TMobileHelp Brendan transferred me (7th time tonight). The next person kept me up until 1am only to tell me he lacks credentials to place the order.",
+          "@TMobileHelp are iPhone X preorders going to come in early ? Mine has said shipped for 2 days now or are we getting them the 3rd?",
+          "@TMobileHelp @115913 @115911 #retweet #IphoneXPreOrder #iPhoneX"
+        ]
+      },
+      "service_outage": {
+        "count": 79,
+        "percentage": 4.0,
+        "examples": [
+          "@TMobileHelp trying to redeem a free tuesday code and its not letting me telling me theres an error can i get help with this?",
+          "@TMobileHelp @1247 The @10568 code is not working when applied at checkout. Can you please look into this? https://t.co/SJvM7AW24t",
+          "@115911 @TMobileHelp sitting here with broken leg and frustrated no netflix on us promo still 😢"
+        ]
+      },
+      "speed_performance": {
+        "count": 74,
+        "percentage": 3.7,
+        "examples": [
+          "@TMobileHelp what's with these speeds in Deer Park, NY? https://t.co/sOlfiNZbty",
+          "@TMobileHelp My \"This One's on Us\" seems to have dropped the discount off my bill. I didn't change my plan. Can you all help out with this?",
+          "@TMobileHelp It's not an individual account problem. People around me are experiencing same issue. I'm just letting u guys know. LTE is slowed to a crawl"
+        ]
+      },
+      "app_update": {
+        "count": 71,
+        "percentage": 3.5,
+        "examples": [
+          "@115786 All my messages from .@115911 for support or updates are in Spanish. I have called 4 times to fix nothing! Help .@TMobileHelp",
+          "@TMobileHelp @115913 Hi any updates on porting the numbers over? See you in the DMs?",
+          "@TMobileHelp I feel like you guys have ruined the X for me, by the time I get it, it won’t be a year until the upgrade so I’ll be out more $ and behind."
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 38,
+        "percentage": 1.9,
+        "examples": [
+          "@TMobileHelp That was a terrible 2 hr customer service experience, was transferred internally to an expired #, 6 transfers 2 dropped calls.",
+          "I need 2 #GetOutOfTheRed @TMobileHelp Here @115990 has been the worst of the worst. Everything was a lie and their customer service suck https://t.co/scArdrvo5Z",
+          "@115911 @TMobileHelp terrible customer service. 3 dysfunctional refurbished phones in 2 weeks. @115913 #badservice"
+        ]
+      },
+      "cancellation": {
+        "count": 26,
+        "percentage": 1.3,
+        "examples": [
+          "Done with @115911 after this year... Might even cancel before the X comes out highly upset and disappointed with @118272 @TMobileHelp",
+          "@TMobileHelp @115913 Right, so if you want an Iphone deal and assume most people dont need an extra line, it wont apply. Only option is to cancel service and open new account.",
+          "@TMobileHelp is it possible to cancel a preorder, if I find an IPhone X in stores before my preorder ships?"
+        ]
+      },
+      "data_plan": {
+        "count": 20,
+        "percentage": 1.0,
+        "examples": [
+          "@TMobileHelp BUT I'm on unlimited data how can they restrict me from going unlimited when I pay for unlimited",
+          "@138069 @122986 @TMobileHelp I need a friend's help right now! if I use my music apps while having this app on, would it make it count towards my data? Keeping in mind that Datally always needs a VPN ",
+          "@TMobileHelp My issue of being charged for international plan when I requested it to be removed months ago has still NOT been resolved. They said it would get removed, it didnt, and i got charged for "
+        ]
+      },
+      "device_hardware": {
+        "count": 19,
+        "percentage": 0.9,
+        "examples": [
+          "@TMobileHelp @115913 OpenSignal and iOS' screen recording feature is awesome. Just wanted to share this video. No need to reach out to me. https://t.co/wcFv6EFYL4",
+          "@TMobileHelp November 16th there was a fire that caused us 2 lose reception I took a screen shot of the news caption https://t.co/p6L3CSWaI9",
+          "What's the point of having insurance. If you crack the screen you still have to pay 100+ dollars for another phone @115911 @TMobileHelp"
+        ]
+      },
+      "account_access": {
+        "count": 14,
+        "percentage": 0.7,
+        "examples": [
+          "@116151 @TMobileHelp @115913 Because you sound like an idiot. After reading your post you don't know your password the same password you had when you was a customer just a month ago. You sound like a ",
+          "@TMobileHelp @115913 @116154 So you @115913 know! been trying to chat but your team is asking for a pin or password I don’t have. Making me feel like you don’t want me back",
+          "@TMobileHelp @115913 @116154 Don’t get why they are asking for my password"
+        ]
+      },
+      "flight_travel": {
+        "count": 10,
+        "percentage": 0.5,
+        "examples": [
+          "@TMobileHelp Tried to have me call sales (which would’ve made for 3rd time tonight). Two month delay on my phone, lot of excuses/passing around, no help.",
+          "@TMobileHelp If you WAS treated thìs WAY what would you do I think I'm worth a lot more attributes than Facebook",
+          "Did @TMobileHelp stop providing free GoGo WiFi on @Delta flights?! I have one plus but only options are paying on the landing page."
+        ]
+      },
+      "transfer_dm": {
+        "count": 8,
+        "percentage": 0.4,
+        "examples": [
+          "@TMobileHelp I started receiving SMS messages from one sender in the Austin, TX area as e-mails, but other senders messages are still SMS. I saw that others have the same problem on your forum. Please",
+          "@TMobileHelp I just switched to T-Mobile from Sprint (iPhone to Android) and we're not able to send or receive group text messages. Help, please! @115911",
+          "@TMobileHelp phone not sending text messages again in the 32819 area https://t.co/Y5eLUhGEMz"
+        ]
+      }
+    }
+  },
+  "comcastcares": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 1010,
+        "percentage": 50.5,
+        "examples": [
+          "@comcastcares ✔",
+          "@comcastcares Phoenix Suns are on auto record. NBA Team Channel 752 trying to record tonight. I only want regular broadcast games recorded like TiVo does.",
+          "@comcastcares PAY ATTENTION TO ME"
+        ]
+      },
+      "service_outage": {
+        "count": 309,
+        "percentage": 15.4,
+        "examples": [
+          "@comcastcares Neither SD or HD for NBC or ABC can be seen. An error message says 03059. Rebooting didn’t help.",
+          "@ComcastCares\n#mobile_CareXI\nMy Xfinity internet is not working. Can you help?",
+          "@comcastcares Already called...talked to two very nice young ladies who apologized for the problems but had no solution for repeated outages. Area outage"
+        ]
+      },
+      "connectivity": {
+        "count": 201,
+        "percentage": 10.1,
+        "examples": [
+          "@comcastcares I wasn’t asking to test the connection. I was reporting the outage, but you kept asking me to test my connection. Looks like someone else was able to successfully report the outage.",
+          "@comcastcares Test what, exactly? My cable modem can not establish a connection to Comcast. Keeps flashing upload light, indicating that it’s trying to connect but can’t.",
+          "@comcastcares Zero service. Internet is down. Restarted AND unplugged my modem. No connection."
+        ]
+      },
+      "positive_feedback": {
+        "count": 200,
+        "percentage": 10.0,
+        "examples": [
+          "@comcastcares Sent and thank you",
+          "@comcastcares Thanks for your reply but that's why I said Update your Software. If  @115902 knows not to record on an unavailable channel, it's software.",
+          "@comcastcares Already fixed! Thank you!"
+        ]
+      },
+      "billing_charge": {
+        "count": 174,
+        "percentage": 8.7,
+        "examples": [
+          ".@comcastcares tired of getting charged for equipment that was returned months ago. Please stop it.",
+          "@comcastcares I've called 5 times, no resolution, bill for a house i don't live in still remains, and you all give me the run around to cancel my account",
+          "@comcastcares __credit_card__"
+        ]
+      },
+      "speed_performance": {
+        "count": 133,
+        "percentage": 6.7,
+        "examples": [
+          "@comcastcares Ahhh, you only care about throttling my internet speed I am paying for when @116602 is involved. Interesting.",
+          "@comcastcares My upload speeds are trash. Explain.",
+          "@comcastcares Trying to call to set up new service... asks for phone # and zip code, says it’s transferring me then it hangs up. Twice now."
+        ]
+      },
+      "delivery_shipping": {
+        "count": 78,
+        "percentage": 3.9,
+        "examples": [
+          "@ComcastCares\n I just opened an account with xfinity and needed the modem. Will it be shipped to my house or do I have to pick it up?",
+          "@116136 @comcastcares fails to deliver quality service. Have dealt w/ them all day &amp; still no resolution. #comcastdoesntcare #ihatecomcast",
+          "@ComcastCares\n#mobile_Care I received a box. I will not open it. I ordered nothing."
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 61,
+        "percentage": 3.0,
+        "examples": [
+          "@116136 @comcastcares fails to deliver quality service. Have dealt w/ them all day &amp; still no resolution. #comcastdoesntcare #ihatecomcast",
+          "Been calling @comcastcares all week, waiting an hour on hold, leaving voicemails for being overcharged and no one calls back. Awful.",
+          "I’m tired of @116136 and @comcastcares I have spoke to many reps who have said that I would be taken care of and see no changes. #terrible"
+        ]
+      },
+      "account_access": {
+        "count": 52,
+        "percentage": 2.6,
+        "examples": [
+          "@comcastcares My service is always on and off . Ironically when I need it most I'm having to reboot and reset my internet and it's very inconvenient",
+          "@comcastcares Thanks for contacting. Had to do a box reset. Seens to be working fine now. Will contact if problem occurs again.",
+          "@comcastcares no trust me is fine just had to do the daily router reset"
+        ]
+      },
+      "app_update": {
+        "count": 45,
+        "percentage": 2.2,
+        "examples": [
+          "@comcastcares Thanks for your reply but that's why I said Update your Software. If  @115902 knows not to record on an unavailable channel, it's software.",
+          "@ComcastCares I ordered the upgrade for my internet router and was told it’d arrive between 10/26 - 10/30 and still nothing....  help?!\n#mobile_Care",
+          "@119987 @comcastcares Get @247 I switched from Comcast and would never go back. You can add / remove services yourself online and its updated basically instantly"
+        ]
+      },
+      "cancellation": {
+        "count": 38,
+        "percentage": 1.9,
+        "examples": [
+          "@comcastcares I've called 5 times, no resolution, bill for a house i don't live in still remains, and you all give me the run around to cancel my account",
+          "@comcastcares You can't. That's why I cancelled my service. #anotheronebitesthedust",
+          "@comcastcares No I cancelled a while back and have made sure to consistently tell all my friends and family what a piece of shit company you are @115900"
+        ]
+      },
+      "device_hardware": {
+        "count": 21,
+        "percentage": 1.1,
+        "examples": [
+          "@comcastcares my tv frequently freezes screen. the audio continues live but the the video is frozen. the only way I can fix it is to unplug",
+          "@comcastcares This is the 1st time but daily when I change channels the screen will go black for a second about 10 seconds later then its ok after that",
+          "@comcastcares Is anyone there?   Please get that garbage \"SERVICE ALERT\" off my TV screen so I can view the World Series!!"
+        ]
+      },
+      "data_plan": {
+        "count": 17,
+        "percentage": 0.9,
+        "examples": [
+          "@comcastcares when I was choosing a data plan in April, your customer service rep guaranteed me that the 1 TB plan was top tier and I wouldn’t exceed it. Its been exceeded 5 of 7 months and discovered",
+          "@comcastcares Hello! Would you be able to see if a $25 option for unlimited data is available for me?",
+          "@comcastcares soooo Internet has a data plan now 🤔"
+        ]
+      },
+      "flight_travel": {
+        "count": 5,
+        "percentage": 0.2,
+        "examples": [
+          "@ComcastCares\n#mobile_Care I received a new  gateway/modem &amp; installed it. Now my bedroom and media room will not connect to cable. Help",
+          "@comcastcares Thanks for messaging back! I always appreciate how quickly you guys always respond when we have @5730 issues. Def makes it less frustrating. I'm sorry for the delay on my part. I'll send",
+          "@comcastcares Looks like my old cable modem info is still be used for WiFi gateway, etc."
+        ]
+      },
+      "transfer_dm": {
+        "count": 3,
+        "percentage": 0.1,
+        "examples": [
+          "@comcastcares I'm sending you private messages right now - do I need to screen shot them to proove it?\"   This is so frustrating",
+          "@comcastcares You have my name. I'm tweeting here w/my real name.\nI'm not going to send you any further information.\nAnd I'm certainly not going to share that further information on twitter, of all si",
+          "@comcastcares Why don’t you peruse my direct messages last month? Nothing has changed which is why I’m escalating this."
+        ]
+      }
+    }
+  },
+  "Delta": {
+    "message_count": 2000,
+    "categories": {
+      "other": {
+        "count": 728,
+        "percentage": 36.4,
+        "examples": [
+          "@Delta DM sent",
+          "@Delta Via DM?",
+          "@Delta It seems this technical issue still hasn't Ben fixed.   Can you look into it again?  🙆🏼‍♂️"
+        ]
+      },
+      "flight_travel": {
+        "count": 703,
+        "percentage": 35.1,
+        "examples": [
+          "@DELTA i booked my flight using delta amex card. Checking in now &amp; was being charged for baggage",
+          "@Delta I checked daily and flight 1403 was never offered as an option as I most certainly would have made the adjust on my trip.",
+          "@Delta why wasn't earlier flight offered when I tried to rebook, not cool at all. Just happened to look at moniter after deplaning."
+        ]
+      },
+      "positive_feedback": {
+        "count": 499,
+        "percentage": 24.9,
+        "examples": [
+          "@Delta Hi - and thanks. Think I just figured this out. Would it be you’re not running the MEX-MID flight so I need to check in via AeroMexico?",
+          "@Delta OK it was not a full flight, #equipment change had nothing to do with comfort class, no #disabilities (and a handling agent telling #customer #care would take care of us) So please non of these",
+          "@Delta hi. Any news why DL1262 diverted to AUS and DL1738 to SMF? Thanks"
+        ]
+      },
+      "billing_charge": {
+        "count": 133,
+        "percentage": 6.7,
+        "examples": [
+          "@DELTA i booked my flight using delta amex card. Checking in now &amp; was being charged for baggage",
+          "@Delta Can I get the 35$ refunded for the seat cost I never got?",
+          "@Delta Just giving credit where it's due.  Thank you"
+        ]
+      },
+      "speed_performance": {
+        "count": 107,
+        "percentage": 5.3,
+        "examples": [
+          "@Delta The \"change flight\" search option on your website is broken once again.  😑",
+          "@Delta Same again! #equipment #change #no #guaranteed #seats #apologies I’ll DM you if you can give me a #real #answer and no #standard #bs #answers",
+          "@Delta OK it was not a full flight, #equipment change had nothing to do with comfort class, no #disabilities (and a handling agent telling #customer #care would take care of us) So please non of these"
+        ]
+      },
+      "app_update": {
+        "count": 92,
+        "percentage": 4.6,
+        "examples": [
+          ".@Delta free transcon economy meal, sesame chicken noodle salad version. Not bad at all for free. Only complaint is dressing is a bit heavy handed. Otherwise just the ticket. #paxex https://t.co/S2LmU",
+          "@Delta DL1704 deplaned at DTW now were sitting at the gate without any updates. Please let us know what’s next",
+          "My flight back to SF just got upgraded 🙌🏾 thanks @Delta! 😊"
+        ]
+      },
+      "service_outage": {
+        "count": 68,
+        "percentage": 3.4,
+        "examples": [
+          "@Delta The \"change flight\" search option on your website is broken once again.  😑",
+          "@Delta I was disappointed yesterday in flight 2468 when WIFI was offered but it did not work. I couldn’t get work I planned on doing done.",
+          "@Delta Just noticed the zipper was broken off yesterday morning on my return flight&amp;it wasn't like that when I left?😥is there help? #notcool https://t.co/VIm6mmForU"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 60,
+        "percentage": 3.0,
+        "examples": [
+          "I’m sure delivering my bag would be a lot less than the $10k+ I’ve spend with your airline each year for the past 10+ years @delta. Just a guess though. 🤷🏼‍♀️",
+          "@Delta I went to the service center &amp; spoke to a sup. Wouldn’t refund my $75 OR deliver bags. She couldn’t show me in writing nor was I told I was ‘voluntarily’ separating from my bag. 🙄 Said it w",
+          "Hey @Delta how are you going to charge me to move to an earlier flight, not move my luggage to my flight and THEN tell me you can’t deliver my luggage b/c I ‘voluntarily separated’ from it?! I didn’t "
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 53,
+        "percentage": 2.6,
+        "examples": [
+          "@116453 @116454 @116455 @Delta Miles/points. But useless if the airline isn’t actually helpful and on time!!!!!!",
+          "@116452 @116454 @116455 @Delta Wait, y'all actually stick to one airline? I just go with whatever airline has the most convenient flight times and whatnot.",
+          "@Delta has the worst customer service I have ever experienced. Spent two hours on the phone due to ignorant operators &amp; nothing was resolved"
+        ]
+      },
+      "connectivity": {
+        "count": 50,
+        "percentage": 2.5,
+        "examples": [
+          "@Delta I was disappointed yesterday in flight 2468 when WIFI was offered but it did not work. I couldn’t get work I planned on doing done.",
+          "Well, this sure makes for an easy connection.  It seems I always get them at the least necessary times though... #firstworldproblems @Delta https://t.co/mWOUBhSKuE",
+          "@Delta you suck! 9 hr flt w/o entertainment or wkg jacks. Staff rude. Free Wifi -not with over 200 people! Time to shred the DSM card!"
+        ]
+      },
+      "cancellation": {
+        "count": 27,
+        "percentage": 1.4,
+        "examples": [
+          "@Delta I did cancel within 24 hours. Your computer system messed up.",
+          "@Delta Hi! Trying to cancel award booking that I booked in less than 24 hours online and it says that I have to pay to cancel. could you help me with cancellation?",
+          "Hey @Delta, how is it possible that you accidentally cancel a return trip? I would have been stuck in the airport if I didn't notice."
+        ]
+      },
+      "device_hardware": {
+        "count": 14,
+        "percentage": 0.7,
+        "examples": [
+          "@Delta Just DM'd you with a screenshot and explanation.  😊",
+          "@Delta any chance you guys found some beats headphones left on flight DL0929 yesterday?",
+          "@Delta big thanks to your employee finding my left on plane @118845 headphones &amp; holding until my return #greatcustomerservice"
+        ]
+      },
+      "data_plan": {
+        "count": 14,
+        "percentage": 0.7,
+        "examples": [
+          "@Delta Thanks. I’m on an international flight so I’ve got time.  🙂",
+          "Is anyone working @delta this morning? @ Delta Terminal - Southwest Florida International Airport https://t.co/pfaDazjvC1",
+          "@136430 @Delta Damn right. I’m international and 6’6”. All I want is 6 more inches for 40$ and I can’t do it! Free liquor!!"
+        ]
+      },
+      "account_access": {
+        "count": 10,
+        "percentage": 0.5,
+        "examples": [
+          "@Delta But a password is requested",
+          "@Delta - I’m trying to give you money 💰 but can’t get logged into my sky miles account. Changed password, followed prompts, still no luck.",
+          "@129642 @Delta And for your information on flight DL72 seat 18D the in-flight entertainment system needs repeated resets to work. Fun trip guys"
+        ]
+      },
+      "transfer_dm": {
+        "count": 4,
+        "percentage": 0.2,
+        "examples": [
+          "@Delta Hi @Delta, thanks so much for your timely &amp; sincere reply. This is part of the reason I remain a loyal #silvermedallion member. Your generous offer of 5K skymiles for both my wife &amp; I i",
+          "@Delta Thanks for your reply, I sent you a private message",
+          "@Delta Hi HDG, I will send confirmation via private message. Thanks!"
+        ]
+      }
+    }
+  },
+  "AmericanAir": {
+    "message_count": 2000,
+    "categories": {
+      "flight_travel": {
+        "count": 796,
+        "percentage": 39.8,
+        "examples": [
+          "@AmericanAir Could you have someone on your lax team available to guide me to my gate ASAP",
+          "@AmericanAir have a flight at 330pm (45mins) I’m almost to Lax. I’m legally blind and didn’t know where to let you know I need assistance.",
+          "Thank you, @AmericanAir for playing #ThisIsUs and for having great flight attendants on my flight back home!"
+        ]
+      },
+      "other": {
+        "count": 704,
+        "percentage": 35.2,
+        "examples": [
+          "Ben Tennyson and an American Airlines pilot. 🎃 #trunkortreat #halloween #2017 #diycostume #parenting @americanair … https://t.co/f1nNHQ0iLa https://t.co/lDViDkRdB1",
+          "I’m sorry, what? It’s going to COST me $50 to transfer 4,000 AA Advantage points to my spouse? @AmericanAir this is ridiculous!!",
+          "Heading to London tonight will be there for 5 days doing some exciting stuff:) @AmericanAir get the drinks ready I coming aboard:) JB"
+        ]
+      },
+      "positive_feedback": {
+        "count": 405,
+        "percentage": 20.2,
+        "examples": [
+          "@AmericanAir Erica on the lax team is amazing give her a raise ty",
+          "Thank you, @AmericanAir for playing #ThisIsUs and for having great flight attendants on my flight back home!",
+          "@AmericanAir Just have to say the Flight Attenants on Flight 1361 from BDL to ORD we’re awesome! Gate agents at BDL also! They need a shout out for awesome customer service! Treated this NonRev very w"
+        ]
+      },
+      "billing_charge": {
+        "count": 183,
+        "percentage": 9.2,
+        "examples": [
+          "@AmericanAir - I give you grief when things go poorly.  Here’s some credit: The guacamole in the Admirals Club is an outstanding addition. https://t.co/kfjAW6FMTf",
+          "@AmericanAir Despite flying w/ same from EWR, forced @ MIA to check guitar &amp; charged $25. Not @ gate, B4 security. Flt not full. WHY?",
+          "@AmericanAir I just got off one of your flights AA1792 from Portland. The gentlemen in front of my 3 year old son, decided to rip at his feet for pressing them against his seat. When I confronted the "
+        ]
+      },
+      "speed_performance": {
+        "count": 102,
+        "percentage": 5.1,
+        "examples": [
+          "@AmericanAir Right, but I earned those. I also shouldn’t have to pay to pass them to my own spouse. You need to change your program.",
+          "@AmericanAir already did...changed browsers, did all my techie tricks and still can't make a reservation after 1 hour!!",
+          "@AmericanAir i don't think it changes within minutes. This is a scam"
+        ]
+      },
+      "delivery_shipping": {
+        "count": 92,
+        "percentage": 4.6,
+        "examples": [
+          "Fantastic job by the @AmericanAir staff at @117548 to get us on our way to the @79605 Championships! Thank you! https://t.co/JqpQe0f9gs",
+          "Taking off from CLT to DEN almost 2 hours late had to board a new plane bc the other @AmericanAir plane broke. I'm sick &amp; need to get home 😥",
+          "@AmericanAir amazing picture of our countries flagship carriers jets!!! https://t.co/tHTaqRJEbJ"
+        ]
+      },
+      "app_update": {
+        "count": 88,
+        "percentage": 4.4,
+        "examples": [
+          "Big thx 2 @AmericanAir 4 guacamole and margs of thx while the @116147 lounge upgrades are underway #nomnom https://t.co/PCW4Vdxbyf",
+          "Yo @AmericanAir, I’m on flight 48 32C (DFW to Paris) and sitting next to THE loudest baby I’ve ever heard in my life. How about an upgrade?",
+          "Yo @AmericanAir why are there fifteen empty business class seats and only one person that got upgraded? #Weak #NoTreat? #ThenTrickItIs"
+        ]
+      },
+      "cancellation": {
+        "count": 88,
+        "percentage": 4.4,
+        "examples": [
+          "@AmericanAir what’s going on with flight 301 DTW &gt; DFW? Delayed over 3 hours. Will it be canceled?",
+          "@AmericanAir I had to end my trip way sooner than expected. :( Bought a new flight because it was way cheaper than changing my return. What do I need to do to cancel my return so someone can have that",
+          "@AmericanAir I've been waiting for three days now regarding a reimbursement because of your poor treatment towards me, a paying customer, after you cancelled my flight and I had to pay for a hotel roo"
+        ]
+      },
+      "customer_service_complaint": {
+        "count": 74,
+        "percentage": 3.7,
+        "examples": [
+          "LAS - PHL 734 1135am @AmericanAir not 1 smile between the whole crew &amp; your terminal for PHL-DUB flight is awful!",
+          "@AmericanAir In the meantime, we can't do work by something as simple as receiving and sending emails. Pathetic &amp; Where is @116462 refunding my fees??",
+          "hey @AmericanAir! i just matched my EXP status to @AlaskaAir MVP 75k. byeeeee!!!! #worstdomesticairline #idontflyaa"
+        ]
+      },
+      "connectivity": {
+        "count": 57,
+        "percentage": 2.9,
+        "examples": [
+          "@AmericanAir's wifi makes Amtrak's wifi look pro. At least theirs is free.  @5804 has decent wifi @ reasonable prices. Why not AA?",
+          "@AmericanAir Okay, well, I’ll start this conversation back up after I buy WiFi in the air. Cya in a little bit.",
+          "Holy shit. Just got free wifi on @AmericanAir. I guess you can have your cake and eat it too"
+        ]
+      },
+      "service_outage": {
+        "count": 50,
+        "percentage": 2.5,
+        "examples": [
+          "Trying to book a flight on @AmericanAir and an error comes up: System having trouble. Anyone else having problem?",
+          "@AmericanAir I’d still rather have a screen though. Rather not cause neck problems looking down all flight at a tablet",
+          "@AmericanAir 454. They put us on one plane that was broken. Then they put us on another plane and that’s broken. I don’t get it"
+        ]
+      },
+      "device_hardware": {
+        "count": 15,
+        "percentage": 0.8,
+        "examples": [
+          "@AmericanAir I’d still rather have a screen though. Rather not cause neck problems looking down all flight at a tablet",
+          "Really @AmericanAir.. 7hour international flight and no seat back entertainment screens.. c’mon",
+          "@AmericanAir So I assume nothing is coming from tho incident. It has been several days since we made a complaint at the desk in person after the flight and this tweet. Pretty much you blew off any con"
+        ]
+      },
+      "data_plan": {
+        "count": 12,
+        "percentage": 0.6,
+        "examples": [
+          "Really @AmericanAir.. 7hour international flight and no seat back entertainment screens.. c’mon",
+          "@AmericanAir Thanks for the cut &amp; paste answer. Domestic or international first ?",
+          "@AmericanAir which will be the first flights cancelled domestic or international?"
+        ]
+      },
+      "account_access": {
+        "count": 3,
+        "percentage": 0.1,
+        "examples": [
+          "@AmericanAir I am trying to set up pw for AA advantage. System insists I use \"special characters\" in password, but does not identify which characters are \"special\" so all my passwords get rejected. It",
+          "@AmericanAir, I requested reset password. I got email with the temp password, and I can't login with that info... WTF? https://t.co/JDpu6tU0va",
+          "@AmericanAir you reset flight w 5+ hour delay and won’t answer phone- need united flights to get home tonight! Contact me please!"
+        ]
+      }
+    }
+  }
+}

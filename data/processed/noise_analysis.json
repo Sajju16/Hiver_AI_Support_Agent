@@ -1,0 +1,32 @@
+{
+  "total_rows": 2811774,
+  "noise_summary": {
+    "empty_text": 0,
+    "very_short_text_lt10": 1295,
+    "url_only_tweets": 389,
+    "mention_only_tweets": 1478,
+    "tweets_with_masked_content": 9582,
+    "inbound_without_response": 234014,
+    "inbound_total": 1537843,
+    "outbound_total": 1273931,
+    "unanswered_rate_pct": 15.22
+  },
+  "conversation_structure": {
+    "total_roots": 794335,
+    "inbound_roots": 787346,
+    "outbound_roots": 6989,
+    "orphan_parent_references": 16608,
+    "orphan_rate_pct": 1.0,
+    "isolated_tweets": 79318,
+    "isolated_rate_pct": 2.82,
+    "tweets_with_parent": 2017439,
+    "tweets_that_are_parents": 1661012
+  },
+  "recommended_exclusions": {
+    "empty_text": "Exclude \u2014 no content to analyze",
+    "url_only": "May exclude \u2014 low information content",
+    "mention_only": "Exclude \u2014 no meaningful message",
+    "isolated_tweets": "Exclude for conversation task \u2014 single orphan tweet without thread context",
+    "orphan_references": "Cannot reconstruct full thread \u2014 parent tweet missing from dataset"
+  }
+}

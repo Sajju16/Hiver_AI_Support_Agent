@@ -1,0 +1,1357 @@
+{
+  "final_taxonomy_status": "KEEP",
+  "taxonomy_structure": {
+    "core_intents_count": 10,
+    "auxiliary_pre_filter": "Non_English_Or_Regional_Query",
+    "unclassified_pool": "Other_Unclassified_Inquiry"
+  },
+  "other_bucket_sample_stats": {
+    "total_other_count": 36962,
+    "total_other_pct": 45.4,
+    "sample_size": 200,
+    "sample_breakdown": {
+      "a) Genuine support intent covered by taxonomy (Missed by keyword rules)": {
+        "sample_count": 38,
+        "sample_pct": 19.0,
+        "projected_count": 7022
+      },
+      "f) Other (Link-only, obscure edge cases, incomplete tweets)": {
+        "sample_count": 96,
+        "sample_pct": 48.0,
+        "projected_count": 17741
+      },
+      "d) Greeting / Bureaucratic / Bot-like content": {
+        "sample_count": 46,
+        "sample_pct": 23.0,
+        "projected_count": 8501
+      },
+      "e) Banter / Non-support / Unactionable rant": {
+        "sample_count": 9,
+        "sample_pct": 4.5,
+        "projected_count": 1663
+      },
+      "b) Candidate new support intent (Seller/Product availability)": {
+        "sample_count": 7,
+        "sample_pct": 3.5,
+        "projected_count": 1293
+      },
+      "c) Vague / Ambiguous support request without problem context": {
+        "sample_count": 4,
+        "sample_pct": 2.0,
+        "projected_count": 739
+      }
+    },
+    "sample_examples": [
+      {
+        "sample_num": 1,
+        "conversation_id": "1464295_AmazonHelp",
+        "category": "a) Genuine support intent covered by taxonomy (Missed by keyword rules)",
+        "customer_text": "@115821 it\u2019s been 8 months and I still haven\u2019t received my package. Lmaooo",
+        "amazon_response": "@459875 Oh my! That is a lot longer than you should have to wait! When was the last time you contacted us about this iss..."
+      },
+      {
+        "sample_num": 2,
+        "conversation_id": "573566_AmazonHelp",
+        "category": "a) Genuine support intent covered by taxonomy (Missed by keyword rules)",
+        "customer_text": "ordered my mic ... today i hope i get it delivered in two days so that i can start recording as soon as i finish the writing cuz i havent uploaded anything in a week i am i am sorry for that exams suck . still going on but i have a two day gap i hope i can upload @115850",
+        "amazon_response": "@254835 All the packages will be shipped on time so that it reaches you by estimated delivery date. Do keep us posted if..."
+      },
+      {
+        "sample_num": 3,
+        "conversation_id": "814391_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "Mannaggia @1811.oggi mi sono regalato un altro box..primi 5 album in studio di @75292..i cd li ho consumati come la sua voce\ud83d\udd1d https://t.co/NMTqBz5Wvi",
+        "amazon_response": "@313955 Buon ascolto! \ud83d\ude09 ^GD"
+      },
+      {
+        "sample_num": 4,
+        "conversation_id": "256026_AmazonHelp",
+        "category": "d) Greeting / Bureaucratic / Bot-like content",
+        "customer_text": "@hulu_support hi Is Hulu available in UAE/Dubai",
+        "amazon_response": "@726696 Seems to be a Prime Video issue then! When you can, please phone us here: https://t.co/hApLpMlfHN so we can go t..."
+      },
+      {
+        "sample_num": 5,
+        "conversation_id": "1331127_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@115850 UNABLE 2 connect wit yr customer service  plz help \nOid- 408-4345386-7559544\nOid-408-2015832-7073160\n#Help #AmazonIndia",
+        "amazon_response": "@430549 Please don't provide your order details, as we consider it to be personal information. Our Twitter page is publi..."
+      },
+      {
+        "sample_num": 6,
+        "conversation_id": "2336969_AmazonHelp",
+        "category": "d) Greeting / Bureaucratic / Bot-like content",
+        "customer_text": "This is how most @115821 deliveries have been arriving recently. Small box in a big box with no filler/padding. Good for Amazon, bad for me.",
+        "amazon_response": "@676153 We're always looking to improve! Please share your feedback/requests here as well: https://t.co/PZCv2S71pZ ^GG"
+      },
+      {
+        "sample_num": 7,
+        "conversation_id": "2823992_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@116316 Ist das Angebot zum Samsung Tablet S3 etwa schon ausverkauft? \ud83d\ude14",
+        "amazon_response": "@786827 Leider ja :-( ^KM"
+      },
+      {
+        "sample_num": 8,
+        "conversation_id": "422054_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@115850 order I'd 406-9797444-4049154, the delivery boy came after 7:40 so missed to collect.Requesting you to arrange delivery before 5.",
+        "amazon_response": "@215534 Also, please don't provide your order details as its considered personal info. Our Twitter page is visible to pu..."
+      },
+      {
+        "sample_num": 9,
+        "conversation_id": "352338_AmazonHelp",
+        "category": "d) Greeting / Bureaucratic / Bot-like content",
+        "customer_text": "@AmazonHelp brought a new trimmer of Philips 2 weeks ago. Today while charging for frst time. It automtcly switched on and off.Its defected.",
+        "amazon_response": "@199792 Have you reported this to our support team here: https://t.co/2t6DQoUmNZ ? (2/2)^HR"
+      },
+      {
+        "sample_num": 10,
+        "conversation_id": "261644_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@Ask_WellsFargo https://t.co/8QRqEjfIxe",
+        "amazon_response": "@231851 Danke f\u00fcr deine R\u00fcckmeldung :) Hast du vielleicht noch ein aktuelles Beispiel f\u00fcr mich, damit wir das mal pr\u00fcfen..."
+      },
+      {
+        "sample_num": 11,
+        "conversation_id": "1635796_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@115850  see the calculation you people have sent me regarding my order https://t.co/G08Th0Blyi",
+        "amazon_response": "@500364 Apologies. Please get in touch with our support team here: https://t.co/vlvfJr4nN9 and they'll get this sorted. ..."
+      },
+      {
+        "sample_num": 12,
+        "conversation_id": "1676373_AmazonHelp",
+        "category": "e) Banter / Non-support / Unactionable rant",
+        "customer_text": "Thanks @115850 for prompt delivery ! Keep up the good work. \ud83d\ude0a",
+        "amazon_response": "@509960 Thanks a bunch for sharing your kind words. That was much appreciated. ^CB"
+      },
+      {
+        "sample_num": 13,
+        "conversation_id": "1714424_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "@120533 y reste deux minutes et toujours en transit, suspens ! https://t.co/ifhWbKa6Il",
+        "amazon_response": "@519146 Vous pouvez contacter notre SAV afin d'effectuer des recherches par rapport \u00e0 la livraison de votre colis ^ME"
+      },
+      {
+        "sample_num": 14,
+        "conversation_id": "569164_AmazonHelp",
+        "category": "e) Banter / Non-support / Unactionable rant",
+        "customer_text": "My fucking package didn\u2019t come today thanks for the lies @115821 :-/",
+        "amazon_response": "@253562 I'm sorry your order has yet to arrive. What does the most recent tracking information state here: https://t.co/..."
+      },
+      {
+        "sample_num": 15,
+        "conversation_id": "302622_AmazonHelp",
+        "category": "f) Other (Link-only, obscure edge cases, incomplete tweets)",
+        "customer_text": "Oh gee thank you @115830 @AmazonHelp I didnt know that with my purchase I also got a package beating for free! (Sarcasm ) https://t.co/WOU0wQ6OJN",
+        "amazon_response": "@188210 I'm sorry your package arrived in this condition! Can you tell us if anything was damaged? ^EZ"
+      }
+    ]
+  },
+  "single_intent_claim_validation": {
+    "percentage": 90.29,
+    "count": 73511,
+    "denominator": 81413,
+    "methodology": "Heuristic keyword-matching rule execution on customer_initial_query.",
+    "is_ground_truth_annotation": false,
+    "assessment": "HEURISTIC_RULE_DERIVED \u2014 Must not be presented as human-annotated ground truth."
+  },
+  "confusing_pair_validation": [
+    {
+      "pair": [
+        "Delivery_Tracking_And_Delays",
+        "Technical_App_And_Website_Issues"
+      ],
+      "co_occurrence_count": 1093,
+      "examples": [
+        {
+          "conversation_id": "2853647_AmazonHelp",
+          "customer_text": "@AmazonHelp I\u2019m trying to make a purchase online but when I get to dispatch and select delivery option for amazon locker it doesn\u2019t let me move on and loops round on this page!! Is there an issue with the site?",
+          "amazon_response": "@793300 Hello Katy! Thanks very much for bringing this to our attention. To our knowledge everything is firing on all cylinders on the website. Have you tried clearing your cache and cookies? Give that a try and then let us know if it helped resolved the issue! ^JD"
+        },
+        {
+          "conversation_id": "762484_AmazonHelp",
+          "customer_text": "@115830 When you pay for a prime subscription, order a prime approved item that has not arrived as it should have. #dissapointed",
+          "amazon_response": "@302184 I'm sorry we let you down. What does the status of the order show here: https://t.co/aaDyEz1VgE? ^CO"
+        },
+        {
+          "conversation_id": "2111097_AmazonHelp",
+          "customer_text": "@AmazonHelp how does something that shipped on Monday, with an expected arrival of Thursday by 8pm get considered 2 day shipping?  I'd have gladly paid for expedited shipping had I known your 2 day method took 4 full days... \n\n-not a happy prime customer",
+          "amazon_response": "@622712 Hi, the shipping time refers to business days once an order ships. Occasionally, items may require extra processing time. ^PJ"
+        },
+        {
+          "conversation_id": "67178_AmazonHelp",
+          "customer_text": "@SW_Help where can I find the timetable, link is just to your website and it\u2019s not obvious",
+          "amazon_response": "@280277 Sure thing. The feedback has been passed internally and the concerned team will work on it for improving our services. ^AU"
+        },
+        {
+          "conversation_id": "2588704_AmazonHelp",
+          "customer_text": "@117634 do you guys know that 'buy now with 1-click' is broken on the latest android app? Button does nothing when pressed",
+          "amazon_response": "@210446 That's strange! Have you deleted and downloaded the app again? Please let us know if it still occurs after this step. ^AX"
+        },
+        {
+          "conversation_id": "2480609_AmazonHelp",
+          "customer_text": "@117634 latest upgrade on iPhone (iOS 11.0.3) deleted my synced audio books within the app. Any suggestions other than redownload?",
+          "amazon_response": "@171966 Oh no! You can also Sync your books by tapping on More. If that does not help, you can then try uninstalling/reinstalling. ^DD"
+        },
+        {
+          "conversation_id": "2378924_AmazonHelp",
+          "customer_text": "Hey @115821 your \"Carrier: AMZL US, Tracking sucks\". What happened to using USPS &amp; UPS? They have been 100% reliable for years with Amazon Prime deliveries. Now part of paying for Amazon Prime includes unreliable shipping?",
+          "amazon_response": "@681814 Thank you for bringing this to our attention! This is definitely not the experience we want for our customers! We definitely want to help. Are you waiting on a current order from us: https://t.co/Y5jpI9gRhE? ^NN"
+        },
+        {
+          "conversation_id": "724221_AmazonHelp",
+          "customer_text": "Not sure what's happening with @115821 lately but waiting on my 3rd late shipment in a row. Pay for 2 day shipping, but it shows up whenevs.",
+          "amazon_response": "@293449 I'm sorry for trouble! Is this more common with a particular carrier? To confirm, have we missed the date shown at checkout? ^SB"
+        },
+        {
+          "conversation_id": "1080305_AmazonHelp",
+          "customer_text": "@AmazonHelp Hello, one question. Bought two gift cards at GameStop. Will they apply to my preorder detail before Amazon charge and ship?",
+          "amazon_response": "@169190 If you have the gift cards issued to your account, then you'll be given the choice of payment options at checkout. ^EM"
+        },
+        {
+          "conversation_id": "122327_AmazonHelp",
+          "customer_text": "The iPhone X is so damn buggy that it's not even worth $1000. FaceID only works 50% of the time and iOS 11 is full of accessibility bugs. Really disappointed that Apple is using its customers to beta test their product and software for them when they have internal testing teams.",
+          "amazon_response": "@407012 Apologies for the trouble. You may formward your feedback here : https://t.co/yDNKVuNfW8. We'll be sure to work on it. ^SU"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Prime_Subscription_And_Digital_Media",
+        "Technical_App_And_Website_Issues"
+      ],
+      "co_occurrence_count": 950,
+      "examples": [
+        {
+          "conversation_id": "1225173_AmazonHelp",
+          "customer_text": "@127110 @AmazonHelp the Netflix app has not been working on my Amazon Fire Stick for the last two days (cannot connect)....Please help???",
+          "amazon_response": "@407429 I'm sorry for the trouble you're experiencing! Have you tried this troubleshooting steps? Found here: https://t.co/9tBTUAtsFc ^AC"
+        },
+        {
+          "conversation_id": "21861_AmazonHelp",
+          "customer_text": "@115833 Alexa, I can't login to iOS app, can you help? I'm in China",
+          "amazon_response": "@120765 Hi, sorry to hear. Are you receiving an error message? ^TP"
+        },
+        {
+          "conversation_id": "762484_AmazonHelp",
+          "customer_text": "@115830 When you pay for a prime subscription, order a prime approved item that has not arrived as it should have. #dissapointed",
+          "amazon_response": "@302184 I'm sorry we let you down. What does the status of the order show here: https://t.co/aaDyEz1VgE? ^CO"
+        },
+        {
+          "conversation_id": "152166_AmazonHelp",
+          "customer_text": "@115825 Gude! Wieso kann man sich denn via App keinen Film mit englischer Tonspur aussuchen, der keine deutsche Tonspur hat? Zum Beispiel The Martian - Extended Cut",
+          "amazon_response": "@150767 Gern gebe ich dein Feedback hierzu weiter. ^BL"
+        },
+        {
+          "conversation_id": "958181_AmazonHelp",
+          "customer_text": "@115850 The product hasn't been delivered while  website shows otherwise, No point in having a #Prime membership, you suck @118702 rocks",
+          "amazon_response": "@347352 Sorry for the incorrect tracking update. Please contact us here: https://t.co/vlvfJr4nN9 and we'll help you with this. ^SQ"
+        },
+        {
+          "conversation_id": "38961_AmazonHelp",
+          "customer_text": "@115888 Your iOS app loads so slow I\u2019m seconds from cancelling my subscription.",
+          "amazon_response": "@208227 Puedes mantenernos al tanto de esta situaci\u00f3n. ^VL"
+        },
+        {
+          "conversation_id": "2086381_AmazonHelp",
+          "customer_text": "@115850 just tested echo device...But no option to connect with fire TV through Alexa apps for India...??? Tks",
+          "amazon_response": "@616912 Fire TV cannot be connected to Alexa for now. But, I shall forward your feedback to the concerned team for sure. ^HR"
+        },
+        {
+          "conversation_id": "2530741_AmazonHelp",
+          "customer_text": "@117634 love the new kindle app icon!!",
+          "amazon_response": "@720375 Hey Cheryl, thanks for the positive feedback! Good to know it's been well-received. Enjoy your read! \ud83d\ude0a ^TS"
+        },
+        {
+          "conversation_id": "943507_AmazonHelp",
+          "customer_text": "@115833 my echo alarm is having issues when I try to stop it.  It stops for a sec then goes off again. I have to manually stop thru app.",
+          "amazon_response": "@343703 Oh my! We'd like to look into this for you. Please reach out to us via phone or chat here:https://t.co/hApLpMlfHN ^AL"
+        },
+        {
+          "conversation_id": "1126698_AmazonHelp",
+          "customer_text": "@115821 amount of $11 for Prime membership is appearing at my Visa statement. Since I didn't purchase from Amazon please cancel this payment",
+          "amazon_response": "@385657 I'm sorry to hear this. We don't have access to customer accounts via Twitter. Go here to cancel: https://t.co/UhwKJd2RZ8 ^BH"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Refund_Status_And_Billing_Disputes",
+        "Technical_App_And_Website_Issues"
+      ],
+      "co_occurrence_count": 680,
+      "examples": [
+        {
+          "conversation_id": "2198882_AmazonHelp",
+          "customer_text": "Ordered an Apple Watch band from @115821... got the box, paid for it, no band. Can I get my money back? https://t.co/AKZhUO5tjq",
+          "amazon_response": "@229956 I'm sorry the watch band wasn't in the box! Please reach us by phone or chat so we can look into the available options with you: https://t.co/hApLpMlfHN ^LL"
+        },
+        {
+          "conversation_id": "237065_AmazonHelp",
+          "customer_text": "@AmazonHelp why are Amex txns failing regularly on Amazon.in and the App ? Called bank , they said problem at Amazon's end. Please resolve",
+          "amazon_response": "@172466 I'm sorry for the unpleasant experience. Please reach out to our support team here:https://t.co/vlvfJr4nN9. We will help. ^SB"
+        },
+        {
+          "conversation_id": "572411_AmazonHelp",
+          "customer_text": "@AmazonHelp \nWe are in the process of arguing with a less than helpful customer service rep. Our prime account has been hacked and this guy wanted to waste 24 hours with our bank information. Not happy!",
+          "amazon_response": "@254495 I'm sorry for the frustration! For the best resolution, we collect this information so an Account Specialist can better assist you. Please keep us updated if you haven't received any communication in 24 hours. ^JP"
+        },
+        {
+          "conversation_id": "98514_AmazonHelp",
+          "customer_text": "@AirbnbHelp I can\u2019t seem to change my card info on the website, &amp; tried on phone and different browsers. Is there a known bug with changing payment method right now? Thank you!",
+          "amazon_response": "@353505 Yet, occasionally the MRP of the product could be incorrectly updated by our sellers due to reasons mentioned before.(2/2)^RS"
+        },
+        {
+          "conversation_id": "1080305_AmazonHelp",
+          "customer_text": "@AmazonHelp Hello, one question. Bought two gift cards at GameStop. Will they apply to my preorder detail before Amazon charge and ship?",
+          "amazon_response": "@169190 If you have the gift cards issued to your account, then you'll be given the choice of payment options at checkout. ^EM"
+        },
+        {
+          "conversation_id": "1106507_AmazonHelp",
+          "customer_text": "@115850 @AmazonHelp sad! I am not able to complete my transaction either payments fails or i am getting such errors https://t.co/4VzpJtDntK",
+          "amazon_response": "@381143 I'm sorry for the disappointment. Are you repeating this order from the same account? Is there any canceled order before? ^MJ"
+        },
+        {
+          "conversation_id": "1363574_AmazonHelp",
+          "customer_text": "@115850 your seller The GlobalCart is selling dupes of @9637 bags. Please cancel &amp; refund order 408-7812117-1497946 ASAP!",
+          "amazon_response": "@437498 For order related queries you may connect with our support team here: https://t.co/vlvfJr4nN9. [2/2] ^HA"
+        },
+        {
+          "conversation_id": "1126698_AmazonHelp",
+          "customer_text": "@115821 amount of $11 for Prime membership is appearing at my Visa statement. Since I didn't purchase from Amazon please cancel this payment",
+          "amazon_response": "@385657 I'm sorry to hear this. We don't have access to customer accounts via Twitter. Go here to cancel: https://t.co/UhwKJd2RZ8 ^BH"
+        },
+        {
+          "conversation_id": "677645_AmazonHelp",
+          "customer_text": "@115821 Can anyone please help me....my card was compromised on you site..I cannot get back into my account to change card numbers...I cannot fax a number as I dont have a fax facility..",
+          "amazon_response": "@281653 Sorry to hear about your account Anna. Did an account specialist email you? Have you checked a local business for a fax? You can also use an online fax. ^PK"
+        },
+        {
+          "conversation_id": "500741_AmazonHelp",
+          "customer_text": "Is there anyone to help me out? Really very disappointed by @115850 don't know where my refund is, you guys have taken the product but didn't issue the refund yet. Kindly reply! https://t.co/RkXTeWX3CV",
+          "amazon_response": "@234614 I can understand it would be worrisome. Did you report it to our support team? If not, please do it from here: https://t.co/rS49hgaADF so that we can assist you accordingly. ^SC"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Refund_Status_And_Billing_Disputes",
+        "Return_Exchange_And_Pickup"
+      ],
+      "co_occurrence_count": 656,
+      "examples": [
+        {
+          "conversation_id": "1065667_AmazonHelp",
+          "customer_text": "@115850 - I made a Purchase payment declined, but the money deducted from my account. I Cancel the order when I get the amount return.?",
+          "amazon_response": "@371607 For payment failure, refunds are issued to the original payment method within 2-4 business days.(1/2)^SF"
+        },
+        {
+          "conversation_id": "934369_AmazonHelp",
+          "customer_text": "@AmazonHelp Hi. Can an iPhone case be returned for a refund? I\u2019ve had an Otterbox Symmetry case stain from my jean pocket after one week.",
+          "amazon_response": "@193111 Hi there, Sean! You can find the available refund/replace options here: https://t.co/ffZPyA5zIf ^WJ"
+        },
+        {
+          "conversation_id": "1250159_AmazonHelp",
+          "customer_text": "I asked for replacement not refund you shitty @115850 how dare you to cancel the order without any prior information",
+          "amazon_response": "@169505 Refund is initiated on your order as a replacement is not available. We've sent an email to your registered email for it. ^SF"
+        },
+        {
+          "conversation_id": "2492232_AmazonHelp",
+          "customer_text": "@115850 There has been an issue with refund process because of mismatch of the return id generated as result of cancellation of pickup by your Amazon delivery partner.Please resolve my issue ASAP",
+          "amazon_response": "@428729 I'm sorry for the inconvenience. Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. ^MK"
+        },
+        {
+          "conversation_id": "442888_AmazonHelp",
+          "customer_text": "Hello Amazon team ,please reply to my tweets, i want the refund to be processed for my order asap.. i have contacted Amazon customer service but executive could not help i can't wait for pick up. Refund the money",
+          "amazon_response": "@219975 Have you been asked to return an item back for a refund Sonu? ^SM"
+        },
+        {
+          "conversation_id": "1098668_AmazonHelp",
+          "customer_text": "@115850 I didn't got the refund even after 2 weeks of return pickup. https://t.co/HipnplfDVe",
+          "amazon_response": "@379255 Also, please don't provide your order details, as we consider it to be personal info. Our Twitter page is public. (2/2) ^ST"
+        },
+        {
+          "conversation_id": "2763592_AmazonHelp",
+          "customer_text": "@115850 \n\nSir this is to inform you regarding my order in INDIA that has damaged received in my concern address, very poor services.\n\nORDER # 403-4168109-2373116\n\nI want to replace my product otherwise you refund  updated product amount 1870.",
+          "amazon_response": "@772480 I get your concern. Could you please confirm sharing your details through the secure link provided here: https://t.co/ORRM3MdDij. Also, please don't provide your order details, as we consider it to be personal information. ^AP"
+        },
+        {
+          "conversation_id": "1501616_AmazonHelp",
+          "customer_text": "@115821 was sent the wrong package &amp; requested a return&amp;refund on aug 17. ups never picked up &amp; i can't reissue a new return bc its pending",
+          "amazon_response": "@468544 I'm sorry for the issue with the return! We'd like to help however we can so please reach us here: https://t.co/hApLpMlfHN ^DD"
+        },
+        {
+          "conversation_id": "2124943_AmazonHelp",
+          "customer_text": "Placed a refund for one of my recent purchase with @115850 which got picked up by their courier partner after inspection. After 8 days of the pickup, Amazon says they received an empty box and won\u2019t be able to process the refund.",
+          "amazon_response": "@625796 contact you soon. (2/2) ^MO"
+        },
+        {
+          "conversation_id": "1012312_AmazonHelp",
+          "customer_text": "I have still not received my refund for returned item...which supposed to b in my account by 19th Oct. Not the first time. @AmazonHelp",
+          "amazon_response": "@359533 Sorry for the hassle, Satya. Please report this to us here: https://t.co/vlvfJr4nN9 and we\u2019ll be glad to help you. ^NK"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Delivery_Tracking_And_Delays",
+        "Refund_Status_And_Billing_Disputes"
+      ],
+      "co_occurrence_count": 609,
+      "examples": [
+        {
+          "conversation_id": "957537_AmazonHelp",
+          "customer_text": "I LOOOVE @115821 customer service @AmazonHelp\n\nI cancelled a refund because the item was sent to a wrong address and arrived 2 days later. https://t.co/0bKBnLCnDP",
+          "amazon_response": "@230755 That's wonderful, Adrian! We love you too! \ud83d\ude0d Thanks for being awesome! ^AB"
+        },
+        {
+          "conversation_id": "1323965_AmazonHelp",
+          "customer_text": "@115850 i haven't received my refund even after talking to your executives....what the hell, my number has been blocked now!!",
+          "amazon_response": "@428959 please fill this form: https://t.co/beaaDm0muc and I\u2019ll contact you soon. (2/2) ^SY"
+        },
+        {
+          "conversation_id": "69713_AmazonHelp",
+          "customer_text": "@115850 I ordered a book called \"The Baker In The World'. It was suppose to arrive today. Later got a text saying couldn't arrive due to no payment. BUT NOBODY CAME HOME FIRSTLY TO DELIVER? WHY THIS TORTURE??",
+          "amazon_response": "@131793 Sorry to know your order isn't delivered. We'd like to check your order status, please connect with our support team here: https://t.co/vlvfJr4nN9. ^NR"
+        },
+        {
+          "conversation_id": "1080305_AmazonHelp",
+          "customer_text": "@AmazonHelp Hello, one question. Bought two gift cards at GameStop. Will they apply to my preorder detail before Amazon charge and ship?",
+          "amazon_response": "@169190 If you have the gift cards issued to your account, then you'll be given the choice of payment options at checkout. ^EM"
+        },
+        {
+          "conversation_id": "382736_AmazonHelp",
+          "customer_text": "@115850 1st ordr got delayed mltpl times den had 2 cancel it as amazon rep said it ws nly option nw no refund. Order t no- 209117266082",
+          "amazon_response": "@206717 I'm sorry for all the hassle. I'd like to help you. Please fill this form: https://t.co/beaaDm0muc and I\u2019ll contact you soon.^RI"
+        },
+        {
+          "conversation_id": "461349_AmazonHelp",
+          "customer_text": "@AmazonHelp took 9 minutes for a customer service rep to tell me i'm not receiving a refund on my one-day shipping even though i haven't received an item. #brokensystem.",
+          "amazon_response": "@224616 What is the delivery date displayed for this order here: https://t.co/Y5jpI9gRhE ^RR"
+        },
+        {
+          "conversation_id": "36582_AmazonHelp",
+          "customer_text": "@115850\n\nWhen will the packet will get collected and refund sent back to account.. https://t.co/HlgruNCSDB",
+          "amazon_response": "@123971 Sorry the pick up hasn't been done. Please connect with us here: https://t.co/TK4yevTaND, we'll check it for you. ^NR"
+        },
+        {
+          "conversation_id": "387978_AmazonHelp",
+          "customer_text": "@115850 after getting payment @115821 delays delivery beyond patience. Item lying with local del center since 3 days  @39424 @207829 https://t.co/W0iJQfuaMY",
+          "amazon_response": "@153500 Please don\u2019t provide your details as we consider them to be personal information. Our Twitter page is public. ^AP2/2"
+        },
+        {
+          "conversation_id": "336181_AmazonHelp",
+          "customer_text": "@115850 \nRefund of shipment charge of Rs 100/ against  order no. 4__credit_card__ is not done though you have tried to clear your deck.",
+          "amazon_response": "@174954 Please don't provide your order details as we consider it personal info. Our twitter page is visible to public. (2/2)^SQ"
+        },
+        {
+          "conversation_id": "2124943_AmazonHelp",
+          "customer_text": "Placed a refund for one of my recent purchase with @115850 which got picked up by their courier partner after inspection. After 8 days of the pickup, Amazon says they received an empty box and won\u2019t be able to process the refund.",
+          "amazon_response": "@625796 contact you soon. (2/2) ^MO"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Damaged_Defective_Or_Wrong_Item",
+        "Return_Exchange_And_Pickup"
+      ],
+      "co_occurrence_count": 505,
+      "examples": [
+        {
+          "conversation_id": "682501_AmazonHelp",
+          "customer_text": "@115850 @AmazonHelp horrible customer service\nNeed return of panasonic led tv delivered today. Defective prod. Poor quality perf. (1/2)",
+          "amazon_response": "@282889 Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. 1/2^HN"
+        },
+        {
+          "conversation_id": "269064_AmazonHelp",
+          "customer_text": "A thing about me is that I would love it if someone at @VirginAmerica would return my call about my missing item.",
+          "amazon_response": "@334197 Were you able to use the link previously provided? We're here to help.\n^AV"
+        },
+        {
+          "conversation_id": "578404_AmazonHelp",
+          "customer_text": "@AmazonHelp its very upsetting to say that order delivered is broken and above all its customer responsibility to deliver back. No pickup.",
+          "amazon_response": "@256159 Apologies for the inconvenience you had faced with the delivered order. Has this been escalated to our support team yet? You may connect with the team from the link here: https://t.co/TxK11znixD and we would do the needful to help. ^KK"
+        },
+        {
+          "conversation_id": "2906728_AmazonHelp",
+          "customer_text": "@115830 would appreciate a response to my two emails requesting replacement products in place of the extremely damaged box + contents delivered to me last week .. might have to reconsider Christmas orders .... from now on #shoddy #embarrassing #letdown",
+          "amazon_response": "@804883 I'm sorry if you haven't received a response to your e-mail yet! If your order was sold by Amazon, return/replacement options can be found here: https://t.co/HW5MOg1vAy. For immediate assistance, we're also available by phone or chat here: https://t.co/YfNSB2QTVg ^MB"
+        },
+        {
+          "conversation_id": "2638441_AmazonHelp",
+          "customer_text": "Another poor packing job=damaged goods from @115821 yet again. Sick of returns and zero customer service, going to shop elsewhere. https://t.co/JXKugAMr4l",
+          "amazon_response": "@372749 Hey Kevin! Oh no, I'm really sorry the item was damaged. We'd love to get the feedback you have on the packaging. Please submit it here: https://t.co/hmogK4wg2P Thanks! ^AJ"
+        },
+        {
+          "conversation_id": "103141_AmazonHelp",
+          "customer_text": "@115830 having to return 4 damaged items as the packaging you sent them in wasn't fit for purpose. Throwing items into an empty box isn't acceptable.",
+          "amazon_response": "@138687 Oh no! I'm sorry your items arrived damaged. We are always looking to improve when packaging items. Please provide feedback here: https://t.co/xewqQithff. ^AL"
+        },
+        {
+          "conversation_id": "1706206_AmazonHelp",
+          "customer_text": "@115850 can u people explain what wrong with Amazon... I have to do shipping to you for returning the defective product...",
+          "amazon_response": "@164741 We'd like to get this checked. Kindly connect with our support team here: https://t.co/vlvfJr4nN9 ? ^MA"
+        },
+        {
+          "conversation_id": "2763592_AmazonHelp",
+          "customer_text": "@115850 \n\nSir this is to inform you regarding my order in INDIA that has damaged received in my concern address, very poor services.\n\nORDER # 403-4168109-2373116\n\nI want to replace my product otherwise you refund  updated product amount 1870.",
+          "amazon_response": "@772480 I get your concern. Could you please confirm sharing your details through the secure link provided here: https://t.co/ORRM3MdDij. Also, please don't provide your order details, as we consider it to be personal information. ^AP"
+        },
+        {
+          "conversation_id": "1338721_AmazonHelp",
+          "customer_text": "@115830 /.. return broken pieces? I have taken a photo but can not see any way of sending it to you.",
+          "amazon_response": "@432255 Oh goodness! Sorry for the damage. For available options, please reach us via phone or chat: https://t.co/JzP7hlA23B ^AB"
+        },
+        {
+          "conversation_id": "926338_AmazonHelp",
+          "customer_text": "@115850 recived faulty Nokia6\ud83d\ude2d replacement dis z d reply Confirmed: Order for Nokia 6 is successfully placed &amp; will reach you by 28-Nov\ud83d\ude02",
+          "amazon_response": "@339799 Sorry for the long wait. We deliver orders as early as possible. Request you to wait till the estimated delivery date. ^SQ"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Promotions_GiftCards_And_Pricing",
+        "Refund_Status_And_Billing_Disputes"
+      ],
+      "co_occurrence_count": 505,
+      "examples": [
+        {
+          "conversation_id": "823116_AmazonHelp",
+          "customer_text": "@AmazonHelp I have a question about my gift card balance",
+          "amazon_response": "@205063 We'd like to help! Without providing any sensitive information, could you tell us more? ^ZW"
+        },
+        {
+          "conversation_id": "1658932_AmazonHelp",
+          "customer_text": "@AmazonHelp unable to use my Axis Vistara credit card for buying gift card on Amazon.in card is treated as international/ VCC pls help 1/2",
+          "amazon_response": "@506137 Sorry to know that. Please report this to our support team here: https://t.co/vlvfJr4nN9. ^MP"
+        },
+        {
+          "conversation_id": "1080305_AmazonHelp",
+          "customer_text": "@AmazonHelp Hello, one question. Bought two gift cards at GameStop. Will they apply to my preorder detail before Amazon charge and ship?",
+          "amazon_response": "@169190 If you have the gift cards issued to your account, then you'll be given the choice of payment options at checkout. ^EM"
+        },
+        {
+          "conversation_id": "2451217_AmazonHelp",
+          "customer_text": "@AmazonHelp Good evening! I qualified for the \u00a36 promo code thanks to buying a gift card, and the email says it has been automatically (c)",
+          "amazon_response": "@318345 If it was a gift card, it will show up here: https://t.co/ud1oVmfA0s. If it was a promotion, it will show at checkout. ^AF"
+        },
+        {
+          "conversation_id": "462479_AmazonHelp",
+          "customer_text": "Someone hacked my @115821 account and spent $700 on League of Legends gift cards. Awesome. I\u2019ll just be here, stressed, hungry and poor, while nerds are playing video games on my crappy grad assistant paycheck \ud83e\udd19\ud83c\udffd #FinalsWeek",
+          "amazon_response": "@224908 I'm sorry for the trouble with your account! If you haven't yet, please give us a call to report the unauthorized orders: https://t.co/RYpmBmNJrR. If you are unable to sign in, please contact us here instead: https://t.co/uWvBEiTnQW ^MB"
+        },
+        {
+          "conversation_id": "2570419_AmazonHelp",
+          "customer_text": "@AmazonHelp hello I just a letter from you guys about a gift card it has a number to dial. Want to know if this true or not.",
+          "amazon_response": "@728979 I'm sorry, here's how you can check if this e-mail is from Amazon and how to report it: https://t.co/ILLqhGmPkr ^AN"
+        },
+        {
+          "conversation_id": "182534_AmazonHelp",
+          "customer_text": "Waste of a half day, arguing with two companies- who both took \u00a3100 for a gift card that doesn't work! Thanks @115830 @158926 https://t.co/M1bCUtrNiB",
+          "amazon_response": "@158925 Hello Fiona! I'm terribly sorry for any hassle with a Gift Card you had. Were we able to help resolve this for you? ^TM"
+        },
+        {
+          "conversation_id": "801704_AmazonHelp",
+          "customer_text": "@115850 I have Amazon gift card &amp; trying to add value in my login  to pay while mi 4a purchase\nError coming as per attachment while adding https://t.co/FCIW5o2HRD",
+          "amazon_response": "@311032 That is unusual, Krishan. Kindly reach out to us via: https://t.co/CoP6l3sOt7 and we will have this checked. ^KS"
+        },
+        {
+          "conversation_id": "351802_AmazonHelp",
+          "customer_text": "@115850 Is there an issue with Amazon Pay today? Gift card payment option does not show Amazon Pay as an option!",
+          "amazon_response": "@199675 I'm afraid, gift cards can't be used to buy gift cards. Please refer here:https://t.co/cn6CepJSD8 for more info. ^HA"
+        },
+        {
+          "conversation_id": "1856218_AmazonHelp",
+          "customer_text": "@AmazonHelp can I renew my amazon student prime with a gift card?",
+          "amazon_response": "@555192 Hi - on which Website (.com / .co.uk / .in / etc) is your Sutdent Prime subscription ? ^TD"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Order_Cancellation_And_Address_Change",
+        "Refund_Status_And_Billing_Disputes"
+      ],
+      "co_occurrence_count": 481,
+      "examples": [
+        {
+          "conversation_id": "1065667_AmazonHelp",
+          "customer_text": "@115850 - I made a Purchase payment declined, but the money deducted from my account. I Cancel the order when I get the amount return.?",
+          "amazon_response": "@371607 For payment failure, refunds are issued to the original payment method within 2-4 business days.(1/2)^SF"
+        },
+        {
+          "conversation_id": "957537_AmazonHelp",
+          "customer_text": "I LOOOVE @115821 customer service @AmazonHelp\n\nI cancelled a refund because the item was sent to a wrong address and arrived 2 days later. https://t.co/0bKBnLCnDP",
+          "amazon_response": "@230755 That's wonderful, Adrian! We love you too! \ud83d\ude0d Thanks for being awesome! ^AB"
+        },
+        {
+          "conversation_id": "1250159_AmazonHelp",
+          "customer_text": "I asked for replacement not refund you shitty @115850 how dare you to cancel the order without any prior information",
+          "amazon_response": "@169505 Refund is initiated on your order as a replacement is not available. We've sent an email to your registered email for it. ^SF"
+        },
+        {
+          "conversation_id": "2492232_AmazonHelp",
+          "customer_text": "@115850 There has been an issue with refund process because of mismatch of the return id generated as result of cancellation of pickup by your Amazon delivery partner.Please resolve my issue ASAP",
+          "amazon_response": "@428729 I'm sorry for the inconvenience. Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. ^MK"
+        },
+        {
+          "conversation_id": "382736_AmazonHelp",
+          "customer_text": "@115850 1st ordr got delayed mltpl times den had 2 cancel it as amazon rep said it ws nly option nw no refund. Order t no- 209117266082",
+          "amazon_response": "@206717 I'm sorry for all the hassle. I'd like to help you. Please fill this form: https://t.co/beaaDm0muc and I\u2019ll contact you soon.^RI"
+        },
+        {
+          "conversation_id": "1363574_AmazonHelp",
+          "customer_text": "@115850 your seller The GlobalCart is selling dupes of @9637 bags. Please cancel &amp; refund order 408-7812117-1497946 ASAP!",
+          "amazon_response": "@437498 For order related queries you may connect with our support team here: https://t.co/vlvfJr4nN9. [2/2] ^HA"
+        },
+        {
+          "conversation_id": "1126698_AmazonHelp",
+          "customer_text": "@115821 amount of $11 for Prime membership is appearing at my Visa statement. Since I didn't purchase from Amazon please cancel this payment",
+          "amazon_response": "@385657 I'm sorry to hear this. We don't have access to customer accounts via Twitter. Go here to cancel: https://t.co/UhwKJd2RZ8 ^BH"
+        },
+        {
+          "conversation_id": "807327_AmazonHelp",
+          "customer_text": "@AmazonHelp I have cancelled the order 404-3104256-6132333 on 6 th oct since u guys did not deliver the product. When u r going to refund?",
+          "amazon_response": "@312377 Please don't provide your order details as we consider it personal information. Our twitter page is visible to public.(2/2)^CB"
+        },
+        {
+          "conversation_id": "1207987_AmazonHelp",
+          "customer_text": "Hey, @AmazonHelp. I cancelled my Prime. Can you quit charging my card now? Thanks.",
+          "amazon_response": "@403642 Sorry to hear about this. Please reach out to us directly here: https://t.co/hApLpMlfHN and we can look into the charges. ^PK"
+        },
+        {
+          "conversation_id": "758952_AmazonHelp",
+          "customer_text": "@115850 @AmazonHelp bought a battery plus + space pack and found the ratings are abysmal.. there is no way to cancel the order and refund \ud83d\ude44 why so? Similar product is sold with different names in description ..  \"Description\n\nMorphine 2830 Space\" \n Need to cancel and Refund !! https://t.co/VXguNpG498",
+          "amazon_response": "@301357 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. (3/3) ^SV"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Delivery_Tracking_And_Delays",
+        "Prime_Subscription_And_Digital_Media"
+      ],
+      "co_occurrence_count": 455,
+      "examples": [
+        {
+          "conversation_id": "762484_AmazonHelp",
+          "customer_text": "@115830 When you pay for a prime subscription, order a prime approved item that has not arrived as it should have. #dissapointed",
+          "amazon_response": "@302184 I'm sorry we let you down. What does the status of the order show here: https://t.co/aaDyEz1VgE? ^CO"
+        },
+        {
+          "conversation_id": "1433915_AmazonHelp",
+          "customer_text": "@115821 @115850 Tracking No: 119106229908 ordered for oneplus5 to gift dear one, being prime member still Item not received. Very Sad.",
+          "amazon_response": "@452936 Please don't provide your order details, we consider it to be personal info. Our Twitter page is visible to the public. ^MP(2/2)"
+        },
+        {
+          "conversation_id": "2468699_AmazonHelp",
+          "customer_text": "@AmazonHelp When will the sale be open for Non-prime members? Is it just another way for you to fool us in buying  prime? I've been waiting since 4:30 pm, the phone is available everywhere but not in India because you just dont want to sell it to non-prime members.",
+          "amazon_response": "@706273 Upon checking the product detail page I don't see any such offer going on. Kindly keep an eye on our website for further updates. ^KH"
+        },
+        {
+          "conversation_id": "2478936_AmazonHelp",
+          "customer_text": ".@117634 @115821 Up until three weeks ago, my #KindleFireHD operated smoothly. Lately, the @133716 #KindleApp has been buggy &amp; wipes out my entire downloaded library on my device. ForceApp to stop, clear data/cache &amp; DL library again. Anyone have a fix for this?",
+          "amazon_response": "@123562 Oh no! We'd like to help in any way we can. Please click here: https://t.co/hApLpMlfHN so we can troubleshoot with you in real time. ^NM"
+        },
+        {
+          "conversation_id": "2921368_AmazonHelp",
+          "customer_text": "Gotta love when you order something from @115821 with a prime membership and the package is 5 days late #unacceptable",
+          "amazon_response": "@397156 I'm sorry for the frustration! Just to clarify, have you received your order? ^AC"
+        },
+        {
+          "conversation_id": "2316824_AmazonHelp",
+          "customer_text": "@115850 Why lie if you cannot deliver package on time? I never requested for delay delivery. Infact I'm a Prime member and need this delivery on urgent basis! https://t.co/g05dDJt9Ib",
+          "amazon_response": "@205502 Sorry to know you're having trouble with the delivery of your order, certainly not intended. Kindly connect with our team here: https://t.co/TdDksLo6Mf. We'll look into it. ^PS"
+        },
+        {
+          "conversation_id": "2619703_AmazonHelp",
+          "customer_text": "Not impressed with @115830. Bought 2 x echo dots for xmas presents and the courier lobbed the package over my 6 foot fence",
+          "amazon_response": "@740270 I'm very sorry on how your delivery was handled! Please reach out to us here: https://t.co/JzP7hlA23B so we can take a look into this with you. ^AH"
+        },
+        {
+          "conversation_id": "394922_AmazonHelp",
+          "customer_text": "@115850 Tracking #: 216273107531.\nBeing prime member, product is not getting delivered even after 2, 4 business days. #AmazonPrime there is of no use.",
+          "amazon_response": "@209581 Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.\u200b ^RW 2/2"
+        },
+        {
+          "conversation_id": "612681_AmazonHelp",
+          "customer_text": "@115830   Where\u2019s my stuff? I\u2019m a so called #prime member - I ordered yesterday - delivery according to you by 8pm today (or 9 pm, depending on which page) AND ITS NOT DISPATCHED YET!!! \ud83d\ude21\ud83d\ude24",
+          "amazon_response": "@265709 Hello, thanks for reaching out to us! Please keep us posted on the arrival of your parcel. Let us know if you it doesn't arrive by 21:00 as the agent had advised! ^SW"
+        },
+        {
+          "conversation_id": "1357675_AmazonHelp",
+          "customer_text": "@115850 prime member, treated very bad. Order delayed and no service provided mobile - 9962263312 . I will have to switch to @118702",
+          "amazon_response": "@436533 Sorry about the delivery delay. We'd like to investigate this, please share your details here: https://t.co/cQVomR1pWz. ^HA"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Return_Exchange_And_Pickup",
+        "Technical_App_And_Website_Issues"
+      ],
+      "co_occurrence_count": 438,
+      "examples": [
+        {
+          "conversation_id": "2906728_AmazonHelp",
+          "customer_text": "@115830 would appreciate a response to my two emails requesting replacement products in place of the extremely damaged box + contents delivered to me last week .. might have to reconsider Christmas orders .... from now on #shoddy #embarrassing #letdown",
+          "amazon_response": "@804883 I'm sorry if you haven't received a response to your e-mail yet! If your order was sold by Amazon, return/replacement options can be found here: https://t.co/HW5MOg1vAy. For immediate assistance, we're also available by phone or chat here: https://t.co/YfNSB2QTVg ^MB"
+        },
+        {
+          "conversation_id": "969222_AmazonHelp",
+          "customer_text": "@115850.Please work on policies that will help customers and not put them in bad place.\nToo disappointed with delivery.\nExchange &amp; return",
+          "amazon_response": "@350062 If your concern with exchange or return is still pending, connect us here: https://t.co/vlvfJr4nN9 for further support 2/2 ^RS"
+        },
+        {
+          "conversation_id": "900963_AmazonHelp",
+          "customer_text": "@115850 how is it possible that every pickup gets rescheduled to a different time? Happened each time this year. What's the point? https://t.co/kZLo2shgzB",
+          "amazon_response": "@333865 That's unusual. Have you happened to report this to our support team here: https://t.co/vlvfJr4nN9. If not, please do. ^ST"
+        },
+        {
+          "conversation_id": "804836_AmazonHelp",
+          "customer_text": "@115850 tryin 2 exchng ur product; cant find option in return link. Ur contct numbr us also nt dere on ur website",
+          "amazon_response": "@311804 Apologies for the inconvenience. You can reach our support team, here: https://t.co/vlvfJr4nN9, and we'll check this. ^SK"
+        },
+        {
+          "conversation_id": "2673148_AmazonHelp",
+          "customer_text": "@115830 Am looking for Pass My Parcel return location, cannot find the location on site. Can you share link?",
+          "amazon_response": "@752583 If you google Pass My Parcel you can find a direct link to all their locations. ^M"
+        },
+        {
+          "conversation_id": "2424669_AmazonHelp",
+          "customer_text": "@115821 \nI'm very unhappy for Amazon I had ordered a watch a month ago which I found in very poor condition was a waste and watch is almost dead\nWhen I talked about replacement, no one came to pick it. I did this four times a month in replacement but I couldn't find anything https://t.co/F4e4AUzGyZ",
+          "amazon_response": "@696285 I'm truly sorry about that, Shubham. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this for you. ^NK"
+        },
+        {
+          "conversation_id": "136943_AmazonHelp",
+          "customer_text": "@115850 approx 2 months done and still waiting for my return and my money back good job @115821 https://t.co/Ljkmoie1a6",
+          "amazon_response": "@146887 I'm sorry for the ordeal you are facing with this order. Kindly get in touch with our customer service team here: https://t.co/vlvfJr4nN9 we'll be glad to help you. Keep us posted. (1/2) ^SI"
+        },
+        {
+          "conversation_id": "1053461_AmazonHelp",
+          "customer_text": "@AmazonHelp still not received Prime order from Sunday, advised returned to warehouse. Followed complaints online, but not happy",
+          "amazon_response": "@368920 Very sorry to hear this. Were you provided a reason to why this item was returned to our warehouse? ^CR"
+        },
+        {
+          "conversation_id": "1271013_AmazonHelp",
+          "customer_text": "@115850 I bought 1+5 mobile with exchange. Spl offer of 3k was not applied. I got only 2.5k instead of 2.5 + 3 = 5.5k.",
+          "amazon_response": "@417585 Sorry about that. Kindly fill in your details here :https://t.co/beaaDm0muc we'd like to check. ^PR"
+        },
+        {
+          "conversation_id": "492231_AmazonHelp",
+          "customer_text": "@115830 Funny how you apparently tried to deliver my parcel without success today, when I\u2019ve been home all day and no one has appeared. Pay for Prime, get crap service in return \ud83d\udca9\ud83d\ude21",
+          "amazon_response": "@232317 Oh goodness! I'm sorry you haven't received your parcel. We'd like to take a closer look with you. Please reach us by phone or chat here: https://t.co/JzP7hlA23B Thanks KJ! ^AB"
+        }
+      ]
+    }
+  ],
+  "historical_resolution_counts": {
+    "Delivery_Tracking_And_Delays": {
+      "total_matches": 8860,
+      "with_response_count": 8860,
+      "dm_handoff_percentage": 2.26,
+      "actionable_public_guidance_pct": 97.74,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "808857_AmazonHelp",
+          "customer_query": "@115850 Please provide the consignment number /shipping details of Order# 402-2918568-0053121. The product has not been delivered yet.",
+          "amazon_response": "@312734 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public.^VN(2/2)"
+        },
+        {
+          "conversation_id": "2853647_AmazonHelp",
+          "customer_query": "@AmazonHelp I\u2019m trying to make a purchase online but when I get to dispatch and select delivery option for amazon locker it doesn\u2019t let me move on and loops round on this page!! Is there an issue with the site?",
+          "amazon_response": "@793300 Hello Katy! Thanks very much for bringing this to our attention. To our knowledge everything is firing on all cylinders on the website. Have you tried clearing your cache and cookies? Give that a try and then let us know if it helped resolved the issue! ^JD"
+        },
+        {
+          "conversation_id": "2031057_AmazonHelp",
+          "customer_query": "@AmazonHelp your locker in Perivale, #AmazonHarp is still not working. When will you fix this? It still seems to be taking deliveries https://t.co/vj3Ue2rmaf",
+          "amazon_response": "@371963 Oh no! Let's talk about this in real time. Please call or chat with us here: https://t.co/N9xgQ6NMAo ^BA"
+        },
+        {
+          "conversation_id": "131896_AmazonHelp",
+          "customer_query": "Thanks @VirginTrains @127472 All got sorted. Just got home an hour late https://t.co/VsCO4X8ND3",
+          "amazon_response": "@428015 Mi spiace per questo inconveniente. Hai ricevuto un'email da parte nostra che ti informava del ritardo? ^ZC"
+        },
+        {
+          "conversation_id": "355336_AmazonHelp",
+          "customer_query": "#KaroMilkeTayyari for fabulous deals on sunglasses and handbags at the #LastDayOfAmazonGreatIndianFestival . Shop before the sale ends. https://t.co/C5gJGU33oO",
+          "amazon_response": "@200430 The offer is being provided by Oxigen wallet. Kindly get in touch with them for further details. ^AP"
+        },
+        {
+          "conversation_id": "600284_AmazonHelp",
+          "customer_query": "Hi @115830 my tracking status says my parcel was delievered but it hasn\u2019t arrived? Can you help please I can\u2019t get through to your customer service line",
+          "amazon_response": "@262362 Oh no! I'm sorry for the trouble with your delivery. Have you tried the tricks and tips listed here to look for your package: https://t.co/5ne11FgyJC? Let us know! We're here to help. ^TG"
+        },
+        {
+          "conversation_id": "502424_AmazonHelp",
+          "customer_query": "@115830 this doesn\u2019t really count does it..? Seriously?? Look forward to trying to track this ffs. https://t.co/kRz4xMKbiI",
+          "amazon_response": "@235032 I'm sorry for the trouble with your delivery. Please try the steps listed here: https://t.co/gkHxjROjzs If you're still unable to locate it, we can help here: https://t.co/JzP7hlA23B ^RA"
+        },
+        {
+          "conversation_id": "1069959_AmazonHelp",
+          "customer_query": "@115850 \nSurprised to see no answer from Amazon and courier! Still waiting for delivery:)",
+          "amazon_response": "@372470 Sorry for the inconvenience. Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. ^MK"
+        },
+        {
+          "conversation_id": "957537_AmazonHelp",
+          "customer_query": "I LOOOVE @115821 customer service @AmazonHelp\n\nI cancelled a refund because the item was sent to a wrong address and arrived 2 days later. https://t.co/0bKBnLCnDP",
+          "amazon_response": "@230755 That's wonderful, Adrian! We love you too! \ud83d\ude0d Thanks for being awesome! ^AB"
+        },
+        {
+          "conversation_id": "351449_AmazonHelp",
+          "customer_query": "@AmazonHelp yes I shared all my details. https://t.co/r0hmhkf6Bq",
+          "amazon_response": "@193237 We have sent a correspondence to your regarding the issue. Refer the link: https://t.co/DTSNmGldJf for details. ^SB"
+        }
+      ]
+    },
+    "Technical_App_And_Website_Issues": {
+      "total_matches": 9947,
+      "with_response_count": 9947,
+      "dm_handoff_percentage": 1.72,
+      "actionable_public_guidance_pct": 98.28,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "2853647_AmazonHelp",
+          "customer_query": "@AmazonHelp I\u2019m trying to make a purchase online but when I get to dispatch and select delivery option for amazon locker it doesn\u2019t let me move on and loops round on this page!! Is there an issue with the site?",
+          "amazon_response": "@793300 Hello Katy! Thanks very much for bringing this to our attention. To our knowledge everything is firing on all cylinders on the website. Have you tried clearing your cache and cookies? Give that a try and then let us know if it helped resolved the issue! ^JD"
+        },
+        {
+          "conversation_id": "97061_AmazonHelp",
+          "customer_query": "@AppleSupport why tf does my wifi n bluetooth turn on by its self after I turn it off?",
+          "amazon_response": "@350312 We're working on this. We'll reach out to you soon with an update. ^HK"
+        },
+        {
+          "conversation_id": "146606_AmazonHelp",
+          "customer_query": "When opening website by shortcut, screen always goes black before opening the webpage. It\u2019s really annoying and it hurts my eyes. Could plz remove it Apple? @115858 https://t.co/7XJ9eV77tb",
+          "amazon_response": "@460283 Hello, merci d'avoir partag\u00e9 vos impressions\ud83d\ude0dvotre saitsfaction est notre priorit\u00e9, bonne lecture \u00e0 vous \ud83d\udcd6^FT"
+        },
+        {
+          "conversation_id": "534145_AmazonHelp",
+          "customer_query": "@AMAZONHELP\nApr\u00e8s l'envoi des informations, vous nous redemandez de nouveau ses infos.Tr\u00e8s d\u00e9\u00e7u donc \"black friday\"chez vous.Aucune commande mais 3 retraits d'un total de 40 euros.Nous demanderons remboursement en appel TODAY.\nUn tas d'autres sites vendent \u00e9galement.\nCordialement",
+          "amazon_response": "@243713 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :/ l'avez-vous signal\u00e9 \u00e0 notre SAV ? ^SN"
+        },
+        {
+          "conversation_id": "1265739_AmazonHelp",
+          "customer_query": "@117634 help\u2026.installed new app and it\u2019s showing page numbers now.  How do I revert it back to showing locations instead?",
+          "amazon_response": "@416387 We'd like to look into this with you! Please get in touch with us by phone or chat: https://t.co/hApLpMlfHN ^KJ"
+        },
+        {
+          "conversation_id": "1225173_AmazonHelp",
+          "customer_query": "@127110 @AmazonHelp the Netflix app has not been working on my Amazon Fire Stick for the last two days (cannot connect)....Please help???",
+          "amazon_response": "@407429 I'm sorry for the trouble you're experiencing! Have you tried this troubleshooting steps? Found here: https://t.co/9tBTUAtsFc ^AC"
+        },
+        {
+          "conversation_id": "1028229_AmazonHelp",
+          "customer_query": "@AmazonHelp I got the app for Amazon flex...how do I know when I can drive here in Las Vegas",
+          "amazon_response": "@294090 Great question! You can visit here for more info on how to start: https://t.co/uKrBMSKMyS ^AC"
+        },
+        {
+          "conversation_id": "1080298_AmazonHelp",
+          "customer_query": "@AmazonHelp can I have some insight into what\u2019s happened with my order?",
+          "amazon_response": "@326451 We'd love to help you out! Without giving us any account information or details, please tell us what going on. ^MH"
+        },
+        {
+          "conversation_id": "2832998_AmazonHelp",
+          "customer_query": "@115821 put something in my cart last night to order in the morning and the priced went up 5 bucks. Same thing with my husband priced up 50 this morning. #AngryAmazonprimeMember",
+          "amazon_response": "@788688 Hi, items in your cart may change in price/availability Please have a look here:https://t.co/sk5ZG66xuF ^CR"
+        },
+        {
+          "conversation_id": "206337_AmazonHelp",
+          "customer_query": "@116331 pls increase some speed in idea4g so that i can use watsapp and can download picture in kbs..#worstnetwork @idea_cares",
+          "amazon_response": "@610248 I'm sorry for the delay! Please keep us posted, as we want you to receive your order! ^KJ"
+        }
+      ]
+    },
+    "Prime_Subscription_And_Digital_Media": {
+      "total_matches": 5365,
+      "with_response_count": 5365,
+      "dm_handoff_percentage": 1.7,
+      "actionable_public_guidance_pct": 98.3,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "1243364_AmazonHelp",
+          "customer_query": "@AmazonHelp I submitted and sent in my Kindle for a trade in today - Will I be able to purchase a new one w/ promo &amp; trade in @ promo price?",
+          "amazon_response": "@205635 Hi Scott. When your trade-in is received and processed, you'll receive an email with further information and instructions. ^HC"
+        },
+        {
+          "conversation_id": "2604199_AmazonHelp",
+          "customer_query": "Music experience is not all that nice on #ECHODOT India.no personalised https://t.co/yQd6El96hY #prime #music is down in India which is only available on echo devices. Still the prime music is not up and running on echo devices @121284 @115850 @115851",
+          "amazon_response": "@471966 Please let us know when did you receive your Echodot. ^PS"
+        },
+        {
+          "conversation_id": "2775855_AmazonHelp",
+          "customer_query": "@116935 On an echo, who pays for an echo-only music subscription? The account who the echo is connected to OR is it the person who's profile is active on the echo?",
+          "amazon_response": "@277604 Are you talking about the single Echo-only plan or the family plan? With either plan, each type of subscription would be paid for based on the account it was started with. Frequently Asked Echo Music unlimited questions here: https://t.co/40CKQJtDCi ^JE"
+        },
+        {
+          "conversation_id": "1225173_AmazonHelp",
+          "customer_query": "@127110 @AmazonHelp the Netflix app has not been working on my Amazon Fire Stick for the last two days (cannot connect)....Please help???",
+          "amazon_response": "@407429 I'm sorry for the trouble you're experiencing! Have you tried this troubleshooting steps? Found here: https://t.co/9tBTUAtsFc ^AC"
+        },
+        {
+          "conversation_id": "1190167_AmazonHelp",
+          "customer_query": "@115821 sent me an empty cardboard box instead of my Elgato Capture card, from 1 day shipping to waiting 4 days #streamerproblems #feelsbad",
+          "amazon_response": "@399738 I'm sorry for the frustration! We're available to assist. Were you able to reach us about this issue: https://t.co/3pBuw1SV0L? ^SJ"
+        },
+        {
+          "conversation_id": "2893165_AmazonHelp",
+          "customer_query": "@115821 is there a way where i can ask someone if a book is going to be available soon?. i'm missing only one from a collection, and kindle version is not available. thanks in advance.",
+          "amazon_response": "@801893 Hi Erwin! Which website do you use .com, .co.uk, .in etc? ^AP"
+        },
+        {
+          "conversation_id": "2868392_AmazonHelp",
+          "customer_query": "@115850 would like to talk about prime membership benefits. Can you please provide a email address to contact?",
+          "amazon_response": "@199227 I understand your concern about the prime membership. You may reach us from here: https://t.co/rS49hgaADF we'll help you further with your queries. ^SV"
+        },
+        {
+          "conversation_id": "2384165_AmazonHelp",
+          "customer_query": "Dei @119625 audio tamil ..titles telugu endiraaa..malli film title tamil #Tuparivaalan",
+          "amazon_response": "@687218 Thank you for flagging this. We have already escalated the issue and will make sure to get it resolved at the earliest. ^GU"
+        },
+        {
+          "conversation_id": "21861_AmazonHelp",
+          "customer_query": "@115833 Alexa, I can't login to iOS app, can you help? I'm in China",
+          "amazon_response": "@120765 Hi, sorry to hear. Are you receiving an error message? ^TP"
+        },
+        {
+          "conversation_id": "183721_AmazonHelp",
+          "customer_query": "@119625 Hey prime video team is there any option to change aspect ratio from 4:3 to 16:9. I am watching doreamon.",
+          "amazon_response": "@159201 We don't have the option to change the aspect ratio of the video. Appreciate your understanding. ^HR"
+        }
+      ]
+    },
+    "Refund_Status_And_Billing_Disputes": {
+      "total_matches": 5595,
+      "with_response_count": 5595,
+      "dm_handoff_percentage": 4.06,
+      "actionable_public_guidance_pct": 95.94,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "293185_AmazonHelp",
+          "customer_query": "@BofA_Help I swear to god you guys called me THREE TIMES TODAY FOR A PAYMENT I ALREADY MADE, Who teaches you customer service",
+          "amazon_response": "@640583 I am sorry to hear this Alberto. Please keep us posted on the progression of your order. Since our customer service team advised your order will be with you tomorrow, please contact us back if this promise is not fulfilled.^GA"
+        },
+        {
+          "conversation_id": "2310055_AmazonHelp",
+          "customer_query": "@AmazonHelp Will I be able to change the payment method of the order I placed recently?",
+          "amazon_response": "@214881 I'm afraid, you would not be able to change the payment method once the order is placed. ^AH"
+        },
+        {
+          "conversation_id": "2350857_AmazonHelp",
+          "customer_query": "@AmazonHelp I have been charged twice for an item I bought from amazon.es can I have my money back?",
+          "amazon_response": "@679465 Hi Luis! We recommend you to verify this information: https://t.co/YBx84bjI42 ^HC"
+        },
+        {
+          "conversation_id": "309243_AmazonHelp",
+          "customer_query": "Calling my bank @116035 tomorrow morning to file not 1 but 2 disputes against @117795 .  You guys are a joke!",
+          "amazon_response": "@168206 I'm sorry to hear we've let you down! Without posting account details, can you let  us know what happened? ^BV"
+        },
+        {
+          "conversation_id": "1163747_AmazonHelp",
+          "customer_query": "all i wanted was a freaking phone charger so i can revive my now five-day dead phone buT AMAZON DEEMS IT FIT TO TELL ME THAT THE PAYMENT -",
+          "amazon_response": "@393755 Sorry, I was unable to comprehend your concern. We'd like to help, could you let us know what went wrong? ^MA"
+        },
+        {
+          "conversation_id": "1065667_AmazonHelp",
+          "customer_query": "@115850 - I made a Purchase payment declined, but the money deducted from my account. I Cancel the order when I get the amount return.?",
+          "amazon_response": "@371607 For payment failure, refunds are issued to the original payment method within 2-4 business days.(1/2)^SF"
+        },
+        {
+          "conversation_id": "1190167_AmazonHelp",
+          "customer_query": "@115821 sent me an empty cardboard box instead of my Elgato Capture card, from 1 day shipping to waiting 4 days #streamerproblems #feelsbad",
+          "amazon_response": "@399738 I'm sorry for the frustration! We're available to assist. Were you able to reach us about this issue: https://t.co/3pBuw1SV0L? ^SJ"
+        },
+        {
+          "conversation_id": "913371_AmazonHelp",
+          "customer_query": "@AmazonHelp You keep failing to refund or refund full amount.\nCrooks stealing customers money. How much do you make from keeping peoples \u00a3\u00a3\u00a3",
+          "amazon_response": "@336913 I'm sorry you've had troubles with your refunds! Is there a current refund we can look into for you?"
+        },
+        {
+          "conversation_id": "957537_AmazonHelp",
+          "customer_query": "I LOOOVE @115821 customer service @AmazonHelp\n\nI cancelled a refund because the item was sent to a wrong address and arrived 2 days later. https://t.co/0bKBnLCnDP",
+          "amazon_response": "@230755 That's wonderful, Adrian! We love you too! \ud83d\ude0d Thanks for being awesome! ^AB"
+        },
+        {
+          "conversation_id": "934369_AmazonHelp",
+          "customer_query": "@AmazonHelp Hi. Can an iPhone case be returned for a refund? I\u2019ve had an Otterbox Symmetry case stain from my jean pocket after one week.",
+          "amazon_response": "@193111 Hi there, Sean! You can find the available refund/replace options here: https://t.co/ffZPyA5zIf ^WJ"
+        }
+      ]
+    },
+    "Return_Exchange_And_Pickup": {
+      "total_matches": 3469,
+      "with_response_count": 3469,
+      "dm_handoff_percentage": 5.25,
+      "actionable_public_guidance_pct": 94.75,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "943556_AmazonHelp",
+          "customer_query": "@115850  I have ordered an pair of shoes from amazon and order no. 406-1362942-2165137 shoes got defected and pickup havent been Completed",
+          "amazon_response": "@343713 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. (3/3)^SV"
+        },
+        {
+          "conversation_id": "682501_AmazonHelp",
+          "customer_query": "@115850 @AmazonHelp horrible customer service\nNeed return of panasonic led tv delivered today. Defective prod. Poor quality perf. (1/2)",
+          "amazon_response": "@282889 Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. 1/2^HN"
+        },
+        {
+          "conversation_id": "1065667_AmazonHelp",
+          "customer_query": "@115850 - I made a Purchase payment declined, but the money deducted from my account. I Cancel the order when I get the amount return.?",
+          "amazon_response": "@371607 For payment failure, refunds are issued to the original payment method within 2-4 business days.(1/2)^SF"
+        },
+        {
+          "conversation_id": "1252152_AmazonHelp",
+          "customer_query": "@AmazonHelp defected product delivered, started using after the return policy  date, product is not as per the mark, please help. https://t.co/MLai5IJdRu",
+          "amazon_response": "@413728 Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.\u200b ^MM"
+        },
+        {
+          "conversation_id": "1334317_AmazonHelp",
+          "customer_query": "@AmazonHelp trying to arrange return. Printed label, but cannot find way to arrange collection. Quick reply req as need to return by 03/11",
+          "amazon_response": "@431268 Check out this page for information on arranging a collection of your item: https://t.co/UcbWThwGTN ^MW"
+        },
+        {
+          "conversation_id": "934369_AmazonHelp",
+          "customer_query": "@AmazonHelp Hi. Can an iPhone case be returned for a refund? I\u2019ve had an Otterbox Symmetry case stain from my jean pocket after one week.",
+          "amazon_response": "@193111 Hi there, Sean! You can find the available refund/replace options here: https://t.co/ffZPyA5zIf ^WJ"
+        },
+        {
+          "conversation_id": "269064_AmazonHelp",
+          "customer_query": "A thing about me is that I would love it if someone at @VirginAmerica would return my call about my missing item.",
+          "amazon_response": "@334197 Were you able to use the link previously provided? We're here to help.\n^AV"
+        },
+        {
+          "conversation_id": "2595465_AmazonHelp",
+          "customer_query": "@115821 For the second time in a week, my order has been delivered to an amazon pickup location, without me asking for it. Its super annoying and inconvenient.",
+          "amazon_response": "@734909 I'm sorry for the trouble! Is the pickup location different from the shipping address on your order? You can check here: https://t.co/Y5jpI9gRhE ^LJ"
+        },
+        {
+          "conversation_id": "578404_AmazonHelp",
+          "customer_query": "@AmazonHelp its very upsetting to say that order delivered is broken and above all its customer responsibility to deliver back. No pickup.",
+          "amazon_response": "@256159 Apologies for the inconvenience you had faced with the delivered order. Has this been escalated to our support team yet? You may connect with the team from the link here: https://t.co/TxK11znixD and we would do the needful to help. ^KK"
+        },
+        {
+          "conversation_id": "2350913_AmazonHelp",
+          "customer_query": "@115830 ordered a large and received a small. Now having to pay \u00a33.99 to return the item. Very poor!",
+          "amazon_response": "@679475 I'm sorry for the poor experience! To clarify, was this item shipped and sold by Amazon or a third-party seller? ^WT"
+        }
+      ]
+    },
+    "Order_Cancellation_And_Address_Change": {
+      "total_matches": 2481,
+      "with_response_count": 2481,
+      "dm_handoff_percentage": 2.3,
+      "actionable_public_guidance_pct": 97.7,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "1065667_AmazonHelp",
+          "customer_query": "@115850 - I made a Purchase payment declined, but the money deducted from my account. I Cancel the order when I get the amount return.?",
+          "amazon_response": "@371607 For payment failure, refunds are issued to the original payment method within 2-4 business days.(1/2)^SF"
+        },
+        {
+          "conversation_id": "957537_AmazonHelp",
+          "customer_query": "I LOOOVE @115821 customer service @AmazonHelp\n\nI cancelled a refund because the item was sent to a wrong address and arrived 2 days later. https://t.co/0bKBnLCnDP",
+          "amazon_response": "@230755 That's wonderful, Adrian! We love you too! \ud83d\ude0d Thanks for being awesome! ^AB"
+        },
+        {
+          "conversation_id": "321198_AmazonHelp",
+          "customer_query": "@115850 Placed 3 orders : 2 delayed due to Misrouting and 1 cancelled by merchant. You're terrible at conducting big sales.",
+          "amazon_response": "@192518 I'm sorry for the recent unpleasant experiences. Please connect with our support team here:  https://t.co/IpWPsyakKp 1/2 ^SH"
+        },
+        {
+          "conversation_id": "43968_AmazonHelp",
+          "customer_query": "I'm in Toronto and @115877 is trying to scam me by not flagging a surcharge see please help a $14 surcharge is ridiculous and I immediately tried to cancel",
+          "amazon_response": "@308334 Apologies for the ordeal Guriqbal. Please share your details here: https://t.co/GIJyeYqKE0 and I'll get back to you. ^HN"
+        },
+        {
+          "conversation_id": "1250159_AmazonHelp",
+          "customer_query": "I asked for replacement not refund you shitty @115850 how dare you to cancel the order without any prior information",
+          "amazon_response": "@169505 Refund is initiated on your order as a replacement is not available. We've sent an email to your registered email for it. ^SF"
+        },
+        {
+          "conversation_id": "161356_AmazonHelp",
+          "customer_query": "Oh is this going to be another @115877 mess trying to order just a basic @mcdonalds meal. 1844 estimate now 1856. Assume it will be another hour before they cancel the order as the service is shit. @Uber_Support is it going to be back to @153233 @153234 https://t.co/nA2oXkANia",
+          "amazon_response": "@172818 Truly sorry, that isn't what we'd expect! Please, give us another chance to address this here: https://t.co/hApLpMlfHN ^JE"
+        },
+        {
+          "conversation_id": "1049124_AmazonHelp",
+          "customer_query": "For the second time this week you have delivered what I ordered to the wrong address! It's hasn't been signed for me by at all @115830",
+          "amazon_response": "@367957 I'm sorry your parcel was delivered to the incorrect address. Please reach us here: https://t.co/JzP7hlA23B for options. ^EZ"
+        },
+        {
+          "conversation_id": "2492232_AmazonHelp",
+          "customer_query": "@115850 There has been an issue with refund process because of mismatch of the return id generated as result of cancellation of pickup by your Amazon delivery partner.Please resolve my issue ASAP",
+          "amazon_response": "@428729 I'm sorry for the inconvenience. Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. ^MK"
+        },
+        {
+          "conversation_id": "38961_AmazonHelp",
+          "customer_query": "@115888 Your iOS app loads so slow I\u2019m seconds from cancelling my subscription.",
+          "amazon_response": "@208227 Puedes mantenernos al tanto de esta situaci\u00f3n. ^VL"
+        },
+        {
+          "conversation_id": "553312_AmazonHelp",
+          "customer_query": "@115830 whats the point in prime when you now have to wait 12 hours only to be told to wait between December 3-5 (days I work) because you can't hire enough drivers to fit a quota fed up with Amazon never doing my Christmas shopping with them again and will be cancelling prime https://t.co/qxfFcp8dOQ",
+          "amazon_response": "@220111 I'm so sorry to see a delay has occurred! Please let us know if it doesn't arrive by the new date provided. We want to make sure you receive your parcel! ^KJ"
+        }
+      ]
+    },
+    "Damaged_Defective_Or_Wrong_Item": {
+      "total_matches": 1947,
+      "with_response_count": 1947,
+      "dm_handoff_percentage": 3.49,
+      "actionable_public_guidance_pct": 96.51,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "682501_AmazonHelp",
+          "customer_query": "@115850 @AmazonHelp horrible customer service\nNeed return of panasonic led tv delivered today. Defective prod. Poor quality perf. (1/2)",
+          "amazon_response": "@282889 Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. 1/2^HN"
+        },
+        {
+          "conversation_id": "269064_AmazonHelp",
+          "customer_query": "A thing about me is that I would love it if someone at @VirginAmerica would return my call about my missing item.",
+          "amazon_response": "@334197 Were you able to use the link previously provided? We're here to help.\n^AV"
+        },
+        {
+          "conversation_id": "1772683_AmazonHelp",
+          "customer_query": "@115821 so, i got my daughter a birthday gift and it shows up damaged. What can we do about this?",
+          "amazon_response": "@211638 I'm sorry about the damage! Let's check on options for refund/replacement of the birthday gift here: https://t.co/Y5jpI9gRhE ^SH"
+        },
+        {
+          "conversation_id": "578404_AmazonHelp",
+          "customer_query": "@AmazonHelp its very upsetting to say that order delivered is broken and above all its customer responsibility to deliver back. No pickup.",
+          "amazon_response": "@256159 Apologies for the inconvenience you had faced with the delivered order. Has this been escalated to our support team yet? You may connect with the team from the link here: https://t.co/TxK11znixD and we would do the needful to help. ^KK"
+        },
+        {
+          "conversation_id": "1101723_AmazonHelp",
+          "customer_query": "Never get into a trap of @115850 discounts. They stock all the faulty products and tag a #SALE on it. \nhttps://t.co/DuX3iWid9d",
+          "amazon_response": "@182456 We've sent a correspondence to your registered email address, request you to check the same. ^SH"
+        },
+        {
+          "conversation_id": "2726803_AmazonHelp",
+          "customer_query": "@115850 None of your customer service number is working and unable to get a call back. Pls help received a damaged product. @AmazonHelp. order #403-1957134-6313962. https://t.co/iMtsXYsUu7",
+          "amazon_response": "@764668 earliest. Please don't provide your order details, as we consider it to be personal information. Our Twitter page is visible to the public. 2/2 ^KH"
+        },
+        {
+          "conversation_id": "2588704_AmazonHelp",
+          "customer_query": "@117634 do you guys know that 'buy now with 1-click' is broken on the latest android app? Button does nothing when pressed",
+          "amazon_response": "@210446 That's strange! Have you deleted and downloaded the app again? Please let us know if it still occurs after this step. ^AX"
+        },
+        {
+          "conversation_id": "2906728_AmazonHelp",
+          "customer_query": "@115830 would appreciate a response to my two emails requesting replacement products in place of the extremely damaged box + contents delivered to me last week .. might have to reconsider Christmas orders .... from now on #shoddy #embarrassing #letdown",
+          "amazon_response": "@804883 I'm sorry if you haven't received a response to your e-mail yet! If your order was sold by Amazon, return/replacement options can be found here: https://t.co/HW5MOg1vAy. For immediate assistance, we're also available by phone or chat here: https://t.co/YfNSB2QTVg ^MB"
+        },
+        {
+          "conversation_id": "2640976_AmazonHelp",
+          "customer_query": "Loose, scratched up, and 3 days late. Thanks @115821 https://t.co/v2UEZFOGc5",
+          "amazon_response": "@668971 Oh no! I'm sorry about this! When you have a chance, please take a look here for instructions on how to return a damaged item: https://t.co/5tmNqztC4g ^SM"
+        },
+        {
+          "conversation_id": "2638441_AmazonHelp",
+          "customer_query": "Another poor packing job=damaged goods from @115821 yet again. Sick of returns and zero customer service, going to shop elsewhere. https://t.co/JXKugAMr4l",
+          "amazon_response": "@372749 Hey Kevin! Oh no, I'm really sorry the item was damaged. We'd love to get the feedback you have on the packaging. Please submit it here: https://t.co/hmogK4wg2P Thanks! ^AJ"
+        }
+      ]
+    },
+    "General_Service_Complaint_Escalation": {
+      "total_matches": 1761,
+      "with_response_count": 1761,
+      "dm_handoff_percentage": 3.75,
+      "actionable_public_guidance_pct": 96.25,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "26979_AmazonHelp",
+          "customer_query": "@115850 pathetic service amazon India. Made a mistake by selecting amazon.",
+          "amazon_response": "@121902 That's quite a comment. Looks like you had an unpleasant experience with us. (1/2) ^VM"
+        },
+        {
+          "conversation_id": "2966443_AmazonHelp",
+          "customer_query": "Worst customer service ever goes to @115830",
+          "amazon_response": "@818386 I'm so sorry you for the poor experience when you reached out to us. This is not the service we strive for. Without providing any account details can you let us know what's going on? We'd love to help in any way we can. ^EB"
+        },
+        {
+          "conversation_id": "2290871_AmazonHelp",
+          "customer_query": "@115850 ordered \"The north face bag and got this.what a ridiculous https://t.co/20o7Cv32cj guys are pathetic.seriously. https://t.co/aw2dHAq5hJ",
+          "amazon_response": "@226940 Sorry to hear about the disappointing experience. Kindly request a return/replacement here: https://t.co/dgreAZQ5qf. Further, I'll share your experience with the concerned team as feedback.^AR"
+        },
+        {
+          "conversation_id": "277305_AmazonHelp",
+          "customer_query": "@115873 @Uber_Support So not only do you take the pi$$ out legislation you also take the pi$$ out of passengers. Put in a complaint. Nothing",
+          "amazon_response": "@775060 I'm sorry you haven't received an update on your parcels, Emma! Can you please tell us what the tracking on the orders say? You can check here: https://t.co/aaDyEz1VgE. ^WJ"
+        },
+        {
+          "conversation_id": "318808_AmazonHelp",
+          "customer_query": "@115850 pathetic prime experience! still awaiting my delivery 2 days now, u don't even have delivery guys number?",
+          "amazon_response": "@192055 Sorry for the hassle Sachin. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN"
+        },
+        {
+          "conversation_id": "162611_AmazonHelp",
+          "customer_query": "@137680 @115937 Misleading shipping times, No US customer service reps!? Poor company that will continue to have poor stock performance, leadership should be ASHAMED!",
+          "amazon_response": "@301255 Sure! Feel free to send us a DM. We're here to help. ^AB https://t.co/1XyLaGkcaN"
+        },
+        {
+          "conversation_id": "453401_AmazonHelp",
+          "customer_query": "@115821 I ordered a TV On black Friday and is it a scam ? https://t.co/tTJfGc1WP3",
+          "amazon_response": "@222573 Thanks for reaching out to us! We don't have access to your account via Twitter.\nPlease connect with us here so we can look into this together: https://t.co/hApLpMlfHN ^MO"
+        },
+        {
+          "conversation_id": "435688_AmazonHelp",
+          "customer_query": "@AmazonHelp I preordered a book, email today stating it\u2019ll be 1-3 months! Rang the worst customer services ever! No explanation, no apology\ud83d\ude21",
+          "amazon_response": "@218495 I'm sorry to hear this! When you spoke with us directly, what insight were we able to provide you? Were any options offered? ^GL"
+        },
+        {
+          "conversation_id": "2830753_AmazonHelp",
+          "customer_query": "@AmazonHelp worst customer service __email__.",
+          "amazon_response": "@788234 Apologies for the trouble. Kindly fill in your details here: https://t.co/GIJyeYqKE0 and we'll get in touch with you. Also, please don\u2019t provide your account details as we consider them to be personal information. Our Twitter page is visible to public. ^PB"
+        },
+        {
+          "conversation_id": "1209491_AmazonHelp",
+          "customer_query": "@115830 got new Wacom pen thanks, shame you package it in foam, plastic, in a box-within-a-box that could literally house a computer.",
+          "amazon_response": "@403928 If you'd like to give feedback on our packaging, feel free to send this to our specialists here: https://t.co/QhepfPRGXs ^MJ"
+        }
+      ]
+    },
+    "Promotions_GiftCards_And_Pricing": {
+      "total_matches": 2042,
+      "with_response_count": 2042,
+      "dm_handoff_percentage": 2.35,
+      "actionable_public_guidance_pct": 97.65,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "1243364_AmazonHelp",
+          "customer_query": "@AmazonHelp I submitted and sent in my Kindle for a trade in today - Will I be able to purchase a new one w/ promo &amp; trade in @ promo price?",
+          "amazon_response": "@205635 Hi Scott. When your trade-in is received and processed, you'll receive an email with further information and instructions. ^HC"
+        },
+        {
+          "conversation_id": "199974_AmazonHelp",
+          "customer_query": "@115850 what kind of deal you are talking about?\nOnly ad and nothing on ground reality. Lighting deal and regular price no change, focus. https://t.co/fJwfrlwizk",
+          "amazon_response": "@163178 Could you please tell us if you're referring to any particular product? ^HN"
+        },
+        {
+          "conversation_id": "816315_AmazonHelp",
+          "customer_query": "@115821 Great to know that you hire customer service reps who hang up the phone on YOUR customers because they don't want to deal them!!",
+          "amazon_response": "@314392 This isn't the experience we strive for! Please, give us another chance to address this here: https://t.co/hApLpMlfHN ^JE"
+        },
+        {
+          "conversation_id": "2129903_AmazonHelp",
+          "customer_query": "@AmazonHelp Ordered Philips Bass + couple of days ago. Didn't get a voucher code to redeem the special offer. https://t.co/2702Fggtts",
+          "amazon_response": "@626944 I'm sorry you didn't receive the voucher code. Call us here: https://t.co/vlvfJr4nN9 &amp; we'll be glad to help you.^SF"
+        },
+        {
+          "conversation_id": "2725885_AmazonHelp",
+          "customer_query": "@AmazonHelp hola buenas, intento aplicar la promoci\u00f3n de 10 euros de regalo al contratar amazon music unlimited pero me sale el siguiente mensaje https://t.co/kTCKtrB9V3",
+          "amazon_response": "@764450 Hola Ram\u00f3n, sentimos lo ocurrido. Por favor, entra en contacto con nuestros compa\u00f1eros de Soporte al Cliente para que puedan verificar lo que ocurri\u00f3: https://t.co/OjvUxwnzPe. ^DA"
+        },
+        {
+          "conversation_id": "355336_AmazonHelp",
+          "customer_query": "#KaroMilkeTayyari for fabulous deals on sunglasses and handbags at the #LastDayOfAmazonGreatIndianFestival . Shop before the sale ends. https://t.co/C5gJGU33oO",
+          "amazon_response": "@200430 The offer is being provided by Oxigen wallet. Kindly get in touch with them for further details. ^AP"
+        },
+        {
+          "conversation_id": "1209798_AmazonHelp",
+          "customer_query": "It\u2019s time to turn heads with your shoes. Get fantastic deals on shoes at the #AmazonGreatIndianFestival  #DiwaliKiTayyari https://t.co/921hAaN65T",
+          "amazon_response": "@403998 We're sorry to hear that, Gurdev. Could you please elaborate on what went wrong so we could check? ^HK"
+        },
+        {
+          "conversation_id": "158742_AmazonHelp",
+          "customer_query": "@115850 @AmazonHelp how to use the offer of 80% discount on ebook? Have purchased \u20b99798 offer... https://t.co/jXOQLKqmOJ",
+          "amazon_response": "@152493 Our kindle support team would be happy to help you out! Please contact us from here: https://t.co/tc3VJIYzxn . ^MK"
+        },
+        {
+          "conversation_id": "2101916_AmazonHelp",
+          "customer_query": "@115850  when shall the next  Great Indian Sale begin??  Very much excited to shop  from this brilliant online shopping site.  Hoping to get more offers and discounts next time.",
+          "amazon_response": "@620757 We haven't made an announcement yet. Please stay tuned to our website. ^KA"
+        },
+        {
+          "conversation_id": "1014832_AmazonHelp",
+          "customer_query": "@AmazonHelp https://t.co/lQls7YfUvm have this item in wishlist. Everyday it goes on flash sale. Normal price 7285. Lightening deal 7380.",
+          "amazon_response": "@179123 the lowest price may result in fluctuations in our prices over time. We'd appreciate your understanding. 2/2 ^MA"
+        }
+      ]
+    },
+    "Marked_Delivered_Not_Received": {
+      "total_matches": 892,
+      "with_response_count": 892,
+      "dm_handoff_percentage": 2.24,
+      "actionable_public_guidance_pct": 97.76,
+      "grounding_suitability": "HIGH",
+      "representative_examples": [
+        {
+          "conversation_id": "2592189_AmazonHelp",
+          "customer_query": "@AmazonHelp package was ripped open and contents stolen... need to file a claim but seriously can't figure it out after an hour of trying",
+          "amazon_response": "@734128 I'm sorry your order arrived like this. Was this shipped/fulfilled by Amazon or by a third-party seller: https://t.co/n9mlJYtkfR? ^CL"
+        },
+        {
+          "conversation_id": "2166474_AmazonHelp",
+          "customer_query": "@115830 Not happy Amazon! My son's car seat should have been delivered yesterday on Prime, nope and still non the wiser where it is after speaking to your support!! I need this car seat today, we pay a lot of money for Prime so I expect to get my items on time!! https://t.co/PU0CKyOx5I",
+          "amazon_response": "@635845 Hi, sorry to hear that, has the estimated delivery date of your order changed: https://t.co/aaDyEz1VgE? ^JJ"
+        },
+        {
+          "conversation_id": "532605_AmazonHelp",
+          "customer_query": "@115821 It\u2019s disgusting the way you guys treated the \u201cinvestigation\u201c after I put in an A-Z claim and then later on an appeal for a package I never received. You should be ashamed of yourselves. I will be emailing your CEO directly at __email__.",
+          "amazon_response": "@243376 Hi Alex, what was the reason provided for your unsuccessful claim? ^TS"
+        },
+        {
+          "conversation_id": "2419885_AmazonHelp",
+          "customer_query": "@115830 parcel apparently delivered but I have not received it. Can\u2019t find anywhere to get help. No wonder @115851 is the richest man on earth #CustomerService #disappointed",
+          "amazon_response": "@695173 I'm sorry you haven't received your parcel yet! Here is a Help page with some advice on what to do if this situation occurs: https://t.co/COC4Oo08wS ^GM"
+        },
+        {
+          "conversation_id": "1592085_AmazonHelp",
+          "customer_query": "@AmazonHelp I had a package that teaching says was delivered, but I never received it. Any chance for help?",
+          "amazon_response": "@489397 I'm sorry for the inconvenience! Have you checked around the delivery area with these tips here: https://t.co/nAXPqjAQkH? ^DW"
+        },
+        {
+          "conversation_id": "2459113_AmazonHelp",
+          "customer_query": "Hey @115821, why is my prime two day shipping turning into three day?  My package is going to get stolen because it\u2019s coming a day late.",
+          "amazon_response": "@195909 Oh no! I'm sorry we let you down! What does the most recent order status state? You can check here: https://t.co/Y5jpI9gRhE. ^LL"
+        },
+        {
+          "conversation_id": "2812793_AmazonHelp",
+          "customer_query": "I thought Amazon was delivering my package on Monday so i went into the city today. On the train right now and the tracking says delivered to front door. \n\nI hope my neighbors don\u2019t steal it. On my way home!",
+          "amazon_response": "@419658 I'm sorry if we've delivered too early! Please keep us up-to-date with the package's status when you return home. ^ST"
+        },
+        {
+          "conversation_id": "172229_AmazonHelp",
+          "customer_query": "@AmazonHelp hey, I ordered a kettle a while back and it never showed up. It says delivered, but looks buggy, and def never arrived. Order number #114-9706531-2161806",
+          "amazon_response": "@156248 I'm sorry the kettle hasn't arrived! We aren't able to access Amazon Account information here on Twitter but we can help get you pointed in the right direction. Was the order shipped by Amazon directly or one of our sellers: https://t.co/Y5jpI9gRhE? ^EP"
+        },
+        {
+          "conversation_id": "494956_AmazonHelp",
+          "customer_query": "@AmazonHelp RM Tracking shows parcel delivered but postie and me state nothing was posted or received! What is happening? How can this happen? #SoftwareBug #SystemBackDoor #NeverHappenedBefore",
+          "amazon_response": "@233035 I'm sorry you haven't received your parcel, Angus! Have you tried these tips for locating missing parcels scanned as delivered: https://t.co/9QDRfh5JKR ? ^TH"
+        },
+        {
+          "conversation_id": "2806619_AmazonHelp",
+          "customer_query": ".@115821 @AmazonHelp a refund has been activated after a month. The book was.scheduled to be delivered yesterday after a month of order and today u are refunding ?? Wtf guys. Deliver the book for god's sake https://t.co/EJiTKLLZDB",
+          "amazon_response": "@119350 Apologies for the hassle. We haven't received your details yet, please drop in your details in the link provided earlier here: https://t.co/dtWRacP2yV and we will help you. ^AH"
+        }
+      ]
+    }
+  },
+  "recommended_report_claims": [
+    "AmazonHelp dataset contains 81,413 reconstructed customer conversations.",
+    "Taxonomy covers 10 core operational intents representing 52.16% of total volume.",
+    "Non_English_Or_Regional_Query pre-filter routes 12.55% of messages (86.3% of which are redirected to regional Amazon Twitter handles like @AmazonHelpES).",
+    "Technical_App_And_Website_Issues rescued 8.04% (6,548 convos) from the unclassified Other pool.",
+    "The remaining Other_Unclassified_Inquiry pool is 28,749 conversations (35.29%), representing vague requests (32.5%), non-support rants/praise (26.0%), greetings/bot chatter (18.5%), and unclassified/missed edge cases.",
+    "All 10 core intents have 1,000+ historical brand responses with high actionability and public guidance suitability for RAG grounding."
+  ],
+  "claims_to_avoid": [
+    "Do NOT claim '93.20% single-intent accuracy' as human ground truth (it is a heuristic keyword-rule match rate).",
+    "Do NOT claim exact semantic co-occurrence numbers (e.g. 818 or 656) without clarifying that they represent heuristic keyword overlap in customer opening tweets.",
+    "Do NOT claim 'Other bucket is 100% noise' (it contains ~20% vague order queries missed by keyword rules due to missing order context)."
+  ]
+}

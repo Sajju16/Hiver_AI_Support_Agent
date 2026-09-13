@@ -1,0 +1,122 @@
+[
+  {
+    "example_id": "GOLDEN_156",
+    "conversation_id": "1544144_AmazonHelp",
+    "raw_text": "濱田岳さん主演。\nAmazonオリジナルビデオ。\nほのぼのしていーですね😬\n毎週の配信楽しみだ！ https://t.co/tmg3OOW0ie",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_157",
+    "conversation_id": "21041_AmazonHelp",
+    "raw_text": "Bonjour @120533 ! C’est fâcheux de prendre La Poste pour les livraisons expresses la veille des jours fériés... https://t.co/aULnltgh5W",
+    "candidate_intent_hint": "Non-English candidate (French)"
+  },
+  {
+    "example_id": "GOLDEN_158",
+    "conversation_id": "272335_AmazonHelp",
+    "raw_text": "@AmazonHelp ありがとうございます！！今月中に連絡がなかった場合にはカスタマーサービスに連絡しようと思います。丁寧な対応して頂きありがとうございます。",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_159",
+    "conversation_id": "2719423_AmazonHelp",
+    "raw_text": "AmazonでDINOSAUR予約したのはいいけどまだ支払い番号がこない…",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_160",
+    "conversation_id": "803065_AmazonHelp",
+    "raw_text": "@AmazonHelp Der Kollege jetzt meinte er kann mir nicht helfen und leitet es an einen anderen Mitarbeiter weiter und der meldet sich in24 Stunden bei mir",
+    "candidate_intent_hint": "Non-English candidate (German)"
+  },
+  {
+    "example_id": "GOLDEN_161",
+    "conversation_id": "1714274_AmazonHelp",
+    "raw_text": "@AmazonHelp Os preços na Amazon. O resultado foi que na concorrente os 3 ficariam em 220,00 e na loja de vocês não chegou nem em 140,00! Sempre salvando",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  },
+  {
+    "example_id": "GOLDEN_162",
+    "conversation_id": "2827993_AmazonHelp",
+    "raw_text": "@AmazonHelp 毎度ご親切にありがとうございます。先ほど出品者様へご連絡させていただきました。もし連絡が帰ってこない場合が続いた場合はAmazon様の方へ一度電話させていただきたく思いますのでその時はどうかよろしくお願いいたします。",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_163",
+    "conversation_id": "524890_AmazonHelp",
+    "raw_text": "Amazonビデオ、モヤさまが配信されてる！\n作業のお供に最適(^^)",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_164",
+    "conversation_id": "1731598_AmazonHelp",
+    "raw_text": "@AmazonHelp Je trouve déplorable que de plus en plus d'articles soient inaccessibles pour les clients non prime. Autant commander à la concurrence... https://t.co/NJRXC8vVUE",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  },
+  {
+    "example_id": "GOLDEN_165",
+    "conversation_id": "30183_AmazonHelp",
+    "raw_text": "@AmazonHelp euh… comme je vous l’ai dit, j’ai déjà fait remonter l’info.",
+    "candidate_intent_hint": "Non-English candidate (French)"
+  },
+  {
+    "example_id": "GOLDEN_166",
+    "conversation_id": "2391257_AmazonHelp",
+    "raw_text": "@AmazonHelp 交換は可能ですか？同じ商品が欲しいのですが返金となるとまた同じ商品注文しないといけないですか？",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_167",
+    "conversation_id": "969194_AmazonHelp",
+    "raw_text": "@AmazonHelp いちおう直ったみたいです。ChromeとカスペルスキーとATOKの相性かなにかかと思ったのですが、結局原因はわかりませんでした",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_168",
+    "conversation_id": "2431187_AmazonHelp",
+    "raw_text": "@AmazonHelp Que iriam ver com a transportadora quem teria, em tese, recebido o meu livro e que iriam entram em contato comigo. Acho que depois desse contato a transportadora viu o erro e movimentou ele hj, dizendo que estava pendente a entrega ainda",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  },
+  {
+    "example_id": "GOLDEN_169",
+    "conversation_id": "2321052_AmazonHelp",
+    "raw_text": "amazonで注文したらいつ支払いすればいいの？？📨🌊",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_170",
+    "conversation_id": "574509_AmazonHelp",
+    "raw_text": "アマゾンプライムでけいおん映画観ながら勉強してるんだけど全く集中できないし、やっぱりけいおん最高すぎて泣く",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_171",
+    "conversation_id": "80599_AmazonHelp",
+    "raw_text": "@116875 Muy buena tienda pero últimamente el prime se les queda corto no e comprado porque en jueves me sale que llega hasta el lunes y pues mejor lo voy y lo compro a la tienda cualquiera eso si me esta decepcionando",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  },
+  {
+    "example_id": "GOLDEN_172",
+    "conversation_id": "126755_AmazonHelp",
+    "raw_text": "@416797 @AmazonHelp Ahhhh c'est pour ça demain soir que tu veux pas traîner 🤣😁😉",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  },
+  {
+    "example_id": "GOLDEN_173",
+    "conversation_id": "2828752_AmazonHelp",
+    "raw_text": "@AmazonHelp Le livreur est passé samedi ss laisser dans La Bal. Samedi am appel Amazon qui annonce nouvelle livraison lundi dans la bal. Ce jour le livreur appelle (depuis Dublin) et demande à être rappelé. Bref peut on se faire livrer dans un relai svp ? (@787780)",
+    "candidate_intent_hint": "Non-English candidate (French)"
+  },
+  {
+    "example_id": "GOLDEN_174",
+    "conversation_id": "477840_AmazonHelp",
+    "raw_text": "Amazonプライム会員のくせに情弱のおかげでプライム配送とプライムビデオぐらいの旨みしか吸ってなかった....",
+    "candidate_intent_hint": "Non-English candidate (Japanese)"
+  },
+  {
+    "example_id": "GOLDEN_175",
+    "conversation_id": "1943871_AmazonHelp",
+    "raw_text": "@AmazonHelp Oui, très mécontent que mes colis arrivent au hasard chez des voisins que je ne connais pas... Une enquête est en cours par 1/2",
+    "candidate_intent_hint": "Non-English candidate (Spanish)"
+  }
+]

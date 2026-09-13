@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-09-13T09:49:25.208681+00:00",
+  "annotation_source": "AI_ASSISTED_PROVISIONAL",
+  "total": 200,
+  "consensus_count": 61,
+  "disagreement_count": 139,
+  "consensus_rate": 0.305,
+  "manual_review_required": 173,
+  "escalation_disagreements": 14,
+  "intent_distribution": {
+    "Damaged_Defective_Or_Wrong_Item": 24,
+    "Delivery_Tracking_And_Delays": 39,
+    "General_Service_Complaint_Escalation": 4,
+    "Marked_Delivered_Not_Received": 14,
+    "Order_Cancellation_And_Address_Change": 6,
+    "Other_Unclassified_Inquiry": 47,
+    "Prime_Subscription_And_Digital_Media": 8,
+    "Promotions_GiftCards_And_Pricing": 13,
+    "Refund_Status_And_Billing_Disputes": 16,
+    "Return_Exchange_And_Pickup": 9,
+    "Technical_App_And_Website_Issues": 20
+  },
+  "escalation_distribution": {
+    "escalate": 27,
+    "no_escalate": 173
+  },
+  "ambiguity_distribution": {
+    "ambiguous": 200,
+    "clear": 0
+  },
+  "language_distribution": {
+    "non_english": 12,
+    "english": 188
+  },
+  "confidence_stats": {
+    "pass1_mean": 0.1453,
+    "pass1_min": 0.1034,
+    "pass1_max": 0.3126,
+    "pass1_std": 0.0388,
+    "pass2_mean": 0.271,
+    "pass2_min": 0.1598,
+    "pass2_max": 0.493,
+    "pass2_std": 0.0829
+  },
+  "adjudication_methods": {
+    "TWO_PASS_CONSENSUS": 61,
+    "PASS1_PRIMARY_DEFAULT": 139
+  }
+}

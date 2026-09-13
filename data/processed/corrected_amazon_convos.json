@@ -1,0 +1,41 @@
+{
+  "brand": "AmazonHelp",
+  "version": "2.0_local_attribution_corrected",
+  "total_conversations": 75099,
+  "extraction_rule": "Local interaction attribution: direct parent/child AmazonHelp reply OR explicit handle mention (@AmazonHelp or mapped regional handle ID)",
+  "metrics": {
+    "total_conversations": 75099,
+    "multi_turn_3plus": 45884,
+    "multi_turn_5plus": 22608,
+    "brand_message_count": 139348,
+    "customer_message_count": 199018,
+    "intent_counts": {
+      "Non_English_Or_Regional_Query": 10004,
+      "Other_Unclassified_Inquiry": 36239,
+      "Technical_App_And_Website_Issues": 5793,
+      "Delivery_Tracking_And_Delays": 6392,
+      "Prime_Subscription_And_Digital_Media": 3682,
+      "Refund_Status_And_Billing_Disputes": 3226,
+      "Return_Exchange_And_Pickup": 2138,
+      "Order_Cancellation_And_Address_Change": 1806,
+      "General_Service_Complaint_Escalation": 1800,
+      "Promotions_GiftCards_And_Pricing": 1721,
+      "Damaged_Defective_Or_Wrong_Item": 1454,
+      "Marked_Delivered_Not_Received": 844
+    },
+    "intent_percentages": {
+      "Non_English_Or_Regional_Query": 13.32,
+      "Other_Unclassified_Inquiry": 48.25,
+      "Technical_App_And_Website_Issues": 7.71,
+      "Delivery_Tracking_And_Delays": 8.51,
+      "Prime_Subscription_And_Digital_Media": 4.9,
+      "Refund_Status_And_Billing_Disputes": 4.3,
+      "Return_Exchange_And_Pickup": 2.85,
+      "Order_Cancellation_And_Address_Change": 2.4,
+      "General_Service_Complaint_Escalation": 2.4,
+      "Promotions_GiftCards_And_Pricing": 2.29,
+      "Damaged_Defective_Or_Wrong_Item": 1.94,
+      "Marked_Delivered_Not_Received": 1.12
+    }
+  }
+}

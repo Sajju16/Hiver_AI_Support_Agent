@@ -1,0 +1,125 @@
+[
+  {
+    "conversation_id": "634_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 @AmazonHelp why is my order at my local courier for the last 6 days and still hasn’t been delivered to me?? Over 1 week late 😡",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "646_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": ".@AmazonHelp Item has not been delivered but tracking says it was handed to me over an hour ago... 2nd time this has happened. Sort it out https://t.co/42W82GcARk",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "1249_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AskeBay The item has been marked as delivered, and the system would not let me contact ebay customer service directly. It was not sellers fault, it was mismanaged somewhere between shipment and delivery. Still file a claim?",
+    "thread_context": [
+      {
+        "author": "115938",
+        "text": "@AskeBay need assistance. Bought item, due to be delivered Saturday. Never received item, despite being marked as delivered. No response from seller, delivery services cannot assist with lost/missing package. Please advise.",
+        "is_customer": true
+      },
+      {
+        "author": "AskeBay",
+        "text": "@115938 Hi there. Sorry to hear the item has not arrived. Is there tracking for the item? If not, I'd advise opening an item not received claim. You can learn more about that here&gt; https://t.co/0toc8cKSB0. Any other questions, let us know. ^SG",
+        "is_customer": false
+      }
+    ],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "2549_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp Hi, I ordered an item on 18 Oct which said it would be delivered by 20 Oct and I still haven't received it. Can you help? Thanks",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "409_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp AMZL US Tracking ID TBA566517950000 it says delivered to mail room, I checked the mail and the front offce, the driver listed 1 package, in that one package was my XLR cables...I'm missing the controller.",
+    "thread_context": [
+      {
+        "author": "McDonalds",
+        "text": "So what’ll it be this #Halloween: a trick or a treat? Let us know below. #TrickorTweet https://t.co/xwjAZp0C2v",
+        "is_customer": false
+      },
+      {
+        "author": "769494",
+        "text": "@McDonalds Trick",
+        "is_customer": true
+      }
+    ],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "17183_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "'Hey @AmazonHelp i haven't received my \"delivered\" order.' \n'Did you check around your house' lmao https://t.co/w6FRcwmoFX",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "21586_AmazonHelp",
+    "turn_index": 3,
+    "raw_text": "@AmazonHelp Feedback? Are you kidding me? Where is my money and the package...bloddy idiots I am the prime customer and I want the shipment to be delivered rite now...I don't care about ur internal review...get me ur escalation point of contact to call me",
+    "thread_context": [
+      {
+        "author": "120701",
+        "text": "@115850 order Id: \n171-0365118-2187508. Stop fooling around and deliver the package, and I want compensation for your delivery agent being rude to my wife, and trust me this is not the first time this is happening..I want a resolution",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@120701 Please don’t provide your order details as we consider them to be personal info. Our Twitter page is visible to public. (2/2)^BS",
+        "is_customer": false
+      },
+      {
+        "author": "120701",
+        "text": "@AmazonHelp Trust me it useless to narrate my experience in the app feedback...I want a resolution... And commitment that this won't be repeated and a compensation",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@120701 I'm sorry for the trouble. We will definitely make sure such an instance does not get repeated. Compensation policies (1/2)^GU",
+        "is_customer": false
+      },
+      {
+        "author": "120701",
+        "text": "@AmazonHelp Sure..so if compensation is not available...can I name and shame you guys...because u guys are pathetic..can u quickly tell me ur name and employee ID and also ur escalation point of contact..because I am not sitting quiet",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@120701 on this as feedback with the team internally for a review. 2/2 ^OS",
+        "is_customer": false
+      }
+    ],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "22557_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 I was waiting from morning but shipment not delivered and wrong status updated.",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "23189_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115830 having problems getting a parcel delivered as it’s to a business address. They keep coming at 5:30 which is too late.",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  },
+  {
+    "conversation_id": "27904_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115830 still waiting for my parcels supposed to be delivered next day, 2 days later still waiting, customer service department no help",
+    "thread_context": [],
+    "retrieval_rationale": "Customer inquiry blends delivery tracking/status questions with non-receipt or marked-as-delivered dispute."
+  }
+]

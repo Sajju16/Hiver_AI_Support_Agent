@@ -1,0 +1,303 @@
+{
+  "dataset_brand": "AmazonHelp",
+  "total_conversations_reconstructed": 81413,
+  "total_non_english_conversations": 23386,
+  "total_suitable_non_english_candidates": 18120,
+  "language_detection_method": "Character script analysis + Stopword vocabulary matching across ES, DE, FR, IT, PT, JP, and OTHER_NON_EN.",
+  "limitations": "Keyword/script heuristic language detection; short tweets without distinct stopwords may be classified as EN.",
+  "language_breakdown": {
+    "ES": {
+      "total_inbound_messages": 13231,
+      "unique_conversations": 5179,
+      "conversations_with_2plus_turns": 5179,
+      "conversations_with_usable_text": 5154,
+      "suitable_golden_set_candidates": 5154,
+      "representative_examples": [
+        {
+          "conversation_id": "158865_AmazonHelp",
+          "text": "Cancele un pedido, pero a\u00fan as\u00ed me lleg\u00f3 y da\u00f1ado, inici\u00e9 la devoluci\u00f3n, ped\u00ed que fuera a la tarjeta, y se supone que vienen por el paquete en la tarde los de dhl. En cu\u00e1nto tiempo ver\u00e9 mi dinero en cuenta? @116875",
+          "message_count": 23
+        },
+        {
+          "conversation_id": "2636858_AmazonHelp",
+          "text": "@117086 Ol\u00e1. Comprei recentemente o livro \"Jim Morrison-Ningu\u00e9m sai vivo daqui\" e ele veio com algumas p\u00e1ginas faltando e outras duplicadas. Sei que voc\u00eas n\u00e3o s\u00e3o respons\u00e1veis pela impress\u00e3o do livro,mas como comprei atrav\u00e9s deste site,gostaria de saber como poder\u00edamos resolver",
+          "message_count": 6
+        },
+        {
+          "conversation_id": "1736208_AmazonHelp",
+          "text": "Con tanto paquete de Amazon en casa hoy parece el d\u00eda de navidad @116928",
+          "message_count": 4
+        },
+        {
+          "conversation_id": "134809_AmazonHelp",
+          "text": "@115830 order within the next 90 mins for same day delivery never ever works for me .Why is this ? i suspect a con to get me to order",
+          "message_count": 5
+        },
+        {
+          "conversation_id": "2954423_AmazonHelp",
+          "text": "Si van a comprar por internet h\u00e1ganlo solo en @116875 el mejor precio y servicio al cliente.",
+          "message_count": 3
+        }
+      ]
+    },
+    "DE": {
+      "total_inbound_messages": 5919,
+      "unique_conversations": 2336,
+      "conversations_with_2plus_turns": 2336,
+      "conversations_with_usable_text": 2332,
+      "suitable_golden_set_candidates": 2332,
+      "representative_examples": [
+        {
+          "conversation_id": "360639_AmazonHelp",
+          "text": "Hey @116316 \nH\u00e4tte eigentlich meine beiden prime Bestellungen, die beide am Samstag 07.10. h\u00e4tten eintreffen sollen, dringend gebraucht. Eine kommt jetzt wahrscheinlich am Mittwoch, aber nicht sicher, die andere hat auf einmal unbekannte Lieferzeit! F\u00fcr was zahlen wir prime??",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "2634786_AmazonHelp",
+          "text": "C\u2019est une honte de recevoir un cadeau pour le noel des enfants sans emballage avec une \u00e9tiquette coll\u00e9e sur la bo\u00eete du jouet et du scotch pour rafistoler la bo\u00eete. @120533",
+          "message_count": 5
+        },
+        {
+          "conversation_id": "2764399_AmazonHelp",
+          "text": "@115825 In 4K und/oder HDR? https://t.co/isJudlXgL6",
+          "message_count": 3
+        },
+        {
+          "conversation_id": "470155_AmazonHelp",
+          "text": "Inzwischen k\u00f6nnen alle Versender uns finden. Bis auf @134825 - die sind die einzigen vollkommen Unf\u00e4higen.",
+          "message_count": 5
+        },
+        {
+          "conversation_id": "254661_AmazonHelp",
+          "text": "Grrrrr @AmazonHelp Wenn die  #alexa in der tv Werbung sagt mach das Wohnzimmer aus und meins dann aus geht finde uncool richtig uncool",
+          "message_count": 2
+        }
+      ]
+    },
+    "FR": {
+      "total_inbound_messages": 8302,
+      "unique_conversations": 2800,
+      "conversations_with_2plus_turns": 2800,
+      "conversations_with_usable_text": 2785,
+      "suitable_golden_set_candidates": 2785,
+      "representative_examples": [
+        {
+          "conversation_id": "752375_AmazonHelp",
+          "text": "@120533 comment fait on pour vous contactez? le num\u00e9ro 08 00 94 77 15 n'est plus attribuer, on m'a pirat\u00e9 mon compte hier! \ud83d\ude21",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "22476_AmazonHelp",
+          "text": "@115821 apr\u00e8s un chat direct avec vous au sujet d'une commande ne venant pas de moi, vous avez tout de m\u00eame d\u00e9bit\u00e9 mon compte de 110,94\u20ac. ??",
+          "message_count": 103
+        },
+        {
+          "conversation_id": "2601422_AmazonHelp",
+          "text": "C'est super utile Amazon Prime quelle super id\u00e9e d'exp\u00e9dier mon colis \u00e0 hier 21h pour le recevoir 3 jours apr\u00e8s la date pr\u00e9vue \ud83d\ude24 @120533 https://t.co/T0xu8PWvRJ",
+          "message_count": 10
+        },
+        {
+          "conversation_id": "449997_AmazonHelp",
+          "text": "@120533 Vous pouvez vous d\u00e9p\u00eacher pour ma zowie fk2 command\u00e9 hier svp j'ai envie de jouer la !",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "534162_AmazonHelp",
+          "text": "@AmazonHelp @7776 @215945 Bonjour, la livraison c'est pas encore pour aujourd'hui...",
+          "message_count": 8
+        }
+      ]
+    },
+    "IT": {
+      "total_inbound_messages": 5373,
+      "unique_conversations": 1880,
+      "conversations_with_2plus_turns": 1880,
+      "conversations_with_usable_text": 1876,
+      "suitable_golden_set_candidates": 1876,
+      "representative_examples": [
+        {
+          "conversation_id": "1276097_AmazonHelp",
+          "text": "@AmazonHelp ho provato ad utilizzare il bonus cultura sul vostro sito, mi \u00e8 stato accreditato 50 euro sull\u2019app, quando non ho nemmeno -",
+          "message_count": 8
+        },
+        {
+          "conversation_id": "2391307_AmazonHelp",
+          "text": "Il corriere che suona e \"Ciao sono Amazon!\"",
+          "message_count": 6
+        },
+        {
+          "conversation_id": "1625478_AmazonHelp",
+          "text": "@120540 Quando sar\u00e0 disponibile in Italia la terza stagione di #MozartInTheJungle? Aspettiamo da quasi un anno",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "441819_AmazonHelp",
+          "text": "@115830 how come ive had a order cancelled and refund given but i can re order the same items for a dearer price.",
+          "message_count": 6
+        },
+        {
+          "conversation_id": "1084359_AmazonHelp",
+          "text": "@115850 when is #Nokia8 copper variant available for sale @174957 whether it will come in months time",
+          "message_count": 2
+        }
+      ]
+    },
+    "PT": {
+      "total_inbound_messages": 16949,
+      "unique_conversations": 5224,
+      "conversations_with_2plus_turns": 5224,
+      "conversations_with_usable_text": 5215,
+      "suitable_golden_set_candidates": 5215,
+      "representative_examples": [
+        {
+          "conversation_id": "1125133_AmazonHelp",
+          "text": "I'm loving my @115833! \u2764\ufe0f But how do I train Alexa or create voice profile? There seems to be an error in the Settings &gt; Your Voice. I can't click \"begin\". https://t.co/AzgksdpTtG",
+          "message_count": 4
+        },
+        {
+          "conversation_id": "1937602_AmazonHelp",
+          "text": "I got an Amazon account with 250$ in the account, but the account is fucking locked, how do I fix this!!!!!!!!!!!! I can't make any purchases @AmazonHelp",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "292552_AmazonHelp",
+          "text": "Been disappointed the last few times with the service I received at Chipotle. I expect more from you. How do we fix this? \ud83d\ude21\ud83d\ude21@ChipotleTweets",
+          "message_count": 6
+        },
+        {
+          "conversation_id": "1640341_AmazonHelp",
+          "text": "@115850 Hi, do you sell legit windows 7 product keys?",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "1342623_AmazonHelp",
+          "text": "@115821 @AmazonHelp What do you mean by \"Guaranteed Delivery\" for Prime Members if you fail it and deliver it next day as a usual order?? \ud83d\ude20\ud83d\ude20 https://t.co/6bpzriEXEX",
+          "message_count": 3
+        }
+      ]
+    },
+    "JP": {
+      "total_inbound_messages": 9298,
+      "unique_conversations": 5958,
+      "conversations_with_2plus_turns": 5958,
+      "conversations_with_usable_text": 749,
+      "suitable_golden_set_candidates": 749,
+      "representative_examples": [
+        {
+          "conversation_id": "2392623_AmazonHelp",
+          "text": "\u306a\u3093\u304b\u30a2\u30de\u30be\u30f3\u304b\u3089\u30b7\u30e7\u30fc\u30c8\u30e1\u30fc\u30eb\u3067\u672a\u7d0d\u91d1\u304c\u3069\u3046\u306e\u3068\u304b\u304d\u305f\u3093\u3060\u3051\u3069\u3001\u3053\u308c\u3063\u3066\u8a50\u6b3a\u3060\u3088\u306a\uff1f",
+          "message_count": 4
+        },
+        {
+          "conversation_id": "2104322_AmazonHelp",
+          "text": "amazon\u306e\u8377\u7269\u304c\u5c4a\u304b\u306a\u3044\u2026\n\u518d\u914d\u9054\u4f9d\u983c\u3057\u3066\u3082\u6765\u306a\u3044\u306e\u306f\u3069\u3046\u3057\u3088\u3046\u3082\u306a\u3044",
+          "message_count": 3
+        },
+        {
+          "conversation_id": "676157_AmazonHelp",
+          "text": "Amazon\u30d1\u30f3\u30c8\u30ea\u30fc\u4fbf\u5c4a\u3044\u305f\u30fc\n\u696d\u52d9\u7528\u306e\u308a\u305f\u307e\u3067\u3063\u3051\u3047\uff57\uff57\uff57",
+          "message_count": 4
+        },
+        {
+          "conversation_id": "394893_AmazonHelp",
+          "text": "\u30ce\u30fc\u30b2\u30fc\u30e0\u30fb\u30ce\u30fc\u30e9\u30a4\u30d5 Amazon\u30d3\u30c7\u30aa ~ \u677e\u5ca1\u798e\u4e1e https://t.co/3SDv3o1iue @116313\u3055\u3093\u304b\u3089",
+          "message_count": 3
+        },
+        {
+          "conversation_id": "1252546_AmazonHelp",
+          "text": "\u305d\u3046\u3044\u3048\u3070Amazon\u3067\u4e88\u7d04\u3057\u305fSHOW BY ROCK!!\u306e\u5c0f\u8aac\u3001\u30b3\u30f3\u30d3\u30cb\u6255\u3044\u306b\u3057\u3066\u308b\u3093\u3060\u3051\u3069\u307e\u3060\u652f\u6255\u3044\u756a\u53f7\u5c4a\u3044\u3066\u306a\u3044\u3088\n\u660e\u65e5\u306b\u306f\u9593\u306b\u5408\u308f\u306a\u3044\u3088\u306d\n\u9045\u304f\u306a\u308b\u306e\u304b\u306a\uff1f",
+          "message_count": 4
+        }
+      ]
+    },
+    "OTHER_NON_EN": {
+      "total_inbound_messages": 52,
+      "unique_conversations": 9,
+      "conversations_with_2plus_turns": 9,
+      "conversations_with_usable_text": 9,
+      "suitable_golden_set_candidates": 9,
+      "representative_examples": [
+        {
+          "conversation_id": "1213723_AmazonHelp",
+          "text": "Casio CTK-6200 Full Size Piano Style Keyboard Casio https://t.co/CzUubAKX0O \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e @115830",
+          "message_count": 5
+        },
+        {
+          "conversation_id": "91072_AmazonHelp",
+          "text": "@UPSHelp @5160 the service is bad holding shipment from 25 nove , I called give address but no one call or care to follow up I called again no one is picking up the line it\u2019s a shame to consider it shipping service  \u0645\u0646 \u0662\u0665 \u0627\u0644\u0634\u0647\u0631 \u0644\u0645 \u062a\u0635\u0644 \u0645\u0634\u062a\u0631\u064a\u0627\u062a \u0627\u0644\u062e\u062f\u0645\u0629  \u0633\u064a\u0626\u0629. \u062c\u062f\u0627 \u062c\u062f\u0627",
+          "message_count": 12
+        },
+        {
+          "conversation_id": "293822_AmazonHelp",
+          "text": "\u062d\u0644 \u0645\u0634\u0643\u0644\u0629 \u0625\u062e\u062a\u0641\u0627\u0621 \u062c\u0632\u0621 \u0645\u0646 \u0627\u0644\u0635\u0648\u0631 \u0648 \u0627\u0644\u0641\u064a\u062f\u064a\u0648 \u0641\u064a \u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0648\u0627\u062a\u0633\u0628 https://t.co/UpPCFvMBDJ",
+          "message_count": 3
+        },
+        {
+          "conversation_id": "2293364_AmazonHelp",
+          "text": "this thing i bought off amazon isn't working so far :// #\ubaac\uc2a4\ud0c0\uc5d1\uc2a4",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "2953679_AmazonHelp",
+          "text": "\u0627\u062d\u062f \u063a\u064a\u0631\u064a \u064a\u0648\u0627\u062c\u0647 \u0647\u0627\u0644\u0645\u0634\u0643\u0644\u0647 \u0641\u064a \u062a\u0637\u0628\u064a\u0642 \u0627\u0645\u0627\u0632\u0648\u0646 \u0639\u0646\u062f \u062a\u0633\u062c\u0644 \u0627\u0644\u062f\u062e\u0648\u0644 \u061f \u0644\u0647\u0627 \u0634\u0647\u0631 \u064a\u0645\u0643\u0646 \ud83d\ude15 https://t.co/H8evOUGnuj",
+          "message_count": 3
+        }
+      ]
+    },
+    "EN": {
+      "total_inbound_messages": 224142,
+      "unique_conversations": 58027,
+      "conversations_with_2plus_turns": 58027,
+      "conversations_with_usable_text": 58027,
+      "suitable_golden_set_candidates": 58027,
+      "representative_examples": [
+        {
+          "conversation_id": "318276_AmazonHelp",
+          "text": "@AmazonHelp I got an ecig through Amazon warehouse and when I got it the tank was missing. Everything else there just the plastic tank...",
+          "message_count": 5
+        },
+        {
+          "conversation_id": "1263943_AmazonHelp",
+          "text": "Amazon email says 'sorry for problem with your item. For help in returning items..'. It's not broken - I just can't get it!",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "857708_AmazonHelp",
+          "text": "@115830 two days in a row you have cancelled deliveries to my address now I have to wait in AGAIN tomorrow why am I paying for prime \ud83d\ude21 https://t.co/boGyDCdFzj",
+          "message_count": 6
+        },
+        {
+          "conversation_id": "2790584_AmazonHelp",
+          "text": "It's an awful day for #CustomerService:\n@UPSHelp gives me BADLY copied and pasted script responses\n@115821 can't even properly refund me for a package that their own delivery service didn't deliver\n#Thanksfornothing",
+          "message_count": 2
+        },
+        {
+          "conversation_id": "1351766_AmazonHelp",
+          "text": "Hey Amazon where's my copy of WWII I preordered in May lol",
+          "message_count": 2
+        }
+      ]
+    }
+  },
+  "proposed_b4_evaluation": {
+    "proposed_target": 20,
+    "proposed_breakdown": {
+      "Spanish": 8,
+      "German": 5,
+      "French_Italian_Other": 7
+    },
+    "is_feasible": true,
+    "actual_suitable_counts": {
+      "Spanish": 5154,
+      "German": 2332,
+      "French_Italian_Other": 10634
+    },
+    "recommended_b4_allocation": {
+      "Spanish (ES)": 8,
+      "German (DE)": 5,
+      "French/Italian/Other": 7
+    },
+    "shortfall": 0,
+    "recommended_reallocation": "None required"
+  }
+}

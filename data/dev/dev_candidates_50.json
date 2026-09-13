@@ -1,0 +1,1311 @@
+[
+  {
+    "example_id": "DEV_001",
+    "conversation_id": "787879_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp hi when will Wwe2k18 deluxe edition be available again ?",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_002",
+    "conversation_id": "2864771_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp A late delivery and general poor customer service. It’s a rubbish experience and nobody seems to be able to answer my questions. I keep getting default email responses that tell me absolutely nothing!",
+    "thread_context": [
+      {
+        "author": "795704",
+        "text": "So after a full week of registering a complaint with @115830 I’m still getting nowhere fast! All I get is huge emails that say very little! Any suggestions? 😡😡",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@795704 I'm sorry you haven't made progress. Without posting personal or account sensitive information, can you tell us more about what's going on?  ^AF",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_003",
+    "conversation_id": "1659685_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp FMV wrongly calculated by FBA. I am befooled by customer as well as FBA.",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_004",
+    "conversation_id": "2448298_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "💔😐My amazon order is late😐💔 https://t.co/Ij8y17ZHq7",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Delivery_Tracking_And_Delays",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_005",
+    "conversation_id": "95355_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp The email didn’t say. This was the response I got, and the link just sends me to a customer service/issues page https://t.co/C06KSBmKIv",
+    "thread_context": [
+      {
+        "author": "136735",
+        "text": "Hey @115821 you lost my package, offered a replacement, and then told me a replacement isn’t possible. What gives?!?!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@136735 Hi Grace, without providing any personal information. Can you advise us of why the replacement wasn't possible? ^KI",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_006",
+    "conversation_id": "2280035_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "Lol @AmazonHelp got email saying my parcel Collected from locker. Asked me to do a survey.. Link takes me to a page not found",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_007",
+    "conversation_id": "1493735_AmazonHelp",
+    "turn_index": 4,
+    "raw_text": "@AmazonHelp @115821 3) Apparently the @15436 service is utter BULLSHIT because this is the 3rd time in the row I have not received the product in time",
+    "thread_context": [
+      {
+        "author": "466870",
+        "text": "This is the 4th time in a row that #amazonindia has failed 1-Day delivery despite being a #amazonprime customer. #badservice @AmazonHelp",
+        "is_customer": true
+      },
+      {
+        "author": "466870",
+        "text": "@AmazonHelp #amazoncustomercare will provide wrong info, or will dodge time by asking u to call later &amp; when its EOD they will PROMISE delivery nextday",
+        "is_customer": true
+      },
+      {
+        "author": "466870",
+        "text": "@AmazonHelp 1) Apparently i pay extra for GUARANTEED 1 day delivery just to get the product 3-4 days later, after making N no. of calls to custcare",
+        "is_customer": true
+      },
+      {
+        "author": "466870",
+        "text": "@AmazonHelp 2) Apparently @115821 provides excellent Customer Experience by not being able to even provide the correct number of the delivery agent",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_008",
+    "conversation_id": "448237_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Hi, is there any other escalation path given that I have a tv and professional services appointment that needs to be revised with the correct address? The only message I get when I try to log in is “password is incorrect” which is very different from an account lockout.",
+    "thread_context": [
+      {
+        "author": "221187",
+        "text": "@AmazonHelp Hi, I called into customer care just now to correct an incorrect shipping address, and then the rep told me my account was compromised and locked me out. I can’t change my PW, or login and I can’t correct the shipping address. Help???",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@221187 I'm sorry to hear about the trouble you're experiencing with your account, Julian! We want to help here the best we can. Have you received an email from our Account Specialist on how to regain access to your account? Be sure to also check your junk and spam folder. ^HC",
+        "is_customer": false
+      },
+      {
+        "author": "221187",
+        "text": "@AmazonHelp No email. Rep said I should’ve received one and that’s all she can say. I was literally logged into my account providing her with the order # to correct info and then got logged out.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@221187 Our Account Specialists will reach out to update you via e-mail within two business days of your contact with us. For the fastest resolution, please keep an eye on the e-mail linked to your account, and respond with any requested information or questions. ^JR",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Technical_App_And_Website_Issues",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_009",
+    "conversation_id": "2276525_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp one day delivery but it’s being delivered on Monday??? Why do I pay for prime? 🤔🤔 https://t.co/4rK7rK9WNm",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_010",
+    "conversation_id": "651451_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@119625 please upload 26/11 mumbai pai dhaadi movie",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_011",
+    "conversation_id": "889429_AmazonHelp",
+    "turn_index": 3,
+    "raw_text": "@AmazonHelp I'm in a chat right now, and the rep is telling me I have prime and show orders placed. When I log in, I see nothing at all.",
+    "thread_context": [
+      {
+        "author": "331160",
+        "text": "@AmazonHelp Account locked, responded to email, account still locked after amazon sent response. Why...?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@331160 I'm sorry for the trouble with your account! Did our Account Specialists request any information in the e-mail you received? ^MB",
+        "is_customer": false
+      },
+      {
+        "author": "331160",
+        "text": "@AmazonHelp Yes, due to a charge back for undelivered goods. Kind of important to unlock my account, since everything here is literally, Amazon.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@331160 Were you able to send the Account Specialist the requested information? Please let us know! ^KJ",
+        "is_customer": false
+      },
+      {
+        "author": "331160",
+        "text": "@AmazonHelp My Account is now BLANK, even says I don't have prime, and have never placed an order. WHY?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@331160 We'd like to look into this with you. When you have a moment please reach out to us here: https://t.co/EKXRLsnxJu ^AC",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_012",
+    "conversation_id": "1600729_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Been watching the boots all day. Just changed from arriving today to expected 11/4-11/7. Ordered from u bc of the prime 2 day shipping.",
+    "thread_context": [
+      {
+        "author": "491472",
+        "text": "Hey @115821 ordered boots and a shovel for the snow...the snow is here. My stuff is not. We have prime. \"Guaranteed\" delivery today.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@491472 I'm sorry for the trouble! What's the most up to date tracking information shown here: https://t.co/Y5jpI9gRhE? ^DW",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Prime_Subscription_And_Digital_Media",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_013",
+    "conversation_id": "2626388_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp “amazon basics” charger not working 20 days after purchase ??",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_014",
+    "conversation_id": "2985495_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@116618 Now y'all just took $107.14 out of my account. Why are y'all fukking up my streaming????!!!  Ain't had a problem until a payment was collected . Dont start the bs🙄👀🤔",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_015",
+    "conversation_id": "529097_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Sorry I was otbof country. The tablet still won't charge and now that it's dead I can't turn it on. Please advise. :)",
+    "thread_context": [
+      {
+        "author": "167990",
+        "text": "@AmazonHelp my son's fire tablet charging port isn't working and now it doesn't charge. How can we get it fixed?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@167990 Yikes! Let's try these steps &amp; let us know if this doesn't resolve the issue: https://t.co/RMnw9NEH6I We're here to help!^KN",
+        "is_customer": false
+      },
+      {
+        "author": "167990",
+        "text": "@AmazonHelp Those steps, sadly, didn't work. :/",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@167990 Thank you for letting us know, Desiree! We'd like to look into this in real time. Reach us here: https://t.co/hApLpMlfHN ^AL",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_016",
+    "conversation_id": "976228_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@14045  Hi  the no EMI option on credit cards on amazon India is real or fake ? during festival season",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Refund_Status_And_Billing_Disputes",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_017",
+    "conversation_id": "298163_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@115821 I had a courier call me to arrange to pick up my pkg from him since I wasn't home. That's creepy and also inconvenient.",
+    "thread_context": [
+      {
+        "author": "187037",
+        "text": "@14491 @XboxSupport @127852 Same issue",
+        "is_customer": true
+      },
+      {
+        "author": "XboxSupport",
+        "text": "@187037 We'd be happy to help, but we could use more info. Could you follow &amp; DM @Xboxsupport with your Gamertag &amp; some details? ^EZ",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_018",
+    "conversation_id": "1049847_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115850 @123288\nTypical Reply by CC  \"Sorry for inconvenience plz return that item , Your return ll be issued once item return\" https://t.co/NQvNN71aak",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_019",
+    "conversation_id": "17938_AmazonHelp",
+    "turn_index": 4,
+    "raw_text": "@AmazonHelp Now i'm unable to contact ur customer care bcz the order return date had been expired now nd sti i did not get my order.",
+    "thread_context": [
+      {
+        "author": "119979",
+        "text": "@Uber_Support my driver went 10 minutes out of the way adding more money to my ride than it was originally",
+        "is_customer": true
+      },
+      {
+        "author": "Uber_Support",
+        "text": "@119979 Here to help! Contact us here; https://t.co/y4EDPcVZOI so we can take a closer look.",
+        "is_customer": false
+      },
+      {
+        "author": "119979",
+        "text": "@Uber_Support Thank you!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@158262 Have you referred to the link provided earlier? ^AG",
+        "is_customer": false
+      },
+      {
+        "author": "158262",
+        "text": "@AmazonHelp Yes all things. Plz arrange a call back nw. Don't ask stupid question",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@158262 Please wait for our team to reach out to you soon with an update. ^VM",
+        "is_customer": false
+      },
+      {
+        "author": "158262",
+        "text": "@AmazonHelp Hye @115850 what are you doing? Another time period for resolution has been passed away now tell what did i do? And u also",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@158262 As requested, please wait and we'll revert with an update. ^HK",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_020",
+    "conversation_id": "505898_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp And multiple times failing to deal with a faulty item. Today I received a replacement that was actually the origanal faulty item!",
+    "thread_context": [
+      {
+        "author": "236043",
+        "text": "@AmazonHelp @115830 Your customer service is horrendous, so far the third attempt to resolve an issue is a fail!!!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@236043 Hello Paul!  Without divulging any personal information, can you tell me what is going on?  We'd like to help!  ^WB",
+        "is_customer": false
+      },
+      {
+        "author": "236043",
+        "text": "@AmazonHelp Consistently not actually answering specific questions in an email or spending over an hour in a chat to deal with a basic issue!",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Return_Exchange_And_Pickup",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_021",
+    "conversation_id": "794455_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp I reordered the items I cancelled (minus a 6 dollar headband) but how long will it take for the 40 dollars that never should have been taken out to be put back in??",
+    "thread_context": [
+      {
+        "author": "309424",
+        "text": "@AmazonHelp  I placed an order and amazon took double the money out of my account. I cancelled the order but I have not seem my money. I am now out of 80 dollars. Help.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@309424 I'm sorry for the trouble with your order. Is one transaction pending? Have you received an e-mail regarding a refund? ^RA",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Order_Cancellation_And_Address_Change",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_022",
+    "conversation_id": "622436_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Not sure how 16 items? They said part of the order was cancelled but not all of it.",
+    "thread_context": [
+      {
+        "author": "267737",
+        "text": "Worst experience with @115821 I've ever had, being given the run around is not good customer service.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@267737 We'd like to turn this experience around into a good one! Without giving account information, can you please tell us more about what's going on? We'd like to help! ^KJ",
+        "is_customer": false
+      },
+      {
+        "author": "267737",
+        "text": "@AmazonHelp I accidently placed my order with my home address but wasn't able to change it. So I tried cancelling and it wouldn't let me do that either. So I contacted customer support and they said they changed the address for me. They lied.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@267737 Got it! Thanks for that information, Christina! Could you tell us who the carrier was for this order? You can view it here: https://t.co/Y5jpI9gRhE ^TK",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Order_Cancellation_And_Address_Change",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_023",
+    "conversation_id": "32173_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp I dont have any information why canceled.",
+    "thread_context": [
+      {
+        "author": "123124",
+        "text": "@MicrosoftHelps Since yesterday I've been getting the following Win update error: Feature update to Windows 10, version 1709 - Error 0x80070002\n\nI've done every method on the troubleshooting page bar using the media creation tool as I'm not sure that would help. Any suggestions?",
+        "is_customer": true
+      },
+      {
+        "author": "MicrosoftHelps",
+        "text": "@123124 Thank you for reaching out, Geoff. Let's try the steps on this link to resolve the issue: https://t.co/xUzDeRs1Kj. Update us! :)",
+        "is_customer": false
+      },
+      {
+        "author": "192638",
+        "text": "@AmazonHelp https://t.co/nZ8b3YUAAZ India",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@192638 Every canceled order is followed up with an email explaining the reason why. Request you to check the same. 1/2 ^SB",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Order_Cancellation_And_Address_Change",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_024",
+    "conversation_id": "2418085_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "So @115821 had 3 tries to deliver this in a box and not an envelope so it wouldn't get damaged and failed 3 times. https://t.co/YKMezZ7kvJ",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_025",
+    "conversation_id": "2917160_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "Hey, @AmazonHelp? My cat's been staring at the Dot for hours on end and I think he's broken now? How do I troubleshoot this? https://t.co/a4J3PxutXR",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_026",
+    "conversation_id": "1784268_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@116062 just received my new dishes, they're broken 🤗 https://t.co/dZUd9fvhLH",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Damaged_Defective_Or_Wrong_Item",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_027",
+    "conversation_id": "339157_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp Contacted the worst customer service and they made me wait for 10 days. You wanna steal my money, tell me but do not make me wait LOL.",
+    "thread_context": [
+      {
+        "author": "196977",
+        "text": "@116090 @AmazonHelp thank you for having the worst customer service. I have been waiting for my money since Sept 19th.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@196977 That's certainly not what we hope to hear! We'd like to assist. Mind telling us about the situation? No account info please. ^MB",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "General_Service_Complaint_Escalation",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_028",
+    "conversation_id": "1126123_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 worst customer service. Been waiting 1 month 19 days for an item 2 b sent 2 now be told its out of stock Was in stock when I ordered",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "General_Service_Complaint_Escalation",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_029",
+    "conversation_id": "2338641_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "Why companies not caring about their customers knowing they are everything for any company!! Register complaints @121294 @118919",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "General_Service_Complaint_Escalation",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_030",
+    "conversation_id": "978575_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@115850 Well, if charging a higher price than MRP is best, then they're doing a great job at it. https://t.co/lLGEopB8GQ",
+    "thread_context": [
+      {
+        "author": "352082",
+        "text": "Appalled how @115850 is fleecing customers. They claim to sell products at the best price. (1/2) https://t.co/GZOcEIRXXj",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_031",
+    "conversation_id": "655582_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "OK SO THE PEOPLE TOLD MY MAMAW THAT THEY WERE ME AND TO NOT TELL ANYONE AND TO GO TO @116062 AND GET $2000 IN GIFT CARDS AND SEND THEM THE NUMBERS AND SHE DID IT BC SHES OLD AND INNOCENT AND THEY FUCKING SPENT IT IN THE STORES IN WASHINGTON AND HOUSTON ALREADY WTF TARGET",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_032",
+    "conversation_id": "2502846_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@116062 20 minutes in line, 1 cashier, 0 selection and 1 Starbucks = I'm going to Walmart, and I hate Walmart. At least there I can price match your ad and get the things you don't have in store. #byetarget #hellowalmart",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Promotions_GiftCards_And_Pricing",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_033",
+    "conversation_id": "2358852_AmazonHelp",
+    "turn_index": 4,
+    "raw_text": "@AmazonHelp @118706 But they are marked delivered Saturday. USPS has no interest in helping. I think it’s safe to assume a USPS employee stole my items.",
+    "thread_context": [
+      {
+        "author": "192805",
+        "text": "Update: 4 packages expected Saturday/Sunday via @118706. One arrived. Two marked as delivered Saturday and still not here. Also, @123967: how can something 36” long be left “in mailbox”? #badcustomerservice https://t.co/1fxacvnBoF",
+        "is_customer": true
+      },
+      {
+        "author": "123967",
+        "text": "@192805 Good Morning Guy,\n\nI would like to help.  Please DM me tracking numbers of your recent concern, so that I may follow up.  Thanks. ^KV",
+        "is_customer": true
+      },
+      {
+        "author": "192805",
+        "text": "@123967 Hey @AmazonHelp-USPS hasn’t “been able” to contact their own post office regarding my order. Shows delivered Saturday but nothing was delivered. Please stop using them! #badcustomerservice",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@192805 Hi, Guy!  I'm sorry your package shows delivered but it was not received.  We'd love to help.  Please take a few minutes to try these steps:  https://t.co/PTqq20xIRW  And let us know if you need further assistance!  ^SP",
+        "is_customer": false
+      },
+      {
+        "author": "192805",
+        "text": "@AmazonHelp Amazon really just needs to stop using @118706 especially for Prine members. Nothing but problems with them!",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_034",
+    "conversation_id": "2441739_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 Hi! My husband and I registered for @95179 months ago, but never received that welcome box we've heard about.  Any tips? :)",
+    "thread_context": [],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_035",
+    "conversation_id": "970995_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp so I like to know when they deliver so I can make sure the packages don't get stolen or driven over.",
+    "thread_context": [
+      {
+        "author": "350395",
+        "text": "Welp @115821 is again delivering with @3375 and my \"2 day\" Prime order has been \"Out For Delivery\" for 2 days.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@350395 Hi, sorry to hear that. What is the estimated delivery date of your order? ^JJ",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_core",
+    "candidate_intent_hint": "Marked_Delivered_Not_Received",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_036",
+    "conversation_id": "755731_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 really slipping with Prime. Apparently a week = 2 days in their world. Good thing I ordered early and not rely on “2 day” shipping https://t.co/NJEs96FxjL",
+    "thread_context": [],
+    "candidate_bucket": "DEV_confusing",
+    "candidate_intent_hint": "Confusing / overlap candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_037",
+    "conversation_id": "5159_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp @152011 DEAR AMAZONE FIND THE ORDER NO.-403-79045985510732 WHAT IS ISSUE ABOUT PARCEL RETURN TO UR END AND CONTAIN MOBILE IS REC AT UR LOACTION . IN YOUR WAREHOUSE TOTALLY THIEF AND LYING STAFF.WHERE IS MY MOBILE???HOW MANY DAYS MY MOBILE GET IT BACK ON ARGENT BASIS.",
+    "thread_context": [
+      {
+        "author": "115850",
+        "text": "Hit ❤ or re-tweet to get notified when the OnePlus 5T sale begins, exclusively on Amazon. Stay tuned to get #ANewView. https://t.co/0Ci7j8Lsoo",
+        "is_customer": true
+      },
+      {
+        "author": "152011",
+        "text": "@115850 Amazon is a cheater. I paid for 3D Blu-Ray movie. Instead I get a normal Blu-ray movie of half the price. On returning they again sent normal movie instead of 3D movie.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@152011 We apologize for the mismatch. Have your reported this to our support team here: https://t.co/rS49hgaADF? Do keep us posted, we'll guide you accordingly.  ^VH",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_confusing",
+    "candidate_intent_hint": "Confusing / overlap candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_038",
+    "conversation_id": "352880_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 Box was evidently tossed by your driver into my mother’s front yard, for the second time in 2 weeks a delivery was in the middle of the front yard 25 feet from the front door and in no way “in a secure location”. Broken in half and now I have to take time to return it.",
+    "thread_context": [],
+    "candidate_bucket": "DEV_confusing",
+    "candidate_intent_hint": "Confusing / overlap candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_039",
+    "conversation_id": "474212_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115830 disgraceful, pay for 3 items 2 get delivered one not. Eventually after chasing Told damaged and refund issued but no replacement. Even though told would be replaced. Told I can order myself but cost now some £17 more to rectify their mistake #Amazon",
+    "thread_context": [],
+    "candidate_bucket": "DEV_confusing",
+    "candidate_intent_hint": "Confusing / overlap candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_040",
+    "conversation_id": "2949401_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "Hello @AmazonHelp I getting the amazon echo dot soon but the Alexa app is not available in my country (Dominican Republic). So how I do set up my echo dot ?",
+    "thread_context": [],
+    "candidate_bucket": "DEV_confusing",
+    "candidate_intent_hint": "Confusing / overlap candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_041",
+    "conversation_id": "417829_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp I know it is and that's a fact,the last three orders I placed(__email__) there is one issue or the other. #irresponsible",
+    "thread_context": [
+      {
+        "author": "214694",
+        "text": "@115850 is the worst company in terms of product delivery.  Ordering product from Amazon india is waste of time.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@214694 That's quite a comment. Could you tell us if any of your concerns went unanswered ? We'd like to help. ^ST",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_escalation",
+    "candidate_intent_hint": "Escalation candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_042",
+    "conversation_id": "667_AmazonHelp",
+    "turn_index": 11,
+    "raw_text": "CALL ME @AmazonHelp ! \nI'm EXTREMELY PISSED OFF with all this. I'll file a case in court if I don't get it solved by today! #fraud #scam",
+    "thread_context": [
+      {
+        "author": "115843",
+        "text": "Anna Inspired in idea lab at school to be @115821 package being shipped to Narnia! \"Amazon can go anywhere\" according to Anna. https://t.co/TyvKhuu7su",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@115843 You're not lion! She even shows witch way is up! That's quite the wardrobe! ^AC",
+        "is_customer": false
+      },
+      {
+        "author": "SouthwestAir",
+        "text": "@117174 Correct. Enjoy your dinner, and we'll work on having you out soon! ^MS",
+        "is_customer": false
+      },
+      {
+        "author": "117174",
+        "text": "@SouthwestAir Awesome, thank you so much!! Appreciate the quick responses 😀",
+        "is_customer": true
+      },
+      {
+        "author": "AzureSupport",
+        "text": "@131213 We are investigating this and will have a response for you shortly.  ^DY",
+        "is_customer": false
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 I would like to check for any updates, revert to our latest correspondence you have in your registered email account. ^MJ",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp Hi, can you send me an email? Bank is not helping with the recent transaction of amount.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 Sorry for the trouble. Please contact our support team here: https://t.co/vlvfJr4nN9 We will get it sorted out. ^GU",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp 😏 disappointing to say the least !!!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 I understand your concern. Kindly reach out to our support team from the link above and we'll be sure to help. ^SA",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": ".@AmazonHelp just now, I called 3rd time, computerized voice speaks and cuts the call 😡😡😡 #AmazonFail",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 That's odd. I'd like to look at the order, please fill in your details here: https://t.co/cllwXc2HeK and we'll reach you ^JC",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp what! I signed in - but it is about help through Facebook. Now that's odd.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 As Facebook is a social media platform, we're unable to connect with you through a phone call. Please use the link 1/2 ^RS",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp ?!",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 As mentioned earlier, kindly share your details here: https://t.co/SK1AZRszNa and we'll get in touch with you soon. ^AK",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp it asks for the Facebook message URL. What's even the point of it?",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 You may enter 'NA' in the mentioned field and send us your details. Appreciate your understanding. ^AK",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "@AmazonHelp I've done that. Thanks. Want to get this issue solved ASAP.",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 Thank you for providing the emails. We're looking into the issue and shall get back to you. ^SH",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "Hello @AmazonHelp, useless! Got an email saying that you guys don't get what I meant to say! What the hell? This is shameful! #AmazonFail",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 Sorry about that, please revert to the email with all the details and we'll get this sorted out. ^MS",
+        "is_customer": false
+      },
+      {
+        "author": "278535",
+        "text": "SHAME ON YOU @AmazonHelp ! 😡\nI have not received amount of my money back so far even after weeks! #AmazonIndia #AmazonFail",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@278535 Sorry for the trouble you've had. As informed, kindly revert to the email you've received from our team for further help. ^MM",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_escalation",
+    "candidate_intent_hint": "Escalation candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_043",
+    "conversation_id": "66206_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@115821 well done amazon! I’ve just identified a fraud on my account &amp; your advisor was reassuring &amp; sorted it all out! Great customer service 👍🏻",
+    "thread_context": [],
+    "candidate_bucket": "DEV_escalation",
+    "candidate_intent_hint": "Escalation candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_044",
+    "conversation_id": "1611886_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "Well done @115850  for  fraud and stealing customer's money. I paid in advance for my order now you guys are saying no refund/replace. https://t.co/1EBgEwVt9E",
+    "thread_context": [],
+    "candidate_bucket": "DEV_escalation",
+    "candidate_intent_hint": "Escalation candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_045",
+    "conversation_id": "1953447_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "@AmazonHelp Same issue for me",
+    "thread_context": [
+      {
+        "author": "AmazonHelp",
+        "text": "@95649 I’d like to understand this better. Please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest ^RW",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_escalation",
+    "candidate_intent_hint": "Escalation candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_046",
+    "conversation_id": "2533871_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "ここ最近amazonで買い物してないのにクレジットの今月の支払い見てたら10月27日に3900円amazonで買い物してることになってんだけど、さすがにクレカ会社に電話した方がええかな…",
+    "thread_context": [],
+    "candidate_bucket": "DEV_non_english",
+    "candidate_intent_hint": "Non-English candidate (Japanese)",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_047",
+    "conversation_id": "830531_AmazonHelp",
+    "turn_index": 0,
+    "raw_text": "【KEISUKE HONDA CAFE SURVIVE 独占配信開始📢】\n#サッカー日本代表 として #W杯 出場経験もある #本田圭佑 初の対談番組が\n #Amazonプライムビデオ に登場👏各界の超一流たちと語り尽くす✨  https://t.co/e97P0g9rjI https://t.co/jYcB9x4ymk",
+    "thread_context": [],
+    "candidate_bucket": "DEV_non_english",
+    "candidate_intent_hint": "Non-English candidate (Japanese)",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_048",
+    "conversation_id": "1346627_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp Je sens que je vais encore être déçu par la fiabilité de @AmazonHelp quand je suis coincé et dans l'urgence. 12 minutes.",
+    "thread_context": [
+      {
+        "author": "391986",
+        "text": "Compte tenu des épisodes de ces 2 dernières semaines, je stresse, @AmazonHelp. J'en ai impérativement besoin demain. https://t.co/CKyDbawZVu",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@391986 Bonsoir Gilles, avez-vous contacté notre service client à ce propos ? ^ME",
+        "is_customer": false
+      },
+      {
+        "author": "391986",
+        "text": "@AmazonHelp Pas encore, vous n'êtes pas encore en retard, mais je monte en stress...",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@391986 J'espère que vous recevrez votre colis rapidement, tenez-nous au courant ! \n^KE",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_non_english",
+    "candidate_intent_hint": "Non-English candidate (Spanish)",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_049",
+    "conversation_id": "925345_AmazonHelp",
+    "turn_index": 2,
+    "raw_text": "@AmazonHelp @171133 https://t.co/CLA5dWEqlt",
+    "thread_context": [
+      {
+        "author": "339592",
+        "text": "@115850 where is my order, frm last two days i am waiting for it,ur courier person not ans the call ? What kind of action u expect frm me? https://t.co/6EeyzDPATJ",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@339592 Apologies for the delay. This wasn't intended. Did you happen to escalate this to our team here: https://t.co/T6y6Xlutbs? ^VN",
+        "is_customer": false
+      },
+      {
+        "author": "339592",
+        "text": "@AmazonHelp For fast delivery i chose amazon over @171133 and results is ... 😤😬",
+        "is_customer": true
+      }
+    ],
+    "candidate_bucket": "DEV_other",
+    "candidate_intent_hint": "Other unclassified candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  },
+  {
+    "example_id": "DEV_050",
+    "conversation_id": "2297676_AmazonHelp",
+    "turn_index": 1,
+    "raw_text": "@AmazonHelp can I change the address to delivery company?",
+    "thread_context": [
+      {
+        "author": "AmazonHelp",
+        "text": "@667008 Hello Jhomar, did you buy using the https://t.co/nUUp5MLhYl website or Amazon Brazil? ^LG",
+        "is_customer": false
+      },
+      {
+        "author": "667008",
+        "text": "@AmazonHelp My cousin is in the hotel",
+        "is_customer": true
+      },
+      {
+        "author": "AmazonHelp",
+        "text": "@667008 Has the order shipped yet? You can check this here: https://t.co/q4LAMZ3tbE ^GR",
+        "is_customer": false
+      }
+    ],
+    "candidate_bucket": "DEV_other",
+    "candidate_intent_hint": "Other unclassified candidate",
+    "primary_intent": null,
+    "secondary_intent": null,
+    "escalate": null,
+    "escalate_reason": null,
+    "language_flag": null,
+    "ambiguity_flag": null,
+    "annotator_notes": null
+  }
+]

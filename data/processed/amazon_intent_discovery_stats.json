@@ -1,0 +1,63 @@
+{
+  "brand": "AmazonHelp",
+  "total_conversations_evaluated": 81413,
+  "single_intent_percentage": 100.0,
+  "multi_intent_percentage": 0.0,
+  "class_distribution": [
+    {
+      "intent": "Other_Or_General_Inquiry",
+      "count": 53901,
+      "percentage": 66.21
+    },
+    {
+      "intent": "Shipping_Tracking_And_Delivery_Delays",
+      "count": 7965,
+      "percentage": 9.78
+    },
+    {
+      "intent": "Digital_Media_And_Prime_Subscriptions",
+      "count": 4450,
+      "percentage": 5.47
+    },
+    {
+      "intent": "Refunds_And_Payment_Disputes",
+      "count": 3455,
+      "percentage": 4.24
+    },
+    {
+      "intent": "Return_Exchange_And_Pickup",
+      "count": 3026,
+      "percentage": 3.72
+    },
+    {
+      "intent": "Service_Complaint_And_Escalation",
+      "count": 2685,
+      "percentage": 3.3
+    },
+    {
+      "intent": "Order_Cancellation_And_Modification",
+      "count": 2233,
+      "percentage": 2.74
+    },
+    {
+      "intent": "Promotions_Discounts_And_Pricing",
+      "count": 1359,
+      "percentage": 1.67
+    },
+    {
+      "intent": "Damaged_Defective_Or_Wrong_Item",
+      "count": 1107,
+      "percentage": 1.36
+    },
+    {
+      "intent": "Account_Access_And_Security",
+      "count": 782,
+      "percentage": 0.96
+    },
+    {
+      "intent": "Delivery_Status_Marked_Delivered_Not_Received",
+      "count": 450,
+      "percentage": 0.55
+    }
+  ]
+}

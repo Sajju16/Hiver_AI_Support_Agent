@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-09-13T09:38:36.699348+00:00",
+  "total_examples": 200,
+  "ai_predictions_completed": 200,
+  "human_verified_count": 0,
+  "human_changed_count": 0,
+  "flagged_count": 0,
+  "unverified_count": 200,
+  "agreement_rate": 0.0,
+  "per_intent_agreement": {},
+  "escalation_agreement": {
+    "total_verified": 0,
+    "agreed": 0,
+    "rate": 0.0
+  },
+  "average_ai_confidence": 0.1453,
+  "verified_intent_distribution": {},
+  "escalation_count": 0,
+  "ambiguity_count": 0,
+  "non_english_count": 0
+}

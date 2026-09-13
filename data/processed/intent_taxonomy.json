@@ -1,0 +1,207 @@
+{
+  "brand": "AmazonHelp",
+  "total_conversations_evaluated": 81413,
+  "single_intent_percentage": 93.2,
+  "multi_intent_percentage": 6.8,
+  "core_operational_intents": [
+    {
+      "name": "Delivery_Tracking_And_Delays",
+      "count": 11130,
+      "percentage": 13.67,
+      "description": "Customer inquiring about shipment status, package tracking updates, or delayed 1-day/2-day Prime delivery.",
+      "typical_resolution": "Amazon agent provides carrier tracking link, explains Prime dispatch vs delivery SLAs, or advises waiting 24h for carrier scan.",
+      "examples": [
+        "@AmazonHelp I ordered an item on Tuesday with next day delivery, but it's still not arrived, help??",
+        "Real fucking talk @AmazonHelp ur shit! Prime shipping my ass!!! Where is my damn moisturizer tik tok",
+        "What happens when you pay for guaranteed delivery with @AmazonHelp but you don't get your parcel on time?"
+      ],
+      "non_examples": [
+        "Order shows delivered but stolen from porch (belongs to Marked_Delivered_Not_Received)",
+        "Want to cancel my late order (belongs to Order_Cancellation_And_Address_Change)"
+      ],
+      "confusable_with": [
+        "Refund_Status_And_Billing_Disputes",
+        "Order_Cancellation_And_Address_Change"
+      ]
+    },
+    {
+      "name": "Technical_App_And_Website_Issues",
+      "count": 6548,
+      "percentage": 8.04,
+      "description": "Customer reporting website bugs, Amazon app crashes, checkout button grayed out, cart error codes, or browser payment gateway glitches.",
+      "typical_resolution": "Amazon agent provides app cache clearing instructions, browser cookie reset steps, or escalates tech bug to Web Engineering team.",
+      "examples": [
+        "Checkout button is greyed out on Amazon app!",
+        "Is your website down? Keep getting error code 500 when trying to pay.",
+        "Amazon app keeps crashing every time I open my shopping cart."
+      ],
+      "non_examples": [
+        "Cannot stream Prime Video movie (belongs to Prime_Subscription_And_Digital_Media)"
+      ],
+      "confusable_with": [
+        "Prime_Subscription_And_Digital_Media",
+        "Promotions_GiftCards_And_Pricing"
+      ]
+    },
+    {
+      "name": "Prime_Subscription_And_Digital_Media",
+      "count": 5014,
+      "percentage": 6.16,
+      "description": "Customer reporting Prime Video streaming bugs, Kindle ebook sync failures, FireTV issues, or Prime membership billing.",
+      "typical_resolution": "Amazon agent provides step-by-step device deregistration/re-registration steps, app cache clearing, or checks regional licensing rights.",
+      "examples": [
+        "There should be far more films for #noirvember on Amazon Prime and Netflix in India than there are.",
+        "My Amazon Echo hasn't been playing Spotify for three days upon request. What's going on @AmazonHelp?",
+        "Why am I getting charged $12.99 for Prime when I cancelled my trial last week?"
+      ],
+      "non_examples": [
+        "Physical Prime package not delivered (belongs to Delivery_Tracking_And_Delays)"
+      ],
+      "confusable_with": [
+        "Technical_App_And_Website_Issues",
+        "Refund_Status_And_Billing_Disputes"
+      ]
+    },
+    {
+      "name": "Refund_Status_And_Billing_Disputes",
+      "count": 4056,
+      "percentage": 4.98,
+      "description": "Customer inquiring about pending refund status, double credit card charges, unauthorized transactions, or refund voucher credits.",
+      "typical_resolution": "Amazon agent explains bank refund processing timelines (3-5 business days) or directs customer to secure billing page to verify charges.",
+      "examples": [
+        "@AmazonHelp not refunding my \u20b926,000! Product was never delivered as seller closed account!",
+        "I was charged twice on my credit card for order #404-8406898. Please check!",
+        "When will my refund reflect in my bank account? It shows refunded 4 days ago."
+      ],
+      "non_examples": [
+        "How much is Prime monthly subscription? (belongs to Prime_Subscription_And_Digital_Media)"
+      ],
+      "confusable_with": [
+        "Delivery_Tracking_And_Delays",
+        "Return_Exchange_And_Pickup"
+      ]
+    },
+    {
+      "name": "Return_Exchange_And_Pickup",
+      "count": 2716,
+      "percentage": 3.34,
+      "description": "Customer requesting product return, item exchange, reverse pickup label, or reporting courier pickup no-show.",
+      "typical_resolution": "Amazon agent provides link to Online Returns Center, reschedules reverse pickup window, or issues instant promotional refund credit.",
+      "examples": [
+        "Reverse orders are picked up and show as pickup cancelled! Call customer service - they say product not received!",
+        "How do I print a return label if I don't have a printer?",
+        "Courier was supposed to pick up my return parcel yesterday between 9am-5pm but nobody turned up."
+      ],
+      "non_examples": [
+        "Cancel my order before it ships (belongs to Order_Cancellation_And_Address_Change)"
+      ],
+      "confusable_with": [
+        "Damaged_Defective_Or_Wrong_Item",
+        "Refund_Status_And_Billing_Disputes"
+      ]
+    },
+    {
+      "name": "Order_Cancellation_And_Address_Change",
+      "count": 2458,
+      "percentage": 3.02,
+      "description": "Customer requesting order cancellation, pre-dispatch modification, or updating shipping address post-purchase.",
+      "typical_resolution": "Amazon agent explains pre-dispatch cancellation rules, confirms cancellation status, or guides user to 'Your Orders' tab.",
+      "examples": [
+        "@AmazonHelp My order (Philips Toothbrush) has a better price available, \u00a35 cheaper. Can I cancel my order and re-order?",
+        "I accidentally put my old home address on my order! Can I change it before it ships?",
+        "Please cancel order #407-2566173 immediately, ordered by mistake."
+      ],
+      "non_examples": [
+        "I want to return a product I already received (belongs to Return_Exchange_And_Pickup)"
+      ],
+      "confusable_with": [
+        "Return_Exchange_And_Pickup",
+        "Refund_Status_And_Billing_Disputes"
+      ]
+    },
+    {
+      "name": "Damaged_Defective_Or_Wrong_Item",
+      "count": 1921,
+      "percentage": 2.36,
+      "description": "Customer received a physically broken product, defective hardware, incorrect item variant, missing accessory, or tampered package.",
+      "typical_resolution": "Amazon agent apologizes for condition, offers immediate free replacement dispatch, or generates pre-paid return mailing label.",
+      "examples": [
+        "Ordered a phone case, look what I got \ud83d\ude02 @AmazonHelp what's happening?",
+        "@AmazonHelp Are you guys desperate to get rid of this Bjork album? This is the second time! I need the right vinyl!",
+        "Kinda sucks when you package is all jacked up when you get it. Thanks @AmazonHelp"
+      ],
+      "non_examples": [
+        "Package arrived 3 days late (belongs to Delivery_Tracking_And_Delays)"
+      ],
+      "confusable_with": [
+        "Return_Exchange_And_Pickup"
+      ]
+    },
+    {
+      "name": "General_Service_Complaint_Escalation",
+      "count": 1855,
+      "percentage": 2.28,
+      "description": "Customer expressing severe frustration with past customer service, long phone hold times, or demanding supervisor escalation.",
+      "typical_resolution": "Amazon agent apologizes for past agent experience and provides dedicated callback link.",
+      "examples": [
+        "@AmazonHelp your customer service SUCKS!!! Every time I try to make an order I have an issue!",
+        "I frankly don't have the patience for another chat with your customer service people today.",
+        "Hopeless amazon and their customer service too. Never trust this website."
+      ],
+      "non_examples": [
+        "My order is 1 day late (belongs to Delivery_Tracking_And_Delays)"
+      ],
+      "confusable_with": [
+        "Delivery_Tracking_And_Delays"
+      ]
+    },
+    {
+      "name": "Promotions_GiftCards_And_Pricing",
+      "count": 1289,
+      "percentage": 1.58,
+      "description": "Customer inquiring about promo codes, gift card balance redemption errors, Lightning Deal discounts, or invoice requests.",
+      "typical_resolution": "Amazon agent verifies promo T&Cs, provides manual voucher credit, or guides customer to 'Your Account -> Gift Cards'.",
+      "examples": [
+        "@AmazonHelp my gift card balance of $50 is not applying at checkout!",
+        "Why did the price drop \u00a35 right after I purchased my order?",
+        "I need a tax invoice receipt for my order last month. Where can I download it?"
+      ],
+      "non_examples": [
+        "Double charge on credit card (belongs to Refund_Status_And_Billing_Disputes)"
+      ],
+      "confusable_with": [
+        "Refund_Status_And_Billing_Disputes"
+      ]
+    },
+    {
+      "name": "Marked_Delivered_Not_Received",
+      "count": 1059,
+      "percentage": 1.3,
+      "description": "Customer states tracking status shows 'Delivered', but package was never received (stolen, misdelivered, or false carrier scan).",
+      "typical_resolution": "Amazon agent warns against posting Order ID publicly, asks customer to check with household/neighbors, and directs customer to secure callback link.",
+      "examples": [
+        "@AmazonHelp my account says my same day delivery order was delivered yesterday but I never received my package.",
+        "With out delivering it is showing as 'Delivered' ....want to see receive copy.... @AmazonHelp",
+        "Pinche @AmazonHelp for delivering the parcel to the wrong apartment. Congrats to my neighbor who got a free copy!"
+      ],
+      "non_examples": [
+        "Package has not shipped yet (belongs to Delivery_Tracking_And_Delays)"
+      ],
+      "confusable_with": [
+        "Delivery_Tracking_And_Delays"
+      ]
+    }
+  ],
+  "auxiliary_triage_pre_filter": {
+    "name": "Non_English_Or_Regional_Query",
+    "count": 10218,
+    "percentage": 12.55,
+    "description": "Non-English queries (Spanish, German, Japanese, Portuguese) routed directly to regional handles (@AmazonHelpES, @AmazonHelpDE)."
+  },
+  "unclassified_noise_pool": {
+    "name": "Other_Unclassified_Inquiry",
+    "count": 28749,
+    "percentage": 35.29,
+    "description": "General conversational banter, link-only posts, vague tweets, or unactionable chatter."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "file_info": {
+    "path": "D:\\Sajju clg files\\Projects\\Hiver\\archive\\twcs\\twcs.csv",
+    "size_mb": 492.58,
+    "size_bytes": 516508641
+  },
+  "total_rows": 2811774,
+  "elapsed_seconds": 223.73,
+  "columns": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "data_types": {
+    "tweet_id": "int64",
+    "author_id": "object",
+    "inbound": "bool",
+    "created_at": "object",
+    "text": "object",
+    "response_tweet_id": "object",
+    "in_response_to_tweet_id": "float64"
+  },
+  "missing_values": {
+    "tweet_id": 0,
+    "author_id": 0,
+    "inbound": 0,
+    "created_at": 0,
+    "text": 0,
+    "response_tweet_id": 1040629,
+    "in_response_to_tweet_id": 794335
+  },
+  "duplicate_tweet_ids": 0,
+  "inbound_distribution": {
+    "inbound_customer (True)": 1537843,
+    "outbound_brand (False)": 1273931,
+    "inbound_pct": 54.69,
+    "outbound_pct": 45.31
+  },
+  "authors": {
+    "total_unique_authors": 702777,
+    "unique_brand_handles": 108,
+    "unique_customer_authors": 702669
+  },
+  "sample_records": [
+    {
+      "tweet_id": 1,
+      "author_id": "sprintcare",
+      "inbound": false,
+      "created_at": "Tue Oct 31 22:10:47 +0000 2017",
+      "text": "@115712 I understand. I would like to assist you. We would need to get you into a private secured link to further assist.",
+      "response_tweet_id": "2",
+      "in_response_to_tweet_id": 3.0
+    },
+    {
+      "tweet_id": 2,
+      "author_id": "115712",
+      "inbound": true,
+      "created_at": "Tue Oct 31 22:11:45 +0000 2017",
+      "text": "@sprintcare and how do you propose we do that",
+      "response_tweet_id": NaN,
+      "in_response_to_tweet_id": 1.0
+    },
+    {
+      "tweet_id": 3,
+      "author_id": "115712",
+      "inbound": true,
+      "created_at": "Tue Oct 31 22:08:27 +0000 2017",
+      "text": "@sprintcare I have sent several private messages and no one is responding as usual",
+      "response_tweet_id": "1",
+      "in_response_to_tweet_id": 4.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "dataset_version": "2.0_local_attribution_corrected",
+  "total_source_conversations": 75099,
+  "sampling_seeds": {
+    "golden_candidates_200": 42,
+    "dev_candidates_50": 101
+  },
+  "target_bucket_counts": {
+    "golden_set_200": {
+      "B1_core_intents": 100,
+      "B2_confusing_pairs": 35,
+      "B3_escalation": 25,
+      "B4_non_english": 20,
+      "B5_other": 20
+    },
+    "dev_set_50": {
+      "DEV_core_intents": 35,
+      "DEV_confusing_pairs": 5,
+      "DEV_escalation": 5,
+      "DEV_non_english": 3,
+      "DEV_other": 2
+    }
+  },
+  "candidate_retrieval_rules": "Mechanical keyword/metadata heuristics used strictly for candidate retrieval targets. Mechanical hints are NOT ground truth labels.",
+  "b5_rationale": "The previous Other-bucket characterization was superseded after corpus correction. A fresh n=30 check found 60% valid support requests missed by the heuristic. Therefore B5 intentionally includes both likely heuristically-missed support requests and likely low-actionability/noise, while final labels remain human-assigned.",
+  "leakage_controls": {
+    "conversation_overlap": 0,
+    "turn_overlap": 0,
+    "golden_set_sealing": "Golden Set candidates (200) are reserved exclusively for post-annotation evaluation. Dev Set candidates (50) may be used for development/prompt tuning."
+  }
+}

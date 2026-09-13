@@ -1,0 +1,14 @@
+{
+  "total_examples": 200,
+  "completed_count": 2,
+  "flagged_count": 1,
+  "remaining_count": 197,
+  "primary_intent_distribution": {
+    "Delivery_Tracking_And_Delays": 1,
+    "Technical_App_And_Website_Issues": 1
+  },
+  "escalation_count": 1,
+  "ambiguity_count": 1,
+  "non_english_count": 1,
+  "timestamp_utc": "2026-09-13T10:18:29.407778+00:00"
+}

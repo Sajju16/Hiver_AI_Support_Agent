@@ -1,0 +1,682 @@
+{
+  "timestamp_utc": "2026-09-13T09:23:09.041996+00:00",
+  "ground_truth_source": "data/dev/dev_human_labels_50.json",
+  "total_eval_examples": 50,
+  "random_seed": 2026,
+  "unique_categories_count": 11,
+  "majority_class_baseline": {
+    "accuracy": 0.28,
+    "accuracy_pct": 28.0,
+    "macro_precision": 0.0255,
+    "macro_recall": 0.0909,
+    "macro_f1_score": 0.0398,
+    "weighted_precision": 0.0784,
+    "weighted_recall": 0.28,
+    "weighted_f1_score": 0.1225,
+    "per_class_metrics": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "support": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Delivery_Tracking_And_Delays": {
+        "support": 14,
+        "precision": 0.28,
+        "recall": 1.0,
+        "f1_score": 0.4375
+      },
+      "General_Service_Complaint_Escalation": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Marked_Delivered_Not_Received": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "support": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Other_Unclassified_Inquiry": {
+        "support": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "support": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Return_Exchange_And_Pickup": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Technical_App_And_Website_Issues": {
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    "confusion_matrix": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 6,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Delivery_Tracking_And_Delays": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 14,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "General_Service_Complaint_Escalation": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 2,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Marked_Delivered_Not_Received": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 3,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Other_Unclassified_Inquiry": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 5,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 4,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 8,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Return_Exchange_And_Pickup": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 2,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Technical_App_And_Website_Issues": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 4,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      }
+    },
+    "predicted_class": "Delivery_Tracking_And_Delays",
+    "majority_class_count": 14
+  },
+  "tfidf_logistic_regression_baseline": {
+    "accuracy": 0.26,
+    "accuracy_pct": 26.0,
+    "macro_precision": 0.1318,
+    "macro_recall": 0.1288,
+    "macro_f1_score": 0.1178,
+    "weighted_precision": 0.2273,
+    "weighted_recall": 0.26,
+    "weighted_f1_score": 0.2238,
+    "per_class_metrics": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "support": 6,
+        "precision": 0.5,
+        "recall": 0.1667,
+        "f1_score": 0.25
+      },
+      "Delivery_Tracking_And_Delays": {
+        "support": 14,
+        "precision": 0.35,
+        "recall": 0.5,
+        "f1_score": 0.4118
+      },
+      "General_Service_Complaint_Escalation": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Marked_Delivered_Not_Received": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "support": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Other_Unclassified_Inquiry": {
+        "support": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "support": 4,
+        "precision": 0.3333,
+        "recall": 0.25,
+        "f1_score": 0.2857
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "support": 8,
+        "precision": 0.2667,
+        "recall": 0.5,
+        "f1_score": 0.3478
+      },
+      "Return_Exchange_And_Pickup": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Technical_App_And_Website_Issues": {
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    "confusion_matrix": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "Damaged_Defective_Or_Wrong_Item": 1,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 2,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 1,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Delivery_Tracking_And_Delays": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 7,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 2,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 4,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "General_Service_Complaint_Escalation": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 1,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 1,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Marked_Delivered_Not_Received": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 3,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Other_Unclassified_Inquiry": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 2,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 1,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 2,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "Damaged_Defective_Or_Wrong_Item": 1,
+        "Delivery_Tracking_And_Delays": 2,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 3,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 4,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 1
+      },
+      "Return_Exchange_And_Pickup": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Technical_App_And_Website_Issues": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 3,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      }
+    },
+    "evaluation_scheme": "5-Fold Stratified Cross-Validation (scikit-learn)",
+    "model_configuration": "TfidfVectorizer(ngram_range=(1,2), sublinear_tf=True) + LogisticRegression(C=1.0, class_weight='balanced')"
+  },
+  "external_augmented_tfidf_logistic_regression": {
+    "accuracy": 0.3,
+    "accuracy_pct": 30.0,
+    "macro_precision": 0.1564,
+    "macro_recall": 0.1961,
+    "macro_f1_score": 0.1649,
+    "weighted_precision": 0.2906,
+    "weighted_recall": 0.3,
+    "weighted_f1_score": 0.2811,
+    "per_class_metrics": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "support": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Delivery_Tracking_And_Delays": {
+        "support": 14,
+        "precision": 0.5,
+        "recall": 0.3571,
+        "f1_score": 0.4167
+      },
+      "General_Service_Complaint_Escalation": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Marked_Delivered_Not_Received": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "support": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Other_Unclassified_Inquiry": {
+        "support": 5,
+        "precision": 0.3636,
+        "recall": 0.8,
+        "f1_score": 0.5
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "support": 8,
+        "precision": 0.5714,
+        "recall": 0.5,
+        "f1_score": 0.5333
+      },
+      "Return_Exchange_And_Pickup": {
+        "support": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Technical_App_And_Website_Issues": {
+        "support": 4,
+        "precision": 0.2857,
+        "recall": 0.5,
+        "f1_score": 0.3636
+      }
+    },
+    "confusion_matrix": {
+      "Damaged_Defective_Or_Wrong_Item": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 2,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 2,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 1
+      },
+      "Delivery_Tracking_And_Delays": {
+        "Damaged_Defective_Or_Wrong_Item": 3,
+        "Delivery_Tracking_And_Delays": 5,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 2,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 1,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 1
+      },
+      "General_Service_Complaint_Escalation": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Marked_Delivered_Not_Received": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Order_Cancellation_And_Address_Change": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 1,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 1,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Other_Unclassified_Inquiry": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 4,
+        "Prime_Subscription_And_Digital_Media": 1,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Prime_Subscription_And_Digital_Media": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Promotions_GiftCards_And_Pricing": {
+        "Damaged_Defective_Or_Wrong_Item": 3,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 1
+      },
+      "Refund_Status_And_Billing_Disputes": {
+        "Damaged_Defective_Or_Wrong_Item": 1,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 4,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 2
+      },
+      "Return_Exchange_And_Pickup": {
+        "Damaged_Defective_Or_Wrong_Item": 1,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 0,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 1,
+        "Refund_Status_And_Billing_Disputes": 0,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 0
+      },
+      "Technical_App_And_Website_Issues": {
+        "Damaged_Defective_Or_Wrong_Item": 0,
+        "Delivery_Tracking_And_Delays": 0,
+        "General_Service_Complaint_Escalation": 0,
+        "Marked_Delivered_Not_Received": 0,
+        "Order_Cancellation_And_Address_Change": 0,
+        "Other_Unclassified_Inquiry": 1,
+        "Prime_Subscription_And_Digital_Media": 0,
+        "Promotions_GiftCards_And_Pricing": 0,
+        "Refund_Status_And_Billing_Disputes": 1,
+        "Return_Exchange_And_Pickup": 0,
+        "Technical_App_And_Website_Issues": 2
+      }
+    },
+    "evaluation_scheme": "187 External + 5-Fold Stratified Cross-Validation on DEV (N=237 Total Capacity)",
+    "model_configuration": "TfidfVectorizer(ngram_range=(1,2), max_features=2000) + LogisticRegression(C=1.0, class_weight='balanced')"
+  }
+}
