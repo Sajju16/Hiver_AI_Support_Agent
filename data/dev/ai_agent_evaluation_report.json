@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-13T10:59:04.049635+00:00",
+  "timestamp_utc": "2026-09-13T11:39:29.536251+00:00",
   "ground_truth_source": "data/dev/dev_human_labels_50.json",
   "total_eval_examples": 50,
   "random_seed": 2026,
   "provenance_summary": {
     "llm_api_used": false,
-    "ai_claim_status": "Grounded Retrieval-Augmented Classical ML Support Agent (Zero LLM API Hallucination)"
+    "ai_claim_status": "Grounded Retrieval-Augmented Classical ML Support Agent"
   },
   "task_1_intent_classification": {
     "accuracy": 0.3,
     "accuracy_pct": 30.0,
-    "model_description": "Calibrated TF-IDF + Logistic Regression (5-Fold Stratified CV)"
+    "model_description": "TF-IDF + Logistic Regression (5-Fold Stratified CV)"
   },
   "task_2_historical_retrieval_reply": {
     "retriever_type": "TF-IDF Cosine Similarity Retriever",
@@ -66,8 +66,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -96,8 +96,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -126,8 +126,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -156,8 +156,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -186,8 +186,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -216,8 +216,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -246,8 +246,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -276,8 +276,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -306,8 +306,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -336,8 +336,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -366,8 +366,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -396,8 +396,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -426,8 +426,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -456,8 +456,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -486,8 +486,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -516,8 +516,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -546,8 +546,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -576,8 +576,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -606,8 +606,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -636,8 +636,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -666,8 +666,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -696,8 +696,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -726,8 +726,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -756,8 +756,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -786,8 +786,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -816,8 +816,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -846,8 +846,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -876,8 +876,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -906,8 +906,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -936,8 +936,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -966,8 +966,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -996,8 +996,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1026,8 +1026,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1056,8 +1056,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1086,8 +1086,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1116,8 +1116,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1146,8 +1146,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1176,8 +1176,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1206,8 +1206,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1236,8 +1236,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1266,8 +1266,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1296,8 +1296,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1326,8 +1326,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1356,8 +1356,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1386,8 +1386,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1416,8 +1416,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1446,8 +1446,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1476,8 +1476,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1506,8 +1506,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     },
     {
@@ -1536,8 +1536,8 @@
       "provenance_metadata": {
         "llm_api_used": false,
         "llm_model_name": "None (Classical ML + Grounded RAG Template Baseline)",
-        "classification_model": "Calibrated TF-IDF + Logistic Classifier (5-Fold CV)",
-        "escalation_policy": "Deterministic High-Risk Rule-Based Policy v2.0"
+        "classification_model": "TF-IDF + Logistic Classifier (5-Fold CV)",
+        "escalation_policy": "Deterministic High-Risk Rule-Based Policy"
       }
     }
   ]
